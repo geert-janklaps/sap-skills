@@ -18,7 +18,7 @@ license: MIT
 
 This skill provides comprehensive guidance for documenting SAP APIs according to official SAP API Style Guide standards. It covers all major API types and documentation approaches used across the SAP ecosystem.
 
-**Documentation Source**: https://github.com/SAP-docs/api-style-guide
+**Documentation Source**: https://github.com/SAP-docs/api-style-guide (76 files extracted)
 
 **Last Verified**: 2025-11-21
 
@@ -28,613 +28,336 @@ Use this skill when:
 
 - **Creating API documentation** for REST, OData, Java, JavaScript, .NET, or C/C++ APIs
 - **Writing OpenAPI specifications** for SAP API Business Hub
-- **Reviewing API names** and ensuring they follow SAP naming conventions
-- **Documenting API parameters, responses, or operations** with proper formatting
+- **Reviewing API names** for SAP naming convention compliance
+- **Documenting API parameters, responses, operations** with proper formatting
 - **Creating manual API documentation** using SAP templates
 - **Writing documentation comments** in source code (Javadoc, JSDoc, XML comments)
 - **Implementing API deprecation** following SAP lifecycle policies
 - **Developing developer guides** or service documentation
 - **Performing quality checks** on API documentation
 - **Publishing APIs** to SAP API Business Hub
-- **Ensuring compliance** with SAP API documentation standards
 
 ## Quick Decision Tree
 
-### 1. What Type of API Are You Documenting?
+### What Type of API?
 
 ```
 REST/OData API
 ├─ Auto-generated (OpenAPI/Swagger)?
-│  └─ See: references/rest-odata-openapi-guide.md
+│  └─ references/rest-odata-openapi-guide.md
+│     • OpenAPI specification standards
+│     • Package, API, operation descriptions
+│     • Parameters, responses, components
+│     • SAP API Business Hub requirements
 │
 └─ Manually written?
-   └─ See: references/manual-templates-guide.md
-      ├─ REST templates
-      └─ OData templates (3-level hierarchy)
+   └─ references/manual-templates-guide.md
+      • REST templates (2-level: overview → method)
+      • OData templates (3-level: service → resource → operation)
+      • Complete field requirements
+      • templates/ directory for ready-to-use files
 
 Native Library API
-├─ Java?
-│  └─ See: references/java-javascript-dotnet-guide.md (Java section)
-│
-├─ JavaScript?
-│  └─ See: references/java-javascript-dotnet-guide.md (JavaScript section)
-│
-├─ .NET (C#)?
-│  └─ See: references/java-javascript-dotnet-guide.md (.NET section)
-│
-└─ C/C++?
-   └─ See: references/java-javascript-dotnet-guide.md (C/C++ section)
+├─ Java → references/java-javascript-dotnet-guide.md
+├─ JavaScript → references/java-javascript-dotnet-guide.md
+├─ .NET (C#) → references/java-javascript-dotnet-guide.md
+└─ C/C++ → references/java-javascript-dotnet-guide.md
+    • Documentation comments structure
+    • Language-specific tags
+    • Templates for classes, methods, enums
+    • Complete code examples
 ```
 
-### 2. What Documentation Task Are You Performing?
+### What Task?
 
 ```
-Naming APIs
-└─ See: references/naming-conventions.md
-   ├─ REST/OData naming rules
-   └─ Native library naming rules
+Naming
+└─ references/naming-conventions.md
+   • REST/OData naming (resources, parameters, URIs)
+   • Native library naming (classes, methods, constants)
+   • Common mistakes to avoid
 
 Writing Descriptions
-└─ See: references/rest-odata-openapi-guide.md (Descriptions section)
-   ├─ Package descriptions
-   ├─ API details
-   ├─ Operations
-   ├─ Parameters
-   └─ Responses
+└─ references/rest-odata-openapi-guide.md
+   • Package descriptions
+   • API details (info object)
+   • Operations, parameters, responses
 
 Quality Assurance
-└─ See: references/quality-processes.md
-   ├─ API Quality Checklist
-   ├─ Review Process
-   └─ Development Team Guidelines
+└─ references/quality-processes.md
+   • Complete API Quality Checklist
+   • Review workflows
+   • Development team guidelines
 
 Deprecating APIs
-└─ See: references/deprecation-policy.md
-   ├─ Lifecycle states
-   ├─ Timeline requirements
-   └─ Metadata requirements
+└─ references/deprecation-policy.md
+   • Lifecycle states (beta, active, deprecated, decommissioned)
+   • Timeline requirements (12+ months support)
+   • Required metadata (x-sap-stateInfo)
 
-Creating Developer Guides
-└─ See: references/developer-guides.md
-   ├─ Structure guidelines
-   ├─ Content selection
-   └─ Code sample standards
+Developer Guides
+└─ references/developer-guides.md
+   • Structure guidelines
+   • Content selection
+   • Code sample standards
 ```
 
 ## Core Principles
 
-### 1. Consistency Across All SAP APIs
+### 1. Consistency Across SAP APIs
 
-All SAP API documentation must follow consistent conventions to facilitate developer adoption. This includes:
+All SAP API documentation follows consistent conventions:
+- **Naming**: Language-specific (camelCase, PascalCase, kebab-case)
+- **Structure**: Hierarchical with clear navigation
+- **Formatting**: Sentences start with capitals, end with periods
+- **Language**: American English
 
-- **Naming**: Use meaningful, clear names following language-specific conventions (camelCase, PascalCase, kebab-case)
-- **Structure**: Organize documentation hierarchically with clear navigation
-- **Formatting**: Start sentences with capital letters, end with periods
-- **Language**: Use correctly spelled American English
+### 2. API-Type-Specific Standards
 
-### 2. API-Type-Specific Guidelines
-
-Different API types require different documentation approaches:
-
-| API Type | Documentation Approach | Key Tool/Standard |
-|----------|------------------------|-------------------|
-| REST | OpenAPI Specification 3.0.3 | Swagger/OpenAPI |
-| OData | OData v4.01, v3.0, v2.0 | OASIS Open standard |
-| Java | Javadoc comments | Oracle Javadoc tool |
-| JavaScript | JSDoc comments | JSDoc 3 |
-| .NET | XML documentation comments | Microsoft .NET standards |
-| C/C++ | Doxygen comments | Doxygen tool |
+| API Type | Standard | Tool | Documentation |
+|----------|----------|------|---------------|
+| REST | OpenAPI 3.0.3 | Swagger | [Spec](https://spec.openapis.org/) |
+| OData | v4.01, v3.0, v2.0 | Various | [OData.org](https://www.odata.org/) |
+| Java | Javadoc | javadoc | [Oracle](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html) |
+| JavaScript | JSDoc 3 | jsdoc | [JSDoc.app](https://jsdoc.app/) |
+| .NET | XML Comments | DocFX | [Microsoft](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/) |
+| C/C++ | Doxygen | doxygen | [Doxygen.nl](https://www.doxygen.nl/) |
 
 ### 3. Progressive Disclosure
 
-Organize information hierarchically:
-
+Documentation organized hierarchically:
 - **High-level overviews** provide context and navigation
-- **Detailed references** cover specific APIs, methods, or operations
+- **Detailed references** cover specific APIs, methods, operations
 - **Examples and templates** demonstrate practical usage
 
 ### 4. Quality Standards
 
-All API documentation must meet quality criteria:
+All documentation must:
+- ✅ Be reviewed by User Assistance (UA) developers
+- ✅ Use consistent naming and terminology
+- ✅ Include complete parameter and response descriptions
+- ✅ Avoid sensitive data in examples
+- ✅ Provide working code examples
+- ✅ Maintain accurate links and cross-references
 
-- ✅ Reviewed by User Assistance (UA) developers
-- ✅ Consistent naming and terminology
-- ✅ Complete parameter and response descriptions
-- ✅ Proper security considerations (no sensitive data in examples)
-- ✅ Working code examples
-- ✅ Accurate links and cross-references
+## Quick Reference Tables
 
-## Documentation Workflows
+### Character Limits
 
-### For Auto-Generated API Documentation
+| Element | Limit | Use Case |
+|---------|-------|----------|
+| API Title | 80 | `info.title` in OpenAPI |
+| API Short Text | 180 | `x-sap-shortText` |
+| Package Short Desc | 250 | Package tile description |
+| Operation Summary | 255 | Operation summary line |
+| Description | 1024 | General descriptions |
 
-1. **Developers**: Write documentation comments in source code
-2. **Developers**: Add appropriate tags (@param, @return, @throws, etc.)
-3. **Developers**: Submit for UA review early in development cycle
-4. **UA Team**: Review API names and descriptions for clarity
-5. **UA Team**: Verify consistency and correctness
-6. **Developers**: Implement feedback
-7. **Both**: Validate generated output
+### API Naming Rules
 
-**Key Requirement**: "Submit APIs for review as early as possible; late submissions put the review at risk."
+**General Rules** (all API types):
+- ❌ Don't include "API" in name: ~~"Custom Forms API"~~ → ✅ "Custom Forms"
+- ❌ Don't include "SAP" prefix: ~~"SAP Document Approval"~~ → ✅ "Document Approval"
+- ❌ Don't use verbs: ~~"Configuring Portal"~~ → ✅ "Portal Configuration"
+- ✅ Capitalize words properly
+- ✅ Avoid technical specifics (REST, OData, etc.)
 
-### For Manually Written API Documentation
+See `references/naming-conventions.md` for complete language-specific rules.
 
-1. **Developers**: Prepare API specifications
-2. **UA Developers**: Create documentation using SAP templates
-3. **UA Developers**: Work with product teams on content
-4. **Both**: Review and validate documentation
-5. **UA Developers**: Publish to appropriate channels
+### Common Documentation Tags
 
-**Available Templates**:
-- REST API Overview Template (Level 1)
-- REST API Method Template (Level 2)
-- OData Service Overview Template (Level 1)
-- OData Resource Template (Level 2)
-- OData Operation Template (Level 3)
+**Java/JavaScript**:
+- `@param <name> <description>` - Parameter documentation
+- `@return <description>` - Return value
+- `@throws <class> <description>` - Exception
+- `@deprecated <description>` - Deprecation notice
 
-See `references/manual-templates-guide.md` for complete template details.
+**.NET**:
+- `<summary>` - Brief description
+- `<param name="">` - Parameter
+- `<returns>` - Return value
+- `<exception cref="">` - Exception
 
-## Common Documentation Elements
+See `references/java-javascript-dotnet-guide.md` for complete tag reference.
 
-### Package Descriptions (SAP API Business Hub)
+### API Lifecycle States
 
-**Package Title**:
-- Reflect product or product line
-- Capitalize words properly
-- Include development phase: "(Alpha)" or "(Beta)" if applicable
-- Example: "SAP SuccessFactors Employee Central"
+| State | Definition | Support | Metadata Required |
+|-------|-----------|---------|-------------------|
+| **Beta** | Pre-production testing | No guarantees | `state: beta` |
+| **Active** | Production-ready (default) | Full support | Optional |
+| **Deprecated** | Replaced by successor | 12+ months | `state`, `deprecationDate`, `successorApi` |
+| **Decommissioned** | Fully retired | None | Document removal |
 
-**Short Description**:
-- Maximum 250 characters
-- Begin with imperative verb ("Create", "Build", "Manage")
-- No period at the end
-- Must be distinct from title
-
-**Overview Description**:
-- 2-3 sentences providing deeper context
-- Address customers directly
-- Line breaks using `\n` (no Markdown formatting currently)
-
-### API Details (OpenAPI info Object)
-
-Required fields:
-- `title`: API name (max 80 characters)
-- `version`: API release number
-- `x-sap-shortText`: High-level description (max 180 characters)
-- `description`: Long description (1-2 sentences)
-
-### Operations Documentation
-
-**Summary** (max 255 characters):
-- Short operation summary appearing in API Reference view
-
-**Description**:
-- Begin with direct action verb (third-person: adds, creates, updates, gets, deletes)
-- **Avoid** "This operation/method..."
-- Include only supplementary information beyond summary
-- Omit if no additional details needed
-
-### Parameters
-
-Required information:
-- Parameter name
-- Location (`in`): path, query, header, body, formData
-- Required status (true/false)
-- Data type
-- Description (concise noun phrase)
-
-### Responses
-
-Document:
-- Success codes with context-specific descriptions
-- Known error codes with clear explanations
-- **Avoid generic messages**: Use "Product is out of stock" not "No content"
-
-## Naming Conventions
-
-### REST and OData APIs
-
-**Resources**:
-- Use correctly spelled American English words
-- lowerCamelCase or UpperCamelCase
-- Plural for collections, singular for individual items
-- Forward slashes separate resources in URIs
-- Example: `/orders/{orderID}/items`
-
-**Avoid**:
-- Abbreviations and acronyms
-- Concatenated values (`grossOrNet`)
-- Yes/no for booleans (use `true/false`)
-- Verbs in resource names (HTTP methods provide verbs)
-
-### Native Library APIs
-
-| Element | Convention | Example |
-|---------|-----------|---------|
-| Interfaces/Classes | UpperCamelCase noun/noun phrase | `RuleDefinition` |
-| Interfaces | Start with capital "I" | `IProperty` |
-| Abstract Classes | Start with "Abstract" | `AbstractProcessor` |
-| Methods (Java/JS) | lowerCamelCase verb/verb phrase | `getCustomerAddress` |
-| Methods (.NET/C++) | UpperCamelCase verb/verb phrase | `LoadDataset` |
-| Parameters | lowerCamelCase noun/noun phrase | `userName` |
-| Constants | UPPER_CASE with underscores | `MAX_LENGTH` |
-| Java Packages | Lowercase, dot-separated, reversed domain | `com.sap.portal.directory` |
-| .NET Namespaces | UpperCamelCase, dot-separated | `Sap.Data.Hana` |
-
-**API Names (General)**:
-- Don't include "API" in the name
-- Capitalize words properly
-- Exclude technical specifics (REST, OData, etc.)
-- Avoid verbs/prepositions
-- Omit "SAP" prefix
-- Example: "Document Approval" not "SAP Document Approval REST API"
-
-## Documentation Tags by Language
-
-### Java & JavaScript Common Tags
-
-**Block Tags**:
-- `@param <name> <description>`: Parameter documentation
-- `@return <description>`: Return value documentation
-- `@throws <class> <description>`: Exception documentation
-- `@deprecated <description>`: Deprecation notice
-- `@see <reference>`: Cross-reference
-- `@since <version>`: Version introduced
-- `@version <version-number>`: Version information
-
-**Inline Tags**:
-- `{@code text}`: Code formatting (no HTML interpretation)
-- `{@link package.class#member label}`: Hyperlink to documentation
-- `{@linkplain package.class#member label}`: Plain text link
-- `{@literal text}`: Literal text (no HTML interpretation)
-- `{@value package.class#field}`: Constant value reference
-
-For complete tag details, see `references/java-javascript-dotnet-guide.md`
-
-### .NET Tags
-
-**Primary Tags** (XML format):
-- `<summary>`: Brief description
-- `<param name="">`: Parameter documentation
-- `<returns>`: Return value documentation
-- `<exception cref="">`: Exception documentation
-- `<remarks>`: Additional information
-- `<example>`: Code examples
-- `<see cref="">`: Cross-reference
-
-### C/C++ Tags (Doxygen)
-
-**Primary Tags**:
-- `\file`: File-level documentation
-- `\mainpage`: Main documentation page
-- `\namespace`: Namespace documentation
-- Standard tags: `\param`, `\return`, `\see`, etc.
-
-## API Deprecation Policy
-
-### Lifecycle States
-
-Use `x-sap-stateInfo` attribute:
-
-- **Beta**: Pre-production, potential incompatible changes
-- **Active**: Production-ready (default status)
-- **Deprecated**: Live but replaced by active successor
-- **Decommissioned**: Retired from production
-
-### Timeline Requirements
-
-- **Minimum 12 months** support after deprecation announcement
-- **Minimum 24 months** total lifespan in active/deprecated status before decommissioning
-
-### Required Metadata
-
-**OpenAPI Specification**:
-```yaml
-x-sap-stateInfo:
-  state: deprecated
-  deprecationDate: "2024-01-15"
-  successorApi: "NewAPIName"
-```
-
-**Artifact.json**:
-```json
-{
-  "changelog": [{
-    "state": "deprecated",
-    "date": "2024-01-15",
-    "version": "1.5.0",
-    "notes": "Deprecated in favor of NewAPIName"
-  }]
-}
-```
-
-For complete policy details, see `references/deprecation-policy.md`
-
-## Quality Checklist
-
-Before publishing API documentation:
-
-### Auto-Generated Documentation
-
-**Creating/Editing Specification Files**:
-- [ ] Appropriate documentation tags for API type
-- [ ] All required documentation comments present
-- [ ] Clear, precise parameter descriptions
-- [ ] Examples illustrating complex concepts
-- [ ] No sensitive data in samples (addresses, credentials, etc.)
-
-**Reviewing Specification Files**:
-- [ ] Consistent description style and detail levels
-- [ ] Tags consistently grouped and ordered
-- [ ] UA developer reviewed all API names and descriptions
-- [ ] All formatting correct and complete
-- [ ] Documentation generates without errors
-- [ ] All links function correctly
-- [ ] Rendered output matches expectations
-
-### Manually Written Documentation
-
-**Completeness**:
-- [ ] All API elements have descriptions and tags
-- [ ] All required and relevant optional tags present
-- [ ] Clear purpose, functionality, and usage communication
-- [ ] Examples and cross-references included where appropriate
-
-**Correctness and Consistency**:
-- [ ] UA developer reviewed names and descriptions
-- [ ] Uniform scope, quantity, and style across similar elements
-- [ ] Consistent tag grouping and ordering
-- [ ] Correct HTML formatting throughout
-
-**Publication**:
-- [ ] All links direct to intended pages
-- [ ] Generated output functions as expected
-
-For complete checklist, see `references/quality-processes.md`
+See `references/deprecation-policy.md` for complete timeline and process requirements.
 
 ## Templates Available
 
-This skill includes ready-to-use templates for manual API documentation:
+Ready-to-use templates in `templates/` directory:
 
-### REST API Templates
+### REST API Templates (2-Level)
+1. **rest-api-overview-template.md** - Resource-level overview
+2. **rest-api-method-template.md** - Individual endpoint details
 
-1. **REST API Overview** (`templates/rest-api-overview.md`)
-   - Base URI
-   - Permissions
-   - Methods table
-   - Common headers
-   - Status codes
+### OData API Templates (3-Level)
+1. **odata-service-overview-template.md** - Complete service overview
+2. **odata-resource-template.md** - Individual resource/entity set
+3. **odata-operation-template.md** - Specific operation details
 
-2. **REST API Method** (`templates/rest-api-method.md`)
-   - Method description
-   - Request details (URL, HTTP method, permissions)
-   - Parameters
-   - Request/response examples
-   - Status codes
-
-### OData API Templates
-
-1. **OData Service Overview** (`templates/odata-service-overview.md`)
-   - OData version
-   - Root URI
-   - Permissions
-   - Feature support matrix
-   - Entity Data Model
-   - Resources listing
-
-2. **OData Resource** (`templates/odata-resource.md`)
-   - Resource description
-   - CRUD operations
-   - Custom operations (actions/functions)
-   - Common headers
-   - Status codes
-
-3. **OData Operation** (`templates/odata-operation.md`)
-   - URI and operation type
-   - HTTP method
-   - Permissions
-   - Request/response details
-   - Parameters
-   - Examples
-
-## Glossary of Key Terms
-
-- **API Documentation Comment**: Combined descriptions and block tags in source code for generating API reference docs
-- **Code Snippet**: Several lines of code illustrating API method usage
-- **Deprecated**: API element no longer supported, marked with `x-sap-stateInfo` attribute
-- **Operation**: HTTP method (GET, PUT, POST, DELETE) for manipulating endpoints
-- **Parameter**: Option passed with a path (filtering, sorting criteria)
-- **Path**: Endpoint or resource (e.g., `/users` or `/users/{id}`)
-- **Response**: HTTP status code combined with outcome description
-- **REST API**: Enables cross-platform CRUD operations over HTTP
-- **Return Type/Value**: Data returned by methods
-
-For complete glossary, see `references/glossary-resources.md`
-
-## External Resources
-
-Official standards and tools:
-
-- **OpenAPI Specification 3.0.3**: https://spec.openapis.org/oas/v3.0.3
-- **OData v4.01**: https://www.odata.org/documentation/
-- **SAP API Business Hub**: https://api.sap.com/
-- **Javadoc Tool**: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
-- **JSDoc 3**: https://jsdoc.app/
-- **Doxygen**: https://www.doxygen.nl/
-- **Microsoft .NET XML Comments**: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/
+All templates include:
+- Clear "How to Use" instructions
+- [Placeholder text] for customization
+- Complete section structure
+- Working examples
+- Inline guidance
 
 ## Reference Files
 
-For detailed guidance, consult these reference files:
+### Complete Guides Available
 
-1. **REST/OData OpenAPI Documentation** (`references/rest-odata-openapi-guide.md`)
+1. **rest-odata-openapi-guide.md** (73KB, 2,794 lines)
    - Complete OpenAPI specification guidelines
    - Package, API, operation descriptions
    - Parameters, responses, components
    - Security schemes, tags, external docs
-   - SAP API Business Hub requirements
+   - Character limits and anti-patterns
 
-2. **Manual Documentation Templates** (`references/manual-templates-guide.md`)
+2. **manual-templates-guide.md** (79KB, 2,761 lines)
    - REST API templates (2-level hierarchy)
    - OData API templates (3-level hierarchy)
-   - Template usage guidelines
-   - Field descriptions and requirements
+   - Complete template structures
+   - Field-by-field requirements
+   - Best practices and examples
 
-3. **Java/JavaScript/.NET Documentation** (`references/java-javascript-dotnet-guide.md`)
+3. **java-javascript-dotnet-guide.md** (Comprehensive)
    - Documentation comments structure
-   - Language-specific tags
+   - Language-specific tags (Java, JavaScript, .NET, C/C++)
    - Templates for classes, methods, enums, constants
-   - Code examples
+   - Complete code examples
+   - Best practices by language
 
-4. **Naming Conventions** (`references/naming-conventions.md`)
-   - REST/OData naming rules
-   - Native library naming rules
-   - Common mistakes to avoid
-   - Examples and anti-patterns
+4. **naming-conventions.md** (53KB, 2,042 lines)
+   - REST/OData naming rules (resources, parameters, URIs)
+   - Native library naming (classes, methods, constants, packages)
+   - Language-specific conventions
+   - Common mistakes with fixes
+   - Decision trees and reference tables
 
-5. **Quality & Review Processes** (`references/quality-processes.md`)
-   - API Quality Checklist
-   - Review workflows
+5. **quality-processes.md** (53KB, 1,769 lines)
+   - Complete API Quality Checklist
+   - Review workflows (developer + UA collaboration)
    - Development team guidelines
+   - Common review findings and solutions
+   - Process flowcharts
+
+6. **deprecation-policy.md** (Complete)
+   - API lifecycle states (beta, active, deprecated, decommissioned)
+   - Timeline requirements (12+ months support, 24+ months lifespan)
+   - Required metadata (x-sap-stateInfo, artifact.json)
+   - Decommission process
+   - Complete examples
+
+7. **developer-guides.md** (Complete)
+   - Guide structure standards
+   - Topic types (concept, reference, task)
+   - Content selection criteria
+   - Code sample standards (compilable, concise, commented)
    - Best practices
 
-6. **Deprecation Policy** (`references/deprecation-policy.md`)
-   - API lifecycle states
-   - Timeline requirements
-   - Metadata specifications
-   - Decommission process
-
-7. **Developer Guides** (`references/developer-guides.md`)
-   - Guide structure guidelines
-   - Content selection criteria
-   - Code sample standards
-   - Topic type conventions
-
-8. **Glossary & Resources** (`references/glossary-resources.md`)
-   - Complete terminology definitions
-   - External resource links
-   - Tool references
+8. **glossary-resources.md** (Complete)
+   - Complete terminology definitions (API, OData, OpenAPI, etc.)
+   - External resource links (standards, tools, SAP resources)
+   - Quick reference tables
+   - Tool documentation links
 
 ## Instructions for Use
 
-### Step 1: Identify Your API Type
+### Step 1: Identify API Type
 
-Determine whether you're documenting:
-- REST API (auto-generated or manual)
-- OData API (auto-generated or manual)
-- Java API
-- JavaScript API
-- .NET API
-- C/C++ API
+Determine if you're documenting REST, OData, Java, JavaScript, .NET, or C/C++ API.
 
-### Step 2: Choose Documentation Approach
+### Step 2: Choose Approach
 
-**Auto-Generated**:
-1. Write documentation comments in source code
-2. Use appropriate tags for your language
-3. Follow naming conventions strictly
-4. Include examples for complex concepts
-5. Submit for UA review early
+**Auto-Generated**: Write documentation comments in source code → Use appropriate tags → Submit for review
 
-**Manual**:
-1. Select appropriate template from `templates/` directory
-2. Customize template with your API details
-3. Follow hierarchical structure (Level 1 → Level 2 → Level 3)
-4. Link between levels for navigation
-5. Validate against quality checklist
+**Manual**: Select template from `templates/` → Customize [placeholders] → Follow hierarchy → Validate with checklist
 
-### Step 3: Apply Naming Conventions
+### Step 3: Apply Standards
 
-Consult `references/naming-conventions.md` for:
-- API names (no "API" suffix, capitalized, no "SAP" prefix)
-- Resource names (plural for collections, camelCase)
-- Method names (verb phrases, language-specific casing)
-- Parameter names (noun phrases, camelCase)
-- Constant names (UPPER_CASE with underscores)
+Consult appropriate reference file:
+- **Naming**: `naming-conventions.md`
+- **Descriptions**: `rest-odata-openapi-guide.md` or `java-javascript-dotnet-guide.md`
+- **Quality**: `quality-processes.md`
+- **Deprecation**: `deprecation-policy.md`
 
-### Step 4: Write Descriptions
-
-Follow these rules:
-- Start with capital letter, end with period
-- Use third-person for APIs: "Creates a new order" (not "This API creates...")
-- Use imperative for tasks: "Create a new order"
-- Avoid implementation details
-- Don't repeat information across sections
-- Provide context-specific messages (not generic status descriptions)
-
-### Step 5: Quality Check
+### Step 4: Quality Check
 
 Before publishing:
-1. Review against API Quality Checklist (`references/quality-processes.md`)
-2. Verify all required tags present
-3. Check for security issues (no sensitive data in examples)
-4. Validate consistent terminology
-5. Test all code examples compile/run correctly
-6. Verify all links work
+1. Review against API Quality Checklist (`quality-processes.md`)
+2. Verify naming conventions (`naming-conventions.md`)
+3. Check character limits (see Quick Reference Tables above)
+4. Validate no sensitive data in examples
+5. Test all code examples
+6. Verify links work
 7. Obtain UA developer review
 
-### Step 6: Handle Deprecation (if applicable)
+### Step 5: Publish
 
-When deprecating APIs:
-1. Set `x-sap-stateInfo` attribute to `deprecated`
-2. Include `deprecationDate` and `successorApi`
-3. Update `artifact.json` changelog
-4. Plan 12+ month support period
-5. Publish migration guidance
-6. After support period, decommission properly
+- **REST/OData**: Submit to SAP API Business Hub
+- **Java/JavaScript/.NET**: Generate with appropriate tool (Javadoc, JSDoc, DocFX)
+- **Developer Guides**: Publish to SAP Help Portal or product documentation
 
 ## Common Pitfalls to Avoid
 
-### Naming
-- ❌ Including "API" in API names: "Custom Forms APIs"
-- ✅ Correct: "Custom Forms"
+**Naming**:
+- ❌ Including "API": ~~"Custom Forms APIs"~~ → ✅ "Custom Forms"
+- ❌ Using "SAP" prefix: ~~"SAP Document Approval"~~ → ✅ "Document Approval"
+- ❌ Using verbs: ~~"Configuring Portal"~~ → ✅ "Portal Configuration"
 
-- ❌ Using technical details: "Supplier Data REST API"
-- ✅ Correct: "Supplier Data"
-
-- ❌ Using verbs: "Configuring Portal"
-- ✅ Correct: "Portal Configuration"
-
-### Descriptions
-- ❌ "This operation creates a new user"
-- ✅ "Creates a new user"
-
-- ❌ Generic response: "No content"
-- ✅ Context-specific: "Product is out of stock"
-
+**Descriptions**:
+- ❌ Second person: ~~"This operation creates..."~~ → ✅ "Creates a new user"
+- ❌ Generic responses: ~~"No content"~~ → ✅ "Product is out of stock"
 - ❌ Repeating summary in description
-- ✅ Provide supplementary information or omit description
 
-### Documentation Structure
-- ❌ Mixing parameter descriptions in operation descriptions
-- ✅ Separate parameter table with individual descriptions
-
-- ❌ Including implementation details
-- ✅ Focus on customer-relevant information
-
-### Quality Issues
+**Documentation**:
 - ❌ Skipping UA review
-- ✅ Submit early for review and implement feedback
-
 - ❌ Including sensitive data in examples
-- ✅ Use sanitized, generic example data
+- ❌ Missing required tags
+- ❌ Inconsistent terminology
+
+See individual reference files for complete anti-patterns and fixes.
+
+## External Resources
+
+### Standards
+- **OpenAPI Specification 3.0.3**: https://spec.openapis.org/oas/v3.0.3
+- **OData v4.01**: https://www.odata.org/documentation/
+- **Javadoc**: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
+- **JSDoc 3**: https://jsdoc.app/
+- **Doxygen**: https://www.doxygen.nl/
+
+### SAP Resources
+- **SAP API Business Hub**: https://api.sap.com/
+- **SAP Developer Center**: https://developers.sap.com/
+- **SAP Help Portal**: https://help.sap.com/
+- **SAP Community**: https://community.sap.com/
+
+### Source
+- **SAP API Style Guide**: https://github.com/SAP-docs/api-style-guide
 
 ## Updates and Maintenance
 
-This skill is based on the SAP API Style Guide (version 2021.01):
+**Source Version**: SAP API Style Guide 2021.01
 
-**Source Repository**: https://github.com/SAP-docs/api-style-guide/tree/main/docs
-
-**To update this skill**:
-1. Check the source repository for changes
-2. Review "What's New in the Style Guide?" for updates
+**To Update This Skill**:
+1. Check source repository for changes
+2. Review "What's New in the Style Guide"
 3. Update affected reference files
 4. Update templates if standards changed
-5. Test updated templates with real examples
-6. Update "Last Verified" date
+5. Update "Last Verified" date
 
-**Quarterly Review Recommended**: Check for SAP API Style Guide updates every 3 months
+**Quarterly Review Recommended**: Check for updates every 3 months
+
+**Next Review**: 2026-02-21
 
 ---
 
