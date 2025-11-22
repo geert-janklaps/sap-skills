@@ -51,6 +51,8 @@ SAP Cloud Logging is an instance-based observability service built on OpenSearch
 2. Subaccount with Cloud Logging entitlement
 3. (Recommended) SAP Cloud Identity Services tenant for SAML authentication
 
+**Note for SAP Build Code Users:** If using SAP Build Code, follow the SAP Build Code Initial Setup instructions instead. Cloud Logging in SAP Build Code is available for **evaluation purposes only**.
+
 ### Instance Creation Options
 
 Choose one method based on your workflow:
@@ -260,6 +262,11 @@ For Fluent Bit configuration, see `references/json-api-ingestion.md`.
 - Cloud Foundry application performance
 - Request latency and error rates
 - Resource utilization metrics
+
+### Custom Dashboards & Alerting
+- Create custom dashboards for specific analysis needs
+- Configure alerting based on observability data
+- Integrate with **SAP Alert Notification for SAP BTP** for advanced alerting workflows
 
 ### Index Patterns Summary
 | Source | Index Pattern |
