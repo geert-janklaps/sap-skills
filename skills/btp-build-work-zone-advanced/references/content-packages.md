@@ -2,7 +2,7 @@
 
 Complete guide for creating, managing, and deploying content packages in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/btp-build-work-zone-advanced
+**Source**: https://github.com/SAP-docs/btp-build-work-zone-advanced/tree/main/docs/30-ContentPackages
 
 ---
 
@@ -64,42 +64,106 @@ Content packages can include:
 
 1. Open SAP Business Application Studio
 2. Select "New Project From Template"
-3. Choose "Content Package"
-4. Configure project settings
+3. Choose "Content Package" → "Start"
+4. Complete Project Details form
 
-### Step 2: Add Content Items
+**Alternative**: Use command `Content Package: Create Content Package Project`
+
+### Step 2: Configure Project Details
+
+| Field | Description |
+|-------|-------------|
+| Project Name | Custom identifier for project |
+| Namespace | Generates Content Package ID: `<namespace>.<project_name>` |
+| Title | Display title |
+| Subtitle | Display subtitle |
+| Content Samples | Toggle to include sample artifacts |
+
+### Step 3: Add Content Items
 
 Add artifacts to the package:
 - UI Integration Cards
 - Workspace templates
+- Workflows
 - Other supported content
 
-### Step 3: Configure Package Manifest
+---
 
-The package manifest defines metadata and contents:
+## Package Manifest
+
+### Basic Structure
+
+```json
+{
+  "_version": "1.0.0",
+  "sap.package": {
+    "id": "com.company.mypackage",
+    "version": "1.0.0",
+    "title": "My Content Package",
+    "description": "Package description",
+    "vendor": "Company Name",
+    "icon": "sap-icon://package"
+  },
+  "contents": {
+    "cards": [
+      {
+        "id": "namespace.cardname",
+        "type": "card",
+        "src": "cards/cardname"
+      }
+    ],
+    "workspaceTemplates": [
+      {
+        "id": "namespace.templatename",
+        "type": "workspaceTemplate",
+        "src": "templates/templatename"
+      }
+    ]
+  }
+}
+```
+
+### Destination Prerequisites
+
+For remote system integration, add prerequisites section:
 
 ```json
 {
   "sap.package": {
     "id": "com.company.mypackage",
-    "version": "1.0.0",
-    "title": "My Content Package",
-    "description": "Package description"
-  },
-  "contents": [
-    {
-      "type": "card",
-      "id": "namespace.cardname"
+    "prerequisites": {
+      "destinations": [
+        {
+          "name": "MyDestination",
+          "document": "https://documentation.url"
+        },
+        {
+          "name": "SecondDestination"
+        }
+      ]
     }
-  ]
+  }
 }
 ```
 
-### Step 4: Deploy Package
+**Important**: Destinations must be configured in BTP Cockpit Destinations screen before deployment.
+
+---
+
+## Deploying Content Packages
+
+### Method 1: Direct Deployment
 
 1. Right-click project in explorer
 2. Select "Deploy to SAP Build Work Zone"
-3. Verify in Administration Console
+3. Package deploys directly to target system
+
+### Method 2: Manual Upload
+
+1. Right-click project
+2. Select "Package"
+3. Download generated ZIP file
+4. Upload in Administration Console → UI Integration → Content Packages
 
 ---
 
@@ -136,25 +200,52 @@ Location: **UI Integration > Content Packages**
 3. Redeploy package
 4. Install upgrade in Administration Console
 
+### Update Workflow
+
+1. Open existing project
+2. Modify content or configuration
+3. Update version number
+4. Deploy updated package
+
 ### Best Practices
 
 - Use semantic versioning (major.minor.patch)
 - Document changes in package description
-- Test in development before production deployment
+- Test in development before production
 - Maintain backward compatibility when possible
 
 ---
 
-## Project Templates
+## Project Structure
 
-SAP provides project templates on GitHub for sample implementations:
+```
+content-package-project/
+├── manifest.json              # Package manifest
+├── cards/
+│   └── cardname/
+│       ├── manifest.json      # Card manifest
+│       └── dt/
+│           └── configuration.js
+├── templates/
+│   └── templatename/
+│       └── template.json
+└── workflows/
+    └── workflowname/
+        └── workflow.json
+```
 
-- Basic content package structure
-- Multi-card packages
-- Workspace template packages
+---
+
+## Post-Creation Actions
+
+| Action | Description |
+|--------|-------------|
+| Update | Modify package artifacts |
+| Deploy | Push to target environment |
+| Delete | Remove via right-click context menu |
 
 ---
 
 **Documentation Links**:
 - Content Packages: https://help.sap.com/docs/build-work-zone-advanced-edition
-- GitHub Templates: https://github.com/SAP-docs/btp-build-work-zone-advanced/tree/main/docs/30-ContentPackages
+- GitHub: https://github.com/SAP-docs/btp-build-work-zone-advanced/tree/main/docs/30-ContentPackages

@@ -67,7 +67,8 @@ Create system user account for chatbot:
 1. Go to User Management > Alias Accounts
 2. Create new alias account
 3. Configure permissions
-4. Link to chatbot
+4. Add OAuth2 Access Token
+5. Link token to chatbot
 
 ### Step 4: Configure Push Notifications
 
@@ -82,6 +83,131 @@ Set up event-triggered notifications:
 
 ---
 
+## Webhook Configuration
+
+Webhooks enable chatbots to invoke SAP Build Work Zone services.
+
+### Webhook URL Format
+
+```
+https://<host-url>/api/v2/ai/webhook
+```
+
+Example: `https://dwpdev1.sapjam-integration.com/api/v2/ai/webhook`
+
+### Authorization
+
+- Add OAuth token from Alias Account in Headers tab
+- Token must have appropriate scopes for desired actions
+
+### Payload Structure
+
+All webhook payloads require three mandatory components:
+
+```json
+{
+  "action": "perform_actions",
+  "context": {
+    "senderId": "{{participant_data.jamId}}"
+  },
+  "parameters": {
+    // Action-specific parameters
+  }
+}
+```
+
+---
+
+## Chatbot Actions
+
+### Supported Actions
+
+| Action | Purpose |
+|--------|---------|
+| `perform_actions` | Execute platform actions |
+| `ui5_card` | Render UI Integration Cards |
+| `create_workspace` | Create new workspace |
+| `get_workspace_templates` | Retrieve available templates |
+
+### Create Workspace Action
+
+```json
+{
+  "action": "perform_actions",
+  "context": {
+    "senderId": "{{participant_data.jamId}}"
+  },
+  "parameters": {
+    "actionName": "create_workspace",
+    "name": "Workspace Name",
+    "is_private": false,
+    "template": "template_id"
+  }
+}
+```
+
+| Parameter | Required | Description |
+|-----------|----------|-------------|
+| actionName | Yes | Fixed: "create_workspace" |
+| name | Yes | AI-derived from user input |
+| is_private | No | Privacy setting |
+| template | No | Template ID to use |
+
+### Get Workspace Templates Action
+
+```json
+{
+  "action": "perform_actions",
+  "context": {
+    "senderId": "{{participant_data.jamId}}"
+  },
+  "parameters": {
+    "actionName": "get_workspace_templates"
+  }
+}
+```
+
+---
+
+## Rendering Cards with Chatbots
+
+Chatbots can render UI Integration Cards for enhanced user experiences.
+
+### Supported Card Types
+
+- Leave request cards
+- Business News cards
+- Search result cards
+- Custom cards
+
+### Card Setup Process
+
+1. **Upload Card**: Administration Console → UI Integration → Cards & Widgets → Upload Card
+2. **Get Card ID**: Copy unique card identifier from Administration Console
+3. **Configure Webhook**: Add card ID to chatbot payload
+
+### Card Rendering Payload
+
+```json
+{
+  "action": "ui5_card",
+  "context": {
+    "senderId": "{{participant_data.jamId}}"
+  },
+  "parameters": {
+    "cardId": "sap.dwp.test.card.searchResult",
+    "widgetType": "sapCard"
+  }
+}
+```
+
+| Parameter | Required | Values |
+|-----------|----------|--------|
+| cardId | Yes | Unique card identifier |
+| widgetType | No | "sapCard" or "sapWidget" (default) |
+
+---
+
 ## SAP Conversational AI Integration
 
 ### Connector Setup
@@ -89,6 +215,13 @@ Set up event-triggered notifications:
 1. Access SAP Conversational AI platform
 2. Use built-in "SAP Jam Collaboration" connector
 3. Configure connection to SAP Build Work Zone
+
+### Configuration Steps
+
+1. Go to Build > [Your Bot] > Webhook Configuration
+2. Enter webhook URL
+3. Add OAuth token in Headers
+4. Configure payload in Body tab
 
 ### Configuration Location
 
@@ -118,25 +251,6 @@ Administration Console > External Integrations > Chatbot Configuration
 | Fullscreen | Toggle fullscreen mode |
 | Close | Close chatbot window |
 | Send | Submit message (Ctrl+Enter / Cmd+Enter) |
-
----
-
-## Advanced Capabilities
-
-### Custom Actions
-
-Configured chatbots can execute platform-specific actions:
-- Create workspaces
-- Post content
-- Search and retrieve information
-- Manage tasks
-
-### Card Rendering
-
-Chatbots can render customized cards for enhanced user experiences:
-- Display structured data
-- Interactive card elements
-- Action buttons
 
 ---
 

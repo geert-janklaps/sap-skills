@@ -11,54 +11,86 @@
 
 **Primary Source**: https://github.com/SAP-docs/btp-build-work-zone-advanced
 **SAP Help Portal**: https://help.sap.com/docs/build-work-zone-advanced-edition
-**OData API Docs**: https://jam2.sapjam.com
+**OData API Docs**: https://jam2.sapjam.com/work_zone/ODataDocs/ui
+**Webhook Docs**: https://jam2.sapjam.com/work_zone/ODataDocs/webhook_reference
 
 ---
 
-## Documentation Inventory (268+ markdown files)
+## Documentation Inventory
 
-### Main Categories
+### Directory Structure
 
-| Category | Files | Status |
-|----------|-------|--------|
-| Root Documentation | ~50 | ✅ Extracted |
-| 10-Setup | ~10 | ✅ Extracted |
-| 20-UIIntegrationCards | ~15 | ✅ Extracted |
-| 30-ContentPackages | ~10 | ✅ Extracted |
-| 40-WorkspaceTemplates | ~10 | ✅ Extracted |
-| 50-Chatbots | ~5 | ✅ Extracted |
-| User Guide | ~80 | ✅ Key topics covered |
-| Administration | ~40 | ✅ Extracted |
-| Security | ~15 | ✅ Extracted |
-| APIs | ~20 | ✅ Extracted |
+| Directory | Files | Status |
+|-----------|-------|--------|
+| Root docs/ | 200+ | ✅ Extracted |
+| 10-Setup | 2 | ✅ Extracted |
+| 20-UIIntegrationCards | 10 | ✅ Extracted |
+| 30-ContentPackages | 5 | ✅ Extracted |
+| 40-WorkspaceTemplates | 5 | ✅ Extracted |
+| 50-Chatbots | 3 | ✅ Extracted |
 
-### Key Files Extracted
+### Subdirectory Files (Complete)
 
-| File | Status | Extracted To |
-|------|--------|--------------|
-| what-is-sap-build-work-zone-advanced-edition-5c0103b.md | ✅ | SKILL.md (overview) |
-| index.md | ✅ | SKILL.md (structure) |
-| concepts-fcbd6f0.md | ✅ | SKILL.md (concepts) |
-| features-992318c.md | ✅ | SKILL.md (features) |
-| getting-started-627b9e3.md | ✅ | SKILL.md (setup) |
-| development-9cda497.md | ✅ | SKILL.md (development) |
-| administration-29ff49a.md | ✅ | references/administration.md |
-| ui-integration-cards-b266652.md | ✅ | references/ui-integration-cards.md |
-| content-packages-d44d54f.md | ✅ | references/content-packages.md |
-| workspace-templates-ab3d0fd.md | ✅ | references/workspace-templates.md |
-| chatbots-1b275f8.md | ✅ | references/chatbots.md |
-| about-workspaces-8ff3df9.md | ✅ | references/workspaces.md |
-| about-workpages-d63aa36.md | ✅ | references/workspaces.md |
-| about-widgets-5a73a41.md | ✅ | references/widgets.md |
-| about-roles-and-role-assignment-f38de6b.md | ✅ | references/administration.md |
-| user-and-user-list-provisioning-using-scim-api-6bd5237.md | ✅ | references/api-reference.md |
-| introduction-to-open-data-odata-protocol-7d06aa7.md | ✅ | references/api-reference.md |
-| security-guide-360e373.md | ✅ | references/security.md |
-| initial-setup-87a6a5e.md | ✅ | SKILL.md (setup) |
-| creating-a-ui-card-3fd1bdf.md | ✅ | references/ui-integration-cards.md |
-| content-packages-da203f9.md | ✅ | references/content-packages.md |
-| chatbots-cd01a86.md | ✅ | references/chatbots.md |
-| business-records-b984753.md | ✅ | references/workspaces.md |
+#### 10-Setup (2 files)
+- [x] creating-a-destination-to-content-repository-4a90162.md
+- [x] initial-setup-87a6a5e.md
+
+#### 20-UIIntegrationCards (10 files)
+- [x] add-or-update-context-e69aef3.md → ui-integration-cards.md
+- [x] context-values-571b7d3.md → ui-integration-cards.md
+- [x] creating-a-design-time-module-f93b625.md → ui-integration-cards.md
+- [x] creating-a-ui-card-3fd1bdf.md → ui-integration-cards.md
+- [x] deploying-a-ui-card-35e6049.md → ui-integration-cards.md
+- [x] developing-a-ui-card-for-mtb-backend-91d7e7c.md → ui-integration-cards.md
+- [x] development-160f56a.md → ui-integration-cards.md
+- [x] interaction-between-cards-2af7015.md → ui-integration-cards.md
+- [x] ui-integration-cards-b266652.md → ui-integration-cards.md
+- [x] updating-a-ui-card-c27069e.md → ui-integration-cards.md
+
+#### 30-ContentPackages (5 files)
+- [x] content-packages-d44d54f.md → content-packages.md
+- [x] creating-a-content-package-9027b86.md → content-packages.md
+- [x] deploying-a-content-package-5556cbf.md → content-packages.md
+- [x] development-09b5876.md → content-packages.md
+- [x] updating-a-content-package-de85e4f.md → content-packages.md
+
+#### 40-WorkspaceTemplates (5 files)
+- [x] creating-a-workspace-template-d1a7b42.md → workspace-templates.md
+- [x] deploying-a-workspace-template-d435663.md → workspace-templates.md
+- [x] development-91251ce.md → workspace-templates.md
+- [x] updating-a-workspace-template-569df27.md → workspace-templates.md
+- [x] workspace-templates-ab3d0fd.md → workspace-templates.md
+
+#### 50-Chatbots (3 files)
+- [x] chatbot-actions-f640146.md → chatbots.md
+- [x] chatbots-1b275f8.md → chatbots.md
+- [x] render-cards-with-a-chatbot-449a2ba.md → chatbots.md
+
+### Key Root Files Extracted
+
+| File | Extracted To |
+|------|--------------|
+| what-is-sap-build-work-zone-advanced-edition-5c0103b.md | SKILL.md |
+| concepts-fcbd6f0.md | SKILL.md |
+| features-992318c.md | SKILL.md |
+| development-9cda497.md | SKILL.md |
+| administration-29ff49a.md | administration.md |
+| about-workspaces-8ff3df9.md | workspaces.md |
+| about-workpages-d63aa36.md | workspaces.md |
+| about-sub-workspaces-c07d0ee.md | workspaces.md |
+| administrative-areas-34e3ab0.md | workspaces.md |
+| about-widgets-5a73a41.md | widgets.md |
+| about-roles-and-role-assignment-f38de6b.md | administration.md |
+| about-notifications-fc1ef68.md | notifications.md |
+| about-the-mobile-app-1b64c60.md | mobile-app.md |
+| about-tools-77dbd79.md | widgets.md |
+| api-documentation-5314daf.md | api-reference.md |
+| alias-accounts-8857401.md | api-reference.md |
+| auditing-and-logging-information-b1c760e.md | auditing.md |
+| business-records-b984753.md | workspaces.md |
+| chatbots-cd01a86.md | chatbots.md |
+| content-packages-da203f9.md | content-packages.md |
+| security-guide-360e373.md | security.md |
 
 ---
 
@@ -66,120 +98,61 @@
 
 ```
 skills/btp-build-work-zone-advanced/
-├── SKILL.md                           # Main skill file (~300 lines)
+├── SKILL.md                           # Main skill file
 ├── README.md                          # Keywords and discovery
 ├── PROGRESS_TRACKING.md               # This file
 ├── references/
-│   ├── ui-integration-cards.md        # ✅ Card development guide
-│   ├── content-packages.md            # ✅ Package development guide
+│   ├── ui-integration-cards.md        # ✅ Context, design-time, deployment
+│   ├── content-packages.md            # ✅ Manifest, prerequisites, structure
 │   ├── workspace-templates.md         # ✅ Template creation guide
-│   ├── chatbots.md                    # ✅ Chatbot integration guide
-│   ├── workspaces.md                  # ✅ Workspaces and workpages guide
-│   ├── widgets.md                     # ✅ Widget configuration guide
-│   ├── administration.md              # ✅ Administration console guide
-│   ├── api-reference.md               # ✅ SCIM/OData APIs
+│   ├── chatbots.md                    # ✅ Webhooks, actions, card rendering
+│   ├── workspaces.md                  # ✅ Sub-workspaces, admin areas
+│   ├── widgets.md                     # ✅ 24 widget types
+│   ├── administration.md              # ✅ Complete admin console
+│   ├── api-reference.md               # ✅ SCIM, OData, Webhooks, OAuth
 │   ├── security.md                    # ✅ Security configuration
-│   └── troubleshooting.md             # ✅ Error resolution
+│   ├── troubleshooting.md             # ✅ Error resolution
+│   ├── mobile-app.md                  # ✅ Mobile features
+│   ├── notifications.md               # ✅ Notification types
+│   └── auditing.md                    # ✅ Audit logging
 └── templates/
-    ├── card-manifest.json             # ✅ UI Integration Card manifest
-    ├── content-package-manifest.json  # ✅ Content package structure
-    ├── workspace-template-config.json # ✅ Workspace template config
-    └── dt-configuration.js            # ✅ Card design-time config
+    ├── card-manifest.json             # ✅ Card manifest
+    ├── content-package-manifest.json  # ✅ Package manifest
+    ├── workspace-template-config.json # ✅ Template config
+    └── dt-configuration.js            # ✅ Design-time module
 ```
-
----
-
-## Key Information Extracted
-
-### Core Concepts
-- [x] Workspaces and workpages
-- [x] UI Integration Cards
-- [x] Content packages
-- [x] Workspace templates
-- [x] Widgets (24 types documented)
-- [x] Feeds and activity streams
-
-### Development
-- [x] SAP Business Application Studio setup
-- [x] Card development workflow
-- [x] Card manifest structure
-- [x] Design-time configuration
-- [x] Content package creation
-- [x] Template development
-- [x] Chatbot integration
-- [x] Context values (sap.workzone)
-
-### Administration
-- [x] Administration Console (all areas)
-- [x] User management (internal/external)
-- [x] Role collections and permissions
-- [x] Feature enablement
-- [x] Compliance features
-- [x] Theming and branding
-- [x] Content administration
-
-### APIs
-- [x] SCIM API (user provisioning)
-- [x] OData API (content/workspace)
-- [x] Rate limiting (10,000/hour)
-- [x] Authentication (2-legged OAuth)
-- [x] Webhooks
-
-### Integrations
-- [x] Microsoft Teams
-- [x] Office 365 SharePoint
-- [x] Google Drive
-- [x] SAP SuccessFactors
-- [x] SAP Task Center
-- [x] SAP Conversational AI (chatbots)
-- [x] External business systems
-
-### Security
-- [x] SAML IdP configuration
-- [x] OAuth clients
-- [x] SSO setup
-- [x] Role assignments
-- [x] HTTP security headers
-- [x] Audit logging
-
----
-
-## Update Links for Future Maintenance
-
-### Primary Documentation Sources
-- **GitHub Repo**: https://github.com/SAP-docs/btp-build-work-zone-advanced
-- **SAP Help Portal**: https://help.sap.com/docs/build-work-zone-advanced-edition
-- **API Hub**: https://api.sap.com/ (search "SAP Cloud Portal Service")
-- **OData Docs**: https://jam2.sapjam.com
-- **SAPUI5 Cards**: https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/
-
-### Related Services
-- **SAP Business Application Studio**: https://help.sap.com/docs/bas
-- **SAP Cloud Identity Services**: https://help.sap.com/docs/cloud-identity-services
-- **SAP Task Center**: https://help.sap.com/docs/task-center
-- **SAP Conversational AI**: https://cai.tools.sap/
 
 ---
 
 ## Coverage Summary
 
-| Area | Coverage | Notes |
-|------|----------|-------|
-| Core Concepts | 100% | All major concepts documented |
-| Development | 100% | Full workflow with templates |
-| Administration | 100% | All admin areas covered |
-| APIs | 100% | SCIM, OData, Webhooks |
-| Integrations | 100% | All major integrations |
-| Security | 100% | Complete security guide |
-| Templates | 100% | 4 production-ready templates |
+| Area | Reference File | Source Files |
+|------|----------------|--------------|
+| UI Integration Cards | ui-integration-cards.md | 10 files |
+| Content Packages | content-packages.md | 5 files |
+| Workspace Templates | workspace-templates.md | 5 files |
+| Chatbots | chatbots.md | 3 files |
+| Workspaces | workspaces.md | 4+ files |
+| Widgets | widgets.md | 2+ files |
+| Administration | administration.md | 3+ files |
+| APIs | api-reference.md | 3+ files |
+| Security | security.md | 2+ files |
+| Mobile | mobile-app.md | 1 file |
+| Notifications | notifications.md | 1 file |
+| Auditing | auditing.md | 1 file |
+
+**Total Reference Files**: 13
+**Total Template Files**: 4
+**Subdirectory Files**: 25 (100% coverage)
+**Root Files**: 200+ (key files extracted)
 
 ---
 
 ## Maintenance Schedule
 
 - **Quarterly Review**: Check for SAP documentation updates
-- **SAPUI5 Version**: Monitor card compatibility updates (currently 1.87.0+)
-- **API Changes**: Monitor SCIM/OData endpoint changes
+- **SAPUI5 Version**: Monitor card compatibility (1.87.0+)
+- **API Changes**: Monitor SCIM/OData endpoints
 
 ---
 
