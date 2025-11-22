@@ -394,6 +394,11 @@ mapping:
 4. Map to fact/dimension columns
 5. Deploy
 
+**Analytic Model Constraint**: Cannot map data access controls to dimensions with:
+- Standard variables
+- Reference date variables
+- X variables
+
 ### Criteria Mapping
 
 **Mapping Configuration**:

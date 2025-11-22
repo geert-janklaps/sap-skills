@@ -58,6 +58,9 @@ The **DW Modeler** role template includes these privileges.
 | Text | Language-dependent labels | Translations |
 | Relational Dataset | Generic relational data | Any data |
 | Analytical Dataset | Analytics-ready (deprecated) | Legacy models |
+| Hierarchy with Directory | Multiple parent-child hierarchies | Complex org structures |
+
+**Dimension Type**: Standard or Fiscal Time (requires fiscal calendar configuration)
 
 **Exposure for Consumption**:
 - Enable OData, ODBC, JDBC access
@@ -67,6 +70,28 @@ The **DW Modeler** role template includes these privileges.
 **Analytical Mode Option**:
 - Optimized for analytical queries
 - Automatic aggregation behavior
+- Sends `USE_OLAP_PLAN` hint to SAP HANA
+
+**Data Preview Restrictions (DW Viewer Role)**:
+- Cannot preview data if *Expose for Consumption* is disabled
+- Can only preview data in the output node (not intermediate nodes)
+
+### Editor Toolbar Tools
+
+| Tool | Purpose |
+|------|---------|
+| Save/Save As | Design-time repository persistence |
+| Deploy | Runtime environment activation |
+| Share | Cross-space distribution |
+| Preview Data | Node output visualization |
+| Undo/Redo | Change reversal/restoration |
+| Export | CSN/JSON file export |
+| Impact & Lineage | Dependency graph visualization |
+| Generate OData Request | OData API access preparation |
+| Runtime Metrics | Performance analysis with Explain Plan generation |
+| Generate Semantics | AI-assisted semantic type identification |
+| Versions | Version history access |
+| Details | Properties panel toggle |
 
 ### Key Constraint
 
@@ -227,6 +252,40 @@ Create views using SQL or SQLScript.
 3. Validate syntax
 4. Save and deploy
 
+### Language Options
+
+| Language | Capabilities | Use Case |
+|----------|--------------|----------|
+| SQL (Standard Query) | SELECT with JOIN, UNION operators | Standard views |
+| SQLScript (Table Function) | IF, loops, complex structures | Advanced logic |
+
+### Critical Syntax Requirements
+
+**Double Quotes Mandatory**: Use double quotes for all table, column, and alias references in SELECT statements.
+```sql
+-- Correct
+SELECT "customer_id", "customer_name" AS "name" FROM "customers"
+
+-- Incorrect - will fail
+SELECT customer_id, customer_name AS name FROM customers
+```
+
+**LIMIT vs TOP**: Use LIMIT keyword (TOP is not supported)
+```sql
+-- Correct
+SELECT * FROM orders LIMIT 100
+
+-- Incorrect
+SELECT TOP 100 * FROM orders
+```
+
+**Format Button**: Available for SQL only (not SQLScript)
+
+### Data Preview Constraints
+
+- Data preview unavailable when any source is cross-space shared with input parameters
+- Wide tables may truncate results to prevent memory issues
+
 ### Basic SQL View
 
 ```sql
@@ -365,15 +424,33 @@ Visual data modeling with entities and associations.
 
 ## Intelligent Lookups
 
-Match and enrich data using fuzzy logic.
+Match and enrich data using fuzzy logic when traditional joins fail due to data quality issues.
+
+**Purpose**: Merge data from two entities even when problems joining them exist (unreliable foreign keys, inconsistent naming, data quality issues).
+
+### Technical Architecture
+
+**Component Structure**:
+1. Input entity with mandatory pairing column
+2. Lookup entity with designated return columns
+3. Rule node (exact or fuzzy matching)
+4. Output view configuration
+
+### Pairing Column Requirements
+
+The pairing column identifies individual records:
+- Typically ID fields or unique identifiers
+- Can be a calculated column concatenating multiple values
+- Falls back to key column if primary identifier unavailable
 
 ### Creating an Intelligent Lookup
 
 1. Data Builder > New Intelligent Lookup
 2. Add input entity
 3. Add lookup entity
-4. Configure match rules
-5. Define output
+4. **Define pairing column**
+5. Configure match rules
+6. Define output
 
 ### Match Rule Types
 
@@ -402,17 +479,41 @@ threshold: 0.8
 | Algorithm | Matching algorithm | Levenshtein |
 | Case Sensitive | Match case | No |
 
+### Result Categories
+
+Results are color-coded with percentages on rule symbols:
+
+| Category | Color | Description | Actions |
+|----------|-------|-------------|---------|
+| Matched | Green | Records matched against lookup data | Can reject |
+| Review | Green | Fuzzy matches between review/matched thresholds | Approve or reject |
+| Multiple | Yellow | Records matching 2+ lookup records | Select candidate |
+| Unmatched | Red | No matching lookup record found | Manual match |
+| Unprocessed | Grey | New records not processed since last run | Run lookup |
+
 ### Processing Results
 
 **Matched Results**:
 - Single match: Auto-assign
-- Multiple matches: Review/select
+- Multiple matches: Review/select candidates
 - No match: Manual assignment
 
 **Unmatched Results**:
 - Create new lookup records
 - Manual matching
 - Skip records
+
+### Rule Management
+
+**Modification Handling**:
+- Modifying rules prompts deletion of subsequent results
+- User-confirmed matches can be preserved or deleted
+
+**Adding Rules**:
+- **Add Rule for Multiple Matches**: Applies AND logic to narrow down candidates
+- **Add Rule for Unmatched Records**: Targets unmatched category for re-processing
+
+**Important**: Redeployment required after rule modification before re-execution
 
 ### Multi-Rule Lookups
 

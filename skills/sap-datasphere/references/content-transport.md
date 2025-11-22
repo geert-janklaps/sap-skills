@@ -32,27 +32,28 @@ SAP Datasphere supports multiple methods for moving content between tenants.
 | CSN/JSON Files | Developer workflow | Low |
 | Command Line | CI/CD integration | Medium |
 
-### Transportable Objects
+### Critical Limitation
 
-**Data Builder Objects**:
-- Local tables (structure only)
-- Remote tables (structure only)
-- Views (graphical, SQL)
-- Data flows
-- Replication flows
-- Transformation flows
-- Task chains
-- E-R models
-- Data access controls
+**"Only object definitions can be transported. Data cannot be transported between SAP Datasphere tenants"** — the Transport app handles structure only, not actual data records.
 
-**Business Builder Objects**:
-- Business entities
-- Fact models
-- Consumption models
-- Authorization scenarios
+### Transportable Objects with Dependency Behavior
 
-**Connections**:
-- Connection metadata (not credentials)
+| Object Type | Auto-Includes Dependencies | Notes |
+|-------------|---------------------------|-------|
+| Connections | No | No dependencies on other objects |
+| Remote Tables | Yes | Includes connection information |
+| Local Tables | No | Structure only; no interdependencies |
+| Flows (Data/Replication/Transformation) | Yes | Auto-exports all source and target definitions |
+| Views (Graphical/SQL) | Yes | Exports all sources and applied data access controls |
+| Intelligent Lookups | Yes | Exports input and lookup entity definitions |
+| Analytic Models | Yes | Exports fact and dimension source definitions |
+| **E/R Models** | **Manual** | Objects must be manually selected; not auto-included |
+| Data Access Controls | Yes | Exports permissions entity definition |
+| **Task Chains** | **Manual** | Objects must be manually selected; not auto-included |
+| Business Entities/Versions | Yes | Exports all versions, source entities, and authorization scenarios |
+| Fact Models | Yes | Exports all versions and dependent source models/entities |
+| Consumption Models | Yes | Exports all perspectives and dependent models/entities |
+| Authorization Scenarios | Yes | Exports associated data access control |
 
 ### Non-Transportable Items
 
@@ -60,6 +61,7 @@ SAP Datasphere supports multiple methods for moving content between tenants.
 - Connection credentials
 - User assignments
 - Schedules
+- Notification recipients (for task chains)
 
 ---
 

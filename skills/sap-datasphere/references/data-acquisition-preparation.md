@@ -223,6 +223,20 @@ Replicate data from source systems to SAP Datasphere or external targets.
 | Object Thread Count | Thread count for delta operations |
 | Delete Before Load | Clear target before loading |
 
+### Critical Constraints
+
+- **No input parameters**: Replication flows do not support input parameters
+- **Thread limits read-only at design time**: Editable only after deployment
+- **Content Type applies globally**: Selection affects all replication objects in the flow
+- **ABAP systems**: Consult SAP Note 3297105 before creating replication flows
+
+### Content Type (ABAP Sources)
+
+| Type | Date/Timestamp Handling | Use Case |
+|------|-------------------------|----------|
+| Template Type | Applies ISO format requirements | Standard integration |
+| Native Type | Dates → strings, timestamps → decimals | Custom formatting |
+
 **Filters**:
 - Define row-level filters on source
 - Multiple filter conditions with AND/OR
@@ -280,6 +294,40 @@ Delta-aware transformations with automatic change propagation.
 5. Configure run settings
 6. Save and deploy
 
+### Key Constraints and Limitations
+
+**Data Access Restrictions**:
+Views and Open SQL schema objects cannot be used if they:
+- Reference remote tables (except BW Bridge)
+- Consume views with data access controls
+- Have controls applied to them
+
+**Loading Constraints**:
+- Loading delta changes from views is not supported
+- Only loads data to local SAP Datasphere repository tables
+- Remote tables in BW Bridge spaces must be shared with the SAP Datasphere space
+
+### Runtime Options
+
+| Runtime | Storage Target | Use Case |
+|---------|----------------|----------|
+| HANA | SAP HANA Database storage | Standard transformations |
+| SPARK | SAP HANA Data Lake Files storage | Large-scale file processing |
+
+### Load Types
+
+| Load Type | Description | Requirements |
+|-----------|-------------|--------------|
+| Initial Only | Full dataset load | None |
+| Initial and Delta | Full load then changes | Delta capture enabled on source and target tables |
+
+### Input Parameter Constraints
+
+- Cannot be created/edited in Graphical View Editor
+- Scheduled flows use default values
+- **Not supported** in Python operations (Spark runtime)
+- Exclude from task chain input parameters
+
 ### Source Options
 
 - Graphical view (created inline)
@@ -336,6 +384,14 @@ Store data directly in SAP Datasphere.
 3. Create from data flow target
 4. Create from replication flow target
 
+### Storage Options
+
+| Storage | Target System | Use Case |
+|---------|---------------|----------|
+| Disk | SAP HANA Cloud, SAP HANA database | Standard persistent storage |
+| In-Memory | SAP HANA Cloud, SAP HANA database | High-performance hot data |
+| File | SAP HANA Cloud data lake storage | Large-scale cost-effective storage |
+
 ### Table Properties
 
 **Key Columns**:
@@ -368,6 +424,15 @@ Enable change tracking for incremental processing:
 1. Enable delta capture on table
 2. Track insert/update/delete operations
 3. Query changes with delta tokens
+
+**Important Constraint**: Once delta capture is enabled and deployed, it **cannot be modified or disabled**.
+
+### Allow Data Transport
+
+Available for dimensions on SAP Business Data Cloud formation tenants:
+- Enables data inclusion during repository package transport
+- Limited to initial import data initialization
+- **Applies only to**: Dimensions, text entities, or relational datasets
 
 ### Data Maintenance
 
@@ -483,6 +548,14 @@ Orchestrate multiple data integration tasks.
 |-----------|-------------|
 | Task Chain | Reference locally-created or shared task chains |
 
+### Object Prerequisites
+
+- All objects must be deployed before adding to task chains
+- SAP HANA Open SQL schema procedures require EXECUTE privileges granted to space users
+- Views **cannot** have data access controls assigned
+- Data flows with input parameters use default values during task chain execution
+- Persisting views may include only one parameter with default value
+
 ### Execution Control
 
 **Sequential Execution**:
@@ -534,12 +607,20 @@ default: "US"
 0 0 */4 * * ? # Every 4 hours
 ```
 
+**Important Scheduling Constraint**: If scheduling remote tables with *Replicated (Real-time)* data access, replication type converts to batch replication at the next scheduled run (eliminates real-time updates).
+
 ### Email Notifications
 
 Configure notifications for:
 - Success
 - Failure
 - Warning
+
+**Recipient Options**:
+- Tenant users (searchable after task chain is deployed)
+- External email addresses (requires deployed task chain for recipient selection)
+
+**Export Constraint**: CSN/JSON export does not include notification recipients
 
 ---
 

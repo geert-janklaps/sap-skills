@@ -4,7 +4,7 @@
 **Last Updated**: 2025-11-22
 **Status**: Complete - Enhanced with detailed source verification
 **Source Repository**: https://github.com/SAP-docs/sap-datasphere/tree/main/docs
-**Version**: 1.1.0
+**Version**: 1.2.0
 
 ---
 
@@ -975,6 +975,59 @@ After thorough review of actual documentation content from the source repository
 - Added Business Builder purpose and loose coupling concept
 - Added complete workflow diagram
 - Added Perspectives creation steps and exposure targets
+
+### Version 1.2.0 (2025-11-22) - Comprehensive Gap Analysis Enhancement
+
+After systematic comparison of actual source documentation against skill content, the following enhancements were made:
+
+**graphical-sql-views.md**:
+- Added Hierarchy with Directory semantic usage option
+- Added Dimension Type options (Standard or Fiscal Time)
+- Added Data Preview Restrictions for DW Viewer role
+- Added complete Editor Toolbar Tools table (14 tools)
+- Added SQL Language Options table (SQL vs SQLScript)
+- Added Critical Syntax Requirements (double quotes mandatory, LIMIT vs TOP)
+- Added Data Preview Constraints for cross-space shared sources
+- Added Intelligent Lookup pairing column requirements
+- Added Result Categories with color coding (Matched, Review, Multiple, Unmatched, Unprocessed)
+- Added Rule Management section (modification handling, adding rules)
+
+**data-acquisition-preparation.md**:
+- Added Transformation Flow runtime options (HANA vs SPARK)
+- Added Transformation Flow load types (Initial Only, Initial and Delta)
+- Added Transformation Flow data access restrictions and constraints
+- Added Transformation Flow input parameter constraints (not supported in Python/Spark)
+- Added Local Tables storage options table (Disk, In-Memory, File)
+- Added delta capture immutability constraint
+- Added Allow Data Transport option for dimensions
+- Added Replication Flow critical constraints (no input parameters, thread limits read-only)
+- Added Content Type (Template vs Native) for ABAP sources
+- Added Task Chain object prerequisites (EXECUTE privileges, no DACs on views)
+- Added Email notification recipient options and export constraint
+- Added scheduling constraint (real-time → batch conversion)
+
+**data-modeling.md**:
+- Added Terminology Differences table (input parameters→variables, attributes→dimensions)
+- Added Critical Constraints (LargeString limitation, 3-minute timeout, story resave required)
+- Added dimension deselection constraint
+
+**administration.md**:
+- Added comprehensive Task Log Properties table (18 properties)
+- Added Display Limitations (1,000 row limit)
+- Added Decimal Separator Note for filtering
+- Added CPU Time Measurement explanation
+- Added SAP Cloud ALM Integration section
+- Added SAP HANA Cockpit Integration section
+
+**data-access-security.md**:
+- Added Analytic Model Constraint (cannot map DACs to dimensions with variables)
+
+**content-transport.md**:
+- Added Critical Limitation statement (definitions only, no data)
+- Replaced transportable objects with detailed dependency behavior table
+- Added E/R Models and Task Chains manual selection requirement
+- Added Business Entities/Versions, Fact Models, Consumption Models export details
+- Added notification recipients to non-transportable items
 
 ---
 

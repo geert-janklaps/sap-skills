@@ -450,6 +450,34 @@ Content-Type: application/json
 - Transformation flows
 - Task chains
 
+**Task Log Properties**:
+
+| Property | Description |
+|----------|-------------|
+| Start date/time | When task started |
+| Object name/type | Object being processed |
+| Space name | Space containing the object |
+| Storage type | SAP HANA Database or Data Lake Files |
+| Activity type | persist, replicate, execute |
+| Status/substatus | Completion status with failure descriptions |
+| SAP HANA Peak Memory (MiB) | Requires expensive statement tracing |
+| SAP HANA Used Memory (MiB) | Memory consumption |
+| SAP HANA Used CPU Time (ms) | Requires expensive statement tracing |
+| SAP HANA Used Disk (MiB) | Disk consumption |
+| Apache Spark Peak Memory | Peak memory for Spark tasks |
+| Apache Spark Spill to Disk | Data spilled to disk |
+| Apache Spark Used Cores | Number of cores used |
+| Records count | Only for: views (persist), remote tables (replicate), data flows, intelligent lookups |
+
+**Display Limitations**:
+- Only first **1,000 rows** displayed for performance
+- Filters applied to all rows, but only first 1,000 filtered rows shown
+- Use filters to find specific data
+
+**Decimal Separator Note**: Use '.' (period) as decimal separator regardless of regional settings when filtering on memory/CPU columns.
+
+**CPU Time Measurement**: CPU time measures time used by all threads. If much higher than statement duration, indicates heavy thread usage which can lead to resource bottlenecks.
+
 **Log Management**:
 - View execution history
 - Download logs
@@ -499,6 +527,23 @@ ALTER SYSTEM CANCEL SESSION 'connection_id';
 | M_CONNECTIONS | Active connections |
 | M_SERVICE_MEMORY | Memory usage |
 | M_VOLUME_IO | I/O statistics |
+
+### SAP Cloud ALM Integration
+
+**Health Monitoring**:
+- Integration for checking tenant health
+- Real-time health status
+
+**Job & Automation Monitoring**:
+- Monitor tasks (except child tasks)
+- Integration with SAP Cloud ALM dashboard
+
+### SAP HANA Cockpit Integration
+
+Access via "Open SAP HANA Cockpit" links in System Monitor:
+- Performance Monitor for real-time CPU/memory utilization
+- Database Overview page for HANA analysis
+- Admission Control analysis
 
 ---
 

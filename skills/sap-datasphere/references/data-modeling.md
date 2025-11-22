@@ -23,6 +23,22 @@
 
 Analytic models provide analytics-ready semantic structures for SAP Analytics Cloud.
 
+### Terminology Differences
+
+Key terminology differences between facts and analytic models:
+
+| In Fact Source | In Analytic Model |
+|----------------|-------------------|
+| Input parameters | Variables |
+| Attributes | Dimensions |
+
+### Critical Constraints
+
+- **LargeString limitation**: Attributes of type LargeString are not consumable in SAP Analytics Cloud
+- **Three-minute timeout**: Data preview and query execution have a 3-minute timeout
+- **Story resave required**: Modified analytic models require story resave in SAP Analytics Cloud
+- **Dimension deselection**: Dimensions used in associations cannot be deselected
+
 ### Creating an Analytic Model
 
 **From Scratch**:
