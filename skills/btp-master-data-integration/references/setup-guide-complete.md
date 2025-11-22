@@ -84,6 +84,17 @@ Global Account (Enterprise)
 ### Critical Rule
 **Every application MUST use its own dedicated service instance.** Sharing instances causes unexpected behavior and inconsistencies.
 
+### Why NOT to Use Subscriptions
+
+SAP Master Data Integration **must NOT be consumed via subscription mechanism**.
+
+**Reasons**:
+- Flexibility issues for MDI operations
+- Configurability constraints
+- Security concerns for master data handling
+
+**Always use**: Service instances with explicit configuration.
+
 ### Service Instance Creation
 
 **Step 1: Navigate**
@@ -158,6 +169,21 @@ ValidFrom_20240501
   "businessSystemId": "S4HCLOUD_PRD"
 }
 ```
+
+**Configuration via Generic API** (alternative to UI):
+```http
+POST <BASE_URL>/businesspartner/v0/odata/API_GENERIC_CONFIGURATIONS/GenericConfigurations
+
+{
+  "ConfigurationName": "Business System",
+  "ConfigurationValue": "<Business System Name>"
+}
+```
+
+**Alignment Required With**:
+- DRF business system names (S/4HANA On-Premise)
+- Communication System UI (S/4HANA Cloud)
+- `RecipientBusinessSystemID` in SOAP payloads
 
 ### writePermissions
 
@@ -402,15 +428,23 @@ Direct authentication with username/password plus service instance credentials.
 - SOAP APIs for Product decommissioned
 
 ### 2021
-- SAP One Domain Model adoption
-- Business Partner SOAP support
-- Product distribution models
-- Business Data Orchestration apps:
-  - Manage Data Ownership
-  - Configure Destination Mapping
-  - Display Distribution Status
-  - Manage Business Object Type
-- SAP Data Retention Manager integration
+- **December**: ODM 3.0.0 entities exposed to production
+- **November**: SAP One Domain Model adoption ("MDI is based on the SAP ODM")
+- **November**: Extension fields creation with SOAP mapping for BP services
+- **November**: Destination mapping configuration (MDI ↔ SAP Cloud ALM)
+- **November**: Distribution status monitoring with replication retry
+- **June**: Product replication via distribution models
+- **June**: BP distribution model configuration
+- **May**: BP deletion via SOAP + SAP Data Retention Manager
+- **May**: SOAP API for Business Partner replication
+- **May**: Manage Data Ownership app (system-level ownership assignment)
+- **May**: Cost center filtering + Business Context Manager data category support
+
+**Business Data Orchestration Apps (2021)**:
+- Manage Data Ownership - specify ownership at object type level
+- Configure Destination Mapping - map between MDI and Cloud ALM
+- Display Distribution Status - monitor with retry functionality
+- Manage Business Object Type - extension fields with SOAP mapping
 
 ---
 
