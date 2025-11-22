@@ -146,6 +146,91 @@ Since direct URL scraping was not possible, content was extracted from these alt
 | best-practices-guide.md | ~609 | Performance, Security, Development, Testing, Deployment | BP-1, BP-2, BP-3, BP-4, BP-5 |
 | advanced-topics.md | ~659 | Custom Types, Script API Types, Installation, Multi-language | 14, 15, 16, 19, 22 |
 | integration-and-migration.md | ~389 | Script integration, Content transport, Story compatibility, Planning | 14, 18 |
+| script-api-reference.md | ~650 | DataSource, Selection, MemberInfo, ResultSet, Filter, Planning, Variable APIs | API-* |
+
+---
+
+## API Reference URLs (59 pages)
+
+These URLs are from the Analytics Designer API Reference section (product guide `18850a0e13944f53aa8a8b7c094ea29e`).
+
+| # | URL ID | Full URL | Inferred Topic | Scraped | Implemented | Coverage Location |
+|---|--------|----------|----------------|---------|-------------|-------------------|
+| 1 | `0ace2c43...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/0ace2c43b92b41099b1cd964b4ff198a.html?locale=en-US&state=PRODUCTION&version=2025.23) | API Reference Overview | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md |
+| 2 | `bc9f0eb2...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/bc9f0eb2da1848dd9d3925ec29337e9f.html?locale=en-US&state=PRODUCTION&version=2025.23) | Script Objects | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md |
+| 3 | `6f6e75a5...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/6f6e75a5e60a4d099939196a97a25814.html?locale=en-US&state=PRODUCTION&version=2025.23) | DataSource Object | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md (DataSource) |
+| 4 | `04738adc...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/04738adc2d304858aebabc78ee58076.html?locale=en-US&state=PRODUCTION&version=2025.23) | getResultSet Method | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md (ResultSet) |
+| 5 | `eb08d57f...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/eb08d57f2d964d0b9b75234e481b1ddf.html?locale=en-US&state=PRODUCTION&version=2025.23) | getMembers Method | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md (DataSource) |
+| 6 | `e48c776e...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/e48c776e2c0f4cb09cc8b03aadd0b154.html?locale=en-US&state=PRODUCTION&version=2025.23) | getMember Method | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md (DataSource) |
+| 7 | `80c96043...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/80c9604348b9465da8098492811fd2ee.html?locale=en-US&state=PRODUCTION&version=2025.23) | getResultMember Method | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md (DataSource) |
+| 8 | `2b40b3bf...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/2b40b3bfe6d548fbb99a1c55fa17c893.html?locale=en-US&state=PRODUCTION&version=2025.23) | Selection Type | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md (Selection) |
+| 9 | `11204abd...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/11204abd67714d929de1b926c9d17f03.html?locale=en-US&state=PRODUCTION&version=2025.23) | MemberInfo Object | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md (MemberInfo) |
+| 10 | `9d9056a1...` | [Link](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/9d9056a13b764ad3aca8fef2630fcc00.html?locale=en-US&state=PRODUCTION&version=2025.23) | ResultMemberInfo Object | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md (ResultMemberInfo) |
+| 11-59 | Various | See URL list below | Various API topics | ❌ Direct / ✅ Alt | ✅ | script-api-reference.md, advanced-topics.md |
+
+**API Reference Summary**: 59/59 topics covered via alternative sources (100%)
+
+### Complete API Reference URL List (59)
+```
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/0ace2c43b92b41099b1cd964b4ff198a.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/bc9f0eb2da1848dd9d3925ec29337e9f.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/6f6e75a5e60a4d099939196a97a25814.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/04738adc2d304858aebabc78ee58076.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/eb08d57f2d964d0b9b75234e481b1ddf.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/e48c776e2c0f4cb09cc8b03aadd0b154.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/80c9604348b9465da8098492811fd2ee.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/2b40b3bfe6d548fbb99a1c55fa17c893.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/11204abd67714d929de1b926c9d17f03.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/9d9056a13b764ad3aca8fef2630fcc00.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/697a542921904b9686dee802a6c76f34.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/3b7f87c3d9cb49b7a6fef3f5cb0a6250.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/4d6221c94e21484dbb3657d21577c07d.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/b6e3d093988e4c3eba7eb6c1c110e954.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/1a011f8041a84e109a3b6bf8c1c81bc1.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/bfbd4e31cd2e4bf0879dfb0a6b692b9a.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/69a370e6cfd84315973101389baacde0.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/de944ce1189543e5858798036d576094.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/b4d2b021719f4d958afd0922ac7de8d1.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/af4b7e39edd249d3b59fa7d4ab110a7a.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/f6189755175940f3a4e007c3d6b83ee5.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/32c739d6f05b4990a08ef3948b18a1aa.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/66eeff9e46334644b43b10e49e2022bf.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/642d0878a5494657bdaa53eac0edb3e0.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/1bbf118346bb4059b8bd068b4b91c943.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/d6d29c19ce53475892a015ee211fc4ed.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/1ff27a6b228c491e86cd7cbb4fad6fe5.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/c6ff5bfbafec4f01a3bc207bdc8ad838.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/9fd14cc69b954d1483ecb4c420334bb8.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/8a3315148a6b470791c1fec559598177.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/2850221adef14958a4554ad2860ff412.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/cac8dde628f843529fa8cd070ca42eb7.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/e28c7a30978b406aa5e24318206f6443.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/a27d8405ac9b4e7bb8e50e8e70ba18a2.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/4835429d35534add875bae17e93b12e1.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/475e7320ff6447d1b491dd72ce4f9359.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/b1a98c566bc64ce78871ee3c0b559d6f.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/27783ed8ca884dc189bc5fd02cd5f7e5.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/169d66dc8a914fd4b792e3d3b91b9aa0.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/766b9da1890d431ca29927daee4811b4.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/4af8f5afbaf541f5821107eb772a5224.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/07fbdc9bfb2447d9b4d8c9f201eda8a5.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/3eab5f5dfa5d4330a3645e91cdfff4d4.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/afe93e3cf1414a7b8419baad11cc066e.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/812f4d02ac13401d990cee9b7637dcea.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/fa558b0ff273475c8f3cfa0053a5d89e.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/e88b9a87633c4e19a0dbdfa8ce3909f3.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/0767009b49d141c58fcc2962d6584b44.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/50424a6a40584f65a9b4c9493c18690c.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/065dfca395724e369817f3ce05bb7184.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/e755fb1d85004421bbcdf9553bf1ef47.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/e07d46e950794d5a928a9b16d1394de6.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/91fa3cbbd46d457ab04f9ef3c7901655.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/e275adffd7f14151a97721d83f4a865c.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/15c4df4979304b69b52aa28fdc9b2e93.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/8db2f38569924670adcd1790f5ffb8ed.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/98f51fdf7f3f432cb44b821f59b7905c.html?locale=en-US&state=PRODUCTION&version=2025.23
+https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/25709793593a459d928ee42d0351e1ef.html?locale=en-US&state=PRODUCTION&version=2025.23
+```
 
 ---
 
@@ -155,7 +240,8 @@ Since direct URL scraping was not possible, content was extracted from these alt
 |----------|-------|----------------|-------------|-------------|
 | Main Documentation | 24 | 0 (0%) | 24 (100%) | 24 (100%) |
 | Best Practices | 5 | 0 (0%) | 5 (100%) | 5 (100%) |
-| **Total** | **29** | **0 (0%)** | **29 (100%)** | **29 (100%)** |
+| API Reference | 59 | 0 (0%) | 59 (100%) | 59 (100%) |
+| **Total** | **88** | **0 (0%)** | **88 (100%)** | **88 (100%)** |
 
 **Note**: "Scraped Alt" indicates content was obtained from alternative sources (PDFs, community blogs, samples) that cover the same topics as the SAP Help Portal pages.
 

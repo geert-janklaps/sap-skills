@@ -496,6 +496,7 @@ For detailed templates and examples, see:
 5. **`references/best-practices-guide.md`** - Performance, security, and development guidelines
 6. **`references/advanced-topics.md`** - Custom types, script API types, installation
 7. **`references/integration-and-migration.md`** - Script integration, content transport, story compatibility, planning
+8. **`references/script-api-reference.md`** - DataSource, Selection, MemberInfo, ResultSet, Filter, Planning APIs
 
 ---
 
