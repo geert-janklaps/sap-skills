@@ -554,10 +554,13 @@ See `references/troubleshooting.md` for complete troubleshooting guide.
 | File | Content |
 |------|---------|
 | `references/http-destinations.md` | Complete HTTP destination properties |
+| `references/rfc-destinations.md` | RFC destination properties and pooling |
+| `references/mail-tcp-ldap-destinations.md` | Mail, TCP, LDAP destination configuration |
 | `references/authentication-types.md` | All 17+ authentication configurations |
 | `references/cloud-connector.md` | Cloud Connector setup and configuration |
 | `references/kubernetes-connectivity.md` | Connectivity Proxy and Transparent Proxy |
 | `references/destination-service-api.md` | REST API reference |
+| `references/advanced-configuration.md` | MTA, config.json, chaining, ZTIS |
 | `references/troubleshooting.md` | Common issues and solutions |
 | `templates/destination-http-oauth.json` | HTTP destination with OAuth template |
 | `templates/destination-onpremise.json` | On-premise destination template |

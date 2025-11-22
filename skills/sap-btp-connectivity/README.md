@@ -175,15 +175,18 @@ This skill provides comprehensive knowledge for SAP BTP Connectivity, covering a
 
 ```
 sap-btp-connectivity/
-├── SKILL.md                              # Main skill file
+├── SKILL.md                              # Main skill file (~600 lines)
 ├── README.md                             # This file
 ├── PROGRESS_TRACKING.md                  # Documentation extraction status
 ├── references/
 │   ├── http-destinations.md              # HTTP destination properties
+│   ├── rfc-destinations.md               # RFC destination & pooling
+│   ├── mail-tcp-ldap-destinations.md     # Mail, TCP, LDAP config
 │   ├── authentication-types.md           # All 17+ auth types
 │   ├── cloud-connector.md                # Cloud Connector setup
 │   ├── kubernetes-connectivity.md        # Kubernetes proxies
 │   ├── destination-service-api.md        # REST API reference
+│   ├── advanced-configuration.md         # MTA, chaining, ZTIS
 │   └── troubleshooting.md                # Common issues
 └── templates/
     ├── destination-http-oauth.json       # HTTP destination templates

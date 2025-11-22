@@ -563,6 +563,53 @@ All documentation sourced from official SAP BTP Connectivity Documentation:
 
 ---
 
+### 17. Advanced Configuration (Enhanced Coverage)
+**Files Processed**:
+- `pooling-configuration-7add680.md`
+- `ldap-configuration-best-practices-703a99d.md`
+- `configure-kerberos-f2339d8.md`
+- `create-destinations-using-the-mta-descriptor-8aeea65.md`
+- `use-a-config-json-to-create-or-update-a-destination-service-instance-6816d3c.md`
+- `destination-chaining-08a09f5.md`
+- `predefined-destination-chains-3c82ad5.md`
+- `destination-gateway-dynamic-lookup-of-destinations-6836e00.md`
+- `integration-with-zero-trust-identity-service-ztis-4f7bb27.md`
+- `ias-signed-saml-bearer-assertion-a1ecea9.md`
+- `rule-based-mapping-of-certificates-4f8540f.md`
+- `system-mappings-e933fd9.md`
+- `configure-domain-mappings-for-cookies-b7d257b.md`
+- `service-channels-port-overview-449dbf5.md`
+- `cache-093f280.md`
+- `system-requirements-7e8ebc9.md`
+- `using-the-tcp-protocol-for-cloud-applications-cd15837.md`
+- `mail-destinations-584bc93.md`
+- `set-up-an-application-router-b14eeb9.md`
+- `destination-service-notifications-552e8fd.md`
+
+**Status**: ✅ Completed
+**Key Topics Extracted**:
+- RFC connection pooling configuration
+- LDAP configuration best practices for Cloud Connector
+- Kerberos authentication setup
+- MTA descriptor destination deployment
+- Config.json for destination service instances
+- Destination chaining (IAS SAML, Sequential User Propagation)
+- Dynamic destination lookup via Destination Gateway
+- Zero Trust Identity Service (ZTIS) integration
+- IAS-signed SAML bearer assertion flow
+- Rule-based certificate mapping in ABAP
+- System mappings REST API
+- Domain mappings for cookies
+- Service channels port overview
+- Transparent Proxy cache configuration
+- System requirements and disk space
+- TCP protocol via SOCKS5 proxy
+- Mail destinations (SMTP, IMAP, POP3)
+- Application Router setup for JCo
+- Destination Service notifications
+
+---
+
 ## Coverage Summary
 
 | Section | Files Processed | Status |
@@ -583,9 +630,10 @@ All documentation sourced from official SAP BTP Connectivity Documentation:
 | REST APIs & Configuration | 11 | ✅ |
 | Multitenancy | 4 | ✅ |
 | Scenarios & Use Cases | 10 | ✅ |
+| Advanced Configuration | 20 | ✅ |
 
-**Total Sections**: 16
-**Total Files Analyzed**: 276+ (core documentation)
+**Total Sections**: 17
+**Total Files Analyzed**: 296+ (core documentation)
 **Completion Status**: ✅ Complete
 
 ---
