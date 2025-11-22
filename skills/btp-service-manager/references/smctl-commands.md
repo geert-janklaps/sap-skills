@@ -1,0 +1,519 @@
+# SMCTL Command Reference
+
+Service Manager Control (SMCTL) is the CLI for SAP Service Manager.
+
+**Installation**: https://github.com/Peripli/service-manager-cli/releases/latest
+
+**Documentation**: https://github.com/SAP-docs/btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager
+
+---
+
+## Global Flags
+
+Available on all commands:
+
+| Flag | Description |
+|------|-------------|
+| `--config <path>` | Path to config.json (default: `$HOME/.sm/config.json`) |
+| `-v, --verbose` | Enable verbose output |
+| `-h, --help` | Display help |
+
+---
+
+## Authentication Commands
+
+### smctl login
+
+Authenticate to SAP Service Manager.
+
+**Syntax**:
+```bash
+smctl login [flags]
+```
+
+**Aliases**: `login`, `l`
+
+**Required Flags**:
+| Flag | Description |
+|------|-------------|
+| `-a, --url <url>` | Base URL for SAP Service Manager |
+| `--param subdomain=<value>` | Subaccount subdomain (required) |
+
+**Optional Flags**:
+| Flag | Description |
+|------|-------------|
+| `-u, --user <user>` | User ID |
+| `-p, --password <pass>` | Password |
+| `--auth-flow <flow>` | `password` (default) or `client-credentials` |
+| `--client-id <id>` | Client ID for client-credentials flow |
+| `--client-secret <secret>` | Client secret |
+| `--cert <path>` | Path to certificate file (X.509) |
+| `--key <path>` | Path to private key file (X.509) |
+| `--skip-ssl-validation` | Skip SSL verification (not recommended) |
+
+**Examples**:
+```bash
+# Interactive password login
+smctl login -a https://service-manager.cfapps.eu10.hana.ondemand.com \
+  --param subdomain=my-subaccount
+
+# Client credentials (default)
+smctl login -a https://service-manager.cfapps.eu10.hana.ondemand.com \
+  --param subdomain=my-subaccount \
+  --auth-flow client-credentials \
+  --client-id abc123 \
+  --client-secret xyz789
+
+# Client credentials (X.509)
+smctl login -a https://service-manager.cfapps.eu10.hana.ondemand.com \
+  --param subdomain=my-subaccount \
+  --auth-flow client-credentials \
+  --client-id abc123 \
+  --cert /path/to/cert.pem \
+  --key /path/to/key.pem
+```
+
+**2FA Note**: If 2FA enabled, append passcode to password (e.g., `Password1234` + `5678` = `Password12345678`)
+
+**Session**: Expires after 30 minutes of inactivity.
+
+---
+
+### smctl logout
+
+End current session.
+
+**Syntax**:
+```bash
+smctl logout
+```
+
+---
+
+## Instance Commands
+
+### smctl provision
+
+Create a service instance.
+
+**Syntax**:
+```bash
+smctl provision [name] [offering] [plan] [flags]
+```
+
+**Arguments**:
+| Argument | Description |
+|----------|-------------|
+| `name` | Instance name |
+| `offering` | Service offering name |
+| `plan` | Service plan name |
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-b, --broker-name <name>` | Broker name (if offering name conflicts) |
+| `--mode <mode>` | `sync` or `async` (default: async) |
+| `-c, --parameters <json>` | JSON configuration parameters |
+| `-o, --output <format>` | `json`, `yaml`, or `text` |
+
+**Examples**:
+```bash
+# Basic provisioning (async)
+smctl provision my-instance xsuaa application
+
+# Sync mode
+smctl provision my-instance xsuaa application --mode sync
+
+# With parameters
+smctl provision my-instance hana hdi-shared \
+  -c '{"database_id":"abc-123"}'
+
+# JSON output
+smctl provision my-instance xsuaa application -o json
+```
+
+---
+
+### smctl deprovision
+
+Delete a service instance.
+
+**Syntax**:
+```bash
+smctl deprovision [name] [flags]
+```
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-f, --force` | Delete without confirmation |
+| `-id <id>` | Instance ID (if name not unique) |
+| `--mode <mode>` | `sync` or `async` (default: async) |
+
+**Examples**:
+```bash
+# Interactive deletion
+smctl deprovision my-instance
+
+# Force delete (no confirmation)
+smctl deprovision my-instance -f
+
+# Sync mode
+smctl deprovision my-instance --mode sync -f
+```
+
+---
+
+### smctl list-instances
+
+List all service instances.
+
+**Syntax**:
+```bash
+smctl list-instances [flags]
+```
+
+**Aliases**: `list-instances`, `li`
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-o, --output <format>` | `json`, `yaml`, or `text` |
+
+**Output columns**: ID, Name, Service Plan, Platform, Created, Updated, Ready, Usable, Labels
+
+---
+
+### smctl get-instance
+
+Get details of a specific instance.
+
+**Syntax**:
+```bash
+smctl get-instance [name] [flags]
+```
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-id <id>` | Instance ID (if name not unique) |
+| `-o, --output <format>` | `json`, `yaml`, or `text` |
+
+---
+
+## Binding Commands
+
+### smctl bind
+
+Create a service binding.
+
+**Syntax**:
+```bash
+smctl bind [instance-name] [binding-name] [flags]
+```
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `--mode <mode>` | `sync` or `async` (default: async) |
+| `-c, --parameters <json>` | JSON configuration |
+| `-id <id>` | Instance ID (if name not unique) |
+| `-o, --output <format>` | `json`, `yaml`, or `text` |
+
+**Examples**:
+```bash
+# Basic binding
+smctl bind my-instance my-binding
+
+# With X.509 credentials
+smctl bind my-instance my-binding -c '{"credential-type":"x509"}'
+
+# X.509 with custom validity
+smctl bind my-instance my-binding -c '{
+  "credential-type": "x509",
+  "key-length": 4096,
+  "validity-type": "MONTHS",
+  "validity": 6
+}'
+
+# Sync mode
+smctl bind my-instance my-binding --mode sync
+```
+
+**X.509 Parameters**:
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `credential-type` | - | Set to `x509` for certificate auth |
+| `key-length` | 2048 | Private key length in bytes |
+| `validity-type` | DAYS | `DAYS`, `MONTHS`, or `YEARS` |
+| `validity` | 7 | Number of validity units |
+
+---
+
+### smctl unbind
+
+Delete a service binding.
+
+**Syntax**:
+```bash
+smctl unbind [instance-name] [binding-name] [flags]
+```
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-f, --force` | Delete without confirmation |
+| `--mode <mode>` | `sync` or `async` (default: async) |
+| `-id <id>` | Binding ID (if name not unique) |
+
+---
+
+### smctl list-bindings
+
+List all service bindings.
+
+**Syntax**:
+```bash
+smctl list-bindings [flags]
+```
+
+**Aliases**: `list-bindings`, `lsb`
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-o, --output <format>` | `json`, `yaml`, or `text` |
+
+---
+
+### smctl get-binding
+
+Get details of a specific binding (includes credentials).
+
+**Syntax**:
+```bash
+smctl get-binding [name] [flags]
+```
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-id <id>` | Binding ID (if name not unique) |
+| `-o, --output <format>` | `json`, `yaml`, or `text` |
+
+---
+
+## Broker Commands
+
+### smctl register-broker
+
+Register a service broker.
+
+**Syntax**:
+```bash
+smctl register-broker [name] [url] <description> [flags]
+```
+
+**Aliases**: `register-broker`, `rb`
+
+**Required Flags**:
+| Flag | Description |
+|------|-------------|
+| `-b, --basic <user:pass>` | Basic auth credentials |
+
+**Optional Flags**:
+| Flag | Description |
+|------|-------------|
+| `-o, --output <format>` | `json`, `yaml`, or `text` |
+
+**Example**:
+```bash
+smctl register-broker my-broker https://broker.example.com "My broker" \
+  -b admin:password123
+```
+
+---
+
+### smctl update-broker
+
+Update a registered broker.
+
+**Syntax**:
+```bash
+smctl update-broker [name] [flags]
+```
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `--url <url>` | New broker URL |
+| `-b, --basic <user:pass>` | New credentials |
+| `--description <desc>` | New description |
+
+---
+
+### smctl list-brokers
+
+List all registered brokers.
+
+**Syntax**:
+```bash
+smctl list-brokers [flags]
+```
+
+---
+
+### smctl delete-broker
+
+Delete a registered broker.
+
+**Syntax**:
+```bash
+smctl delete-broker [name] [flags]
+```
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-f, --force` | Delete without confirmation |
+
+---
+
+## Platform Commands
+
+### smctl register-platform
+
+Register a platform.
+
+**Syntax**:
+```bash
+smctl register-platform [name] [type] <description> [flags]
+```
+
+**Aliases**: `register-platform`, `rp`
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-i, --id <id>` | Custom platform ID (auto-generated if omitted) |
+| `-o, --output <format>` | `json`, `yaml`, or `text` |
+
+**Example**:
+```bash
+smctl register-platform my-k8s-cluster kubernetes "Production K8s cluster"
+```
+
+---
+
+### smctl update-platform
+
+Update a registered platform.
+
+**Syntax**:
+```bash
+smctl update-platform [name] [flags]
+```
+
+---
+
+### smctl list-platforms
+
+List all registered platforms.
+
+**Syntax**:
+```bash
+smctl list-platforms [flags]
+```
+
+---
+
+### smctl delete-platform
+
+Unregister a platform.
+
+**Syntax**:
+```bash
+smctl delete-platform [name] [flags]
+```
+
+---
+
+## Marketplace Commands
+
+### smctl marketplace
+
+List available service offerings and plans.
+
+**Syntax**:
+```bash
+smctl marketplace [flags]
+```
+
+**Aliases**: `marketplace`, `m`
+
+**Flags**:
+| Flag | Description |
+|------|-------------|
+| `-s, --service <name>` | Show plans for specific service |
+| `-o, --output <format>` | `json`, `yaml`, or `text` |
+
+**Examples**:
+```bash
+# List all offerings
+smctl marketplace
+
+# List plans for specific service
+smctl marketplace -s xsuaa
+```
+
+---
+
+## Status Commands
+
+### smctl status
+
+Check async operation status.
+
+**Syntax**:
+```bash
+smctl status <operation-url>
+```
+
+**Example**:
+```bash
+# After async provision
+smctl status /v1/service_instances/abc-123/operations/op-456
+```
+
+---
+
+## Other Commands
+
+### smctl help
+
+Display help for any command.
+
+**Syntax**:
+```bash
+smctl help [command]
+smctl [command] --help
+```
+
+### smctl info
+
+Display current session information.
+
+**Syntax**:
+```bash
+smctl info
+```
+
+---
+
+## Documentation Links
+
+- **Installation**: https://github.com/SAP-docs/btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/installing-the-service-manager-control-smctl-command-line-tool-93532bd.md
+- **Login**: https://github.com/SAP-docs/btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/login-a8ed7cf.md
+- **Provision**: https://github.com/SAP-docs/btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/provision-b327b66.md
+- **Bind**: https://github.com/SAP-docs/btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/bind-f53ff26.md
+- **GitHub Releases**: https://github.com/Peripli/service-manager-cli/releases
