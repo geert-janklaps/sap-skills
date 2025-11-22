@@ -6,6 +6,57 @@ SAP Cloud Application Programming Model (CAP) is SAP's recommended framework for
 
 ## Operational Profiles
 
+CAP provides three operational profiles for different development stages:
+
+### Development Profile
+
+**Database**: SQLite (Node.js) / H2 (Java)
+
+**Features:**
+- Rapid prototyping with minimal setup
+- Mocked variants of SAP BTP services (authentication, database, messaging, app gateway)
+- No BTP subscription required
+- Cost-effective testing
+
+**Usage:**
+```bash
+cds watch  # Automatically uses development profile
+```
+
+### Hybrid Profile
+
+**Database**: Cloud services (e.g., SAP HANA Cloud)
+
+**Features:**
+- Run application locally
+- Bind to real cloud services for integration testing
+- Use `cds bind` or local configuration files
+- Test with production-like data
+
+**Usage:**
+```bash
+cds bind --to hana:my-hana-instance
+cds watch --profile hybrid
+```
+
+### Production Profile
+
+**Database**: SAP HANA Cloud
+
+**Features:**
+- Deployed to SAP BTP (Cloud Foundry or Kyma)
+- Platform-managed service bindings
+- Production configuration for logging and security
+- Database migrations via `cds deploy`
+
+**Usage:**
+```bash
+cds build --production
+cf deploy mta_archives/my-app.mtar
+```
+
+### Profile Summary
+
 | Profile | Database | Use Case |
 |---------|----------|----------|
 | Development | SQLite/H2 | Local prototyping, mock services |

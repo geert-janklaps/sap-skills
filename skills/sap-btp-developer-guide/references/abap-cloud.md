@@ -22,6 +22,52 @@ ABAP Cloud is SAP's cloud-ready development model for building extensible, maint
 - ABAP Unit - Dynamic testing
 - SAP Fiori Launchpad - UI deployment
 
+## Application Development Process
+
+### 6-Step Development Workflow
+
+| Step | Activity | Details |
+|------|----------|---------|
+| 1 | **Model the Domain** | Define domain-specific data models aligned with RAP architecture |
+| 2 | **Implement Business Behavior** | Add validations, determinations, actions, consistency management |
+| 3 | **Expose Services** | Define and bind services via OData |
+| 4 | **Secure Access** | Configure authorization, assign proper scopes and roles |
+| 5 | **Build the UI** | Develop SAP Fiori applications consuming services |
+| 6 | **Ensure Quality** | Add automated tests and static checks |
+
+### Development Approaches
+
+**Develop from Scratch:**
+- Build new applications and services using RAP blueprint
+- Domain-specific data models with extensibility built-in
+
+**Extend Existing Services:**
+- Extend SAP or custom services in upgrade-safe way
+- Opt-in extensibility: original data models must explicitly enable each option
+
+### S/4HANA Extension Options
+
+| Type | Description | Use Case |
+|------|-------------|----------|
+| **On-Stack** | Extensions run within S/4HANA Cloud, share database and lifecycle | Tight integration, key-user extensibility (low-code), developer extensibility (pro-code) |
+| **Side-by-Side** | Extensions run on SAP BTP with separate runtime and lifecycle | Loosely coupled solutions, partner offerings, hub scenarios |
+
+### Test Strategy
+
+**Automated Testing** is essential for reliability, stability, and quality:
+
+- **Unit Tests**: ABAP Unit for functional correctness
+- **Integration Tests**: Cross-component validation
+- **Static Analysis**: ABAP Test Cockpit (ATC)
+
+### Development Recommendations
+
+1. Connect ABAP Cloud systems to Eclipse with ABAP Development Tools
+2. Build OData services using RAP optimized for SAP HANA Cloud
+3. Perform static code analysis with ATC including Code Vulnerability Analyzer
+4. Use central ATC on SAP BTP for custom code governance
+5. Leverage the Analyze Custom Code application for code inspection
+
 ## Model-Driven Architecture
 
 ### Three-Tier Structure

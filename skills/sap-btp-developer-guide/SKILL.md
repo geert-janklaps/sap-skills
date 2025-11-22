@@ -24,6 +24,8 @@ Use when:
 
 ## Runtime and Programming Model Selection
 
+For detailed runtime comparison: See `references/runtimes.md`
+
 ### Decision Matrix
 
 | Criteria | CAP (Cloud Foundry/Kyma) | ABAP Cloud |

@@ -83,24 +83,64 @@ SAP BTP provides deployment options for partners (ISVs) to build and deliver ABA
 
 ### Poetry Slam Manager
 
-**Type**: Reference application for multitenant SaaS
+**Type**: Reference application for multitenant CAP SaaS
 
-**GitHub**: https://github.com/SAP-samples/partner-reference-application
-
-**Demonstrates:**
-- Multitenant architecture
-- Subscription lifecycle
-- Cost optimization
-- Best practices
-
-### Catering Management Extension
-
-**Type**: Customer extension reference
+**GitHub**: https://github.com/SAP-samples/partner-reference-application/
 
 **Demonstrates:**
-- Tenant-specific extensions
-- Key user extensibility
-- Integration patterns
+- Full-stack cloud applications using SAP Cloud Application Programming Model (CAP)
+- Multitenant architecture aligned with SAP BTP Developer's Guide
+- ERP-agnostic design (compatible with S/4HANA Cloud, Business One, Business ByDesign)
+- Subscription lifecycle management
+- Cost optimization patterns
+
+**Tutorial Structure:**
+1. Core application development (business models, logic)
+2. Enhancement to multitenant (multi-customer) solutions
+3. ERP backend integration
+4. Feature expansion
+5. Application extension
+
+**Bill of Materials**: Complete service list at https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/01-BillOfMaterials.md
+
+### Partner Reference Application Extension
+
+**Type**: Customer-specific extension example
+
+**GitHub**: https://github.com/SAP-samples/partner-reference-application-extension
+
+**Demonstrates:**
+- Enhanced catering management capabilities
+- Seamless base application integration
+- Granular tenant-specific configurations
+- Consistent UX across extended and core features
+- Secure multitenant architecture with data isolation
+
+## ABAP Partner Development
+
+### Music Festival Manager
+
+**Type**: Reference application for multitenant ABAP SaaS
+
+**GitHub**: Partner Reference Application on GitHub
+
+**Demonstrates:**
+- Full-stack ABAP Cloud development using RAP
+- Scalable, multitenant architecture
+- SAP BTP Developer's Guide best practices
+- ERP-agnostic design (side-by-side extensions)
+- Compatibility with any SAP solution including S/4HANA Cloud ERP
+
+**Tutorial Structure:**
+1. **Core Application Development**: Business models, logic, UI, authentication, role-based authorization
+2. **Deployment & Provisioning**: Building and deploying to consumers
+3. **SAP S/4HANA Cloud Integration**: Connecting with enterprise systems
+4. **Feature Enhancement**: Expanding application capabilities
+
+**Key Features:**
+- Uses ABAP RESTful Application Programming Model (RAP)
+- Leverages SAP BTP services for enterprise-class standards
+- Enables focus on business logic and domain functionality
 
 ## Cost Estimation
 

@@ -159,26 +159,55 @@ SAP BTP provides structured learning paths through missions and tutorials, cover
 
 ## Partner Tutorials
 
-### Poetry Slam Manager
+### Poetry Slam Manager (CAP)
 
-**Type**: Reference application for multitenant SaaS
+**Type**: Reference application for multitenant CAP SaaS
 
-**GitHub**: Available with accompanying tutorials
+**GitHub**: https://github.com/SAP-samples/partner-reference-application/
 
-**Topics:**
-- Multitenant architecture
-- Partner deployment
+**Tutorial Coverage:**
+1. Core application development (business models, logic)
+2. Enhancement to multitenant (multi-customer) solutions
+3. ERP backend integration (S/4HANA Cloud, Business One, Business ByDesign)
+4. Feature expansion
+5. Application extension
+
+**Key Topics:**
+- Full-stack CAP development
+- ERP-agnostic design
 - Cost optimization
+- Subscription lifecycle
 
-### Catering Management Extension
+**Bill of Materials**: https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/01-BillOfMaterials.md
 
-**Type**: Customer extension example
+### Music Festival Manager (ABAP)
 
-**GitHub**: Available with tutorials
+**Type**: Reference application for multitenant ABAP SaaS
+
+**GitHub**: Partner Reference Application on GitHub
+
+**Tutorial Coverage:**
+1. **Core Application Development**: Business models, logic, UI, authentication, role-based authorization
+2. **Deployment & Provisioning**: Building and deploying to consumers
+3. **SAP S/4HANA Cloud Integration**: Connecting with enterprise systems
+4. **Feature Enhancement**: Expanding application capabilities
+
+**Key Topics:**
+- Full-stack ABAP Cloud development using RAP
+- Scalable multitenant architecture
+- SAP BTP Developer's Guide best practices
+
+### Partner Reference Application Extension
+
+**Type**: Customer-specific extension example
+
+**GitHub**: https://github.com/SAP-samples/partner-reference-application-extension
 
 **Topics:**
-- Tenant-specific extensions
+- Enhanced catering management capabilities
+- Tenant-specific configurations
 - Key user extensibility
+- Base application integration
 
 ## Learning Resources
 

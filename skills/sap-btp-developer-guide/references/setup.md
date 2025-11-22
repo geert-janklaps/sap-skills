@@ -265,6 +265,43 @@ terraform destroy -var-file="dev.tfvars"
 3. Assign role collections
 4. Configure IdP trust (optional)
 
+## ABAP System Landscape Setup
+
+### Recommended Landscapes
+
+Start with only needed systems. Additional systems can be provisioned later.
+
+**3-System Landscape (DEV, QAS, PRD)**
+- Recommended for most projects
+- Suitable when development is occasional or release cycles are less frequent
+- Enables testing outside development
+- Verifies application behavior before production
+
+**5-System Landscape (DEV, COR, TST, QAS, PRD)**
+- Appropriate for larger teams with continuous development
+- Enables parallel correction handling
+- Supports uninterrupted development work
+
+### Sizing Specifications
+
+**Production Capacity:**
+- 1 ACU can serve up to **1,000 active business users per day**
+
+**Recommended Minimum Starting Configuration:**
+
+| Resource | Size | Memory |
+|----------|------|--------|
+| ABAP Compute Units (ACU) | 1 | 16 GB |
+| HANA Compute Units (HCU) | 2 | 32 GB total |
+
+**Scaling Options:**
+- Manual scaling via SAP BTP Cockpit
+- Automatic runtime scaling (Release 2402+) requires consumption-based contract
+
+**Cost Optimization:**
+- Use system hibernation for DEV, COR, TST systems during inactive periods
+- Reduces costs significantly when systems not in use
+
 ## Best Practices
 
 ### Account Structure
