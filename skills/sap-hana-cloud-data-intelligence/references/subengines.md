@@ -282,9 +282,11 @@ operator.logger.error("Error message");
 ```javascript
 // Large integers may lose precision
 // Use BigInt for int64 values
+const { Operator } = require("@sap/vflow-sub-node-sdk");
+const operator = Operator.getInstance();
 
-$.setPortCallback("input", function(ctx, msg) {
-    var value = BigInt(msg.body.largeNumber);
+operator.getInPort("input").onMessage((ctx) => {
+    const value = BigInt(ctx.body.largeNumber);
     // Process safely
 });
 ```
