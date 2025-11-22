@@ -21,9 +21,9 @@
       "$comment_optional": "Optional OAuth Properties",
       "scope": "read write",
 
-      "$comment_timeouts": "Optional Timeout Settings",
-      "URL.connectionTimeoutInSeconds": "30",
-      "URL.socketReadTimeoutInSeconds": "60"
+      "$comment_timeouts": "Optional Timeout Settings (numeric values)",
+      "URL.connectionTimeoutInSeconds": 30,
+      "URL.socketReadTimeoutInSeconds": 60
     },
     {
       "$comment": "======== OAUTH2 SAML BEARER (USER PROPAGATION) ========",

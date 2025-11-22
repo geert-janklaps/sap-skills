@@ -357,6 +357,14 @@ ldap.group.search.filter = (&(objectClass=group)(member={0}))
   - `scc-support` → Monitoring only
   - `scc-display` → Read-only access
 
+### TLS Certificate Validation (Production)
+
+For production LDAPS deployments, ensure proper certificate handling:
+- Import LDAP server certificate to Cloud Connector truststore
+- Validate certificate chain (root CA → intermediate → server)
+- Monitor certificate expiration dates
+- Consider OCSP/CRL checking for revocation status
+
 ---
 
 ## Named Cloud Connector Users

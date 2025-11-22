@@ -482,6 +482,8 @@ Reduce load on failing dependencies:
 
 | Code | Cause | Solution |
 |------|-------|----------|
+| **400** | Malformed request | Check request syntax and parameters |
+| **401** | Authentication failure | Verify credentials or token validity |
 | **405** | HTTPS instead of HTTP | Use `http://` with port 20003 |
 | **407** | Missing authorization | Add `Proxy-Authorization: Bearer <token>` |
 | **503** | Cloud Connector offline | Check CC connection and Location ID |

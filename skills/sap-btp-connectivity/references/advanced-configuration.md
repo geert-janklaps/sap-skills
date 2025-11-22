@@ -12,7 +12,7 @@ Deploy destinations via Multi-Target Application (MTA) descriptors.
 
 **mta.yaml Structure:**
 ```yaml
-_schema-version: "3.1"
+_schema-version: "3.2"
 ID: my-mta-app
 version: 1.0.0
 
@@ -112,7 +112,7 @@ resources:
   "Type": "HTTP",
   "URL": "https://api.example.com",
   "Authentication": "OAuth2SAMLBearerAssertion",
-  "x_]chain_name": "com.sap.iasGeneratedOAuth2SamlBearerAssertion",
+  "x_chain_name": "com.sap.iasGeneratedOAuth2SamlBearerAssertion",
   "x_chain_var_saml_provider": "ias-saml-provider"
 }
 ```

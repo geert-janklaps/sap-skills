@@ -90,7 +90,9 @@ Username: Administrator
 Password: manage
 ```
 
-**Critical**: Change password immediately after first login.
+**CRITICAL SECURITY REQUIREMENT**: Change password immediately after first login.
+
+⚠️ **Do not proceed with subaccount configuration until the default password is changed.**
 
 ### Setup Wizard
 
@@ -219,6 +221,14 @@ Password: manage
 4. When Master recovers, manual switchback may be needed
 
 **Warning**: Network issues between Master and Shadow can cause split-brain scenarios.
+
+**Split-Brain Recovery**:
+1. Stop both instances immediately
+2. Check logs to identify which instance was most recently active
+3. Designate one as Master, one as Shadow
+4. Clear state on the Shadow instance if needed
+5. Restart both in correct roles (Master first)
+6. Verify configuration sync completes successfully
 
 ---
 

@@ -90,16 +90,23 @@ Configure in ABAP transaction `CERTRULE`:
 | **User Field** | Field to extract | `CN` |
 | **User Mapping** | How to resolve user | `Direct` or `Alias` |
 
-**Example Rules**:
+**Example Rules (Transaction CERTRULE)**:
 
 ```
-# Direct mapping from CN
-Subject: CN=${USER}, OU=SCC
-User: ${USER}
+# Rule 1: Direct mapping from CN attribute
+Certificate Attribute: CN (Common Name)
+Login As: ABAP User
+Mapping: CN value maps directly to SAP user ID
 
-# Email-based mapping
-Subject: EMAIL=${EMAIL}
-User: Resolve via SM30 table
+# Rule 2: Email-based mapping via SubjectAlternativeName
+Certificate Attribute: SubjectAlternativeName (Email)
+Login As: Alias
+Mapping: Email address maps to user alias in table USR02
+
+# Rule 3: OU-based filtering with CN mapping
+Subject Filter: OU=Cloud Connector
+Certificate Attribute: CN
+Login As: ABAP User
 ```
 
 ### Short-Term vs Long-Term Certificates

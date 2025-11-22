@@ -264,7 +264,10 @@ When certificate login enabled, username/password fields hidden.
   "audience": "www.successfactors.com",
   "apiKey": "<API-Key-from-SF>",
   "companyId": "<company-id>",
-  "tokenServiceURL": "https://<sf-api>.successfactors.com/oauth/token"
+  "clientKey": "<client-key-from-sf-oauth>",
+  "tokenServiceUrl": "https://<sf-api>.successfactors.com/oauth/token",
+  "tokenServiceUser": "<token-service-user>",
+  "tokenServicePassword": "<token-service-password>"
 }
 ```
 

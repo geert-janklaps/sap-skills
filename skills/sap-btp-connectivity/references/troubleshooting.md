@@ -437,12 +437,12 @@ kubectl get networkpolicies -n <namespace>
 
 ### SAP Support Components
 
-| Component | Support Component |
-|-----------|-------------------|
-| Cloud Connector | BC-NEO-CON |
-| Destination Service | BC-NEO-CON-DEST |
-| Connectivity Proxy | BC-CP-CF-CON-PROXY |
-| Transparent Proxy | BC-CP-CF-CON-PROXY |
+| Component | Support Component | Notes |
+|-----------|-------------------|-------|
+| Cloud Connector | BC-MID-SCC | Multi-cloud middleware |
+| Destination Service | BC-CP-DEST | CF variant: BC-CP-DEST-CF |
+| Connectivity Proxy | BC-CP-CON | CF variant: BC-CP-CON-CF |
+| Transparent Proxy | BC-CP-CON / BC-CP-DEST | No separate component |
 
 ### Information to Collect
 
