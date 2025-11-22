@@ -49,7 +49,12 @@ Required when applications export content directly to TMS.
 
 ### 2. MTA Deployment on Cloud Foundry - Basic Authentication
 
-**Limitation**: Only works with SAP ID users. Does NOT work with custom IAS tenant users.
+**Identity Provider Support**:
+- **Default**: Authenticates against SAP Identity Service (SAP ID users only)
+- **Custom IAS Tenant**: Can be enabled by SAP upon request
+  - When enabled: Supports only **local IAS-managed users**
+  - Does **NOT** support federated users (users from corporate identity providers)
+  - Contact SAP Support to enable custom IAS tenant authentication
 
 | Field | Value | Notes |
 |-------|-------|-------|

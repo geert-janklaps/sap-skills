@@ -227,7 +227,7 @@ Three roles support restricting operations to specific transport nodes.
 
 **Storage**: Archives and MTA extension descriptors are **NOT encrypted** by persistency layer
 
-**Mitigation**: Archives are only temporarily persisted and deleted after transport completion
+**Mitigation**: Archives are only temporarily persisted and deleted after the configured file retention period (7-30 days depending on plan) has elapsed since the transport reached a final status (Deleted, Error, Skipped, Succeeded, Warning). See Storage Management in administration.md for retention details.
 
 ---
 

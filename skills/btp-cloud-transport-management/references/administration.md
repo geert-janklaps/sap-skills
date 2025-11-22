@@ -195,6 +195,8 @@ Transport Action Logs > Settings (gear icon) > Configure Archiving Settings
 
 ## Storage Management
 
+> **Cross-reference**: For storage capacity impact on import operations, see `import-operations.md` → Storage Capacity section.
+
 ### Capacity Limits
 
 | Plan | Total Capacity | File Limit | Default Retention |

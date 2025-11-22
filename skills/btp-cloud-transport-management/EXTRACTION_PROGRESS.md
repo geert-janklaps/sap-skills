@@ -1,5 +1,7 @@
 # BTP Cloud Transport Management - Documentation Extraction Progress
 
+> **Note**: This is a meta-document for tracking extraction progress. It is not intended to be used as a skill reference file. The extracted content is organized in SKILL.md and the files in the `references/` directory.
+
 **Source Repository**: https://github.com/SAP-docs/btp-cloud-transport-management/tree/main/docs
 **Extraction Date**: 2025-11-22
 **Status**: Complete
@@ -215,7 +217,7 @@
 - **Integrations**: https://github.com/SAP-docs/btp-cloud-transport-management/tree/main/docs/70-integrations
 
 ### API Reference
-- **SAP Business Accelerator Hub**: https://api.sap.com/package/TmsForCloudFoundry/rest
+- **SAP Business Accelerator Hub**: https://api.sap.com/package/TmsForCloudPub/rest
 
 ---
 

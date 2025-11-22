@@ -416,6 +416,56 @@ DEV-B ──route2──>
 
 ---
 
+## Import Failure Scenarios
+
+Understanding how failures propagate through the landscape helps in troubleshooting and recovery.
+
+### Failure Impact by Forward Mode
+
+| Forward Mode | On Import Failure | Impact on Downstream Nodes |
+|--------------|-------------------|---------------------------|
+| Pre-Import | Failure after forwarding | Request already in downstream queues (Initial status) |
+| Post-Import | Failure before forwarding | Request NOT forwarded; stays in current queue only |
+| On Success | Failure prevents forwarding | Request NOT forwarded; downstream unaffected |
+| Manual | N/A (user controls) | User decides when/whether to forward |
+
+### Recovery Actions
+
+| Scenario | Action | Result |
+|----------|--------|--------|
+| Import failed, request in downstream queues | Fix issue, re-import current node | Downstream nodes unaffected; import when ready |
+| Import failed, request NOT forwarded | Fix issue, re-import, forward manually (if Manual mode) | Request propagates after successful import |
+| Persistent failure | Reset to Repeatable status | Allows retry; original file must exist (within retention) |
+
+### Cascade Failure Prevention
+
+**Recommendation**: Use **On Success** forward mode for production-critical landscapes to prevent partially deployed content from reaching downstream nodes.
+
+---
+
+## Topology Pattern Decision Guide
+
+Select topology based on organizational and deployment requirements.
+
+### When to Use Each Pattern
+
+| Pattern | Use When | Avoid When |
+|---------|----------|------------|
+| **Two-Node (DEV→PROD)** | Small teams, rapid deployment, non-critical apps | Regulatory compliance required, need testing stage |
+| **Three-Node (DEV→TEST→PROD)** | Standard enterprise deployment, quality gates needed | Very small projects, time-critical hotfixes |
+| **Star/Hub (Hub→Multiple Targets)** | Multi-region deployment, centralized control | Independent regional teams, different release cycles |
+| **Multi-Source** | Multiple dev teams, feature branches | Need strict order of deployment, interdependent features |
+
+### Topology Selection Criteria
+
+1. **Regulatory Requirements**: Add TEST/QA nodes for audit trails
+2. **Team Structure**: Multi-source for independent teams
+3. **Geographic Distribution**: Star topology for multi-region
+4. **Release Cadence**: Simpler topology for faster releases
+5. **Risk Tolerance**: More nodes = more validation gates
+
+---
+
 ## Documentation Links
 
 - Configuring Landscape: https://github.com/SAP-docs/btp-cloud-transport-management/blob/main/docs/20-configure-landscape/configuring-the-landscape-3e7b042.md

@@ -236,6 +236,17 @@ Enable per node - immediately processes all importable requests and triggers on 
 
 ## Troubleshooting
 
+### Quick Reference: Common Errors
+
+| Error | Likely Cause | Quick Fix |
+|-------|--------------|-----------|
+| `Not Found` | Wrong CF domain | Match domain to `cf api` output |
+| `Not Found` | Unencoded special chars | Use space GUID: `cf space <name> --guid` |
+| `Forbidden` | Missing SpaceDeveloper | Add role in BTP Cockpit or CF CLI |
+| `Forbidden` | Wrong IdP | Use OAuth2Password with `origin` property |
+| Connection refused (ABAP) | Wrong URL pattern | Verify `SAP_COM_0948` communication arrangement URL |
+| Import stuck | Non-final status | Check Transport Action Logs for root cause |
+
 ### MTA Deployment Errors
 
 **Error**: `Not Found` during deployment
@@ -258,6 +269,14 @@ Enable per node - immediately processes all importable requests and triggers on 
 *Solutions*:
 - Verify user roles: `cf space-users <org> <space>`
 - Use OAuth2Password auth for custom IdP users
+
+### SAP Support
+
+**Component**: `BC-CP-LCM-TMS` (Transport Management for application content)
+
+**Required for incidents**: Region, subaccount ID, reproduction steps, transport action logs, screenshots
+
+For detailed troubleshooting steps, error catalogs by content type, and support procedures, see `references/troubleshooting.md`.
 
 ## Security
 
@@ -318,7 +337,7 @@ For detailed configuration procedures, see the reference files:
 
 - **GitHub Docs**: https://github.com/SAP-docs/btp-cloud-transport-management
 - **SAP Help Portal**: https://help.sap.com/docs/cloud-transport-management
-- **API Reference**: https://api.sap.com/package/TmsForCloudFoundry/rest
+- **API Reference**: https://api.sap.com/package/TmsForCloudPub/rest
 
 ---
 

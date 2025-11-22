@@ -239,6 +239,34 @@ Immediate processing of all importable requests when new requests arrive.
 | Deleted | Deleted from all queues |
 | Archived | Cleaned up by retention policy |
 
+### Lifecycle Status Transitions
+
+```
+                    ┌─────────────┐
+                    │  Modifiable │ ← Created
+                    └──────┬──────┘
+                           │ Test (optional)
+                           ▼
+                    ┌─────────────┐
+                    │   Released  │ ← After Release or direct export
+                    └──────┬──────┘
+                           │ Delete from all queues
+                           ▼
+                    ┌─────────────┐
+                    │   Deleted   │
+                    └──────┬──────┘
+                           │ Retention period expires
+                           ▼
+                    ┌─────────────┐
+                    │   Archived  │
+                    └─────────────┘
+```
+
+**Key Points**:
+- Modifiable → Released: Occurs on **Release** action or when first exported via API
+- Released → Deleted: Only when removed from **all** import queues
+- Deleted → Archived: Automatic after retention period (7-30 days)
+
 ---
 
 ## Transport Request Details View
@@ -317,6 +345,18 @@ Allow efficient management of multiple files in a single request.
    - **Content Type**: Must match source node
    - **Description**: Request details
 3. Select **Create** (creates empty request)
+
+### "Upload in Source Node" Decision Table
+
+| Scenario | Upload in Source Node | Result |
+|----------|----------------------|--------|
+| Need to deploy in DEV first, then promote | ✓ Checked | Content imports to DEV, then forwards to TEST/PROD |
+| Content already deployed in DEV, need to sync TEST/PROD | ☐ Unchecked | Content skips DEV, goes directly to follow-on nodes |
+| Hotfix that needs to reach production ASAP | ☐ Unchecked | Bypasses source node; use with caution |
+| Standard development flow (DEV→TEST→PROD) | ✓ Checked | Full pipeline deployment |
+| CI/CD pipeline deploying pre-tested artifacts | ☐ Unchecked | Artifacts already validated; direct promotion |
+
+**Important**: When unchecked, the source node serves only as the entry point; no import occurs there.
 
 ### Add Files
 
@@ -524,6 +564,8 @@ Temporarily prevent imports in a transport node.
 ---
 
 ## Storage Capacity
+
+> **Cross-reference**: For storage administration, retention configuration, and freeing space, see `administration.md` → Storage Management section.
 
 ### Limits by Plan
 

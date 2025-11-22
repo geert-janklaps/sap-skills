@@ -166,7 +166,7 @@ SAP Cloud Transport Management integrates with development and change management
 - **Cloud Transport Management API**: Full transport operations
 - **Cloud Transport Management Version Endpoint API**: Version information
 
-**Reference**: https://api.sap.com/package/TmsForCloudFoundry/rest
+**Reference**: https://api.sap.com/package/TmsForCloudPub/rest
 
 ---
 
@@ -306,4 +306,4 @@ SAP Cloud Transport Management integrates with development and change management
 
 - Integrating the Service: https://github.com/SAP-docs/btp-cloud-transport-management/blob/main/docs/70-integrations/integrating-the-service-7e966f7.md
 - Alert Notifications: https://github.com/SAP-docs/btp-cloud-transport-management/blob/main/docs/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md
-- API Reference: https://api.sap.com/package/TmsForCloudFoundry/rest
+- API Reference: https://api.sap.com/package/TmsForCloudPub/rest

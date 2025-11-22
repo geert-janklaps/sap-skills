@@ -149,7 +149,7 @@ btp-cloud-transport-management/
 
 - **GitHub**: https://github.com/SAP-docs/btp-cloud-transport-management
 - **SAP Help Portal**: https://help.sap.com/docs/cloud-transport-management
-- **API Reference**: https://api.sap.com/package/TmsForCloudFoundry/rest
+- **API Reference**: https://api.sap.com/package/TmsForCloudPub/rest
 
 ## Coverage
 
