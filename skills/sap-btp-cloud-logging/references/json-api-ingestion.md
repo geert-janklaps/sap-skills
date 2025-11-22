@@ -9,13 +9,17 @@
 
 SAP Cloud Logging supports document ingestion via JSON API endpoint as an alternative to OpenTelemetry format. The service uses mTLS authentication for secure data transmission.
 
+**Security Notice:** Review SAP BTP Security Recommendation **BTP-CLS-0003** before implementation.
+
 ---
 
 ## Index Pattern
 
-| Data Type | Index Pattern |
-|-----------|---------------|
-| JSON API Logs | `logs-json-*` |
+| Data Type | Index Pattern | Regex Pattern |
+|-----------|---------------|---------------|
+| JSON API Logs | `logs-json-*` | `logs-json-.*` |
+
+**Note:** Use the regex pattern `logs-json-.*` when creating custom index patterns in OpenSearch Dashboards.
 
 ---
 

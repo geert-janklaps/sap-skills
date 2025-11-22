@@ -155,12 +155,16 @@ spec:
   },
   "saml": {
     "enabled": true,
+    "initiated": true,
     "admin_group": "CLS-Admins",
-    "idp_initiated_sso": false,
     "roles_key": "groups",
-    "idp_metadata_url": "https://<tenant>.accounts.ondemand.com/saml2/metadata",
-    "idp_entity_id": "<from-metadata>",
-    "sp_entity_id": "cloud-logging-<instance-id>"
+    "idp": {
+      "metadata_url": "https://<tenant>.accounts.ondemand.com/saml2/metadata",
+      "entity_id": "https://<tenant>.accounts.ondemand.com"
+    },
+    "sp": {
+      "entity_id": "cloud-logging-<instance-id>"
+    }
   }
 }
 ```
@@ -276,8 +280,11 @@ For Fluent Bit configuration, see `references/json-api-ingestion.md`.
 ## Security Best Practices
 
 ### Security Recommendations
+- **BTP-CLS-0001:** Configure SAML authentication with Identity Authentication Service (critical)
 - **BTP-CLS-0002:** Rotate service keys regularly; deletion doesn't automatically invalidate credentials
-- **BTP-CLS-0003:** Review Kyma runtime security configuration
+- **BTP-CLS-0003:** Review Kyma runtime and JSON API security configuration
+
+**Note:** Only BTP-CLS-0001 (critical level) is currently reported to SAP Cloud ALM. Other recommendations must be manually verified.
 
 ### SAML Authentication Setup
 1. Create SAML 2.0 application in SAP Identity Authentication
@@ -336,6 +343,7 @@ Create SAP support ticket with component `BC-CP-CLS` including:
 ## Reference Files
 
 For detailed information, see bundled reference files:
+- `references/service-plans.md` - Service plans comparison and capacity planning
 - `references/configuration-parameters.md` - Complete parameter reference
 - `references/cf-ingestion.md` - Cloud Foundry ingestion details
 - `references/kyma-ingestion.md` - Kyma runtime integration

@@ -9,6 +9,10 @@
 
 Configure log shipping and resource metrics from SAP BTP Cloud Foundry applications. Even without specific application logs, automatically generated Cloud Foundry router request logs can be analyzed. Default dashboards, index patterns, and retention settings are provided.
 
+**Alternative:** You can also use OpenTelemetry API Endpoint for more advanced telemetry. See `opentelemetry-ingestion.md`.
+
+**Security Notice:** Review SAP BTP Security Recommendation **BTP-CLS-0002** before implementation.
+
 ---
 
 ## Index Patterns
@@ -80,8 +84,11 @@ Required credentials:
 **Option A: Basic Authentication**
 
 ```bash
-cf cups <ups-name> -l "https://<ingest-username>:<ingest-password>@<ingest-endpoint>"
+# Drain URL format with all parameters
+cf cups <ups-name> -l "https-batch://<ingest-username>:<ingest-password>@<ingest-endpoint>/cfsyslog?drain-type=all"
 ```
+
+**Note:** The `drain-type=all` parameter ensures both logs and metrics are shipped.
 
 **Option B: Mutual TLS (mTLS) - Recommended**
 
@@ -110,9 +117,9 @@ cf bind-service <app-name> <ups-name>
 
 ## Logging Libraries
 
-### Java Applications
+SAP provides open-source logging libraries for structured Cloud Foundry logging.
 
-Use SAP's logging libraries for structured logging:
+### Java Applications: cf-java-logging-support
 
 **Maven Dependency:**
 ```xml
@@ -123,9 +130,28 @@ Use SAP's logging libraries for structured logging:
 </dependency>
 ```
 
-### Node.js Applications
+**GitHub:** https://github.com/SAP/cf-java-logging-support
 
-Use SAP's logging library:
+### Node.js Applications: cf-nodejs-logging-support
+
+```bash
+npm install cf-nodejs-logging-support
+```
+
+```javascript
+const log = require('cf-nodejs-logging-support');
+log.setLoggingLevel('info');
+
+// Express middleware
+app.use(log.logNetwork);
+
+// Log messages
+log.info('Application started');
+```
+
+**GitHub:** https://github.com/SAP/cf-nodejs-logging-support
+
+### Alternative: @sap/logging
 
 ```bash
 npm install @sap/logging

@@ -9,12 +9,16 @@
 
 SAP Cloud Logging strongly recommends integrating with SAP Cloud Identity Services using SAML 2.0 protocol for secure dashboard access. This enables centralized user management and group-based access control.
 
+**Security Notice:** Review SAP BTP Security Recommendation **BTP-CLS-0001** before configuring SAML.
+
+**Important:** SAP officially recommends Identity Authentication. Other SAML providers may work but lack official support or documentation. SAML configurations can be reused across multiple SAP Cloud Logging instances.
+
 ---
 
 ## Prerequisites
 
 1. **SAP Cloud Identity Services tenant** (Identity Authentication)
-2. **Administrator access** to Identity Authentication admin console
+2. **Administrator access** to Identity Authentication admin console: `https://<tenantID>.accounts.ondemand.com/admin`
 3. **Cloud Logging instance** ready for SAML configuration
 
 ---
@@ -76,38 +80,45 @@ Configure the service provider settings:
 
 ---
 
-### Step 4: Configure Request Signing (Recommended)
+### Step 4: Configure SAML 2.0 (Choose One Option)
 
-Request signing adds an extra layer of security by signing SAML requests.
+#### OPTION 1: Request Signing (Recommended)
 
-#### Generate Signing Certificate and Key
+Request signing removes the need to manually configure assertion/logout URLs for each instance.
 
-```bash
-# Generate private key (PKCS#8 format required)
-openssl genpkey -algorithm RSA -out signing-key.pem -pkeyopt rsa_keygen_bits:2048
-
-# Generate certificate signing request
-openssl req -new -key signing-key.pem -out signing.csr -subj "/CN=Cloud Logging SAML Signing"
-
-# Generate self-signed certificate (valid for 1 year)
-openssl x509 -req -days 365 -in signing.csr -signkey signing-key.pem -out signing-cert.pem
-```
-
-#### Encode for Configuration
+**Generate Certificate and Private Key (Official SAP Commands):**
 
 ```bash
-# Base64 encode the private key (remove headers)
-cat signing-key.pem | grep -v "BEGIN\|END" | tr -d '\n' > signing-key-b64.txt
+# Generate certificate and private key
+openssl req -x509 -newkey rsa:2048 -keyout private.key -out cert.pem -nodes -days <validity>
 
-# Base64 encode the certificate (remove headers)
-cat signing-cert.pem | grep -v "BEGIN\|END" | tr -d '\n' > signing-cert-b64.txt
+# Convert to PKCS#8 format (REQUIRED)
+openssl pkcs8 -topk8 -v1 PBE-SHA1-3DES -in private.key -out private_pkcs8.key
+
+# Base64 encode the private key for configuration
+printf "%s" "$(< private_pkcs8.key)" | base64
 ```
 
-#### Upload to Identity Authentication
+**Configure in Identity Authentication:**
 
 1. Go to application → **SAML 2.0 Configuration**
-2. Enable **Sign SAML Requests**
-3. Upload the signing certificate
+2. Set **Require signed authentication requests** to **ON**
+3. Upload certificate in the **Signing Certificate** section
+4. Provide the signing key to `sp.signature_private_key` field
+5. Set `sp.signature_private_key_password` if the key is encrypted
+
+**Warning:** Expired signing certificates cause login failures with message: *"The digital signature of the received SAML2 message is invalid."*
+
+#### OPTION 2: Manual Endpoint Configuration
+
+Only available after creating a Cloud Logging instance. Must be repeated for each new instance.
+
+1. Go to application → **SAML 2.0 Configuration** → **Configure Manually**
+2. Set **Assertion Consumer Service Endpoint:** `<dashboards-url>/_opendistro/_security/saml/acs`
+3. Set **Single Logout Endpoint:**
+   - Binding: `HTTP_REDIRECT`
+   - URL: `<dashboards-url>` (no path)
+4. Click **Save**
 
 ---
 
@@ -123,64 +134,72 @@ cat signing-cert.pem | grep -v "BEGIN\|END" | tr -d '\n' > signing-cert-b64.txt
 
 ### Step 6: Configure Cloud Logging Instance
 
-Update your Cloud Logging instance with SAML parameters:
+Update your Cloud Logging instance with SAML parameters using the official nested structure:
 
 ```json
 {
   "saml": {
     "enabled": true,
+    "initiated": true,
     "admin_group": "CLS-Administrators",
-    "idp_initiated_sso": false,
     "roles_key": "groups",
-    "idp_metadata_url": "https://<tenant-id>.accounts.ondemand.com/saml2/metadata",
-    "idp_entity_id": "https://<tenant-id>.accounts.ondemand.com",
-    "sp_entity_id": "cloud-logging-<unique-identifier>"
+    "idp": {
+      "metadata_url": "https://<tenant-id>.accounts.ondemand.com/saml2/metadata",
+      "entity_id": "https://<tenant-id>.accounts.ondemand.com"
+    },
+    "sp": {
+      "entity_id": "cloud-logging-<unique-identifier>"
+    }
   }
 }
 ```
 
-**With request signing:**
+**With request signing (Option 1):**
 
 ```json
 {
   "saml": {
     "enabled": true,
+    "initiated": true,
     "admin_group": "CLS-Administrators",
-    "idp_initiated_sso": false,
     "roles_key": "groups",
-    "idp_metadata_url": "https://<tenant-id>.accounts.ondemand.com/saml2/metadata",
-    "idp_entity_id": "https://<tenant-id>.accounts.ondemand.com",
-    "sp_entity_id": "cloud-logging-<unique-identifier>",
-    "sign_request": true,
-    "sign_request_private_key": "<base64-encoded-pkcs8-private-key>",
-    "sign_request_cert": "<base64-encoded-certificate>"
+    "idp": {
+      "metadata_url": "https://<tenant-id>.accounts.ondemand.com/saml2/metadata",
+      "entity_id": "https://<tenant-id>.accounts.ondemand.com"
+    },
+    "sp": {
+      "entity_id": "cloud-logging-<unique-identifier>",
+      "signature_private_key": "<base64-encoded-pkcs8-private-key>",
+      "signature_private_key_password": ""
+    }
   }
 }
 ```
 
 ---
 
-## SAML Parameter Reference
+## SAML Parameter Reference (Official Nested Structure)
 
-### Required Parameters
+### Required Parameters (when `enabled: true`)
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `enabled` | boolean | Enable SAML authentication |
-| `admin_group` | string | Group mapped to `all_access` role |
-| `idp_initiated_sso` | boolean | Allow IdP-initiated SSO |
-| `roles_key` | string | SAML attribute containing groups |
-| `idp_metadata_url` | string | Identity Provider metadata URL |
-| `idp_entity_id` | string | IdP entity identifier |
-| `sp_entity_id` | string | Service Provider entity identifier |
+| Parameter | Type | Conditional | Description |
+|-----------|------|-------------|-------------|
+| `enabled` | boolean | Yes | Enable SAML authentication |
+| `initiated` | boolean | Required if enabled | Enable IdP-initiated SSO |
+| `admin_group` | string | Required if enabled | Group mapped to `all_access` role |
+| `roles_key` | string | Required if enabled | Attribute for backend_roles during login |
+| `idp.metadata_url` | string | Required if enabled | Identity Provider metadata URL |
+| `idp.entity_id` | string | Required if enabled | Entity ID from metadata's `entityID` field |
+| `sp.entity_id` | string | Required if enabled | Service Provider application name in IdP |
 
 ### Optional Parameters (Request Signing)
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| `sign_request` | boolean | Enable request signing |
-| `sign_request_private_key` | string | Base64-encoded PKCS#8 private key |
-| `sign_request_cert` | string | Base64-encoded signing certificate |
+| `sp.signature_private_key` | string | Base64-encoded PKCS#8 private key |
+| `sp.signature_private_key_password` | string | Password for encrypted private key |
+
+**Note:** Identity Authentication group names are forwarded to OpenSearch as backend roles, which map to OpenSearch roles granting permissions.
 
 ---
 
@@ -284,15 +303,18 @@ index_permissions:
   "retention_period": 14,
   "saml": {
     "enabled": true,
+    "initiated": true,
     "admin_group": "CLS-Administrators",
-    "idp_initiated_sso": false,
     "roles_key": "groups",
-    "idp_metadata_url": "https://mytenant.accounts.ondemand.com/saml2/metadata",
-    "idp_entity_id": "https://mytenant.accounts.ondemand.com",
-    "sp_entity_id": "cloud-logging-prod-001",
-    "sign_request": true,
-    "sign_request_private_key": "MIIEvgIBADANBg...",
-    "sign_request_cert": "MIIDXTCCAkWgAw..."
+    "idp": {
+      "metadata_url": "https://mytenant.accounts.ondemand.com/saml2/metadata",
+      "entity_id": "https://mytenant.accounts.ondemand.com"
+    },
+    "sp": {
+      "entity_id": "cloud-logging-prod-001",
+      "signature_private_key": "MIIEvgIBADANBg...",
+      "signature_private_key_password": ""
+    }
   }
 }
 ```

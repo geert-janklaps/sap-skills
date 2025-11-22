@@ -238,6 +238,43 @@ provider.register();
 
 ---
 
+## User-Provided Service for OTLP
+
+For scenarios where you need to manually configure OTLP credentials (e.g., sharing across spaces):
+
+```bash
+# Create credentials.json with OTLP service key values
+cat > credentials.json << 'EOF'
+{
+  "ingest-otlp-endpoint": "<endpoint>:443",
+  "ingest-otlp-cert": "<client-cert>",
+  "ingest-otlp-key": "<client-key>",
+  "server-ca": "<server-ca>"
+}
+EOF
+
+# Create user-provided service with "Cloud Logging" tag
+cf cups <service-name> -p credentials.json -t "Cloud Logging"
+```
+
+**Important:** The `Cloud Logging` tag is required for automatic detection by SAP libraries.
+
+---
+
+## Attribute Name Mapping
+
+**Important:** Signal and resource attribute names have dots (`.`) replaced with `@` and contain a prefix specifying the attribute type.
+
+| Original Attribute | Mapped Attribute |
+|--------------------|------------------|
+| `service.name` | `resource@service@name` |
+| `http.method` | `attributes@http@method` |
+| `span.kind` | `span@kind` |
+
+This mapping is due to OpenSearch/Lucene field name limitations.
+
+---
+
 ## Kubernetes/Kyma Setup
 
 ### Deploy Credentials as Secret

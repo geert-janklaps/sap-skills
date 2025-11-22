@@ -104,6 +104,7 @@ Comprehensive Claude Code skill for SAP Cloud Logging service on SAP Business Te
 ### Reference Files
 | File | Description |
 |------|-------------|
+| `references/service-plans.md` | Service plans comparison and capacity planning |
 | `references/configuration-parameters.md` | Complete parameter reference with examples |
 | `references/cf-ingestion.md` | Cloud Foundry ingestion methods |
 | `references/kyma-ingestion.md` | Kyma runtime integration |

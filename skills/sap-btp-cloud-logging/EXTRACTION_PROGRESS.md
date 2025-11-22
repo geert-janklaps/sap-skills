@@ -155,7 +155,7 @@
 - [x] Index patterns documented
 - [x] Update links preserved
 - [x] SKILL.md created
-- [x] Reference files created (6 files)
+- [x] Reference files created (7 files)
 - [x] README.md created with keywords
 - [x] Skill verified
 

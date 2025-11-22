@@ -19,8 +19,10 @@ Configures the OpenSearch backend infrastructure.
 
 | Property | Type | Range | Default | Description |
 |----------|------|-------|---------|-------------|
-| `max_data_nodes` | int | 2-10 | 10 | Maximum number of data nodes |
+| `max_data_nodes` | int | 2-10 | 10 | Maximum number of data nodes (sets max disk size indirectly) |
 | `api_enabled` | bool | - | false | Enable OpenSearch API access |
+
+**Note:** The `max_data_nodes` setting has **no effect on the dev plan**.
 
 **Example:**
 ```json
@@ -40,7 +42,9 @@ Controls the OpenSearch Dashboards UI.
 
 | Property | Type | Max Length | Default | Description |
 |----------|------|------------|---------|-------------|
-| `custom_label` | string | 20 chars | - | Label to identify instance in UI |
+| `custom_label` | string | 20 chars (12 ideal) | - | Label displayed in OpenSearch Dashboards top bar |
+
+**Allowed Characters:** `A-Z`, `a-z`, `0-9`, `#`, `+`, `-`, `_`, `/`, `*`, `(`, `)`, and space
 
 **Example:**
 ```json
@@ -55,12 +59,12 @@ Controls the OpenSearch Dashboards UI.
 
 ### ingest
 
-Manages the ingest endpoint autoscaling behavior based on CPU utilization.
+Manages the ingest endpoint autoscaling behavior. Auto-scales when CPU utilization exceeds 80%.
 
 | Property | Type | Range | Default | Description |
 |----------|------|-------|---------|-------------|
 | `max_instances` | int | 2-10 | 10 | Maximum ingest instances |
-| `min_instances` | int | 2-10 | 2 | Minimum ingest instances |
+| `min_instances` | int | 2-10 | 2 | Minimum ingest instances (must be ≤ max_instances) |
 
 **Example:**
 ```json
@@ -163,37 +167,44 @@ Controls ingestion root CA certificate rotation.
 
 Configures SAML 2.0 authentication for OpenSearch Dashboards.
 
-#### Required Properties (when enabled)
+**Security Notice:** Review SAP BTP Security Recommendation **BTP-CLS-0001** before configuring SAML.
 
-| Property | Type | Description |
-|----------|------|-------------|
-| `enabled` | bool | Enable SAML authentication |
-| `admin_group` | string | Group mapped to `all_access` role |
-| `idp_initiated_sso` | bool | Allow IdP-initiated SSO |
-| `roles_key` | string | Attribute name containing roles/groups |
-| `idp_metadata_url` | string | Identity provider metadata URL |
-| `idp_entity_id` | string | IdP entity identifier from metadata |
-| `sp_entity_id` | string | Service provider entity identifier |
+#### Required Properties (when `enabled: true`)
+
+| Property | Type | Conditional | Description |
+|----------|------|-------------|-------------|
+| `enabled` | bool | Yes | Enable SAML authentication |
+| `admin_group` | string | Required if enabled | Group mapped to `all_access` role |
+| `initiated` | bool | Required if enabled | Enable IdP-initiated SSO |
+| `roles_key` | string | Required if enabled | Attribute name for backend_roles during login |
+| `idp.metadata_url` | string | Required if enabled | SAML IdP metadata URL |
+| `idp.entity_id` | string | Required if enabled | Entity ID from metadata's `entityID` field |
+| `sp.entity_id` | string | Required if enabled | Service provider application name in IdP |
 
 #### Optional Properties (for request signing)
 
 | Property | Type | Description |
 |----------|------|-------------|
-| `sign_request` | bool | Enable request signing |
-| `sign_request_private_key` | string | Base64-encoded PKCS#8 private key |
-| `sign_request_cert` | string | Base64-encoded signing certificate |
+| `sp.signature_private_key` | string | Base64-encoded PKCS#8 private key |
+| `sp.signature_private_key_password` | string | Password for encrypted private key |
 
-**Example:**
+**Example (Official SAP Structure):**
 ```json
 {
   "saml": {
     "enabled": true,
+    "initiated": true,
     "admin_group": "CLS-Admins",
-    "idp_initiated_sso": false,
     "roles_key": "groups",
-    "idp_metadata_url": "https://mytenant.accounts.ondemand.com/saml2/metadata",
-    "idp_entity_id": "https://mytenant.accounts.ondemand.com",
-    "sp_entity_id": "cloud-logging-abc123"
+    "idp": {
+      "metadata_url": "https://mytenant.accounts.ondemand.com/saml2/metadata",
+      "entity_id": "https://mytenant.accounts.ondemand.com"
+    },
+    "sp": {
+      "entity_id": "cloud-logging-abc123",
+      "signature_private_key": "<base64-encoded-pkcs8-key>",
+      "signature_private_key_password": ""
+    }
   }
 }
 ```
@@ -224,12 +235,18 @@ Configures SAML 2.0 authentication for OpenSearch Dashboards.
   },
   "saml": {
     "enabled": true,
+    "initiated": true,
     "admin_group": "CLS-Administrators",
-    "idp_initiated_sso": false,
     "roles_key": "groups",
-    "idp_metadata_url": "https://<tenant>.accounts.ondemand.com/saml2/metadata",
-    "idp_entity_id": "<from-metadata-entityID>",
-    "sp_entity_id": "cloud-logging-<unique-id>"
+    "idp": {
+      "metadata_url": "https://<tenant>.accounts.ondemand.com/saml2/metadata",
+      "entity_id": "https://<tenant>.accounts.ondemand.com"
+    },
+    "sp": {
+      "entity_id": "cloud-logging-<unique-id>",
+      "signature_private_key": "<base64-encoded-pkcs8-key>",
+      "signature_private_key_password": ""
+    }
   }
 }
 ```
@@ -241,6 +258,8 @@ Configures SAML 2.0 authentication for OpenSearch Dashboards.
   "retention_period": 7
 }
 ```
+
+**Note:** The dev plan ignores `backend.max_data_nodes` and does not support auto-scaling.
 
 ---
 
