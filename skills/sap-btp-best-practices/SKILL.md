@@ -4,8 +4,8 @@ description: |
   Comprehensive SAP Business Technology Platform (BTP) best practices for enterprise cloud architecture, account management, security, deployment, and operations. Use when planning SAP BTP implementations, setting up account hierarchies (global accounts, directories, subaccounts), configuring Cloud Foundry or Kyma environments, implementing authentication with SAP Cloud Identity Services, designing CI/CD pipelines with SAP Continuous Integration and Delivery, establishing governance models, building Platform Engineering teams, implementing failover strategies, or managing the complete application lifecycle on SAP BTP.
 license: MIT
 metadata:
-  version: "1.1.0"
-  last_verified: "2025-11-21"
+  version: "1.1.2"
+  last_verified: "2025-11-22"
   source: "https://github.com/SAP-docs/btp-best-practices-guide"
 ---
 
@@ -195,6 +195,8 @@ For sensitive production scenarios, use:
 
 **Avoid in Production**: `BasicAuthentication`, `OAuth2Password` (testing only)
 
+**Detailed Reference**: See `references/security-and-authentication.md` for complete destination authentication methods, Kyma RBAC manifests, identity lifecycle management, and mTLS certificate extraction.
+
 ---
 
 ## 4. Connectivity
@@ -317,6 +319,8 @@ Every new application tracked by Platform Engineering should document:
 - Open-source community support
 
 **Best Practice**: Combine CI/CD with SAP Cloud Transport Management for governance + agility.
+
+**Detailed Reference**: See `references/deployment-and-delivery.md` for MTA descriptor templates, CI/CD pipeline configurations, transport landscape setup, and environment-specific deployment guides.
 
 ---
 

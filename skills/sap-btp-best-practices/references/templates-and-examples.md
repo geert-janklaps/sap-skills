@@ -304,39 +304,43 @@ subjects:
 
 ## Multi-Region Reference Use Cases - Complete Links
 
+**Note**: Repository structures may change. Always verify current paths at the repository root.
+
 ### Use Case 1: SAP Build Work Zone + Azure Traffic Manager
 
 | Resource Type | Link |
 |---------------|------|
-| **Blog Post** | "Multi-region High Availability architecture for SAP BTP Launchpad Service using Azure Traffic Manager" |
-| **GitHub** | https://github.com/SAP-samples/btp-services-intelligent-routing/tree/main/launchpad_azure |
-| **Discovery Center** | "Route Multi-Region Traffic to SAP BTP Services Intelligently" mission |
+| **Blog Post** | "Multi-region High Availability architecture for SAP BTP Launchpad Service using Azure Traffic Manager" (SAP Community) |
+| **GitHub** | https://github.com/SAP-samples/btp-services-intelligent-routing |
+| **Discovery Center** | Mission: "Route Multi-Region Traffic to SAP BTP Services Intelligently" |
 
 ### Use Case 2: SAP Build Work Zone + Amazon Route 53
 
 | Resource Type | Link |
 |---------------|------|
-| **Blog Post** | "High Availability of SAP Build Work Zone with Amazon Route 53" |
-| **GitHub** | https://github.com/SAP-samples/btp-services-intelligent-routing/tree/main/launchpad_aws |
+| **Blog Post** | "High Availability of SAP Build Work Zone with Amazon Route 53" (SAP Community) |
+| **GitHub** | https://github.com/SAP-samples/btp-services-intelligent-routing |
 
 ### Use Case 3: CAP Applications + SAP HANA Cloud Multi-Zone
 
 | Resource Type | Link |
 |---------------|------|
-| **GitHub** | https://github.com/SAP-samples/cap-distributed-resiliency/tree/main/SAP-HANA-Cloud |
+| **GitHub** | https://github.com/SAP-archive/cap-distributed-resiliency (**Archived** - read-only since March 2025) |
 
 ### Use Case 4: CAP Applications + Amazon Aurora Read Replica
 
 | Resource Type | Link |
 |---------------|------|
-| **GitHub** | https://github.com/SAP-samples/cap-distributed-resiliency/tree/main/Amazon-Aurora |
+| **GitHub** | https://github.com/SAP-archive/cap-distributed-resiliency (**Archived** - read-only since March 2025) |
 
 ### Use Case 5: SAP Cloud Integration + Azure Traffic Manager
 
 | Resource Type | Link |
 |---------------|------|
-| **GitHub** | https://github.com/SAP-samples/btp-services-intelligent-routing/tree/main/ci_azure |
-| **Discovery Center** | "Route Multi-Region Traffic to SAP BTP Services Intelligently" mission |
+| **GitHub** | https://github.com/SAP-samples/btp-services-intelligent-routing |
+| **Discovery Center** | Mission: "Route Multi-Region Traffic to SAP BTP Services Intelligently" |
+
+**Discovery Center URL**: https://discovery-center.cloud.sap/
 
 ---
 
