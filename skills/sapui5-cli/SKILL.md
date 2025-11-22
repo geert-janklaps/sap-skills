@@ -275,7 +275,7 @@ This main skill file provides essential workflows and quick reference. For detai
 3. Point to local project directories using relative paths
 4. Use `--workspace <name>` flag to activate specific workspace
 5. Run `ui5 tree` to verify dependency resolution
-6. For details, see `references/workspace.md`
+6. For details, see `references/configuration.md` (workspace section)
 
 ### Workflow 5: Migrating to UI5 CLI v4
 
