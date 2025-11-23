@@ -36,11 +36,14 @@
  * Optional: Declare required dependencies (Spec v3.0+)
  * Only needed if task accesses dependency resources
  *
+ * This callback allows advanced dependency selection logic. Use getProject to inspect
+ * specific projects and options.configuration for conditional logic based on task settings.
+ *
  * @param {object} params
  * @param {Set<string>} params.availableDependencies - Set of available dependency names
  * @param {Function} params.getDependencies - Get all project dependencies
- * @param {Function} params.getProject - Get project by name
- * @param {object} params.options - Task options
+ * @param {Function} params.getProject - Get project by name (for advanced selection)
+ * @param {object} params.options - Task options (access configuration for conditional logic)
  * @returns {Promise<Set<string>>} Set of required dependency names
  */
 module.exports.determineRequiredDependencies = async function({
@@ -51,18 +54,26 @@ module.exports.determineRequiredDependencies = async function({
 }) {
     const dependencies = new Set();
 
-    // Example: Check if specific dependency exists and is needed
+    // Example 1: Check if specific dependency exists and is needed
     if (availableDependencies.has("my.required.library")) {
         dependencies.add("my.required.library");
     }
 
-    // Example: Include dependencies by pattern
+    // Example 2: Include dependencies by pattern
     const allDeps = await getDependencies();
     for (const project of allDeps) {
         if (project.getName().startsWith("my.company.")) {
             dependencies.add(project.getName());
         }
     }
+
+    // Example 3: Conditional dependency based on configuration (advanced)
+    // if (options.configuration?.includeThemes) {
+    //     const themeLib = await getProject("my.theme.library");
+    //     if (themeLib) {
+    //         dependencies.add("my.theme.library");
+    //     }
+    // }
 
     return dependencies;
 };

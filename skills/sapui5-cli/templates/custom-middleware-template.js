@@ -48,7 +48,7 @@
  * @param {module:@ui5/fs.ReaderCollection} params.resources.dependencies - Dependencies only
  * @returns {Function} Express middleware function
  */
-module.exports = function({log, middlewareUtil, options, resources}) {
+module.exports = function({log, middlewareUtil, options = {}, resources}) {
     const {configuration = {}} = options;
 
     // Validate configuration
@@ -111,9 +111,9 @@ module.exports = function({log, middlewareUtil, options, resources}) {
  */
 
 // Pattern 1: API Proxy
-module.exports.createProxyExample = function({log, options}) {
+module.exports.createProxyExample = function({log, options = {}}) {
     const {createProxyMiddleware} = require("http-proxy-middleware");
-    const {configuration} = options;
+    const {configuration = {}} = options;
 
     if (!configuration.target) {
         throw new Error("Configuration 'target' is required for proxy");
@@ -134,8 +134,8 @@ module.exports.createProxyExample = function({log, options}) {
 };
 
 // Pattern 2: Authentication/Authorization
-module.exports.createAuthExample = function({log, options}) {
-    const {configuration} = options;
+module.exports.createAuthExample = function({log, options = {}}) {
+    const {configuration = {}} = options;
 
     return async function(req, res, next) {
         const authHeader = req.headers.authorization;
@@ -164,8 +164,10 @@ module.exports.createAuthExample = function({log, options}) {
 
 // Helper function for auth example
 async function validateCredentials(authHeader, configuration) {
-    // Example validation logic
-    const token = authHeader.replace("Bearer ", "");
+    // Example validation logic - handle Bearer prefix robustly
+    const token = authHeader.startsWith("Bearer ")
+        ? authHeader.slice("Bearer ".length).trim()
+        : authHeader.trim();
     return token === configuration.validToken;
 }
 
@@ -200,11 +202,16 @@ module.exports.createMockExample = function({log, resources}) {
 };
 
 // Pattern 4: File Upload Handler
-module.exports.createUploadExample = function({log, options}) {
+module.exports.createUploadExample = function({log, options = {}}) {
     const multer = require("multer");
+    const fs = require("fs");
+
+    // Ensure upload directory exists
+    fs.mkdirSync("uploads", {recursive: true});
+
     const upload = multer({dest: "uploads/"});
 
-    return async function(req, res, next) {
+    return function(req, res, next) {
         // Invoke multer middleware
         upload.single("file")(req, res, (err) => {
             if (err) {
@@ -259,11 +266,12 @@ module.exports.createMarkdownExample = function({log, resources}) {
 };
 
 // Pattern 6: Request Validation
-module.exports.createValidationExample = function({log, options}) {
-    const {configuration} = options;
+// NOTE: This assumes a body parser middleware (e.g., express.json()) runs before this
+module.exports.createValidationExample = function({log, options = {}}) {
+    const {configuration = {}} = options;
 
     return function(req, res, next) {
-        // Validate request parameters
+        // Validate request parameters (requires body parser to populate req.body)
         if (req.method === "POST" && !req.body) {
             res.status(400).json({error: "Request body required"});
             return;
@@ -328,13 +336,13 @@ module.exports.createCacheExample = function({log}) {
 };
 
 // Pattern 8: CORS Handler
-module.exports.createCORSExample = function({log, options}) {
-    const {configuration} = options;
+module.exports.createCORSExample = function({log, options = {}}) {
+    const {configuration = {}} = options;
 
     return function(req, res, next) {
         res.setHeader("Access-Control-Allow-Origin", configuration.allowOrigin || "*");
-        res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-        res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+        res.setHeader("Access-Control-Allow-Methods", configuration.allowMethods || "GET, POST, PUT, DELETE, OPTIONS");
+        res.setHeader("Access-Control-Allow-Headers", configuration.allowHeaders || "Content-Type, Authorization");
 
         // Handle preflight
         if (req.method === "OPTIONS") {
@@ -364,6 +372,11 @@ module.exports.createLoggingExample = function({log}) {
 // Pattern 10: Error Handler (should be last middleware)
 module.exports.createErrorHandler = function({log}) {
     return function(err, req, res, next) {
+        // Check if headers already sent
+        if (res.headersSent) {
+            return next(err);
+        }
+
         log.error(`Error handling ${req.path}: ${err.message}`);
         log.error(err.stack);
 
