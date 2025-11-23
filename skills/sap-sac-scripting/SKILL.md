@@ -1,16 +1,16 @@
 ---
 name: sap-sac-scripting
 description: |
-  This skill provides comprehensive guidance for scripting in SAP Analytics Cloud (SAC), including Analytics Designer and Optimized Story Experience. Use when writing scripts for analytic applications, planning applications, or enhanced stories in SAC. Covers DataSource API (36+ methods), Chart/Table/Input Controls manipulation, Planning operations (version management, data locking, data actions), Calendar integration (tasks, processes, workflows), Bookmarks (save/apply state), Linked Analysis, Timer API, Container widgets (Panel, TabStrip, PageBook), Layout API (responsive design), R Visualizations, Custom Widgets development, Navigation, global/local variables, event handlers (onInitialization, onSelect, onResultChanged), popups/dialogs, debugging techniques (console.log, debugger statement), performance optimization, and developer best practices (naming conventions, layout organization, script annotation). Includes 39 ready-to-use code templates. Supports SAC version 2025.14+.
-license: GPL-3.0
+  This skill provides comprehensive guidance for scripting in SAP Analytics Cloud (SAC), including Analytics Designer and Optimized Story Experience. Use when writing scripts for analytic applications, planning applications, or enhanced stories in SAC. Covers DataSource API (36+ methods), Chart/Table/Input Controls manipulation, Planning operations (version management, data locking, data actions), Calendar integration (tasks, processes, workflows), Bookmarks (save/apply state), Linked Analysis, Timer API, Container widgets (Panel, TabStrip, PageBook), Layout API (responsive design), R Visualizations, Custom Widgets development, Navigation, global/local variables, event handlers (onInitialization, onSelect, onResultChanged), popups/dialogs, debugging techniques (console.log, debugger statement, browser DevTools), performance optimization, scripting language fundamentals (type system, loops, arrays), range/exclude filters, hierarchy manipulation, pattern-based functions, and developer best practices (naming conventions, layout organization, script annotation). Includes 40 ready-to-use code templates. Supports SAC version 2025.14+.
+license: MIT
 metadata:
-  version: 1.3.0
-  last_updated: 2025-11-22
+  version: 1.4.0
+  last_updated: 2025-11-23
   sac_version: "2025.14+"
   api_reference_version: "2025.14"
   documentation_source: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD
-  reference_files: 8
-  template_patterns: 39
+  reference_files: 12
+  template_patterns: 40
   status: production
 ---
 
@@ -231,6 +231,7 @@ var theme = Application.getTheme();
 
 **Application Events**:
 - `onInitialization`: Runs once when application loads
+- `onPostMessageRecieved`: Fires when host app sends PostMessage (iFrame scenarios)
 - `onResize`: Fires when application is resized
 - `onOrientationChange`: Mobile orientation change
 
@@ -240,6 +241,8 @@ var theme = Application.getTheme();
 - `onClick`: Button click, etc.
 
 **Best Practice**: Keep `onInitialization` empty for performance. Use static filters instead.
+
+**iFrame Embedding**: See `references/iframe-embedding-lumira-migration.md` for PostMessage integration.
 
 ---
 
@@ -671,7 +674,7 @@ Table_1.export(ExportType.CSV);
 
 ## Bundled Reference Files
 
-This skill includes detailed reference documentation (8 files):
+This skill includes detailed reference documentation (11 files):
 
 **Core APIs**:
 1. **references/api-datasource.md**: Complete DataSource API (36+ methods)
@@ -682,13 +685,18 @@ This skill includes detailed reference documentation (8 files):
 **Advanced APIs**:
 5. **references/api-calendar-bookmarks.md**: Calendar integration, Bookmarks, Linked Analysis, Timer API
 6. **references/api-advanced-widgets.md**: Container widgets, Layout API, R Visualization, Custom Widgets, Navigation
+7. **references/api-data-operations.md**: Range/exclude filters, dimension properties, hierarchies, members, DataSource info
+
+**Scripting Fundamentals**:
+8. **references/scripting-language-fundamentals.md**: Type system, variables, control flow, loops, operators, built-in objects, arrays, method chaining, security
+9. **references/debugging-browser-tools.md**: Console logging, browser debugging, debug mode, breakpoints, R visualization debugging, performance logging
 
 **Best Practices**:
-7. **references/best-practices-developer.md**: Naming conventions, layout organization, script annotation, responsive design
-8. **references/best-practices-planning-stories.md**: Multi-story architecture, entry point design, navigation scripting, user assistance patterns
+10. **references/best-practices-developer.md**: Naming conventions, layout organization, script annotation, responsive design
+11. **references/best-practices-planning-stories.md**: Multi-story architecture, entry point design, navigation scripting, user assistance patterns
 
-**Templates** (39 ready-to-use patterns):
-1. **templates/common-patterns.js**: Filtering, selection, visibility, debugging
+**Templates** (40 ready-to-use patterns):
+1. **templates/common-patterns.js**: 40 patterns - filtering, data access, loops, arrays, R visualization, type conversion, etc.
 2. **templates/planning-operations.js**: Version management, workflows, data actions
 
 ---
@@ -733,7 +741,7 @@ For troubleshooting:
 
 ---
 
-**License**: GPL-3.0
+**License**: MIT
 **Version**: 1.0.0
 **Maintained by**: SAP Skills Maintainers
 **Repository**: https://github.com/secondsky/sap-skills
