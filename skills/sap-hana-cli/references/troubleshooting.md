@@ -22,7 +22,7 @@ Verify current connection is active.
 hana-cli privilegeError [guid]
 ```
 
-**Aliases**: `pe`, `getInsuffficientPrivilegeErrorDetails`
+**Aliases**: `pe`, `getInsufficientPrivilegeErrorDetails`
 
 Diagnoses specific privilege errors using the error GUID.
 
