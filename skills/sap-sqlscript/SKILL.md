@@ -158,6 +158,8 @@ DECLARE lv_count INTEGER := 0;
 DECLARE lv_date DATE := CURRENT_DATE;
 ```
 
+> **Note:** Uninitialized variables default to NULL.
+
 ### Table Variables
 
 **Implicit declaration:**
@@ -276,6 +278,8 @@ END;
 ## Cursors
 
 Cursors handle result sets row by row. Pattern: **Declare → Open → Fetch → Close**
+
+> **Performance Note:** Cursors bypass the database optimizer and process rows sequentially. Use primarily with primary key-based queries. Prefer set-based operations when possible.
 
 ```sql
 DECLARE CURSOR <cursor_name> FOR
