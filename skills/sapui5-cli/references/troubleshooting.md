@@ -730,7 +730,7 @@ Include in bug reports:
 - Minimal reproduction steps
 - ui5.yaml configuration
 
-**GitHub Issues**: https://github.com/SAP/ui5-tooling/issues
+**GitHub Issues**: https://github.com/UI5/cli/issues
 
 ---
 

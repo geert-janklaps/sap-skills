@@ -246,7 +246,7 @@ module.exports.createMarkdownExample = function({log, resources}) {
                 res.type("text/html");
                 res.send(`<!DOCTYPE html>
 <html>
-<head><title>${req.path}</title></head>
+<head><title>Markdown Preview</title></head>
 <body>${html}</body>
 </html>`);
                 log.info(`Rendered markdown: ${req.path}`);
@@ -300,7 +300,8 @@ module.exports.createCacheExample = function({log}) {
             return;
         }
 
-        const cacheKey = req.path;
+        // Use originalUrl to include query string in cache key
+        const cacheKey = req.originalUrl || req.url;
         if (cache.has(cacheKey)) {
             log.info(`Cache hit: ${cacheKey}`);
             res.end(cache.get(cacheKey));
