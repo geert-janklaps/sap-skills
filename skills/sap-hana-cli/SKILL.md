@@ -210,6 +210,7 @@ For comprehensive documentation:
 - **System Administration**: See `references/system-admin.md`
 - **Web UI Interface**: See `references/web-ui.md`
 - **Troubleshooting Guide**: See `references/troubleshooting.md`
+- **Development Environment**: See `references/development-environment.md`
 
 ---
 
@@ -256,4 +257,4 @@ hana-cli inspectUser
 
 ---
 
-*Last Updated: 2025-11-22 | Version: 2.0.0*
+*Last Updated: 2025-11-22 | Version: 2.1.0*
