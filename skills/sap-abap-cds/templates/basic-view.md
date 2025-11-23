@@ -140,7 +140,7 @@ define view Z_MATERIAL_BASIC
 
       @Semantics.unitOfMeasure: true
       m.meins as UnitOfMeasure,
-      @Semantics.quantity.unitOfMeasure: 'UnitOfMeasure'
+      @Semantics.quantity.unitOfMeasure: 'meins'
       m.ntgew as NetWeight
 }
 ```

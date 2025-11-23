@@ -67,6 +67,8 @@ association to one _Target on ...      -- Equivalent to [0..1]
 association to many _Targets on ...    -- Equivalent to [0..*]
 ```
 
+**Compatibility Note**: This simplified syntax is available in SAP S/4HANA Cloud 2302+ and SAP NetWeaver ABAP 7.57+. Earlier releases require the bracketed cardinality notation `[0..1]`, `[0..*]`, etc.
+
 ### Cardinality Examples
 
 ```sql

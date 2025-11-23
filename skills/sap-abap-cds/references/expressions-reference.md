@@ -265,6 +265,8 @@ where case
       end > 5
 ```
 
+**Note**: Using CASE in WHERE clause is useful for conditional filtering without creating intermediate computed fields. However, it may impact query performance compared to post-filtering in ABAP or using separate WHERE conditions. Use judiciously on large datasets.
+
 ---
 
 ## Logical Operators

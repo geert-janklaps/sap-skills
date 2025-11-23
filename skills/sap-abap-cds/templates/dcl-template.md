@@ -157,6 +157,8 @@ define role Z_MULTILEVEL_DCL {
 | K_ORDER | AUFNR, ACTVT | Internal order |
 | K_PCA | KOKRS, PRCTR, ACTVT | Profit center |
 
+**Important**: Authorization object names and fields may vary by SAP release and customization. Always verify the correct object name and fields in your system using transaction **SU21** (Maintain Authorization Objects) before implementing DCL rules.
+
 ### HR
 
 | Object | Fields | Description |
@@ -274,8 +276,18 @@ After access denied, run SU53 to see missing authorization.
 ### Verify DCL Assignment
 
 ```abap
-" Check if DCL exists for view
-SELECT * FROM ddddlsrc
-  WHERE ddlname LIKE '%DCL%'
-    AND source LIKE '%Z_VIEW%'.
+" Check if DCL exists and is assigned to view
+SELECT ddlname, as4local, as4vers
+  FROM ddddlsrc
+  WHERE ddlname = 'Z_VIEW_DCL'
+  INTO TABLE @DATA(lt_dcl).
+
+" Alternative: Check DCL source for specific view reference
+SELECT ddlname, source
+  FROM ddddlsrc
+  WHERE source LIKE '%Z_CDS_VIEW%'
+    AND ddlname LIKE '%_DCL'
+  INTO TABLE @DATA(lt_dcl_refs).
 ```
+
+**Tip**: In ADT, right-click the CDS view and select **Open With** → **Dependency Analyzer** to see associated DCL objects.

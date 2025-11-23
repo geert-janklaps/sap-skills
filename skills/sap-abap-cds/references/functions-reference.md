@@ -266,6 +266,8 @@ Current UTC timestamp.
 tstmp_current_utctimestamp() as CurrentTimestamp
 ```
 
+**Note**: The third parameter in timestamp functions controls error handling. Use `'FAIL'` to propagate errors if timestamps are invalid, or `'NULL'` to return NULL on error. Ensure timestamps are in valid format (YYYYMMDDHHMMSS) before using these functions.
+
 ---
 
 ## COALESCE Function
@@ -425,6 +427,8 @@ currency_conversion(
   exchange_rate_date => erdat
 ) as AmountInEUR
 ```
+
+**Platform Note**: `unit_conversion` and `currency_conversion` are primarily optimized for SAP HANA environments and may have limited support on other database platforms. These functions require the appropriate conversion tables (T006, TCURR) to be maintained. Verify availability with your system administrator before using in production queries.
 
 ---
 

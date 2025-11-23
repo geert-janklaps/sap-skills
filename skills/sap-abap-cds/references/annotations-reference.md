@@ -399,6 +399,9 @@ DATA(lv_label) = lo_service->get_label_4_element(
   iv_element  = 'FIELD_NAME'
   iv_language = sy-langu
 ).
+
+" Display the retrieved label
+WRITE: / 'Field Label:', lv_label.
 ```
 
 ---

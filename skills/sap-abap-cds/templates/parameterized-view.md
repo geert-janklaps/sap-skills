@@ -252,16 +252,24 @@ INTO TABLE @DATA(lt_orders).
 ### Dynamic Parameter Binding
 
 ```abap
-DATA: lt_params TYPE abap_parmbind_tab.
+DATA: lt_params TYPE abap_parmbind_tab,
+      lt_orders TYPE STANDARD TABLE OF z_sales_order_daterange.
 
 lt_params = VALUE #(
-  ( name = 'P_DATE_FROM' value = REF #( lv_date_from ) )
-  ( name = 'P_DATE_TO'   value = REF #( lv_date_to ) )
-  ( name = 'P_VKORG'     value = REF #( lv_vkorg ) )
+  ( name = 'P_DATE_FROM' kind = cl_abap_objectdescr=>exporting value = REF #( lv_date_from ) )
+  ( name = 'P_DATE_TO'   kind = cl_abap_objectdescr=>exporting value = REF #( lv_date_to ) )
+  ( name = 'P_VKORG'     kind = cl_abap_objectdescr=>exporting value = REF #( lv_vkorg ) )
+  ( name = 'P_LANGUAGE'  kind = cl_abap_objectdescr=>exporting value = REF #( sy-langu ) )
 ).
 
-" Use in dynamic SELECT
+" Dynamic SELECT with parameters
+SELECT * FROM z_sales_order_daterange
+  USING CLIENT @sy-mandt
+  INTO TABLE @lt_orders
+  WHERE (lv_where_clause).
 ```
+
+**Note**: Dynamic parameter binding is complex and typically used in generic frameworks. For most use cases, direct parameter passing (as shown above) is simpler and recommended.
 
 ---
 

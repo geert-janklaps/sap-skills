@@ -412,7 +412,7 @@ ENDIF.
 
 ## Documentation Links
 
-- **SAP Help - Access Control**: https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_authorizations.htm
+- **SAP Help - Access Control (ABAP Platform)**: https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control.htm
 - **SAP Community - DCL Guide**: https://blogs.sap.com/2017/09/09/all-about-data-control-language-dcls/
 - **SAP GitHub - Authorization Checks**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/25_Authorization_Checks.md
 
