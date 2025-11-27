@@ -15,6 +15,9 @@ description: |
 
   Keywords: SAP BTP, Connectivity, Destination Service, Cloud Connector, Connectivity Proxy, Transparent Proxy, Kyma, Kubernetes, OAuth, Principal Propagation, RFC, LDAP, on-premise, hybrid connectivity, service channels, SOCKS5, reverse proxy, tunnel
 license: GPL-3.0
+metadata:
+  version: "1.0.0"
+  last_verified: "2025-11-25"
 ---
 
 # SAP BTP Connectivity Skill

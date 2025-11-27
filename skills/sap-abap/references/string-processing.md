@@ -2,6 +2,17 @@
 
 **Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/07_String_Processing.md
 
+## Table of Contents
+
+1. [String Data Types](#string-data-types)
+2. [String Templates](#string-templates)
+3. [String Functions](#string-functions)
+4. [FIND and REPLACE](#find-and-replace)
+5. [Regular Expressions](#regular-expressions)
+6. [Split and Concatenate](#split-and-concatenate)
+7. [Case Conversion](#case-conversion)
+8. [Numeric String Operations](#numeric-string-operations)
+
 ---
 
 ## String Data Types

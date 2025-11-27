@@ -16,12 +16,10 @@ metadata:
 
 # SAP ABAP CDS (Core Data Services)
 
-Comprehensive reference for ABAP CDS view development, annotations, expressions, and access control.
+**Quick Reference**: https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html | SAP Cheat Sheets: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md
 
-## Quick Reference
+**Table of Contents**: [1. Fundamentals](#1-cds-view-fundamentals) | [2. Annotations](#2-essential-annotations) | [3. Expressions](#3-expressions-and-operations) | [4. Functions](#4-built-in-functions) | [5. Joins](#5-joins) | [6. Associations](#6-associations) | [7. Parameters](#7-input-parameters) | [8. Aggregates](#8-aggregate-expressions) | [9. Access Control](#9-access-control-dcl) | [10. ABAP Access](#10-data-retrieval-from-abap) | [11. Errors](#11-common-errors-and-solutions) | [12. Resources](#12-useful-transactions-and-tables)
 
-**SAP Help Portal**: https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html
-**SAP Cheat Sheets**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md
 **Progress Tracking**: See `PROGRESS_TRACKING.md` for source documentation
 
 ---
@@ -32,10 +30,10 @@ Comprehensive reference for ABAP CDS view development, annotations, expressions,
 
 | Type | Syntax | Database View | Since |
 |------|--------|---------------|-------|
-| **CDS View** | `DEFINE VIEW` | Yes (SQL view created) | 7.4 SP8 |
+| **CDS View** | `DEFINE VIEW` | Yes | 7.4 SP8 |
 | **CDS View Entity** | `DEFINE VIEW ENTITY` | No | 7.55 |
 
-**Recommendation**: Use CDS View Entities for new development (ABAP Cloud standard).
+**Recommendation**: Use CDS View Entities for new development.
 
 ### Basic CDS View Syntax
 
@@ -72,7 +70,6 @@ define view entity Z_CDS_EXAMPLE
 **Key Difference**: View entities omit `@AbapCatalog.sqlViewName` - no SQL view generated.
 
 ### Eclipse ADT Setup
-
 1. **File** → **New** → **Other** → **Core Data Services** → **Data Definition**
 2. Enter name, description, and package
 3. Select template (view, view entity, etc.)
@@ -83,15 +80,14 @@ define view entity Z_CDS_EXAMPLE
 
 ### Core Annotations
 
-| Annotation | Purpose | Values |
-|------------|---------|--------|
-| `@AbapCatalog.sqlViewName` | SQL view name (max 16 chars) | String |
-| `@AbapCatalog.compiler.CompareFilter` | Optimize WHERE clauses | `true/false` |
-| `@AccessControl.authorizationCheck` | Authorization requirement | `#NOT_REQUIRED`, `#CHECK`, `#MANDATORY`, `#NOT_ALLOWED` |
-| `@EndUserText.label` | User-facing description | String |
-| `@EndUserText.quickInfo` | Tooltip text | String |
-| `@Metadata.allowExtensions` | Allow view extensions | `true/false` |
-| `@Metadata.ignorePropagatedAnnotations` | Block annotation inheritance | `true/false` |
+**Essential annotations for CDS development**:
+- `@AbapCatalog.sqlViewName` - SQL view name (max 16 chars)
+- `@AbapCatalog.compiler.CompareFilter` - Optimize WHERE clauses
+- `@AccessControl.authorizationCheck` - Set to #NOT_REQUIRED, #CHECK, #MANDATORY, or #NOT_ALLOWED
+- `@EndUserText.label` - User-facing description
+- `@Metadata.allowExtensions` - Allow view extensions
+
+**Complete Reference**: See `references/annotations-reference.md` for 50+ annotations with examples.
 
 ### Semantics Annotations (Currency/Quantity)
 
@@ -160,13 +156,10 @@ end as AmountCategory
 
 ### Comparison Operators
 
-| Operator | Description |
-|----------|-------------|
-| `=`, `<>` | Equal, Not equal |
-| `<`, `>`, `<=`, `>=` | Comparison |
-| `BETWEEN x AND y` | Range check |
-| `LIKE` | Pattern matching (% wildcard, _ single char) |
-| `IS NULL`, `IS NOT NULL` | Null check |
+**Standard operators**: `=`, `<>`, `<`, `>`, `<=`, `>=`
+**Special operators**: `BETWEEN x AND y`, `LIKE`, `IS NULL`, `IS NOT NULL`
+
+**Complete Reference**: See `references/expressions-reference.md` for all operators and expressions.
 
 ### Arithmetic Operations
 
@@ -178,14 +171,13 @@ amount / 100 as Percentage,
 
 ### Session Variables
 
-Access ABAP system fields:
+**Available system variables** (SY fields equivalent):
+- `$session.user` (SY-UNAME) - Current user
+- `$session.client` (SY-MANDT) - Client
+- `$session.system_language` (SY-LANGU) - Language
+- `$session.system_date` (SY-DATUM) - Current date
 
-| Variable | Equivalent | Since |
-|----------|------------|-------|
-| `$session.user` | SY-UNAME | 7.4 |
-| `$session.client` | SY-MANDT | 7.4 |
-| `$session.system_language` | SY-LANGU | 7.4 |
-| `$session.system_date` | SY-DATUM | 7.51 |
+**Complete Reference**: See `references/expressions-reference.md` for all system variables.
 
 ```sql
 $session.user as CurrentUser,
@@ -196,84 +188,55 @@ $session.system_date as Today
 
 ## 4. Built-in Functions
 
-### String Functions
+CDS provides comprehensive built-in functions for string, numeric, and date operations.
 
-| Function | Description | Example |
-|----------|-------------|---------|
-| `concat(a, b)` | Concatenate strings | `concat(fname, lname)` |
-| `concat_with_space(a, b, n)` | Concat with n spaces | `concat_with_space(fname, lname, 1)` |
-| `length(s)` | String length | `length(name)` |
-| `left(s, n)` | Left n characters | `left(name, 5)` |
-| `right(s, n)` | Right n characters | `right(name, 3)` |
-| `substring(s, pos, len)` | Extract substring | `substring(name, 2, 4)` |
-| `upper(s)` | Uppercase | `upper(name)` |
-| `lower(s)` | Lowercase | `lower(name)` |
-| `lpad(s, n, c)` | Left pad to length n | `lpad(num, 10, '0')` |
-| `rpad(s, n, c)` | Right pad to length n | `rpad(text, 20, ' ')` |
-| `ltrim(s, c)` | Trim from left | `ltrim(num, '0')` |
-| `rtrim(s, c)` | Trim from right | `rtrim(text, ' ')` |
-| `replace(s, old, new)` | Replace substring | `replace(text, '-', '_')` |
-| `instr(s, sub)` | Find position | `instr(name, 'SAP')` |
+### Key Function Categories
+- **String Functions**: concat(), length(), substring(), upper(), lower(), replace()
+- **Numeric Functions**: abs(), ceil(), floor(), round(), division()
+- **Date Functions**: dats_add_days(), dats_add_months(), dats_days_between()
+- **CAST Expression**: Convert between ABAP data types
 
-### Numeric Functions
+**Complete Reference**: See `references/functions-reference.md` for all 50+ functions with examples.
 
-| Function | Description | Example |
-|----------|-------------|---------|
-| `abs(n)` | Absolute value | `abs(-5)` → 5 |
-| `ceil(n)` | Round up | `ceil(5.3)` → 6 |
-| `floor(n)` | Round down | `floor(5.7)` → 5 |
-| `round(n, pos)` | Round to decimals | `round(5.567, 2)` → 5.57 |
-| `div(a, b)` | Integer division | `div(10, 3)` → 3 |
-| `division(a, b, dec)` | Division with decimals | `division(10, 3, 2)` → 3.33 |
-| `mod(a, b)` | Modulo | `mod(10, 3)` → 1 |
-
-### Date Functions
-
-| Function | Description | Example |
-|----------|-------------|---------|
-| `dats_add_days(d, n)` | Add days | `dats_add_days(date, 7)` |
-| `dats_add_months(d, n)` | Add months | `dats_add_months(date, 1)` |
-| `dats_days_between(d1, d2)` | Days difference | `dats_days_between(start, end)` |
-| `dats_is_valid(d)` | Validate date | `dats_is_valid(date)` |
-
-### CAST Expression
-
-Convert data types using ABAP type notation:
-
+### Quick Examples
 ```sql
+-- String operations
+concat(first_name, last_name) as FullName,
+upper(name) as UpperName,
+substring(description, 1, 10) as ShortDesc
+
+-- Numeric operations  
+abs(amount) as AbsoluteAmount,
+round(value, 2) as RoundedValue,
+division(10, 3, 2) as PreciseDivision
+
+-- Date operations
+dats_add_days(current_date, 7) as NextWeek,
+dats_days_between(start_date, end_date) as Duration
+
+-- Type conversion
 cast(field as abap.char(10)) as TextField,
-cast(field as abap.int4) as IntField,
-cast('EUR' as abap.cuky) as Currency,
-cast(amount as abap.curr(15,2)) as Amount
-```
+cast(amount as abap.curr(15,2)) as CurrencyField
 
 **ABAP Types**: `abap.char()`, `abap.numc()`, `abap.int4`, `abap.dats`, `abap.tims`, `abap.curr()`, `abap.cuky`, `abap.quan()`, `abap.unit()`
-
-For complete function reference, see `references/functions-reference.md`.
 
 ---
 
 ## 5. Joins
 
 ### Join Types
-
 ```sql
 -- INNER JOIN (matching rows only)
-define view Z_JOIN_EXAMPLE as select from mara as m
-  inner join makt as t on m.matnr = t.matnr
-{
-  m.matnr,
-  t.maktx
-}
+inner join makt as t on m.matnr = t.matnr
 
 -- LEFT OUTER JOIN (all from left, matching from right)
-  left outer join marc as c on m.matnr = c.matnr
+left outer join marc as c on m.matnr = c.matnr
 
 -- RIGHT OUTER JOIN (all from right, matching from left)
-  right outer join mvke as v on m.matnr = v.matnr
+right outer join mvke as v on m.matnr = v.matnr
 
 -- CROSS JOIN (cartesian product)
-  cross join t001 as co
+cross join t001 as co
 ```
 
 ---
@@ -303,12 +266,13 @@ define view Z_ASSOC_EXAMPLE as select from scarr as c
 
 ### Cardinality Notation
 
-| Syntax | Meaning | Join Type |
-|--------|---------|-----------|
-| `[0..1]` or `[1]` | To zero-or-one | LEFT OUTER MANY TO ONE |
-| `[1..1]` | Exactly one | LEFT OUTER MANY TO ONE |
-| `[0..*]` or `[*]` | To many | LEFT OUTER MANY TO MANY |
-| `[1..*]` | One or more | LEFT OUTER MANY TO MANY |
+**Syntax mapping**:
+- `[0..1]` or `[1]` → `association to one` (LEFT OUTER MANY TO ONE)
+- `[1..1]` → `association to one` (exact match)
+- `[0..*]` or `[*]` → `association to many` (LEFT OUTER MANY TO MANY)
+- `[1..*]` → `association to many` (one or more)
+
+**Complete Reference**: See `references/associations-reference.md` for detailed cardinality guide.
 
 ### New Cardinality Syntax (Release 2302+)
 
@@ -359,13 +323,9 @@ where v.erdat between :p_date_from and :p_date_to
 ```
 
 ### Parameter Reference
+Use colon notation `:p_date_from` or `$parameters.p_date_from`
 
-Two equivalent syntaxes:
-- Colon notation: `:p_date_from`
-- $parameters: `$parameters.p_date_from`
-
-### Calling from ABAP
-
+**Calling from ABAP**:
 ```abap
 SELECT * FROM z_param_example(
   p_date_from = '20240101',
@@ -410,35 +370,23 @@ define role Z_CDS_EXAMPLE_DCL {
 
 ### Authorization Check Options
 
-| Value | Behavior |
-|-------|----------|
-| `#NOT_REQUIRED` | No authorization check |
-| `#CHECK` | Warning if no DCL exists |
-| `#MANDATORY` | Error if no DCL exists |
-| `#NOT_ALLOWED` | DCL ignored if exists |
+**Available values**:
+- `#NOT_REQUIRED` - No authorization check
+- `#CHECK` - Warning if no DCL exists
+- `#MANDATORY` - Error if no DCL exists
+- `#NOT_ALLOWED` - DCL ignored if exists
+
+**Complete Reference**: See `references/access-control-reference.md` for detailed DCL patterns.
 
 ### Condition Types
 
-**PFCG Authorization**:
-```sql
-where (field) = aspect pfcg_auth(AUTH_OBJECT, AUTH_FIELD, ACTVT = '03')
-```
+**PFCG Authorization**: `where (field) = aspect pfcg_auth(AUTH_OBJECT, AUTH_FIELD, ACTVT = '03')`
 
-**Literal Condition**:
-```sql
-where status <> 'DELETED'
-```
+**Literal Condition**: `where status <> 'DELETED'`
 
-**User Aspect**:
-```sql
-where created_by ?= aspect user
-```
+**User Aspect**: `where created_by ?= aspect user`
 
-**Combined Conditions**:
-```sql
-where (bukrs) = aspect pfcg_auth(...)
-  and status = 'ACTIVE'
-```
+**Combined**: `where (bukrs) = aspect pfcg_auth(...) and status = 'ACTIVE'`
 
 For complete access control reference, see `references/access-control-reference.md`.
 
@@ -447,7 +395,6 @@ For complete access control reference, see `references/access-control-reference.
 ## 10. Data Retrieval from ABAP
 
 ### Standard SELECT
-
 ```abap
 SELECT * FROM zcds_example
   WHERE field1 = @lv_value
@@ -455,26 +402,10 @@ SELECT * FROM zcds_example
 ```
 
 ### SALV IDA (Integrated Data Access)
-
 ```abap
 cl_salv_gui_table_ida=>create_for_cds_view(
   CONV #( 'ZCDS_EXAMPLE' )
 )->fullscreen( )->display( ).
-```
-
-### Standard SALV Table
-
-```abap
-DATA: lo_salv TYPE REF TO cl_salv_table.
-
-cl_salv_table=>factory(
-  IMPORTING r_salv_table = lo_salv
-  CHANGING  t_table      = lt_result
-).
-
-lo_salv->get_functions( )->set_all( abap_true ).
-lo_salv->get_columns( )->set_optimize( abap_true ).
-lo_salv->display( ).
 ```
 
 ---
@@ -519,28 +450,21 @@ For complete troubleshooting guide, see `references/troubleshooting.md`.
 
 ## 12. Useful Transactions and Tables
 
-### Transactions
+### Key Transactions
+- **SDDLAR** - Display/repair DDL structures
+- **RSRTS_ODP_DIS** - TransientProvider preview
+- **RSRTS_QUERY_CHECK** - CDS query metadata validation
+- **SE63** - Translation (EndUserText)
+- **SE11** - ABAP Dictionary
+- **SU21** - Authorization objects
 
-| TCode | Description |
-|-------|-------------|
-| SDDLAR | Display/repair DDL structures |
-| RSRTS_ODP_DIS | TransientProvider preview |
-| RSRTS_QUERY_CHECK | CDS query metadata validation |
-| SE63 | Translation (EndUserText) |
-| SE11 | ABAP Dictionary |
-| SU21 | Authorization objects |
-
-### System Tables for Annotations
-
-| Table | Content |
-|-------|---------|
-| DDHEADANNO | Header-level annotations |
-| CDSVIEWANNOPOS | CDS view header annotations |
-| CDS_FIELD_ANNOTATION | Field-level annotations |
-| ABDOC_CDS_ANNOS | SAP annotation definitions |
+### Important Tables
+- **DDHEADANNO** - Header-level annotations
+- **CDSVIEWANNOPOS** - CDS view header annotations
+- **CDS_FIELD_ANNOTATION** - Field-level annotations
+- **ABDOC_CDS_ANNOS** - SAP annotation definitions
 
 ### API Class
-
 `CL_DD_DDL_ANNOTATION_SERVICE` - Programmatic annotation access:
 - `get_annos()` - Get all annotations
 - `get_label_4_element()` - Get @EndUserText.label

@@ -39,7 +39,7 @@ SAP BTP, SAP Business Technology Platform, Cloud Foundry, CF, Kyma, ABAP environ
 
 ```
 sap-btp-cloud-platform/
-├── SKILL.md              # Main skill content (584 lines)
+├── SKILL.md              # Main skill content (336 lines, optimized)
 ├── README.md             # This file
 ├── PROGRESS_TRACKING.md  # Documentation coverage tracking
 └── references/           # 13 comprehensive reference files
@@ -80,17 +80,17 @@ This skill extracts and organizes content from **1683 documentation files** in t
 
 ## Token Efficiency
 
-| Scenario | Without Skill | With Skill | Savings |
-|----------|---------------|------------|---------|
-| BTP account setup | ~15k tokens | ~4k tokens | 73% |
-| CF deployment | ~10k tokens | ~3k tokens | 70% |
-| Security configuration | ~12k tokens | ~4k tokens | 67% |
-| **Average** | **~12k tokens** | **~4k tokens** | **~67%** |
+| Scenario | Without Skill | With Skill (v1.1.0) | Savings |
+|----------|---------------|----------------------|---------|
+| BTP account setup | ~15k tokens | ~3.5k tokens | 77% |
+| CF deployment | ~10k tokens | ~2.5k tokens | 75% |
+| Security configuration | ~12k tokens | ~3.5k tokens | 71% |
+| **Average** | **~12k tokens** | **~3.2k tokens** | **~73%** |
 
 ## Maintenance
 
-- **Last Verified**: 2025-11-22
-- **Next Review**: 2026-02-22 (Quarterly)
+- **Last Verified**: 2025-11-27
+- **Next Review**: 2026-02-27 (Quarterly)
 - **Source Sync**: Check [PROGRESS_TRACKING.md](PROGRESS_TRACKING.md) for coverage details
 
 ## Related Skills

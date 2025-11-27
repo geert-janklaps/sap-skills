@@ -5,17 +5,29 @@ description: |
 license: GPL-3.0
 metadata:
   version: 1.3.0
-  last_updated: 2025-11-23
+  last_verified: 2025-11-26
   sac_version: "2025.23"
   documentation_source: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e
   api_reference: https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.23/en-US/index.html
-  reference_files: 7
+  reference_files: 20
   status: production
 ---
 
 # SAP Analytics Cloud Planning Skill
 
 Comprehensive skill for building enterprise planning applications with SAP Analytics Cloud.
+
+---
+
+## Reference Add-Ons (2025.23)
+
+- Execution guides: `references/data-actions.md`, `references/multi-actions.md`, `references/allocations.md`, `references/scheduling-calendar.md`, `references/data-locking.md`
+- Modeling & governance: `references/modeling-basics.md`, `references/version-management.md`, `references/version-edit-modes.md`, `references/version-publishing-notes.md`
+- Calculations & intelligence: `references/advanced-formulas.md`, `references/predictive-conversion.md`, `references/ai-planning-analytics.md`, `references/api-snippets.md`
+- Workflow aids: `references/input-tasks.md`, `references/job-monitoring.md`
+- Ready-to-use templates: `templates/data-action-checklist.md`, `templates/multi-action-checklist.md`, `templates/parameter-table.md`
+
+Use these to keep instructions concise in this file while deep-dives remain one click away.
 
 ---
 
@@ -671,15 +683,39 @@ console.log("Lock state: " + lockState);
 
 ## Bundled Reference Files
 
-This skill includes comprehensive reference documentation (7 files):
+This skill includes comprehensive reference documentation (20 files):
 
+**API & Scripting**:
 1. **references/api-reference.md**: Complete Analytics Designer API for planning
 2. **references/analytics-designer-planning.md**: Planning scripting, setUserInput, versions, data locking, members on the fly
-3. **references/data-actions.md**: Data Actions, Multi Actions, parameters, steps
-4. **references/planning-workflows.md**: Calendar, tasks, approvals, data locking
-5. **references/version-management.md**: Versions, publishing, sharing, edit mode
-6. **references/javascript-patterns.md**: Code snippets, patterns, best practices
-7. **references/s4hana-acdocp-export.md**: S/4HANA integration, ACDOCP export, OData setup
+3. **references/api-snippets.md**: Quick API code examples and snippets
+
+**Core Planning Features**:
+4. **references/data-actions.md**: Data Actions, Multi Actions, parameters, steps
+5. **references/multi-actions.md**: Orchestrate multiple planning operations
+6. **references/allocations.md**: Rule-based distribution and allocations
+7. **references/advanced-formulas.md**: Complex calculations and formulas
+8. **references/predictive-conversion.md**: Predictive forecasting integration
+
+**Workflow & Collaboration**:
+9. **references/planning-workflows.md**: Calendar, tasks, approvals, data locking
+10. **references/scheduling-calendar.md**: Planning calendar setup
+11. **references/input-tasks.md**: Collaborative data entry tasks
+12. **references/job-monitoring.md**: Track data action execution
+
+**Version Management**:
+13. **references/version-management.md**: Versions, publishing, sharing, edit mode
+14. **references/version-edit-modes.md**: Version editing workflows
+15. **references/version-publishing-notes.md**: Publishing best practices
+
+**Integration & Advanced**:
+16. **references/s4hana-acdocp-export.md**: S/4HANA integration, ACDOCP export, OData setup
+17. **references/ai-planning-analytics.md**: AI-powered planning features
+
+**Development**:
+18. **references/javascript-patterns.md**: Code snippets, patterns, best practices
+19. **references/modeling-basics.md**: Planning model fundamentals
+20. **references/data-locking.md**: Configure and manage data locks
 
 ---
 
@@ -708,6 +744,6 @@ For troubleshooting:
 ---
 
 **License**: GPL-3.0
-**Version**: 1.0.0
+**Version**: 1.3.0
 **Maintained by**: SAP Skills Maintainers
 **Repository**: https://github.com/secondsky/sap-skills

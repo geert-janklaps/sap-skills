@@ -1,5 +1,42 @@
 # SQLScript Performance Optimization Guide
 
+## Table of Contents
+
+- [Core Principle: Code-to-Data Paradigm](#core-principle-code-to-data-paradigm)
+- [Top Performance Optimization Tips](#top-performance-optimization-tips)
+  - [1. Reduce Data Volume Early](#1-reduce-data-volume-early)
+  - [2. Prefer Declarative Over Imperative](#2-prefer-declarative-over-imperative)
+  - [3. Avoid Engine Mixing](#3-avoid-engine-mixing)
+  - [4. Use UNION ALL Instead of UNION](#4-use-union-all-instead-of-union)
+  - [5. Minimize Dynamic SQL](#5-minimize-dynamic-sql)
+  - [6. Position Imperative Logic Last](#6-position-imperative-logic-last)
+- [Execution Plan Analysis](#execution-plan-analysis)
+  - [Understanding the Plan](#understanding-the-plan)
+  - [Common Plan Issues](#common-plan-issues)
+  - [Optimization Techniques](#optimization-techniques)
+- [Advanced Optimization Techniques](#advanced-optimization-techniques)
+  - [Query Hints](#query-hints)
+  - [Partitioning Strategies](#partitioning-strategies)
+  - [Materialized Views](#materialized-views)
+  - [Join Optimization](#join-optimization)
+- [Memory Management](#memory-management)
+  - [Memory Allocation](#memory-allocation)
+  - [Memory Leaks Prevention](#memory-leaks-prevention)
+  - [Large Dataset Handling](#large-dataset-handling)
+- [Parallel Execution](#parallel-execution)
+  - [Parallelism in Declarative Logic](#parallelism-in-declarative-logic)
+  - [Limitations of Imperative Code](#limitations-of-imperative-code)
+- [Performance Monitoring](#performance-monitoring)
+  - [Expensive Statements Trace](#expensive-statements-trace)
+  - [Performance Tools](#performance-tools)
+  - [Key Metrics](#key-metrics)
+- [Common Performance Anti-Patterns](#common-performance-anti-patterns)
+  - [Row-by-Row Processing](#row-by-row-processing)
+  - [Cursor Overuse](#cursor-overuse)
+  - [Unnecessary Joins](#unnecessary-joins)
+  - [Suboptimal Data Types](#suboptimal-data-types)
+- [Benchmarking Best Practices](#benchmarking-best-practices)
+
 ## Core Principle: Code-to-Data Paradigm
 
 SAP HANA's fundamental performance philosophy is **push computation to the database**, not pull data to the application. This leverages:

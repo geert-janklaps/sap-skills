@@ -213,10 +213,10 @@ This skill activates when users:
 
 | Component | Version |
 |-----------|---------|
-| hana-cli | 3.202511.0 |
+| hana-cli | 3.202405.1 |
 | Node.js Required | ≥20.19.0 |
 | @sap/cds | 9.4.4 |
-| Skill Version | 1.0.0 |
+| Skill Version | 1.1.0 |
 
 ---
 
@@ -237,4 +237,4 @@ GPL-3.0 License
 
 ---
 
-*Last Updated: 2025-11-22*
+*Last Updated: 2025-11-26*

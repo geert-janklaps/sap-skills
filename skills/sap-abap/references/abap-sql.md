@@ -2,6 +2,17 @@
 
 **Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/03_ABAP_SQL.md
 
+## Table of Contents
+
+1. [SELECT Statement Syntax](#select-statement-syntax)
+2. [Basic SELECT Operations](#basic-select-operations)
+3. [JOIN Operations](#join-operations)
+4. [Aggregate Functions](#aggregate-functions)
+5. [Subqueries and CTEs](#subqueries-and-ctes)
+6. [Modification Statements](#modification-statements)
+7. [Hierarchical Queries](#hierarchical-queries)
+8. [Performance Tips](#performance-tips)
+
 ---
 
 ## SELECT Statement Syntax

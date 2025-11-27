@@ -1,8 +1,8 @@
 # SAP SAC Scripting Skill - Documentation Extraction Progress
 
 **Created**: 2025-11-22
-**Last Updated**: 2025-11-23
-**Status**: Completed (v1.4.0)
+**Last Updated**: 2025-11-25
+**Status**: Completed (v1.5.0)
 
 ---
 
@@ -123,6 +123,22 @@
 | https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/68446c8a1b89457faff1aacd0120cc01.html | ⚠️ Client-rendered | Used alternative sources |
 | https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/fcafbd4489cb49f98984b64db81496f7.html | ⚠️ Client-rendered | Used alternative sources |
 | https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/e1c0b3755909436e960214b7e114bce2.html | ⚠️ Client-rendered | Used alternative sources |
+
+### SAP Help Portal - Additional URLs (Batch 3)
+| URL | Status | Notes |
+|-----|--------|-------|
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/0f47c5728c484f5c86db06b43f11b1db.html?locale=en-US&version=2025.23 | ✅ Extracted | Work with Comments in Analytic Applications |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/8a2db072d3a8463899b7224563d787d2.html?locale=en-US&version=2025.23 | ❌ Failed | Authentication Required |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/bf11f30235854d6d852d00addb7fd1f6.html?locale=en-US&version=2025.23 | ✅ Extracted | Use Text Widgets in Analytic Applications |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/77eb1188969e4e0ea7dfe92b73e67ee2.html?locale=en-US&version=2025.23 | ✅ Extracted | Blend Data in Analytic Applications |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/5128c44bafd04e19a4e1ee352ee1f14e.html?locale=en-US&version=2025.23 | ✅ Extracted | Known Restrictions in Analytics Designer |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/7200e99b1cdc4463bf5f60ab3d2ab8ae.html?locale=en-US&version=2025.23 | ✅ Extracted | Geo Map |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/366bdc2291e347bfbedff1bbf9377fca.html?locale=en-US&version=2025.23 | ✅ Extracted | Work with Time Series Forecast in Charts |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/a7bd9775a97748d685464b2ef58bce21.html?locale=en-US&version=2025.23 | ✅ Extracted | Work with Explorer and Smart Insights |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/8a5c547a501640c38ad549109d4314b1.html?locale=en-US&version=2025.23 | ✅ Extracted | Work with Search to Insight |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/fa8a42c6f906486897653e2f5e3708e3.html?locale=en-US&version=2025.23 | ✅ Extracted | Apply Smart Grouping to Charts |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/6f7a3c387b7d4efcabcf95990884d4a5.html?locale=en-US&version=2025.23 | ✅ Extracted | Add Scripts to Your Composites |
+| https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/18850a0e13944f53aa8a8b7c094ea29e/2249cc4e678e4f46ace92501320f5ef6.html?locale=en-US&version=2025.23 | ✅ Extracted | Restrictions in Composites |
 
 ### API Reference Documentation
 | URL | Status | Content Extracted |
@@ -271,3 +287,32 @@
 
 **Next Review**: 2026-02-23 (Quarterly)
 **Maintainer**: SAP Skills Maintainers
+
+---
+
+## New Documentation Directory Created (2025-11-24)
+
+### `docs/` Directory Structure
+- Created `docs/help-portal/` subdirectory containing 29 extracted documentation files
+- Each file named with URL ID for easy reference
+- All files include source URL, extraction date, and version information
+- Files organized in markdown format with proper headers
+
+### `docs/extraction-tracking-2025-23.md`
+Created comprehensive tracking document with:
+- Complete list of all 30 URLs with extraction status
+- Results summary (29/30 successful extractions)
+- Error log for failed URLs
+- File index of all extracted files
+
+### Documentation Coverage Achieved
+- **Core Concepts**: Script editor, value help, variables, objects, patterns
+- **Advanced Features**: Debugging, error checking, references, automatic refactoring
+- **Technical Objects**: Calendar, bookmarks, exports, multi-actions, data actions, planning models
+- **Widget Configuration**: Input fields, sliders, data binding, OData services
+- **Performance**: Script performance popup, MemberInfo optimization
+- **Integration**: Multi-actions, calendar tasks, R visualization, OData services
+
+**Documentation Quality:** All extracted content from official SAP sources with proper formatting and attribution.
+
+**Total Files Created:** 29 unique documentation files in `docs/help-portal/` directory.

@@ -1,7 +1,7 @@
 # SAP Analytics Cloud - Version Management Reference
 
-**Source**: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/9d9056a13b764ad3aca8fef2630fcc00.html
-**Last Updated**: 2025-11-22
+**Sources**: 012-version-management-overview.md (SAC 2025.23) + related SAP Help portal pages
+**Last Updated**: 2025-11-25
 
 ---
 

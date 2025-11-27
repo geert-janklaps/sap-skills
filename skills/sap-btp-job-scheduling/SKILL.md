@@ -11,6 +11,9 @@ description: |
   CF tasks, Kyma, OAuth 2.0, XSUAA, @sap/jobs-client, REST API, asynchronous jobs, action endpoint, run logs,
   SAP Cloud ALM, Alert Notification Service, multitenancy, tenant-aware, BC-CP-CF-JBS
 license: GPL-3.0
+metadata:
+  version: "1.0.0"
+  last_verified: "2025-11-25"
 ---
 
 # SAP BTP Job Scheduling Service

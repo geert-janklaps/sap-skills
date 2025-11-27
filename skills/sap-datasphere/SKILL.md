@@ -4,15 +4,35 @@ description: |
   Comprehensive guide for SAP Datasphere development including data acquisition, preparation, modeling, administration, connectivity, and integration. Use when building data warehouses on SAP BTP, creating analytic models, configuring data flows and replication flows, setting up connections to SAP and third-party systems, managing spaces and users, implementing data access controls, or monitoring data integration tasks. Covers Data Builder (graphical/SQL views, local/remote tables, transformation flows), Business Builder (business entities, consumption models), analytic models (dimensions, measures, hierarchies), 40+ connection types (SAP S/4HANA, BW/4HANA, HANA Cloud, AWS, Azure, GCP, Kafka), real-time replication, task chains, and content transport. Keywords: sap datasphere, data warehouse cloud, dwc, data builder, business builder, analytic model, graphical view, sql view, transformation flow, replication flow, data flow, task chain, remote table, local table, sap btp data warehouse, datasphere connection, datasphere space, data access control, elastic compute node, sap analytics cloud integration
 license: GPL-3.0
 metadata:
-  version: 1.2.1
-  last_verified: 2025-11-22
-  estimated_token_savings: ~70% (based on comparative analysis of skill-assisted vs manual development)
-  estimated_errors_prevented: 25+ (common issues documented from SAP community and support notes)
-  official_docs: https://help.sap.com/docs/SAP_DATASPHERE
-  source_repo: https://github.com/SAP-docs/sap-datasphere
+  version: 1.3.0
+  last_verified: 2025-11-26
 ---
 
 # SAP Datasphere Skill
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Quick Reference](#quick-reference)
+  - [Core Components](#core-components)
+  - [Object Types](#object-types)
+- [Data Builder](#data-builder)
+  - [Graphical Views](#graphical-views)
+  - [SQL Views](#sql-views)
+  - [Tables](#tables)
+  - [Flows](#flows)
+  - [Task Chains](#task-chains)
+- [Business Builder](#business-builder)
+- [Analytic Models](#analytic-models)
+- [Connections](#connections)
+- [Space Management](#space-management)
+- [Data Access Control](#data-access-control)
+- [Monitoring](#monitoring)
+- [Content Transport](#content-transport)
+- [Best Practices](#best-practices)
+- [Common Issues](#common-issues)
+- [Bundled Resources](#bundled-resources)
+- [Documentation Links](#documentation-links)
 
 ## Overview
 
@@ -455,6 +475,36 @@ For transport procedures, see `references/content-transport.md`.
 
 ---
 
+## Bundled Resources
+
+### Reference Documentation
+1. **`references/data-acquisition-preparation.md`** - Complete guide to data flows, replication flows, transformation flows, and table management in Data Builder
+2. **`references/data-modeling.md`** - Comprehensive coverage of Business Builder entities, analytic models, dimensions, measures, and hierarchies
+3. **`references/graphical-sql-views.md`** - Detailed operations for graphical views, SQL views, E-R models, and intelligent lookups
+4. **`references/connectivity.md`** - All 40+ connection types including SAP systems, cloud providers, and streaming platforms
+5. **`references/administration.md`** - Tenant management, space configuration, user roles, and elastic compute nodes
+6. **`references/data-integration-monitor.md`** - Task scheduling, monitoring, real-time replication, and delta mechanisms
+7. **`references/data-access-security.md`** - Row-level security, DAC configurations, and authorization scenarios
+8. **`references/content-transport.md`** - Package export/import, transport management, and tenant migration
+9. **`PROGRESS_TRACKING.md`** - Internal documentation coverage tracking and development status
+
+### File Structure
+```
+skills/sap-datasphere/
+├── SKILL.md                              # Main skill file (468 lines)
+├── README.md                             # Quick reference and keywords
+├── PROGRESS_TRACKING.md                  # Documentation coverage tracking
+└── references/
+    ├── data-acquisition-preparation.md   # Data flows, replication, tables
+    ├── data-modeling.md                  # Analytic models, Business Builder
+    ├── graphical-sql-views.md            # Views, E-R models, lookups
+    ├── administration.md                 # Tenant, spaces, users, monitoring
+    ├── connectivity.md                   # All connection types
+    ├── data-integration-monitor.md       # Monitoring, scheduling
+    ├── data-access-security.md           # Row-level security
+    └── content-transport.md              # Export, import, packages
+```
+
 ## Documentation Links
 
 - **SAP Help Portal**: https://help.sap.com/docs/SAP_DATASPHERE
@@ -464,4 +514,4 @@ For transport procedures, see `references/content-transport.md`.
 
 ---
 
-**Version**: 1.2.1 | **Last Verified**: 2025-11-22
+**Version**: 1.3.0 | **Last Verified**: 2025-11-26

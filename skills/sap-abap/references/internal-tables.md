@@ -2,6 +2,18 @@
 
 **Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/01_Internal_Tables.md
 
+## Table of Contents
+
+1. [Table Type Categories](#table-type-categories)
+2. [Declaration Syntax](#declaration-syntax)
+3. [Basic Operations](#basic-operations)
+4. [Table Expressions](#table-expressions)
+5. [Loop Processing](#loop-processing)
+6. [Grouping Operations](#grouping-operations)
+7. [Performance Considerations](#performance-considerations)
+8. [Secondary Keys](#secondary-keys)
+9. [Common Patterns](#common-patterns)
+
 ---
 
 ## Table Type Categories

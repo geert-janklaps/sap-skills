@@ -62,15 +62,15 @@ This skill should be used when:
 
 | Property | Value |
 |----------|-------|
-| Skill Version | 1.1.0 |
-| SAC Version | 2025.19 |
-| Last Verified | 2025-11-22 |
+| Skill Version | 1.2.0 |
+| SAC Version | 2025.21 |
+| Last Verified | 2025-11-26 |
 | Token Savings | ~75% |
 | Errors Prevented | 25+ |
 
 ## Official Documentation
 
-- [SAP Custom Widget Developer Guide](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/0ac8c6754ff84605a4372468d002f2bf/75311f67527c41638ceb89af9cd8af3e.html?version=2025.19&locale=en-US)
+- [SAP Custom Widget Developer Guide](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/0ac8c6754ff84605a4372468d002f2bf/75311f67527c41638ceb89af9cd8af3e.html?version=2025.21&locale=en-US)
 - [Custom Widget Developer Guide (PDF)](https://help.sap.com/doc/c813a28922b54e50bd2a307b099787dc/release/en-US/CustomWidgetDevGuide_en.pdf)
 - [Widget API (PDF, 2025)](https://help.sap.com/doc/7e0efa0e68dc45958e568699f8226ad7/cloud/en-US/SAC_Widget_API_en.pdf)
 - [Analytics Designer API Reference](https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html)

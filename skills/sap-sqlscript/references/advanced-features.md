@@ -1,5 +1,47 @@
 # SQLScript Advanced Features Reference
 
+## Table of Contents
+
+- [Loop Variations](#loop-variations)
+  - [DO n TIMES Loop](#do-n-times-loop)
+  - [DO n TIMES with Counter](#do-n-times-with-counter)
+- [Lateral Joins](#lateral-joins)
+  - [Syntax](#syntax)
+  - [Example](#example)
+  - [Additional Examples](#additional-examples)
+- [JSON Functions](#json-functions)
+  - [JSON_PARSE](#json_parse)
+  - [JSON_STRINGIFY](#json_stringify)
+  - [JSON_VALUE](#json_value)
+  - [JSON_QUERY](#json_query)
+  - [JSON_EXISTS](#json_exists)
+- [Query Hints](#query-hints)
+  - [NO_INLINE_HINT](#no_inline_hint)
+  - [PLAN_FILTER_HINT](#plan_filter_hint)
+  - [GROUPING_HINT](#grouping_hint)
+  - [SESSION_VARIABLE_HINT](#session_variable_hint)
+- [Currency Conversion](#currency-conversion)
+  - [CONVERT_CURRENCY](#convert_currency)
+  - [Currency Configuration](#currency-configuration)
+- [Session Context](#session-context)
+  - [SESSION_CONTEXT](#session_context)
+- [Advanced Arrays](#advanced-arrays)
+  - [ARRAY_AGG](#array_agg)
+  - [TRIM_ARRAY](#trim_array)
+  - [Array Operations](#array-operations)
+- [CE Functions](#ce-functions)
+  - [CE_CALC](#ce_calc)
+  - [CE Functions Available](#ce-functions-available)
+- [Advanced Exception Handling](#advanced-exception-handling)
+  - [CONTINUE HANDLER](#continue_handler)
+  - [Nested Handlers](#nested-handlers)
+- [Advanced Cursor Features](#advanced-cursor-features)
+  - [Scrollable Cursors](#scrollable-cursors)
+  - [Cursor WITH HOLD](#cursor-with-hold)
+- [Dynamic SQL Enhancements](#dynamic-sql-enhancements)
+  - [Using Parameters](#using-parameters)
+  - [Dynamic Table Operations](#dynamic-table-operations)
+
 ## Loop Variations
 
 ### DO n TIMES Loop

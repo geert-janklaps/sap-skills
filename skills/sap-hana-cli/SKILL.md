@@ -8,6 +8,9 @@ description: |
   working with BTP CLI integration, or troubleshooting hana-cli commands.
   Covers: 91 commands, 17+ output formats, HDI container management, cloud operations.
 license: GPL-3.0
+metadata:
+  version: "1.1.0"
+  last_verified: "2025-11-26"
 ---
 
 # SAP HANA Developer CLI (hana-cli)
@@ -16,7 +19,7 @@ A developer-centric command-line interface for SAP HANA database development, pa
 
 **Repository**: https://github.com/SAP-samples/hana-developer-cli-tool-example
 **npm Package**: https://www.npmjs.com/package/hana-cli
-**Current Version**: 3.202511.0 (November 2025)
+**Current Version**: 3.202405.1 (April 2024)
 **Node.js Requirement**: ≥20.19.0
 
 ---
@@ -258,4 +261,4 @@ hana-cli inspectUser
 
 ---
 
-*Last Updated: 2025-11-23 | Version: 2.2.0*
+*Last Updated: 2025-11-26 | Version: 1.1.0*

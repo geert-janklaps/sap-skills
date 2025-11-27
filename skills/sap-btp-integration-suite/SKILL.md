@@ -1,5 +1,5 @@
 ---
-name: SAP BTP Integration Suite
+name: sap-btp-integration-suite
 description: |
   Develops and operates enterprise integration solutions using SAP Integration Suite on Business Technology Platform.
   Covers Cloud Integration (iFlows), API Management, Event Mesh, Edge Integration Cell, Integration Advisor,
@@ -26,8 +26,8 @@ description: |
 
 license: GPL-3.0
 metadata:
-  version: 1.0.0
-  last_verified: 2025-11-22
+  version: 1.1.0
+  last_verified: 2025-11-27
   documentation_source: https://github.com/SAP-docs/sap-btp-integration-suite
   sap_help_portal: https://help.sap.com/docs/integration-suite
   status: production

@@ -11,7 +11,6 @@ license: GPL-3.0
 metadata:
   version: "1.0.0"
   last_updated: "2025-11-22"
-  source: "https://github.com/SAP-samples/abap-cheat-sheets"
 ---
 
 # SAP ABAP Development Skill
@@ -230,49 +229,24 @@ CREATE DATA dref TYPE HANDLE elem_type.
 
 ---
 
-## Detailed References
+## Bundled Resources
 
-For comprehensive information on specific topics, see:
+This skill includes 28 comprehensive reference files covering all aspects of ABAP development:
 
-### Core Language
-- **Internal Tables**: `references/internal-tables.md` - Complete table operations, keys, grouping
-- **Table Grouping**: `references/table-grouping.md` - GROUP BY loops, aggregation
-- **ABAP SQL**: `references/abap-sql.md` - SELECT, JOINs, CTEs, aggregate functions
-- **SQL Hierarchies**: `references/sql-hierarchies.md` - CTE hierarchies, navigators
-- **WHERE Conditions**: `references/where-conditions.md` - SQL and table WHERE patterns
-- **Constructor Expressions**: `references/constructor-expressions.md` - VALUE, NEW, COND, REDUCE
-- **String Processing**: `references/string-processing.md` - String functions, regex
-- **Numeric Operations**: `references/numeric-operations.md` - Math functions, big integers
-- **Bits and Bytes**: `references/bits-bytes.md` - Binary operations, CASTING
-- **Program Flow**: `references/program-flow.md` - IF, CASE, LOOP, DO, WHILE, control statements
-- **Built-in Functions**: `references/builtin-functions.md` - String, numeric, table, logical functions
+### Quick Access
+- **Reference Guide**: `references/skill-reference-guide.md` - Complete guide to all reference files
+- **Internal Tables**: `references/internal-tables.md` - Complete table operations
+- **ABAP SQL**: `references/abap-sql.md` - Comprehensive SQL reference
+- **Object Orientation**: `references/object-orientation.md` - Classes and interfaces
 
-### Object Orientation
-- **Object Orientation**: `references/object-orientation.md` - Classes, interfaces, inheritance
-- **Design Patterns**: `references/design-patterns.md` - Factory, Singleton, Strategy patterns
-- **Dynamic Programming**: `references/dynamic-programming.md` - RTTI, RTTC, field symbols
-
-### RAP and Modern ABAP
-- **RAP and EML**: `references/rap-eml.md` - RESTful Application Programming Model
-- **CDS Views**: `references/cds-views.md` - Core Data Services
-- **ABAP Cloud**: `references/cloud-development.md` - Cloud-ready development
-- **Released Classes**: `references/released-classes.md` - Released API catalog
-- **AMDP**: `references/amdp.md` - ABAP Managed Database Procedures, SQLScript
-
-### Testing and Security
-- **Unit Testing**: `references/unit-testing.md` - ABAP Unit framework
-- **Exception Handling**: `references/exceptions.md` - TRY/CATCH, exception classes
-- **Authorization**: `references/authorization.md` - AUTHORITY-CHECK, DCL
-
-### Data and Types
-- **ABAP Dictionary**: `references/abap-dictionary.md` - Data elements, domains, tables
-- **Date and Time**: `references/date-time.md` - Type d, t, utclong, timestamps, XCO
-- **XML/JSON Processing**: `references/xml-json.md` - iXML, sXML, CALL TRANSFORMATION
-- **Generative AI**: `references/generative-ai.md` - AI SDK, LLM integration
-
-### Transactions and Performance
-- **SAP LUW**: `references/sap-luw.md` - Logical Unit of Work, COMMIT, ROLLBACK
-- **Performance**: `references/performance.md` - Database access, internal table optimization
+### Development Topics
+- `references/constructor-expressions.md` - VALUE, NEW, COND, REDUCE
+- `references/rap-eml.md` - RAP and EML operations
+- `references/cds-views.md` - CDS view development
+- `references/string-processing.md` - String functions and regex
+- `references/unit-testing.md` - ABAP Unit framework
+- `references/performance.md` - Optimization techniques
+- ... and 18 more specialized references
 
 ---
 

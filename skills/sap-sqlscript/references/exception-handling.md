@@ -1,5 +1,48 @@
 # SQLScript Exception Handling Reference
 
+## Table of Contents
+
+- [Overview](#overview)
+- [EXIT HANDLER](#exit-handler)
+  - [Purpose](#purpose)
+  - [Syntax](#syntax)
+  - [Condition Values](#condition-values)
+  - [Examples](#examples)
+- [CONTINUE HANDLER](#continue-handler)
+  - [Purpose](#purpose-1)
+  - [Syntax](#syntax-1)
+  - [When to Use](#when-to-use)
+  - [Examples](#examples-1)
+- [CONDITION Declaration](#condition-declaration)
+  - [Purpose](#purpose-2)
+  - [Syntax](#syntax-2)
+  - [Common Error Codes](#common-error-codes)
+  - [Examples](#examples-2)
+- [SIGNAL Statement](#signal-statement)
+  - [Purpose](#purpose-3)
+  - [Syntax](#syntax-3)
+  - [User-defined Error Codes](#user-defined-error-codes)
+  - [Examples](#examples-3)
+- [RESIGNAL Statement](#resignal-statement)
+  - [Purpose](#purpose-4)
+  - [Syntax](#syntax-4)
+  - [When to Use](#when-to-use-1)
+  - [Examples](#examples-4)
+- [Error Information Access](#error-information-access)
+  - [SQL_ERROR_CODE](#sql_error_code)
+  - [SQL_ERROR_MESSAGE](#sql_error_message)
+  - [Examples](#examples-5)
+- [Handler Precedence](#handler-precedence)
+  - [Handler Selection Rules](#handler-selection-rules)
+  - [Examples](#examples-6)
+- [Nested Handlers](#nested-handlers)
+  - [Handler Scoping](#handler-scoping)
+  - [Examples](#examples-7)
+- [Best Practices](#best-practices)
+  - [Error Handling Strategy](#error-handling-strategy)
+  - [Performance Considerations](#performance-considerations)
+  - [Common Patterns](#common-patterns)
+
 ## Overview
 
 SAP HANA SQLScript provides four primary mechanisms for exception handling:

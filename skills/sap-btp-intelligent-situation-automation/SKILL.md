@@ -12,6 +12,9 @@ description: |
   SAP_COM_0345, SAP_COM_0376, SAP_COM_0092, SituationAutomationKeyUser, SituationAutomationAdminUser,
   Cloud Connector, cf-eu10, CA-SIT-ATM, business situations, situation types, situation actions
 license: GPL-3.0
+metadata:
+  version: "1.0.0"
+  last_verified: "2025-11-25"
 ---
 
 # SAP BTP Intelligent Situation Automation

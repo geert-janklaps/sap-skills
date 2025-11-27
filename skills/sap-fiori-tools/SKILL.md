@@ -8,6 +8,9 @@ description: |
   SAP Fiori launchpad, or using AI-powered generation with Project Accelerator/Joule.
   Technologies: SAP Fiori Elements, SAPUI5, OData V2/V4, CAP, SAP BTP, ABAP, Cloud Foundry.
 license: GPL-3.0
+metadata:
+  version: "1.0.0"
+  last_verified: "2025-11-25"
 ---
 
 # SAP Fiori Tools Development Skill

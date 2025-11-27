@@ -2,6 +2,19 @@
 
 **Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/05_Constructor_Expressions.md
 
+## Table of Contents
+
+1. [VALUE Operator](#value-operator)
+2. [NEW Operator](#new-operator)
+3. [CONV Operator](#conv-operator)
+4. [CORRESPONDING Operator](#corresponding-operator)
+5. [COND Operator](#cond-operator)
+6. [SWITCH Operator](#switch-operator)
+7. [REDUCE Operator](#reduce-operator)
+8. [FILTER Operator](#filter-operator)
+9. [FOR Expressions](#for-expressions)
+10. [EXACT Operator](#exact-operator)
+
 ---
 
 ## VALUE Operator

@@ -6,9 +6,9 @@ Comprehensive Claude Code skill for scripting in SAP Analytics Cloud (SAC), incl
 
 This skill provides guidance, API references, and ready-to-use templates for developing interactive analytics applications and enhanced stories in SAP Analytics Cloud.
 
-**Version**: 1.4.0
-**SAC Version**: 2025.14+
-**Last Updated**: 2025-11-23
+**Version**: 1.7.0
+**SAC Version**: 2025.23
+**Last Updated**: 2025-11-27
 
 ## Installation
 

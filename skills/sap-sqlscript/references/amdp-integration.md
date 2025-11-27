@@ -1,5 +1,38 @@
 # AMDP (ABAP Managed Database Procedures) Integration Guide
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Key Benefits](#key-benefits)
+- [Prerequisites](#prerequisites)
+- [AMDP Class Structure](#amdp-class-structure)
+  - [Interface Definition](#interface-definition)
+  - [Method Definition](#method-definition)
+  - [Method Implementation](#method-implementation)
+- [Data Type Mapping](#data-type-mapping)
+  - [ABAP to SQLScript Types](#abap-to-sqlscript-types)
+  - [Table Types](#table-types)
+  - [Complex Types](#complex-types)
+- [AMDP Method Types](#amdp-method-types)
+  - [Procedures](#procedures)
+  - [Functions](#functions)
+  - [CDS Views](#cds-views)
+- [Implementation Examples](#implementation-examples)
+  - [Simple Procedure](#simple-procedure)
+  - [Table Function](#table-function)
+  - [Using CDS Entities](#using-cds-entities)
+- [Advanced Features](#advanced-features)
+  - [Cursor Operations](#cursor-operations)
+  - [Dynamic SQL](#dynamic-sql)
+  - [Exception Handling](#exception-handling)
+  - [Performance Hints](#performance-hints)
+- [Best Practices](#best-practices)
+- [Common Pitfalls](#common-pitfalls)
+- [Debugging AMDP](#debugging-amdp)
+- [Transport and Deployment](#transport-and-deployment)
+- [Performance Considerations](#performance-considerations)
+- [AMDP vs CDS View vs HANA View](#amdp-vs-cds-view-vs-hana-view)
+
 ## Overview
 
 ABAP Managed Database Procedures (AMDP) allow developers to write SQLScript code directly within ABAP classes. Introduced in ABAP 7.40 SP05, AMDP enables the **code-to-data paradigm** from the ABAP layer, pushing data-intensive operations to the SAP HANA database.

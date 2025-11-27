@@ -10,6 +10,9 @@ description: |
   Keywords: SAP API, REST, OData, OpenAPI, Swagger, Javadoc, JSDoc, XML documentation, API Business Hub, API naming,
   API deprecation, x-sap-stateInfo, Entity Data Model, EDM, documentation tags, API quality, API templates
 license: GPL-3.0
+metadata:
+  version: "1.0.0"
+  last_verified: "2025-11-25"
 ---
 
 # SAP API Style Guide

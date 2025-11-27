@@ -29,13 +29,12 @@ Data actions perform calculations and data manipulation on planning models. All 
 - **Transaction**: All-or-nothing execution
 - **Rollback**: Automatic rollback on failure
 
-### Creating a Data Action
-
-1. Navigate to **Files** → **Create New** → **Data Action**
-2. Select target **Planning Model**
-3. Add steps in sequence
-4. Configure parameters (optional)
-5. Save and test
+### Creating a Data Action (020-create-data-action.md)
+1. Files → Create New → Data Action; choose target planning model.
+2. Add steps (copy/cross-copy/allocation/embedded/conversion/advanced formulas) in needed order.
+3. Set parameters (member/number/measure); enable sorting if many prompts.
+4. Choose write mode per step (append vs overwrite); validate mappings to leaf members.
+5. Save, test on small slice, then schedule/run via starter or calendar.
 
 ---
 

@@ -237,10 +237,11 @@ The skill content is derived from official SAP documentation and community resou
 
 ## Version Information
 
-- **SAP HANA Platform**: 2.0 SPS07
+- **SAP HANA Platform**: 2.0 SPS07 (SPS08 available June 2025)
+- **SAP HANA Cloud**: QRC 3/2025 (latest)
 - **AMDP**: ABAP 7.40 SP05+
-- **Last Updated**: 2025-11-23
+- **Last Updated**: 2025-11-26
 
 ## License
 
-MIT
+GPL-3.0
