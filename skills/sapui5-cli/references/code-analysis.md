@@ -1,6 +1,6 @@
 # UI5 Code Analysis Complete Reference
 
-**Official Documentation**: https://ui5.github.io/cli/stable/pages/CodeAnalysis/
+**Official Documentation**: [https://ui5.github.io/cli/stable/pages/CodeAnalysis/](https://ui5.github.io/cli/stable/pages/CodeAnalysis/)
 
 This reference provides comprehensive details about UI5 CLI code analysis features, dependency analyzers, and JSDoc generation.
 
@@ -710,4 +710,4 @@ dist/
 ---
 
 **Last Updated**: 2025-11-21
-**Official Docs**: https://ui5.github.io/cli/stable/pages/CodeAnalysis/
+**Official Docs**: [https://ui5.github.io/cli/stable/pages/CodeAnalysis/](https://ui5.github.io/cli/stable/pages/CodeAnalysis/)

@@ -2,7 +2,7 @@
 
 Complete guide for administering SAP Build Work Zone, advanced edition through the Administration Console.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
 
 ---
 
@@ -295,5 +295,5 @@ Control platform features:
 ---
 
 **Documentation Links**:
-- Administration: https://help.sap.com/docs/build-work-zone-advanced-edition
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+- Administration: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)

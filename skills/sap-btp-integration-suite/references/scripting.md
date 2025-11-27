@@ -1,7 +1,7 @@
 # Scripting - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development)
 **Last Updated**: 2025-11-22
 
 ---
@@ -35,7 +35,7 @@ SAP Cloud Integration supports two scripting languages:
 - Simple XML/JSON manipulation (use XPath, JSONPath)
 - Standard encoding/decoding (use Encoder/Decoder steps)
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md)
 
 ---
 
@@ -342,7 +342,7 @@ def Message processData(Message message) {
 }
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/creating-a-script-collection-824bff0.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/creating-a-script-collection-824bff0.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/creating-a-script-collection-824bff0.md)
 
 ---
 
@@ -360,13 +360,13 @@ def Message processData(Message message) {
     def endpoint
     switch(json.region) {
         case "US":
-            endpoint = "https://us-api.example.com"
+            endpoint = "[https://us-api.example.com"](https://us-api.example.com")
             break
         case "EU":
-            endpoint = "https://eu-api.example.com"
+            endpoint = "[https://eu-api.example.com"](https://eu-api.example.com")
             break
         default:
-            endpoint = "https://default-api.example.com"
+            endpoint = "[https://default-api.example.com"](https://default-api.example.com")
     }
 
     message.setProperty("TargetEndpoint", endpoint)
@@ -511,7 +511,7 @@ def Message processData(Message message) {
    - Not thread-safe
    - Causes memory leaks
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md)
 
 ---
 
@@ -556,7 +556,7 @@ import org.slf4j.LoggerFactory
 
 ## Related Documentation
 
-- **Scripting Guidelines**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md
-- **Script Collections**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/creating-a-script-collection-824bff0.md
-- **Script Use Cases**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/script-use-cases-148851b.md
-- **Access Headers/Properties**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/access-headers-and-properties-in-scripts-6bc5ed1.md
+- **Scripting Guidelines**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md)
+- **Script Collections**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/creating-a-script-collection-824bff0.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/creating-a-script-collection-824bff0.md)
+- **Script Use Cases**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/script-use-cases-148851b.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/script-use-cases-148851b.md)
+- **Access Headers/Properties**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/access-headers-and-properties-in-scripts-6bc5ed1.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/access-headers-and-properties-in-scripts-6bc5ed1.md)

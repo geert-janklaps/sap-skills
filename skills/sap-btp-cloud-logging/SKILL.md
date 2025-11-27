@@ -12,8 +12,8 @@ license: GPL-3.0
 metadata:
   version: "1.1.0"
   last_verified: "2025-11-27"
-  source_documentation: "https://github.com/SAP-docs/btp-cloud-logging"
-  sap_help_portal: "https://help.sap.com/docs/cloud-logging"
+  source_documentation: "[https://github.com/SAP-docs/btp-cloud-logging"](https://github.com/SAP-docs/btp-cloud-logging")
+  sap_help_portal: "[https://help.sap.com/docs/cloud-logging"](https://help.sap.com/docs/cloud-logging")
 ---
 
 # SAP BTP Cloud Logging Skill
@@ -196,8 +196,8 @@ spec:
     "admin_group": "CLS-Admins",
     "roles_key": "groups",
     "idp": {
-      "metadata_url": "https://<tenant>.accounts.ondemand.com/saml2/metadata",
-      "entity_id": "https://<tenant>.accounts.ondemand.com"
+      "metadata_url": "[https://<tenant>.accounts.ondemand.com/saml2/metadata",](https://<tenant>.accounts.ondemand.com/saml2/metadata",)
+      "entity_id": "[https://<tenant>.accounts.ondemand.com"](https://<tenant>.accounts.ondemand.com")
     },
     "sp": {
       "entity_id": "cloud-logging-<instance-id>"
@@ -258,7 +258,7 @@ For Java/Node.js automation libraries, see `references/opentelemetry-ingestion.m
 ### 4. JSON API
 Send logs via HTTP with mTLS:
 ```bash
-curl -X PUT "https://<ingest-endpoint>/v1/ingest" \
+curl -X PUT "[https://<ingest-endpoint>/v1/ingest"](https://<ingest-endpoint>/v1/ingest") \
   --cert client.crt --key client.key \
   -H "Content-Type: application/json" \
   -d '[{"msg": "log message", "date": "2025-01-15T10:30:00Z"}]'
@@ -404,15 +404,15 @@ For detailed information, see bundled reference files:
 ## Documentation Links
 
 ### Official Sources
-- **GitHub Docs:** https://github.com/SAP-docs/btp-cloud-logging
-- **SAP Help Portal:** https://help.sap.com/docs/cloud-logging
-- **Discovery Center:** https://discovery-center.cloud.sap/serviceCatalog/cloud-logging
+- **GitHub Docs:** [https://github.com/SAP-docs/btp-cloud-logging](https://github.com/SAP-docs/btp-cloud-logging)
+- **SAP Help Portal:** [https://help.sap.com/docs/cloud-logging](https://help.sap.com/docs/cloud-logging)
+- **Discovery Center:** [https://discovery-center.cloud.sap/serviceCatalog/cloud-logging](https://discovery-center.cloud.sap/serviceCatalog/cloud-logging)
 - **Capacity Estimator:** Referenced in Discovery Center
 
 ### Related Documentation
-- **OpenSearch:** https://opensearch.org/docs/latest/
-- **SAP Cloud Identity Services:** https://help.sap.com/docs/cloud-identity
-- **BTP Security Recommendations:** https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations
+- **OpenSearch:** [https://opensearch.org/docs/latest/](https://opensearch.org/docs/latest/)
+- **SAP Cloud Identity Services:** [https://help.sap.com/docs/cloud-identity](https://help.sap.com/docs/cloud-identity)
+- **BTP Security Recommendations:** [https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations)
 
 ---
 

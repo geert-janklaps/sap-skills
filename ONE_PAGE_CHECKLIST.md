@@ -10,7 +10,7 @@ Before starting a new skill, verify:
 
 - [ ] Read [START_HERE.md](START_HERE.md) for workflow overview
 - [ ] Skill doesn't already exist in this repo
-- [ ] Checked official Anthropic skills: https://github.com/anthropics/skills
+- [ ] Checked official Anthropic skills: [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
 - [ ] Identified target use cases (3-5 concrete examples)
 - [ ] Verified this is atomic (one domain, not a bundle)
 

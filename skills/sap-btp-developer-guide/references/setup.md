@@ -329,6 +329,6 @@ Start with only needed systems. Additional systems can be provisioned later.
 
 ## Source Documentation
 
-- Setup: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/set-up-3b774f8.md
-- SAP BTP Administrator's Guide: https://help.sap.com/docs/btp/sap-business-technology-platform/administration-and-operations
-- Terraform Provider: https://registry.terraform.io/providers/SAP/btp/latest
+- Setup: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/set-up-3b774f8.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/set-up-3b774f8.md)
+- SAP BTP Administrator's Guide: [https://help.sap.com/docs/btp/sap-business-technology-platform/administration-and-operations](https://help.sap.com/docs/btp/sap-business-technology-platform/administration-and-operations)
+- Terraform Provider: [https://registry.terraform.io/providers/SAP/btp/latest](https://registry.terraform.io/providers/SAP/btp/latest)

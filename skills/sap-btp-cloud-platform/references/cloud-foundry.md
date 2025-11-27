@@ -2,8 +2,8 @@
 
 Detailed guidance for SAP BTP Cloud Foundry environment development and administration.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts
-**CF Docs**: https://docs.cloudfoundry.org/
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts)
+**CF Docs**: [https://docs.cloudfoundry.org/](https://docs.cloudfoundry.org/)
 
 ---
 
@@ -106,7 +106,7 @@ applications:
 ```yaml
 applications:
 - name: my-app
-  buildpack: https://github.com/my-org/my-buildpack.git
+  buildpack: [https://github.com/my-org/my-buildpack.git](https://github.com/my-org/my-buildpack.git)
 ```
 
 ---
@@ -143,7 +143,7 @@ cf service-key my-service my-key
 For external services not in marketplace:
 
 ```bash
-cf create-user-provided-service my-external-service -p '{"url":"https://api.example.com","key":"xxx"}'
+cf create-user-provided-service my-external-service -p '{"url":"[https://api.example.com","key":"xxx"}'](https://api.example.com","key":"xxx"}')
 ```
 
 ### VCAP_SERVICES
@@ -225,10 +225,10 @@ cf rename my-app-new my-app
 
 ```bash
 # Login
-cf login -a https://api.cf.eu10.hana.ondemand.com
+cf login -a [https://api.cf.eu10.hana.ondemand.com](https://api.cf.eu10.hana.ondemand.com)
 
 # Login with SSO
-cf login -a https://api.cf.eu10.hana.ondemand.com --sso
+cf login -a [https://api.cf.eu10.hana.ondemand.com](https://api.cf.eu10.hana.ondemand.com) --sso
 
 # Target org/space
 cf target -o my-org -s my-space
@@ -376,7 +376,7 @@ applications:
 
 ## Related Documentation
 
-- CF Environment Concepts: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/cloud-foundry-environment-9c7092c.md
-- Regions and Endpoints: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md
-- Getting Started: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/20-getting-started/getting-started-in-the-cloud-foundry-environment-b328cc8.md
-- Official CF Docs: https://docs.cloudfoundry.org/
+- CF Environment Concepts: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/cloud-foundry-environment-9c7092c.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/cloud-foundry-environment-9c7092c.md)
+- Regions and Endpoints: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md)
+- Getting Started: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/20-getting-started/getting-started-in-the-cloud-foundry-environment-b328cc8.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/20-getting-started/getting-started-in-the-cloud-foundry-environment-b328cc8.md)
+- Official CF Docs: [https://docs.cloudfoundry.org/](https://docs.cloudfoundry.org/)

@@ -1,7 +1,7 @@
 # Official Anthropic Standards vs Our Approach
 
 **Last Updated**: 2025-10-21
-**Official Source**: https://github.com/anthropics/skills
+**Official Source**: [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
 **Spec Version**: 1.0 (2025-10-16)
 
 ---
@@ -237,7 +237,7 @@ When building a skill, verify against official spec:
 
 ## Official Examples We Reference
 
-From https://github.com/anthropics/skills:
+From [https://github.com/anthropics/skills](https://github.com/anthropics/skills):
 
 1. **skill-creator** - Meta skill about creating skills
 2. **template-skill** - Minimal example
@@ -279,7 +279,7 @@ From https://github.com/anthropics/skills:
 ### Potential Official Changes
 
 If Anthropic updates the spec, we need to:
-1. Review changes in https://github.com/anthropics/skills
+1. Review changes in [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
 2. Update this comparison document
 3. Audit existing skills for compliance
 4. Update templates to match new requirements
@@ -326,10 +326,10 @@ Use for custom organization
 
 ## References
 
-- **Agent Skills Spec**: https://github.com/anthropics/skills/blob/main/agent_skills_spec.md
-- **Skill Creator Guide**: https://github.com/anthropics/skills/blob/main/skill-creator/SKILL.md
-- **Official Skills Repo**: https://github.com/anthropics/skills
-- **Claude Code Docs**: https://docs.claude.com/en/docs/claude-code/skills
+- **Agent Skills Spec**: [https://github.com/anthropics/skills/blob/main/agent_skills_spec.md](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
+- **Skill Creator Guide**: [https://github.com/anthropics/skills/blob/main/skill-creator/SKILL.md](https://github.com/anthropics/skills/blob/main/skill-creator/SKILL.md)
+- **Official Skills Repo**: [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
+- **Claude Code Docs**: [https://docs.claude.com/en/docs/claude-code/skills](https://docs.claude.com/en/docs/claude-code/skills)
 - **Our Standards**: [claude-code-skill-standards.md](claude-code-skill-standards.md)
 
 ---

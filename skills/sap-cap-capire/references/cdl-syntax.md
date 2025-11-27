@@ -1,6 +1,6 @@
 # CDL (Conceptual Definition Language) Complete Syntax Reference
 
-**Source**: https://cap.cloud.sap/docs/cds/cdl
+**Source**: [https://cap.cloud.sap/docs/cds/cdl](https://cap.cloud.sap/docs/cds/cdl)
 
 ## Table of Contents
 - [Keywords & Identifiers](#keywords--identifiers)
@@ -8,22 +8,12 @@
 - [Comments](#comments)
 - [Model Organization](#model-organization)
 - [Entity Definitions](#entity-definitions)
-- [Data Types](#data-types)
+- [Views & Projections](#views--projections)
 - [Associations](#associations)
 - [Compositions](#compositions)
-- [Aspects](#aspects)
-- [Extensions](#extensions)
 - [Annotations](#annotations)
-- [Service Definitions](#service-definitions)
-- [Actions & Functions](#actions--functions)
-- [Type Definitions](#type-definitions)
-- [Views & Projections](#views--projections)
-- [Enums & Code Lists](#enums--code-lists)
-- [Structured Types](#structured-types)
-- [Expressions](#expressions)
-- [Queries & Subqueries](#queries--subqueries)
-- [Localization](#localization)
-- [Temporal Data](#temporal-data)
+- [Aspects](#aspects)
+- [Services](#services)
 
 ## Keywords & Identifiers
 

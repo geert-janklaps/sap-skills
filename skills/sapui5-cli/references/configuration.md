@@ -1,7 +1,7 @@
 # UI5 CLI Configuration Complete Reference
 
-**Official Documentation**: https://ui5.github.io/cli/stable/pages/Configuration/
-**JSON Schema**: https://ui5.github.io/cli/schema/ui5.yaml.json
+**Official Documentation**: [https://ui5.github.io/cli/stable/pages/Configuration/](https://ui5.github.io/cli/stable/pages/Configuration/)
+**JSON Schema**: [https://ui5.github.io/cli/schema/ui5.yaml.json](https://ui5.github.io/cli/schema/ui5.yaml.json)
 
 This reference provides comprehensive details for ui5.yaml configuration files.
 
@@ -761,7 +761,7 @@ server:
     - name: api-proxy
       afterMiddleware: compression
       configuration:
-        target: https://api.example.com
+        target: [https://api.example.com](https://api.example.com)
 ```
 
 ---
@@ -782,5 +782,5 @@ server:
 ---
 
 **Last Updated**: 2025-11-21 (UI5 CLI v4.0.0)
-**Official Docs**: https://ui5.github.io/cli/stable/pages/Configuration/
-**JSON Schema**: https://ui5.github.io/cli/schema/ui5.yaml.json
+**Official Docs**: [https://ui5.github.io/cli/stable/pages/Configuration/](https://ui5.github.io/cli/stable/pages/Configuration/)
+**JSON Schema**: [https://ui5.github.io/cli/schema/ui5.yaml.json](https://ui5.github.io/cli/schema/ui5.yaml.json)

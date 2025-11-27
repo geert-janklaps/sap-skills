@@ -1,10 +1,10 @@
 # UI5 CLI Migration Guides
 
 **Official Documentation**:
-- https://ui5.github.io/cli/stable/updates/migrate-v4/
-- https://ui5.github.io/cli/stable/updates/migrate-v3/
-- https://ui5.github.io/cli/stable/updates/migrate-v2/
-- https://ui5.github.io/cli/stable/updates/migrate-v1/
+- [https://ui5.github.io/cli/stable/updates/migrate-v4/](https://ui5.github.io/cli/stable/updates/migrate-v4/)
+- [https://ui5.github.io/cli/stable/updates/migrate-v3/](https://ui5.github.io/cli/stable/updates/migrate-v3/)
+- [https://ui5.github.io/cli/stable/updates/migrate-v2/](https://ui5.github.io/cli/stable/updates/migrate-v2/)
+- [https://ui5.github.io/cli/stable/updates/migrate-v1/](https://ui5.github.io/cli/stable/updates/migrate-v1/)
 
 This reference provides complete migration guidance for all UI5 CLI versions.
 
@@ -680,4 +680,4 @@ type: application
 ---
 
 **Last Updated**: 2025-11-21
-**Official Docs**: https://ui5.github.io/cli/stable/updates/
+**Official Docs**: [https://ui5.github.io/cli/stable/updates/](https://ui5.github.io/cli/stable/updates/)

@@ -44,7 +44,7 @@ const getWeather = tool(
   async ({ city }) => {
     // Call weather API
     const response = await fetch(
-      `https://api.open-meteo.com/v1/forecast?latitude=48.85&longitude=2.35&current_weather=true`
+      `[https://api.open-meteo.com/v1/forecast?latitude=48.85&longitude=2.35&current_weather=true`](https://api.open-meteo.com/v1/forecast?latitude=48.85&longitude=2.35&current_weather=true`)
     );
     const data = await response.json();
     return JSON.stringify({
@@ -545,7 +545,7 @@ spring:
 
 ## Documentation Links
 
-- LangGraph Tutorial (JS): https://github.com/SAP/ai-sdk/blob/main/docs-js/tutorials/getting-started-with-agents.mdx
-- Agentic Workflows (Java): https://github.com/SAP/ai-sdk/blob/main/docs-java/tutorials/agentic-workflows.mdx
-- LangGraph Documentation: https://langchain-ai.github.io/langgraphjs/
-- Spring AI Agents: https://docs.spring.io/spring-ai/reference/
+- LangGraph Tutorial (JS): [https://github.com/SAP/ai-sdk/blob/main/docs-js/tutorials/getting-started-with-agents.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-js/tutorials/getting-started-with-agents.mdx)
+- Agentic Workflows (Java): [https://github.com/SAP/ai-sdk/blob/main/docs-java/tutorials/agentic-workflows.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-java/tutorials/agentic-workflows.mdx)
+- LangGraph Documentation: [https://langchain-ai.github.io/langgraphjs/](https://langchain-ai.github.io/langgraphjs/)
+- Spring AI Agents: [https://docs.spring.io/spring-ai/reference/](https://docs.spring.io/spring-ai/reference/)

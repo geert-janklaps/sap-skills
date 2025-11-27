@@ -193,7 +193,6 @@ This skill provides complete guidance for SQLScript development, including:
 sap-sqlscript/
 ├── SKILL.md                           # Main skill file
 ├── README.md                          # This file
-├── PROGRESS_TRACKING.md               # Development progress
 └── references/
     ├── syntax-reference.md            # Complete syntax patterns
     ├── built-in-functions.md          # All function categories
@@ -218,22 +217,22 @@ This skill is automatically triggered when working with:
 The skill content is derived from official SAP documentation and community resources:
 
 - **SAP HANA SQLScript Reference** (PDF)
-  - URL: `https://help.sap.com/doc/6254b3bb439c4f409a979dc407b49c9b/2.0.07/en-US/SAP_HANA_SQL_Script_Reference_en.pdf`
+  - URL: `[https://help.sap.com/doc/6254b3bb439c4f409a979dc407b49c9b/2.0.07/en-US/SAP_HANA_SQL_Script_Reference_en.pdf`](https://help.sap.com/doc/6254b3bb439c4f409a979dc407b49c9b/2.0.07/en-US/SAP_HANA_SQL_Script_Reference_en.pdf`)
 
 - **SAP HANA Cloud SQLScript Reference**
-  - URL: `https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-sqlscript-reference/`
+  - URL: `[https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-sqlscript-reference/`](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-sqlscript-reference/`)
 
 - **SAP HANA SQL Functions**
-  - URL: `https://help.sap.com/docs/SAP_HANA_PLATFORM/4fe29514fd584807ac9f2a04f6754767/20a61f29751910149f99f0300dd95cd9.html`
+  - URL: `[https://help.sap.com/docs/SAP_HANA_PLATFORM/4fe29514fd584807ac9f2a04f6754767/20a61f29751910149f99f0300dd95cd9.html`](https://help.sap.com/docs/SAP_HANA_PLATFORM/4fe29514fd584807ac9f2a04f6754767/20a61f29751910149f99f0300dd95cd9.html`)
 
 - **SAP Tutorials - SQLScript**
-  - URL: `https://developers.sap.com/tutorial-navigator.html?tag=programming-tool:sqlscript`
+  - URL: `[https://developers.sap.com/tutorial-navigator.html?tag=programming-tool:sqlscript`](https://developers.sap.com/tutorial-navigator.html?tag=programming-tool:sqlscript`)
 
 - **AMDP Cheat Sheet** (SAP Samples)
-  - URL: `https://github.com/SAP-samples/abap-cheat-sheets/blob/main/12_AMDP.md`
+  - URL: `[https://github.com/SAP-samples/abap-cheat-sheets/blob/main/12_AMDP.md`](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/12_AMDP.md`)
 
 - **SAP Community - SQL Scripts in SAP HANA**
-  - URL: `https://community.sap.com/t5/technology-blog-posts-by-members/sql-scripts-in-sap-hana/ba-p/13738376`
+  - URL: `[https://community.sap.com/t5/technology-blog-posts-by-members/sql-scripts-in-sap-hana/ba-p/13738376`](https://community.sap.com/t5/technology-blog-posts-by-members/sql-scripts-in-sap-hana/ba-p/13738376`)
 
 ## Version Information
 

@@ -1,7 +1,7 @@
 <coding_guidelines>
 # SAP Skills - Project Context
 
-**Repository**: https://github.com/secondsky/sap-skills
+**Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
 **Purpose**: Production-ready skills for SAP development with Claude Code CLI
 **Owner**: SAP Skills Maintainers
 **Status**: Active Development 
@@ -74,7 +74,7 @@ Example: "Review the sap-cap skill" → Use skill-review skill, not manual inspe
 
 This repo aligns with **official Anthropic standards**:
 
-- **Official Skills Repo**: https://github.com/anthropics/skills
+- **Official Skills Repo**: [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
 - **Agent Skills Spec**: [agent_skills_spec.md](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
 - **Skill Creator Guide**: [skill-creator/SKILL.md](https://github.com/anthropics/skills/blob/main/skill-creator/SKILL.md)
 
@@ -109,6 +109,23 @@ sap-skills/
 
 **Tooling & Development**:
 - **skill-review**: Comprehensive 14-phase audit process for skill quality assurance
+
+### 🔄 Enhanced Skills (13)
+
+**Cross-References Added**:
+- **sap-abap**: References to sap-abap-cds, sap-btp-cloud-platform, sap-cap-capire, sap-fiori-tools, sap-api-style
+- **sap-abap-cds**: References to sap-abap, sap-btp-cloud-platform, sap-fiori-tools, sap-cap-capire, sap-api-style
+- **sap-btp-cloud-platform**: References to sap-btp-best-practices, sap-cap-capire, sap-fiori-tools, sap-ai-core, sap-abap, sap-btp-connectivity, sap-btp-service-manager
+- **sap-btp-best-practices**: References to sap-btp-cloud-platform, sap-btp-connectivity, sap-btp-service-manager, sap-btp-developer-guide, sap-cap-capire, sap-fiori-tools
+- **sap-fiori-tools**: References to sapui5, sap-cap-capire, sap-abap-cds, sap-btp-cloud-platform, sap-api-style
+- **sapui5**: References to sap-fiori-tools, sap-cap-capire, sap-btp-cloud-platform, sap-abap, sap-api-style
+- **sap-cap-capire**: References to sap-fiori-tools, sapui5, sap-btp-cloud-platform, sap-hana-cli, sap-abap, sap-btp-best-practices, sap-ai-core, sap-api-style
+- **sap-hana-cli**: References to sap-cap-capire, sap-btp-cloud-platform, sap-abap-cds, sap-datasphere
+- **sap-ai-core**: References to sap-btp-cloud-platform, sap-cap-capire, sap-cloud-sdk-ai, sap-btp-best-practices
+- **sap-api-style**: References to sap-cap-capire, sap-fiori-tools, sap-abap, sapui5, sap-btp-cloud-platform
+- **sap-btp-connectivity**: References to sap-btp-cloud-platform, sap-btp-best-practices, sap-cap-capire, sap-fiori-tools, sap-abap
+- **sap-btp-service-manager**: References to sap-btp-cloud-platform, sap-btp-best-practices, sap-btp-connectivity, sap-cap-capire
+- **sap-btp-developer-guide**: References to sap-btp-cloud-platform, sap-btp-best-practices, sap-cap-capire, sap-fiori-tools, sap-abap, sap-btp-connectivity
 
 ### 🚧 Planned SAP Skills
 
@@ -256,19 +273,19 @@ Use [ONE_PAGE_CHECKLIST.md](ONE_PAGE_CHECKLIST.md) to verify:
 ## External Resources
 
 ### Official Anthropic
-- **Skills Repository**: https://github.com/anthropics/skills
-- **Skills Spec**: https://github.com/anthropics/skills/blob/main/agent_skills_spec.md
-- **Skill Creator**: https://github.com/anthropics/skills/blob/main/skill-creator/SKILL.md
+- **Skills Repository**: [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
+- **Skills Spec**: [https://github.com/anthropics/skills/blob/main/agent_skills_spec.md](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
+- **Skill Creator**: [https://github.com/anthropics/skills/blob/main/skill-creator/SKILL.md](https://github.com/anthropics/skills/blob/main/skill-creator/SKILL.md)
 
 ### SAP Resources
-- **SAP Developer Center**: https://developers.sap.com/
-- **SAP Community**: https://community.sap.com/
-- **SAP Help Portal**: https://help.sap.com/
-- **SAP Business Accelerator Hub**: https://api.sap.com/
+- **SAP Developer Center**: [https://developers.sap.com/](https://developers.sap.com/)
+- **SAP Community**: [https://community.sap.com/](https://community.sap.com/)
+- **SAP Help Portal**: [https://help.sap.com/](https://help.sap.com/)
+- **SAP Business Accelerator Hub**: [https://api.sap.com/](https://api.sap.com/)
 
 ### Claude Code Docs
-- **Skills Documentation**: https://docs.claude.com/en/docs/claude-code/skills
-- **Overview**: https://docs.claude.com/en/docs/claude-code/overview
+- **Skills Documentation**: [https://docs.claude.com/en/docs/claude-code/skills](https://docs.claude.com/en/docs/claude-code/skills)
+- **Overview**: [https://docs.claude.com/en/docs/claude-code/overview](https://docs.claude.com/en/docs/claude-code/overview)
 
 ---
 
@@ -297,7 +314,7 @@ Use [ONE_PAGE_CHECKLIST.md](ONE_PAGE_CHECKLIST.md) to verify:
 - Review working examples in `skills/` directory
 
 **Technical Issues?**
-- Open issue: https://github.com/secondsky/sap-skills/issues
+- Open issue: [https://github.com/secondsky/sap-skills/issues](https://github.com/secondsky/sap-skills/issues)
 - Check official SAP documentation
 
 **Want to Contribute?**
@@ -340,5 +357,5 @@ Use [ONE_PAGE_CHECKLIST.md](ONE_PAGE_CHECKLIST.md) to verify:
 
 **Last Updated**: 2025-11-21
 **Next Review**: 2026-02-21 (Quarterly)
-**Maintainer**: SAP Skills Maintainers | https://github.com/secondsky/sap-skills
+**Maintainer**: SAP Skills Maintainers | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
 </coding_guidelines>

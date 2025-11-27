@@ -1,6 +1,6 @@
 # Security and Roles Guide - SAP BTP Intelligent Situation Automation
 
-**Source**: https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs](https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs)
 **Last Verified**: 2025-11-22
 
 ---
@@ -269,9 +269,9 @@ Role Collection Check
 For a comprehensive list of SAP documentation links with document IDs, see `references/external-links.md`.
 
 Key resources for role and security management:
-- **Building Roles and Role Collections**: https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/eaa6a26291914b348e875a00b6beb729.html
-- **Trust Configuration**: https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html
-- **Authorization Management**: https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6373bb7a96114d619bfdfdc6f505d1b9.html
+- **Building Roles and Role Collections**: [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/eaa6a26291914b348e875a00b6beb729.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/eaa6a26291914b348e875a00b6beb729.html)
+- **Trust Configuration**: [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html)
+- **Authorization Management**: [https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6373bb7a96114d619bfdfdc6f505d1b9.html](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6373bb7a96114d619bfdfdc6f505d1b9.html)
 
 ---
 

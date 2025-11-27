@@ -2,7 +2,7 @@
 
 Detailed integration instructions for connecting applications to SAP Master Data Integration.
 
-**Source**: https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/integration
+**Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/integration](https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/integration)
 
 ## SAP S/4HANA Cloud
 
@@ -33,7 +33,7 @@ Bank, Budget Period, Business Partner, Business Partner Relationship, Company Co
 - Single S/4HANA Cloud system cannot connect to multiple MDI tenants
 - Reference SAP Note 3087667 for Business Partner integration
 
-**Documentation**: https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/
+**Documentation**: [https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/)
 
 ---
 
@@ -62,7 +62,7 @@ Bank, Business Partner, Business Partner Relationship, Company Code, Cost Center
 - Follow PDF guide in SAP Note 3065614
 - Service plan: `s4hana-onpremise` (PAID)
 
-**Documentation**: https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE
+**Documentation**: [https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE)
 
 ---
 
@@ -74,7 +74,7 @@ Bank, Business Partner, Business Partner Relationship, Company Code, Cost Center
 ### Employee Central Payroll
 **Supported Objects**: Cost Center, Public Sector Management Data
 
-**Documentation**: https://help.sap.com/docs/SAP_SUCCESSFACTORS_EMPLOYEE_CENTRAL
+**Documentation**: [https://help.sap.com/docs/SAP_SUCCESSFACTORS_EMPLOYEE_CENTRAL](https://help.sap.com/docs/SAP_SUCCESSFACTORS_EMPLOYEE_CENTRAL)
 
 ---
 
@@ -91,7 +91,7 @@ Bank, Business Partner, Business Partner Relationship, Company Code, Cost Center
 8. Project Controlling Object
 9. Purchasing Organization
 
-**Documentation**: https://help.sap.com/docs/ariba
+**Documentation**: [https://help.sap.com/docs/ariba](https://help.sap.com/docs/ariba)
 
 ---
 
@@ -104,7 +104,7 @@ Bank, Business Partner, Business Partner Relationship, Company Code, Cost Center
 4. Job Classification
 5. Organizational Unit
 
-**Documentation**: https://help.sap.com/docs/SAP_FIELDGLASS
+**Documentation**: [https://help.sap.com/docs/SAP_FIELDGLASS](https://help.sap.com/docs/SAP_FIELDGLASS)
 
 ---
 
@@ -119,7 +119,7 @@ C4C does not support reflexive partner functions (sold to party, ship to party, 
 
 **Solution**: Upload partner determination configuration via REST API
 
-**Endpoint**: `POST https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/configuration/ConfigurationUpload`
+**Endpoint**: `POST [https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/configuration/ConfigurationUpload`](https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/configuration/ConfigurationUpload`)
 
 **Template**: SAP Note 2987243
 
@@ -132,17 +132,17 @@ C4C does not support reflexive partner functions (sold to party, ship to party, 
 6. Customer partner function assignment
 
 ### SAP Commerce Cloud
-**Documentation**: https://help.sap.com/docs/SAP_COMMERCE_INTEGRATIONS
+**Documentation**: [https://help.sap.com/docs/SAP_COMMERCE_INTEGRATIONS](https://help.sap.com/docs/SAP_COMMERCE_INTEGRATIONS)
 
 ### SAP Customer Data Cloud
-**Documentation**: https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD
+**Documentation**: [https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD](https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD)
 
 ### SAP Customer Data Platform
-**Documentation**: https://help.sap.com/docs/SAP_CUSTOMER_DATA_PLATFORM
+**Documentation**: [https://help.sap.com/docs/SAP_CUSTOMER_DATA_PLATFORM](https://help.sap.com/docs/SAP_CUSTOMER_DATA_PLATFORM)
 
 ### SAP Marketing Cloud
 **Primary Object**: Business Partner
-**Documentation**: https://help.sap.com/docs/SAP_MARKETING_CLOUD
+**Documentation**: [https://help.sap.com/docs/SAP_MARKETING_CLOUD](https://help.sap.com/docs/SAP_MARKETING_CLOUD)
 
 ---
 
@@ -152,7 +152,7 @@ C4C does not support reflexive partner functions (sold to party, ship to party, 
 - Business Partner
 - Product
 
-**Documentation**: https://help.sap.com/docs/SAP_SUBSCRIPTIONBILLING
+**Documentation**: [https://help.sap.com/docs/SAP_SUBSCRIPTIONBILLING](https://help.sap.com/docs/SAP_SUBSCRIPTIONBILLING)
 
 ---
 
@@ -166,7 +166,7 @@ C4C does not support reflexive partner functions (sold to party, ship to party, 
 - Functional Location
 - Workforce Person
 
-**Documentation**: https://help.sap.com/docs/SAP_FIELD_SERVICE_MANAGEMENT
+**Documentation**: [https://help.sap.com/docs/SAP_FIELD_SERVICE_MANAGEMENT](https://help.sap.com/docs/SAP_FIELD_SERVICE_MANAGEMENT)
 
 ---
 
@@ -176,7 +176,7 @@ C4C does not support reflexive partner functions (sold to party, ship to party, 
 - Business Partner
 - Product
 
-**Documentation**: https://help.sap.com/docs/SAP_ENTITLEMENT_MANAGEMENT
+**Documentation**: [https://help.sap.com/docs/SAP_ENTITLEMENT_MANAGEMENT](https://help.sap.com/docs/SAP_ENTITLEMENT_MANAGEMENT)
 
 ---
 
@@ -185,7 +185,7 @@ C4C does not support reflexive partner functions (sold to party, ship to party, 
 ### Supported Objects
 - Business Partner
 
-**Documentation**: https://help.sap.com/docs/SAP_ORDER_MANAGEMENT_FOUNDATION
+**Documentation**: [https://help.sap.com/docs/SAP_ORDER_MANAGEMENT_FOUNDATION](https://help.sap.com/docs/SAP_ORDER_MANAGEMENT_FOUNDATION)
 
 ---
 
@@ -199,7 +199,7 @@ Support limited to **pure replication scenario** from MDG to MDI only.
 - **Central Governance**: Product development, supplier management workflows
 - **Data Quality Management**: Establish and track quality metrics
 
-**Documentation**: https://help.sap.com/docs/SAP_MASTER_DATA_GOVERNANCE
+**Documentation**: [https://help.sap.com/docs/SAP_MASTER_DATA_GOVERNANCE](https://help.sap.com/docs/SAP_MASTER_DATA_GOVERNANCE)
 
 ---
 
@@ -214,9 +214,9 @@ Use **SAP Integration Suite** with Master Data Integration Adapter.
 
 ### Resources
 - Discovery Center Mission: Synchronize cost centers across ECC, Integration Suite, MDI, SuccessFactors
-- MDI Receiver Adapter: https://help.sap.com/docs/cloud-integration/sap-cloud-integration/master-data-integration-adapter
+- MDI Receiver Adapter: [https://help.sap.com/docs/cloud-integration/sap-cloud-integration/master-data-integration-adapter](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/master-data-integration-adapter)
 
-**Documentation**: https://help.sap.com/docs/SAP_INTEGRATION_SUITE
+**Documentation**: [https://help.sap.com/docs/SAP_INTEGRATION_SUITE](https://help.sap.com/docs/SAP_INTEGRATION_SUITE)
 
 ---
 

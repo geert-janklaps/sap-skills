@@ -369,6 +369,6 @@ helm upgrade --install my-app ./chart
 
 ## Source Documentation
 
-- CAP Documentation: https://cap.cloud.sap/docs/
-- SAP BTP CF/Kyma with CAP: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-cloud-foundry-and-sap-btp-kyma-runtimes-with-cap-0f9cfe9.md
-- Development Guide: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/develop-7e30686.md
+- CAP Documentation: [https://cap.cloud.sap/docs/](https://cap.cloud.sap/docs/)
+- SAP BTP CF/Kyma with CAP: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-cloud-foundry-and-sap-btp-kyma-runtimes-with-cap-0f9cfe9.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-cloud-foundry-and-sap-btp-kyma-runtimes-with-cap-0f9cfe9.md)
+- Development Guide: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/develop-7e30686.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/develop-7e30686.md)

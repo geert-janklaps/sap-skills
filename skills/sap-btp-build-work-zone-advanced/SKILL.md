@@ -135,7 +135,7 @@ For template development, see `references/workspace-templates.md`.
 **SAP Conversational AI is in maintenance mode since January 2023**. While existing chatbots may continue to function, SAP does not recommend creating new implementations. Consider alternative solutions for chatbot functionality.
 
 ### Options
-1. **Custom chatbots**: Build using SAP Conversational AI (https://cai.tools.sap/) - ⚠️ Maintenance Mode
+1. **Custom chatbots**: Build using SAP Conversational AI ([https://cai.tools.sap/](https://cai.tools.sap/)) - ⚠️ Maintenance Mode
 2. **Pre-built chatbot**: Fork and configure the SAP Build Work Zone chatbot - ⚠️ Not recommended for new projects
 
 ### Configuration Steps (for existing implementations)
@@ -286,20 +286,19 @@ For troubleshooting guide, see `references/troubleshooting.md`.
 ## Bundled Resources
 
 ### Reference Documentation
-- `references/ui-integration-cards.md` (207 lines) - Complete UI Integration Cards development guide
-- `references/content-packages.md` (126 lines) - Content package creation and deployment
-- `references/workspace-templates.md` (72 lines) - Workspace template development
-- `references/chatbots.md` (172 lines) - Chatbot configuration (maintenance mode notice included)
-- `references/api-reference.md` (102 lines) - SCIM and OData API documentation
-- `references/security.md` (77 lines) - Security configuration best practices
-- `references/administration.md` - Administration Console guide
-- `references/auditing.md` - Audit and compliance features
-- `references/mobile-app.md` - Mobile app configuration
-- `references/notifications.md` - Notification system setup
-- `references/troubleshooting.md` (64 lines) - Common error resolution
-- `references/widgets.md` (87 lines) - Widget development guide
-- `references/workspaces.md` (153 lines) - Workspace management
-- `references/content-packages.md` - Content package development
+- `references/ui-integration-cards.md` (331 lines) - Complete UI Integration Cards development guide
+- `references/content-packages.md` (266 lines) - Content package creation and deployment
+- `references/workspace-templates.md` (159 lines) - Workspace template development
+- `references/chatbots.md` (297 lines) - Chatbot configuration (maintenance mode notice included)
+- `references/api-reference.md` (306 lines) - SCIM and OData API documentation
+- `references/security.md` (128 lines) - Security configuration best practices
+- `references/administration.md` (299 lines) - Administration Console guide
+- `references/auditing.md` (176 lines) - Audit and compliance features
+- `references/mobile-app.md` (124 lines) - Mobile app configuration
+- `references/notifications.md` (147 lines) - Notification system setup
+- `references/troubleshooting.md` (124 lines) - Common error resolution
+- `references/widgets.md` (213 lines) - Widget development guide
+- `references/workspaces.md` (295 lines) - Workspace management
 
 ### Templates
 - `templates/card-manifest.json` - UI Integration Card manifest template
@@ -309,11 +308,11 @@ For troubleshooting guide, see `references/troubleshooting.md`.
 
 ## Documentation Links
 
-- **SAP Help Portal**: https://help.sap.com/docs/build-work-zone-advanced-edition
-- **GitHub Docs**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
-- **SAP API Hub**: https://api.sap.com/ (search "SAP Cloud Portal Service")
-- **OData API Docs**: https://jam2.sapjam.com
-- **SAPUI5 Card Explorer**: https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/
+- **SAP Help Portal**: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)
+- **GitHub Docs**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
+- **SAP API Hub**: [https://api.sap.com/](https://api.sap.com/) (search "SAP Cloud Portal Service")
+- **OData API Docs**: [https://jam2.sapjam.com](https://jam2.sapjam.com)
+- **SAPUI5 Card Explorer**: [https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/](https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/)
 
 ---
 

@@ -2,7 +2,7 @@
 
 Complete list of ALL supported integration scenarios in Cloud Integration Automation Service with scenario codes.
 
-**Source**: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-is-cloud-integration-automation-service-35fbf2a.md
+**Source**: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-is-cloud-integration-automation-service-35fbf2a.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-is-cloud-integration-automation-service-35fbf2a.md)
 
 ---
 
@@ -11,18 +11,11 @@ Complete list of ALL supported integration scenarios in Cloud Integration Automa
 1. [SAP BTP Services](#sap-btp-services)
 2. [SAP BTP ABAP Environment](#sap-btp-abap-environment)
 3. [SAP S/4HANA Cloud](#sap-s4hana-cloud)
-   - Core Scenarios
-   - Extended Warehouse Management
-   - Transportation Management
-   - Advanced ATP
 4. [SAP S/4HANA On-Premise](#sap-s4hana-on-premise)
-5. [SAP SuccessFactors](#sap-successfactors)
+5. [SAP SuccessFactors Employee Central with SAP S/4HANA On-Premise](#sap-successfactors-employee-central-with-sap-s4hana-on-premise)
 6. [SAP Integrated Business Planning (IBP)](#sap-integrated-business-planning-ibp)
 7. [SAP Build Solutions](#sap-build-solutions)
-8. [SAP Ariba Solutions](#sap-ariba-solutions)
-9. [SAP Concur Solutions](#sap-concur-solutions)
-10. [SAP Cloud Connector](#sap-cloud-connector)
-11. [Intelligent Enterprise Scenarios](#intelligent-enterprise-scenarios)
+8. [SAP Cloud Connector](#sap-cloud-connector)
 
 ---
 
@@ -404,5 +397,5 @@ Complete list of ALL supported integration scenarios in Cloud Integration Automa
 
 ## Documentation Links
 
-- What is CIAS: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-is-cloud-integration-automation-service-35fbf2a.md
-- Using CIAS: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/using-cloud-integration-automation-service-5ccb2ce.md
+- What is CIAS: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-is-cloud-integration-automation-service-35fbf2a.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-is-cloud-integration-automation-service-35fbf2a.md)
+- Using CIAS: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/using-cloud-integration-automation-service-5ccb2ce.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/using-cloud-integration-automation-service-5ccb2ce.md)

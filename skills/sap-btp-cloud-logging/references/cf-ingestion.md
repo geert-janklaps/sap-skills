@@ -1,6 +1,6 @@
 # SAP Cloud Logging - Cloud Foundry Ingestion Reference
 
-**Source:** https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/ingest-from-cloud-foundry-runtime-f5a7c99.md
+**Source:** [https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/ingest-from-cloud-foundry-runtime-f5a7c99.md](https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/ingest-from-cloud-foundry-runtime-f5a7c99.md)
 **Last Updated:** 2025-11-22
 
 ---
@@ -103,7 +103,7 @@ echo "<ingest-mtls-key>" > client.key
 
 Create user-provided service:
 ```bash
-cf cups <ups-name> -l "https://<ingest-mtls-endpoint>" \
+cf cups <ups-name> -l "[https://<ingest-mtls-endpoint>"](https://<ingest-mtls-endpoint>") \
   -p '{"cert": "<contents-of-client.crt>", "key": "<contents-of-client.key>"}'
 ```
 
@@ -130,7 +130,7 @@ SAP provides open-source logging libraries for structured Cloud Foundry logging.
 </dependency>
 ```
 
-**GitHub:** https://github.com/SAP/cf-java-logging-support
+**GitHub:** [https://github.com/SAP/cf-java-logging-support](https://github.com/SAP/cf-java-logging-support)
 
 ### Node.js Applications: cf-nodejs-logging-support
 
@@ -149,7 +149,7 @@ app.use(log.logNetwork);
 log.info('Application started');
 ```
 
-**GitHub:** https://github.com/SAP/cf-nodejs-logging-support
+**GitHub:** [https://github.com/SAP/cf-nodejs-logging-support](https://github.com/SAP/cf-nodejs-logging-support)
 
 ### Alternative: @sap/logging
 
@@ -206,6 +206,6 @@ logger.info('Application started');
 
 ## Documentation Links
 
-- **Source:** https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/ingest-from-cloud-foundry-runtime-f5a7c99.md
-- **CF Logging Libraries:** https://help.sap.com/docs/btp/sap-business-technology-platform/application-logging
-- **Security Recommendations:** https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations
+- **Source:** [https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/ingest-from-cloud-foundry-runtime-f5a7c99.md](https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/ingest-from-cloud-foundry-runtime-f5a7c99.md)
+- **CF Logging Libraries:** [https://help.sap.com/docs/btp/sap-business-technology-platform/application-logging](https://help.sap.com/docs/btp/sap-business-technology-platform/application-logging)
+- **Security Recommendations:** [https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations)

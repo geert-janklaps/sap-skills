@@ -81,7 +81,7 @@ Full-featured Git interface. Enable by right-clicking activity bar → deselect 
 
 **Method 1: Terminal**
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 ```
 
 **Method 2: Command Palette**
@@ -316,7 +316,7 @@ Gerrit provides code review before commits reach the repository.
 
 ### HTTP 502 Error on Clone
 
-**Error**: `fatal: unable to access 'https://...': Received HTTP code 502 from proxy after CONNECT`
+**Error**: `fatal: unable to access '[https://...':](https://...':) Received HTTP code 502 from proxy after CONNECT`
 
 **Solution**: Set up Cloud Connector and configure Git to work with Gerrit.
 
@@ -325,7 +325,7 @@ Gerrit provides code review before commits reach the repository.
 After creating destinations, refresh in dev space:
 
 ```bash
-curl http://localhost:8887/reload
+curl [http://localhost:8887/reload](http://localhost:8887/reload)
 ```
 
 ### Use Correct URL
@@ -347,15 +347,15 @@ git push -u origin main
 
 | Resource | URL |
 |----------|-----|
-| Git Source Control | https://help.sap.com/docs/bas/sap-business-application-studio/git-source-control |
-| Git Commands | https://help.sap.com/docs/bas/sap-business-application-studio/git-commands |
-| Git Stash | https://help.sap.com/docs/bas/sap-business-application-studio/git-stash |
-| Cloning Repositories | https://help.sap.com/docs/bas/sap-business-application-studio/cloning-repositories |
-| Corporate Git | https://help.sap.com/docs/bas/sap-business-application-studio/connecting-to-corporate-git-repository |
-| Git Authentication | https://help.sap.com/docs/bas/sap-business-application-studio/providing-authentication-to-git |
-| Gerrit Setup | https://help.sap.com/docs/bas/sap-business-application-studio/setting-up-git-to-work-with-gerrit |
+| Git Source Control | [https://help.sap.com/docs/bas/sap-business-application-studio/git-source-control](https://help.sap.com/docs/bas/sap-business-application-studio/git-source-control) |
+| Git Commands | [https://help.sap.com/docs/bas/sap-business-application-studio/git-commands](https://help.sap.com/docs/bas/sap-business-application-studio/git-commands) |
+| Git Stash | [https://help.sap.com/docs/bas/sap-business-application-studio/git-stash](https://help.sap.com/docs/bas/sap-business-application-studio/git-stash) |
+| Cloning Repositories | [https://help.sap.com/docs/bas/sap-business-application-studio/cloning-repositories](https://help.sap.com/docs/bas/sap-business-application-studio/cloning-repositories) |
+| Corporate Git | [https://help.sap.com/docs/bas/sap-business-application-studio/connecting-to-corporate-git-repository](https://help.sap.com/docs/bas/sap-business-application-studio/connecting-to-corporate-git-repository) |
+| Git Authentication | [https://help.sap.com/docs/bas/sap-business-application-studio/providing-authentication-to-git](https://help.sap.com/docs/bas/sap-business-application-studio/providing-authentication-to-git) |
+| Gerrit Setup | [https://help.sap.com/docs/bas/sap-business-application-studio/setting-up-git-to-work-with-gerrit](https://help.sap.com/docs/bas/sap-business-application-studio/setting-up-git-to-work-with-gerrit) |
 
 ---
 
 **Last Updated**: 2025-11-22
-**Source**: https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs](https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs)

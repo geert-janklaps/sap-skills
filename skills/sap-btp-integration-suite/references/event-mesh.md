@@ -1,7 +1,7 @@
 # Event Mesh - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite)
 **Last Updated**: 2025-11-22
 
 ---
@@ -29,7 +29,7 @@ Event Mesh is a capability within SAP Integration Suite that enables event-drive
 - Scale independently
 - Support async communication patterns
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/event-mesh-3129673.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/event-mesh-3129673.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/event-mesh-3129673.md)
 
 ---
 
@@ -60,7 +60,7 @@ Events generate messages to communicate event data between systems. Messages con
 - Payload (event data)
 - Metadata (timestamp, source, etc.)
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-events-9a5bf90.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-events-9a5bf90.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-events-9a5bf90.md)
 
 ---
 
@@ -119,7 +119,7 @@ Matches:
   ✗ sales/orders/updated
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-topics-and-topic-subscriptions-1712c0d.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-topics-and-topic-subscriptions-1712c0d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-topics-and-topic-subscriptions-1712c0d.md)
 
 ---
 
@@ -156,7 +156,7 @@ Queues are endpoints that persist messages for consumers.
 - Enable message acknowledgment
 - Allow dead-letter handling
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/queues-99b7501.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/queues-99b7501.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/queues-99b7501.md)
 
 ---
 
@@ -190,7 +190,7 @@ An event broker is "middleware that mediates the communication of event messages
 | Point-to-Point | One-to-one delivery |
 | Request/Reply | Synchronous with response |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-event-brokers-f72428f.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-event-brokers-f72428f.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-event-brokers-f72428f.md)
 
 ---
 
@@ -231,7 +231,7 @@ cf create-service enterprise-messaging default my-event-mesh \
 }
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/configure-a-message-client-867c517.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/configure-a-message-client-867c517.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/configure-a-message-client-867c517.md)
 
 ---
 
@@ -268,7 +268,7 @@ Enable HTTP-based event delivery without persistent connections.
 | Throughput | Lower | Higher |
 | Simplicity | Higher | Lower |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/webhook-subscriptions-58e3729.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/webhook-subscriptions-58e3729.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/webhook-subscriptions-58e3729.md)
 
 ---
 
@@ -371,15 +371,15 @@ Authentication: OAuth2 Client Credentials
 | **Broker** | Middleware routing events |
 | **Webhook** | HTTP-based event delivery |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-event-mesh-501ba2d.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-event-mesh-501ba2d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-event-mesh-501ba2d.md)
 
 ---
 
 ## Related Documentation
 
-- **Event Mesh Overview**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/event-mesh-3129673.md
-- **Events**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-events-9a5bf90.md
-- **Event Brokers**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-event-brokers-f72428f.md
-- **Topics**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-topics-and-topic-subscriptions-1712c0d.md
-- **Queues**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/queues-99b7501.md
-- **Topic Syntax**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/topic-naming-syntax-62460b8.md
+- **Event Mesh Overview**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/event-mesh-3129673.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/event-mesh-3129673.md)
+- **Events**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-events-9a5bf90.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-events-9a5bf90.md)
+- **Event Brokers**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-event-brokers-f72428f.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-event-brokers-f72428f.md)
+- **Topics**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-topics-and-topic-subscriptions-1712c0d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-are-topics-and-topic-subscriptions-1712c0d.md)
+- **Queues**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/queues-99b7501.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/queues-99b7501.md)
+- **Topic Syntax**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/topic-naming-syntax-62460b8.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/topic-naming-syntax-62460b8.md)

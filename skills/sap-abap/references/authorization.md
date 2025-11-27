@@ -1,6 +1,6 @@
 # Authorization Checks - Complete Reference
 
-**Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/25_Authorization_Checks.md
+**Source**: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/25_Authorization_Checks.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/25_Authorization_Checks.md)
 
 ---
 

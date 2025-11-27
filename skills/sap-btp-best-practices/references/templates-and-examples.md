@@ -1,6 +1,6 @@
 # SAP BTP Templates and Code Examples - Detailed Reference
 
-**Source**: https://github.com/SAP-docs/btp-best-practices-guide
+**Source**: [https://github.com/SAP-docs/btp-best-practices-guide](https://github.com/SAP-docs/btp-best-practices-guide)
 
 This reference contains complete templates, manifests, and configuration examples from the official documentation.
 
@@ -13,7 +13,7 @@ This reference contains complete templates, manifests, and configuration example
 | Step | Action | Resources |
 |------|--------|-----------|
 | 1 | **Platform Familiarization** | SAP BTP Guidance Framework, Learning Journey: Discover SAP BTP, Basic Platform Concepts, Shared Responsibility Model |
-| 2 | **Discovery Center Exploration** | Explore services, missions, reference architectures at https://discovery-center.cloud.sap/ |
+| 2 | **Discovery Center Exploration** | Explore services, missions, reference architectures at [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/) |
 | 3 | **Project Identification** | Identify pilot projects using SAP BTP Use Cases page |
 | 4 | **Free Tier Consideration** | Note: "Only community support is available for free tier service plans and they are not subject to SLAs" |
 | 5 | **Commercial Model Selection** | Choose subscription or consumption-based; review SAP BTP and Integration Suite pricing |
@@ -311,7 +311,7 @@ subjects:
 | Resource Type | Link |
 |---------------|------|
 | **Blog Post** | "Multi-region High Availability architecture for SAP BTP Launchpad Service using Azure Traffic Manager" (SAP Community) |
-| **GitHub** | https://github.com/SAP-samples/btp-services-intelligent-routing |
+| **GitHub** | [https://github.com/SAP-samples/btp-services-intelligent-routing](https://github.com/SAP-samples/btp-services-intelligent-routing) |
 | **Discovery Center** | Mission: "Route Multi-Region Traffic to SAP BTP Services Intelligently" |
 
 ### Use Case 2: SAP Build Work Zone + Amazon Route 53
@@ -319,28 +319,28 @@ subjects:
 | Resource Type | Link |
 |---------------|------|
 | **Blog Post** | "High Availability of SAP Build Work Zone with Amazon Route 53" (SAP Community) |
-| **GitHub** | https://github.com/SAP-samples/btp-services-intelligent-routing |
+| **GitHub** | [https://github.com/SAP-samples/btp-services-intelligent-routing](https://github.com/SAP-samples/btp-services-intelligent-routing) |
 
 ### Use Case 3: CAP Applications + SAP HANA Cloud Multi-Zone
 
 | Resource Type | Link |
 |---------------|------|
-| **GitHub** | https://github.com/SAP-samples/cap-distributed-resiliency |
+| **GitHub** | [https://github.com/SAP-samples/cap-distributed-resiliency](https://github.com/SAP-samples/cap-distributed-resiliency) |
 
 ### Use Case 4: CAP Applications + Amazon Aurora Read Replica
 
 | Resource Type | Link |
 |---------------|------|
-| **GitHub** | https://github.com/SAP-samples/cap-distributed-resiliency |
+| **GitHub** | [https://github.com/SAP-samples/cap-distributed-resiliency](https://github.com/SAP-samples/cap-distributed-resiliency) |
 
 ### Use Case 5: SAP Cloud Integration + Azure Traffic Manager
 
 | Resource Type | Link |
 |---------------|------|
-| **GitHub** | https://github.com/SAP-samples/btp-services-intelligent-routing |
+| **GitHub** | [https://github.com/SAP-samples/btp-services-intelligent-routing](https://github.com/SAP-samples/btp-services-intelligent-routing) |
 | **Discovery Center** | Mission: "Route Multi-Region Traffic to SAP BTP Services Intelligently" |
 
-**Discovery Center URL**: https://discovery-center.cloud.sap/
+**Discovery Center URL**: [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/)
 
 ---
 
@@ -669,6 +669,6 @@ spec:
 ---
 
 **Source Documentation**:
-- https://github.com/SAP-docs/btp-best-practices-guide
-- https://github.com/SAP-samples/btp-services-intelligent-routing
-- https://github.com/SAP-samples/cap-distributed-resiliency
+- [https://github.com/SAP-docs/btp-best-practices-guide](https://github.com/SAP-docs/btp-best-practices-guide)
+- [https://github.com/SAP-samples/btp-services-intelligent-routing](https://github.com/SAP-samples/btp-services-intelligent-routing)
+- [https://github.com/SAP-samples/cap-distributed-resiliency](https://github.com/SAP-samples/cap-distributed-resiliency)

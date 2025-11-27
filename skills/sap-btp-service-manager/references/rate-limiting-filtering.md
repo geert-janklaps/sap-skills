@@ -2,7 +2,7 @@
 
 Complete reference for SAP Service Manager API rate limits and query filtering.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager
+**Documentation**: [https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager](https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager)
 
 ---
 
@@ -356,5 +356,5 @@ GET /v1/service_instances?max_items=50&token=<token-from-previous>
 
 ## Documentation Links
 
-- **Rate Limiting**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/rate-limiting-97be679.md
-- **Filtering**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/filtering-parameters-and-operators-3331c6e.md
+- **Rate Limiting**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/rate-limiting-97be679.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/rate-limiting-97be679.md)
+- **Filtering**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/filtering-parameters-and-operators-3331c6e.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/filtering-parameters-and-operators-3331c6e.md)

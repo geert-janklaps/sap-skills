@@ -163,7 +163,7 @@ SAP BTP provides structured learning paths through missions and tutorials, cover
 
 **Type**: Reference application for multitenant CAP SaaS
 
-**GitHub**: https://github.com/SAP-samples/partner-reference-application/
+**GitHub**: [https://github.com/SAP-samples/partner-reference-application/](https://github.com/SAP-samples/partner-reference-application/)
 
 **Tutorial Coverage:**
 1. Core application development (business models, logic)
@@ -178,7 +178,7 @@ SAP BTP provides structured learning paths through missions and tutorials, cover
 - Cost optimization
 - Subscription lifecycle
 
-**Bill of Materials**: https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/01-BillOfMaterials.md
+**Bill of Materials**: [https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/01-BillOfMaterials.md](https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/01-BillOfMaterials.md)
 
 ### Music Festival Manager (ABAP)
 
@@ -201,7 +201,7 @@ SAP BTP provides structured learning paths through missions and tutorials, cover
 
 **Type**: Customer-specific extension example
 
-**GitHub**: https://github.com/SAP-samples/partner-reference-application-extension
+**GitHub**: [https://github.com/SAP-samples/partner-reference-application-extension](https://github.com/SAP-samples/partner-reference-application-extension)
 
 **Topics:**
 - Enhanced catering management capabilities
@@ -222,10 +222,10 @@ SAP BTP provides structured learning paths through missions and tutorials, cover
 
 | Resource | URL |
 |----------|-----|
-| SAP Developers | https://developers.sap.com/ |
-| SAP Learning | https://learning.sap.com/ |
-| SAP Community | https://community.sap.com/ |
-| SAP Discovery Center | https://discovery-center.cloud.sap/ |
+| SAP Developers | [https://developers.sap.com/](https://developers.sap.com/) |
+| SAP Learning | [https://learning.sap.com/](https://learning.sap.com/) |
+| SAP Community | [https://community.sap.com/](https://community.sap.com/) |
+| SAP Discovery Center | [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/) |
 
 ## Prerequisites Management
 
@@ -248,10 +248,10 @@ Before starting missions:
 
 ## Source Documentation
 
-- CAP Tutorials: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/tutorials-for-sap-cloud-application-programming-model-eb7420a.md
-- ABAP Tutorials: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/tutorials-for-abap-cloud-fd87aaa.md
-- Starter Mission: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/starter-mission-develop-a-full-stack-cap-application-ebd19b5.md
-- Extension Mission: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-develop-a-side-by-side-cap-based-extension-application-2289e25.md
-- Multitenant Mission: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-develop-a-multitenant-cap-application-6d2cbe9.md
-- Enterprise Mission: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-develop-an-enterprise-grade-cap-application-b5be786.md
-- Observability Mission: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-implement-observability-in-a-full-stack-cap-application-c5636db.md
+- CAP Tutorials: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/tutorials-for-sap-cloud-application-programming-model-eb7420a.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/tutorials-for-sap-cloud-application-programming-model-eb7420a.md)
+- ABAP Tutorials: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/tutorials-for-abap-cloud-fd87aaa.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/tutorials-for-abap-cloud-fd87aaa.md)
+- Starter Mission: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/starter-mission-develop-a-full-stack-cap-application-ebd19b5.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/starter-mission-develop-a-full-stack-cap-application-ebd19b5.md)
+- Extension Mission: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-develop-a-side-by-side-cap-based-extension-application-2289e25.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-develop-a-side-by-side-cap-based-extension-application-2289e25.md)
+- Multitenant Mission: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-develop-a-multitenant-cap-application-6d2cbe9.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-develop-a-multitenant-cap-application-6d2cbe9.md)
+- Enterprise Mission: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-develop-an-enterprise-grade-cap-application-b5be786.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-develop-an-enterprise-grade-cap-application-b5be786.md)
+- Observability Mission: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-implement-observability-in-a-full-stack-cap-application-c5636db.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-implement-observability-in-a-full-stack-cap-application-c5636db.md)

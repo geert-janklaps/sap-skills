@@ -1,6 +1,6 @@
 # SAP BTP Job Scheduling Service - Troubleshooting Guide
 
-**Source**: https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs](https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs)
 **Last Updated**: 2025-11-22
 
 ---
@@ -208,10 +208,10 @@ Convert local times to UTC before scheduling.
 **Solution:**
 Grant permissions at UAA login route:
 ```
-https://uaa.cf.<region>.hana.ondemand.com/profile
+[https://uaa.cf.<region>.hana.ondemand.com/profile](https://uaa.cf.<region>.hana.ondemand.com/profile)
 ```
 
-Example: `https://uaa.cf.eu10.hana.ondemand.com/profile`
+Example: `[https://uaa.cf.eu10.hana.ondemand.com/profile`](https://uaa.cf.eu10.hana.ondemand.com/profile`)
 
 ---
 
@@ -368,10 +368,10 @@ A: Yes, within time limits (14 days AWS/Azure, 7 days GCP). Same-day deletions c
 ## External References
 
 ### SAP Documentation
-- **FAQ**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/frequently-asked-questions
-- **Troubleshooting**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/troubleshooting-scenarios
-- **Monitoring**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/monitoring-and-troubleshooting
-- **Guided Answers**: https://ga.support.sap.com/
+- **FAQ**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/frequently-asked-questions](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/frequently-asked-questions)
+- **Troubleshooting**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/troubleshooting-scenarios](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/troubleshooting-scenarios)
+- **Monitoring**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/monitoring-and-troubleshooting](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/monitoring-and-troubleshooting)
+- **Guided Answers**: [https://ga.support.sap.com/](https://ga.support.sap.com/)
 
 ### Source Files
 - `frequently-asked-questions-d72c276.md`

@@ -4,7 +4,7 @@ Legacy Kubernetes integration using Service Catalog and Service Manager Broker P
 
 **Note**: For new installations, prefer the SAP BTP Service Operator. See `kubernetes-operator.md`.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments
+**Documentation**: [https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments](https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments)
 
 ---
 
@@ -68,7 +68,7 @@ smctl register-platform <platform-name> kubernetes
 
 ```bash
 # Add Service Catalog Helm repository
-helm repo add svc-cat https://svc-catalog-charts.storage.googleapis.com
+helm repo add svc-cat [https://svc-catalog-charts.storage.googleapis.com](https://svc-catalog-charts.storage.googleapis.com)
 
 # Create catalog namespace
 kubectl create namespace catalog
@@ -90,7 +90,7 @@ kubectl get pods -n catalog
 
 ```bash
 # Add Peripli Helm repository
-helm repo add peripli https://peripli.github.io
+helm repo add peripli [https://peripli.github.io](https://peripli.github.io)
 
 # Create namespace
 kubectl create namespace service-broker-proxy
@@ -99,16 +99,16 @@ kubectl create namespace service-broker-proxy
 helm install service-broker-proxy peripli/service-broker-proxy \
   --namespace service-broker-proxy \
   --version 0.7.0 \
-  --set config.sm.url=https://service-manager.cfapps.<region>.hana.ondemand.com \
+  --set config.sm.url=[https://service-manager.cfapps.<region>.hana.ondemand.com](https://service-manager.cfapps.<region>.hana.ondemand.com) \
   --set sm.user=<username-from-step-1> \
   --set sm.password=<password-from-step-1>
 ```
 
-**SM_URL Format**: `https://service-manager.cfapps.<landscape domain>`
+**SM_URL Format**: `[https://service-manager.cfapps.<landscape](https://service-manager.cfapps.<landscape) domain>`
 
 **Regional Examples**:
-- EU10 (Frankfurt): `https://service-manager.cfapps.eu10.hana.ondemand.com`
-- US10 (US East): `https://service-manager.cfapps.us10.hana.ondemand.com`
+- EU10 (Frankfurt): `[https://service-manager.cfapps.eu10.hana.ondemand.com`](https://service-manager.cfapps.eu10.hana.ondemand.com`)
+- US10 (US East): `[https://service-manager.cfapps.us10.hana.ondemand.com`](https://service-manager.cfapps.us10.hana.ondemand.com`)
 
 ---
 
@@ -119,7 +119,7 @@ helm install service-broker-proxy peripli/service-broker-proxy \
 **Mac OS**:
 ```bash
 # Download binary
-curl -sLO https://download.svcat.sh/cli/latest/darwin/amd64/svcat
+curl -sLO [https://download.svcat.sh/cli/latest/darwin/amd64/svcat](https://download.svcat.sh/cli/latest/darwin/amd64/svcat)
 
 # Make executable
 chmod +x ./svcat
@@ -134,7 +134,7 @@ svcat version --client
 **Windows**:
 ```powershell
 # Download executable
-iwr https://download.svcat.sh/cli/latest/windows/amd64/svcat.exe -o svcat.exe
+iwr [https://download.svcat.sh/cli/latest/windows/amd64/svcat.exe](https://download.svcat.sh/cli/latest/windows/amd64/svcat.exe) -o svcat.exe
 
 # Create bin directory
 mkdir ~\bin
@@ -149,7 +149,7 @@ $env:PATH += ";$HOME\bin"
 svcat version --client
 ```
 
-**Reference**: https://svc-cat.io/docs/install/#installing-the-service-catalog-cli
+**Reference**: [https://svc-cat.io/docs/install/#installing-the-service-catalog-cli](https://svc-cat.io/docs/install/#installing-the-service-catalog-cli)
 
 ---
 
@@ -285,7 +285,7 @@ See `kubernetes-operator.md` for:
 export PATH=$PATH:/usr/local/bin
 
 # Or reinstall
-curl -sLO https://download.svcat.sh/cli/latest/darwin/amd64/svcat
+curl -sLO [https://download.svcat.sh/cli/latest/darwin/amd64/svcat](https://download.svcat.sh/cli/latest/darwin/amd64/svcat)
 chmod +x svcat
 sudo mv svcat /usr/local/bin/
 ```
@@ -294,7 +294,7 @@ sudo mv svcat /usr/local/bin/
 
 ## Documentation Links
 
-- **Cluster Configuration**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/cluster-configuration-a55506d.md
-- **Service Catalog Guide**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/working-with-service-catalog-86ab6f9.md
-- **Service Catalog Official**: https://svc-cat.io/docs/
-- **Migration Guide**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/migrating-from-svcat-to-sap-btp-service-ec7f5c7.md
+- **Cluster Configuration**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/cluster-configuration-a55506d.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/cluster-configuration-a55506d.md)
+- **Service Catalog Guide**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/working-with-service-catalog-86ab6f9.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/working-with-service-catalog-86ab6f9.md)
+- **Service Catalog Official**: [https://svc-cat.io/docs/](https://svc-cat.io/docs/)
+- **Migration Guide**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/migrating-from-svcat-to-sap-btp-service-ec7f5c7.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/migrating-from-svcat-to-sap-btp-service-ec7f5c7.md)

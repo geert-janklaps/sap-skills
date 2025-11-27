@@ -2,7 +2,7 @@
 
 Custom extensions for SAP Master Data Integration.
 
-**Source**: https://github.com/SAP-docs/sap-btp-master-data-integration/blob/main/docs/initial-setup-and-administration/extensibility-7612e09.md
+**Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration/blob/main/docs/initial-setup-and-administration/extensibility-7612e09.md](https://github.com/SAP-docs/sap-btp-master-data-integration/blob/main/docs/initial-setup-and-administration/extensibility-7612e09.md)
 
 ## Overview
 

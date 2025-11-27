@@ -285,8 +285,8 @@ For detailed guidance:
 ## Documentation Sources
 
 Keep this skill updated using these sources:
-- **JS Docs**: https://github.com/SAP/ai-sdk/tree/main/docs-js
-- **Java Docs**: https://github.com/SAP/ai-sdk/tree/main/docs-java
-- **JS SDK**: https://github.com/SAP/ai-sdk-js
-- **Java SDK**: https://github.com/SAP/ai-sdk-java
+- **JS Docs**: [https://github.com/SAP/ai-sdk/tree/main/docs-js](https://github.com/SAP/ai-sdk/tree/main/docs-js)
+- **Java Docs**: [https://github.com/SAP/ai-sdk/tree/main/docs-java](https://github.com/SAP/ai-sdk/tree/main/docs-java)
+- **JS SDK**: [https://github.com/SAP/ai-sdk-js](https://github.com/SAP/ai-sdk-js)
+- **Java SDK**: [https://github.com/SAP/ai-sdk-java](https://github.com/SAP/ai-sdk-java)
 - **Release Notes**: Check docs-js/release-notes.mdx and docs-java/release-notes.mdx

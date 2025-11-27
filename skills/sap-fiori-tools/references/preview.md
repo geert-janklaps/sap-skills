@@ -234,7 +234,7 @@ server:
       configuration:
         backend:
           - path: /sap
-            url: https://backend.system.com
+            url: [https://backend.system.com](https://backend.system.com)
             destination: BACKEND_DESTINATION
 ```
 
@@ -435,7 +435,7 @@ server:
       configuration:
         backend:
           - path: /odata/v4
-            url: http://localhost:4004
+            url: [http://localhost:4004](http://localhost:4004)
 ```
 
 ---
@@ -495,7 +495,7 @@ Configure browser to trust localhost certificates or use HTTP for development.
 
 ## Documentation Source
 
-**GitHub**: https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Previewing-an-Application
+**GitHub**: [https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Previewing-an-Application](https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Previewing-an-Application)
 
 Key files:
 - `previewing-an-application-b962685.md`

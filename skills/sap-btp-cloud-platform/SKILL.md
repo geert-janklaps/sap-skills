@@ -8,16 +8,26 @@ license: GPL-3.0
 metadata:
   version: "1.1.0"
   last_verified: "2025-11-27"
-  source: "https://github.com/SAP-docs/sap-btp-cloud-platform"
+  source: "[https://github.com/SAP-docs/sap-btp-cloud-platform"](https://github.com/SAP-docs/sap-btp-cloud-platform")
 ---
 
 # SAP BTP Cloud Platform
 
+## Related Skills
+
+- **sap-btp-best-practices**: Use for architectural best practices, account setup guidance, and production deployment patterns
+- **sap-cap-capire**: Use for CAP application development on BTP Cloud Foundry or Kyma environments
+- **sap-fiori-tools**: Use for deploying Fiori applications to BTP or configuring BTP destinations
+- **sap-ai-core**: Use when implementing AI/ML workloads on BTP or setting up AI services
+- **sap-abap**: Use when working with ABAP Environment on BTP or extending S/4HANA Cloud
+- **sap-btp-connectivity**: Use for setting up secure connections to on-premise systems via Cloud Connector
+- **sap-btp-service-manager**: Use for programmatic service instance management on BTP
+
 Comprehensive reference for SAP Business Technology Platform covering all runtime environments, account management, security, and operations.
 
-**Documentation Source**: https://github.com/SAP-docs/sap-btp-cloud-platform
-**SAP Help Portal**: https://help.sap.com/docs/btp
-**SAP Discovery Center**: https://discovery-center.cloud.sap/
+**Documentation Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform](https://github.com/SAP-docs/sap-btp-cloud-platform)
+**SAP Help Portal**: [https://help.sap.com/docs/btp](https://help.sap.com/docs/btp)
+**SAP Discovery Center**: [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/)
 
 ## 1. Platform Overview
 
@@ -55,7 +65,7 @@ SAP BTP offers four runtime environments at the subaccount level:
 ### Cloud Foundry Environment
 Open PaaS with polyglot support. Features: multiple buildpacks (Java, Node.js, Python, Go, PHP), spaces for separation, auto-scaling, SAP HANA integration.
 ```bash
-cf login -a https://api.cf.<region>.hana.ondemand.com
+cf login -a [https://api.cf.<region>.hana.ondemand.com](https://api.cf.<region>.hana.ondemand.com)
 cf push my-app
 cf bind-service my-app my-service-instance
 ```
@@ -171,13 +181,13 @@ Application/Service Access
 ### Essential CLI Commands
 ```bash
 # btp CLI
-btp login --url https://cpcli.cf.<region>.hana.ondemand.com
+btp login --url [https://cpcli.cf.<region>.hana.ondemand.com](https://cpcli.cf.<region>.hana.ondemand.com)
 btp list accounts/subaccount
 btp create accounts/subaccount --display-name "Dev"
 btp assign security/role-collection "Subaccount Administrator" --to-user user@example.com
 
 # CF CLI
-cf login -a https://api.cf.<region>.hana.ondemand.com
+cf login -a [https://api.cf.<region>.hana.ondemand.com](https://api.cf.<region>.hana.ondemand.com)
 cf target -o my-org -s my-space
 cf push my-app
 cf bind-service my-app my-service
@@ -306,8 +316,8 @@ Build loosely coupled extensions: SAP Solution → APIs & Events → SAP BTP Ext
 ## 16. Support
 
 ### Getting Support
-- **SAP for Me**: https://me.sap.com/
-- **SAP Community**: https://community.sap.com/
+- **SAP for Me**: [https://me.sap.com/](https://me.sap.com/)
+- **SAP Community**: [https://community.sap.com/](https://community.sap.com/)
 - **Support Components**: BC-CP-* (component codes)
 
 ### Operating Model
@@ -332,8 +342,8 @@ For detailed guidance, see the 13 reference files:
 - `regions-endpoints.md` - Region-specific API endpoints
 
 ## Source Documentation
-- https://github.com/SAP-docs/sap-btp-cloud-platform
-- https://help.sap.com/docs/btp
-- https://discovery-center.cloud.sap/
+- [https://github.com/SAP-docs/sap-btp-cloud-platform](https://github.com/SAP-docs/sap-btp-cloud-platform)
+- [https://help.sap.com/docs/btp](https://help.sap.com/docs/btp)
+- [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/)
 
 **Last Verified**: 2025-11-27

@@ -1,9 +1,9 @@
 # UI5 CLI Extensibility Complete Reference
 
 **Official Documentation**:
-- Custom Tasks: https://ui5.github.io/cli/stable/pages/extensibility/CustomTasks/
-- Custom Middleware: https://ui5.github.io/cli/stable/pages/extensibility/CustomServerMiddleware/
-- Project Shims: https://ui5.github.io/cli/stable/pages/extensibility/ProjectShims/
+- Custom Tasks: [https://ui5.github.io/cli/stable/pages/extensibility/CustomTasks/](https://ui5.github.io/cli/stable/pages/extensibility/CustomTasks/)
+- Custom Middleware: [https://ui5.github.io/cli/stable/pages/extensibility/CustomServerMiddleware/](https://ui5.github.io/cli/stable/pages/extensibility/CustomServerMiddleware/)
+- Project Shims: [https://ui5.github.io/cli/stable/pages/extensibility/ProjectShims/](https://ui5.github.io/cli/stable/pages/extensibility/ProjectShims/)
 
 This reference covers all extensibility features: custom tasks, custom middleware, and project shims.
 
@@ -333,7 +333,7 @@ server:
       mountPath: /api                     # Optional: only handle /api/* requests
       afterMiddleware: compression        # Ordering
       configuration:                      # Custom configuration
-        target: https://api.example.com
+        target: [https://api.example.com](https://api.example.com)
         pathRewrite:
           "^/api": ""
 
@@ -741,4 +741,4 @@ shims:
 ---
 
 **Last Updated**: 2025-11-21
-**Official Docs**: https://ui5.github.io/cli/stable/pages/extensibility/
+**Official Docs**: [https://ui5.github.io/cli/stable/pages/extensibility/](https://ui5.github.io/cli/stable/pages/extensibility/)

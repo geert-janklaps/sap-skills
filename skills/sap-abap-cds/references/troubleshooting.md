@@ -455,7 +455,7 @@ Transaction ST01 → Authorization check trace
 
 ## Documentation Links
 
-- **SAP Help - CDS Messages**: https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_messages.html
-- **SAP Community - CDS Troubleshooting**: https://community.sap.com/t5/tag/CDS%20Views/tg-p
+- **SAP Help - CDS Messages**: [https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_messages.html](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_messages.html)
+- **SAP Community - CDS Troubleshooting**: [https://community.sap.com/t5/tag/CDS%20Views/tg-p](https://community.sap.com/t5/tag/CDS%20Views/tg-p)
 
 **Last Updated**: 2025-11-23

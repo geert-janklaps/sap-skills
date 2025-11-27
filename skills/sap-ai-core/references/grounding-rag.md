@@ -2,7 +2,7 @@
 
 Complete reference for SAP AI Core grounding capabilities (Retrieval-Augmented Generation).
 
-**Documentation Source:** https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core
+**Documentation Source:** [https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core](https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core)
 
 ---
 
@@ -145,7 +145,7 @@ curl -X POST "$AI_API_URL/v2/lm/groundingPipelines" \
       "dataSource": {
         "type": "sharepoint",
         "configuration": {
-          "siteUrl": "https://company.sharepoint.com/sites/HR",
+          "siteUrl": "[https://company.sharepoint.com/sites/HR",](https://company.sharepoint.com/sites/HR",)
           "folderPath": "/Documents/Policies"
         }
       },
@@ -543,7 +543,7 @@ curl -X DELETE "$AI_API_URL/v2/lm/groundingPipelines/{pipelineId}" \
 
 ## Documentation Links
 
-- Grounding Overview: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/grounding-035c455.md
-- Pipeline API: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-document-grounding-pipeline-using-the-pipelines-api-0a13e1c.md
-- SharePoint Pipeline: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-pipeline-with-microsoft-sharepoint-4b8d58c.md
-- S3 Pipeline: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-pipeline-with-aws-s3-7f97adf.md
+- Grounding Overview: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/grounding-035c455.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/grounding-035c455.md)
+- Pipeline API: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-document-grounding-pipeline-using-the-pipelines-api-0a13e1c.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-document-grounding-pipeline-using-the-pipelines-api-0a13e1c.md)
+- SharePoint Pipeline: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-pipeline-with-microsoft-sharepoint-4b8d58c.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-pipeline-with-microsoft-sharepoint-4b8d58c.md)
+- S3 Pipeline: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-pipeline-with-aws-s3-7f97adf.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-pipeline-with-aws-s3-7f97adf.md)

@@ -1,6 +1,6 @@
 # CDS Query Language (CQL) Complete Reference
 
-**Source**: https://cap.cloud.sap/docs/cds/cql
+**Source**: [https://cap.cloud.sap/docs/cds/cql](https://cap.cloud.sap/docs/cds/cql)
 
 ## SELECT Queries
 

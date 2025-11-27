@@ -1,8 +1,8 @@
 # SAP Service Manager API Reference
 
-**Base URI**: `https://service-manager.cfapps.<region>.hana.ondemand.com/v1/`
+**Base URI**: `[https://service-manager.cfapps.<region>.hana.ondemand.com/v1/`](https://service-manager.cfapps.<region>.hana.ondemand.com/v1/`)
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager
+**Documentation**: [https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager](https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager)
 
 ---
 
@@ -126,7 +126,7 @@ curl '<uaa_url>/oauth/token' -X POST \
 ```json
 {
   "name": "my-broker",
-  "broker_url": "https://broker.example.com",
+  "broker_url": "[https://broker.example.com",](https://broker.example.com",)
   "description": "My service broker",
   "credentials": {
     "basic": {
@@ -225,8 +225,8 @@ curl '<uaa_url>/oauth/token' -X POST \
   "credentials": {
     "clientid": "client-id",
     "clientsecret": "client-secret",
-    "url": "https://service.example.com",
-    "sm_url": "https://service-manager.cfapps.region.hana.ondemand.com"
+    "url": "[https://service.example.com",](https://service.example.com",)
+    "sm_url": "[https://service-manager.cfapps.region.hana.ondemand.com"](https://service-manager.cfapps.region.hana.ondemand.com")
   },
   "ready": true,
   "created_at": "2025-01-01T00:00:00Z"
@@ -240,7 +240,7 @@ curl '<uaa_url>/oauth/token' -X POST \
     "clientid": "client-id",
     "certificate": "-----BEGIN CERTIFICATE-----...",
     "key": "-----BEGIN RSA PRIVATE KEY-----...",
-    "certurl": "https://cert.auth.url"
+    "certurl": "[https://cert.auth.url"](https://cert.auth.url")
   }
 }
 ```
@@ -384,7 +384,7 @@ GET /v1/service_instances/{id}/operations/{opId}
 
 Access interactive API documentation:
 
-`https://service-manager.cfapps.<region>.hana.ondemand.com/swaggerui/swagger-ui.html`
+`[https://service-manager.cfapps.<region>.hana.ondemand.com/swaggerui/swagger-ui.html`](https://service-manager.cfapps.<region>.hana.ondemand.com/swaggerui/swagger-ui.html`)
 
 **Example Regions**:
 - EU10 (Frankfurt): `eu10.hana.ondemand.com`
@@ -395,8 +395,8 @@ Access interactive API documentation:
 
 ## Documentation Links
 
-- **API Groups**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/sap-service-manager-api-groups-9b97aee.md
-- **Service Instances**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/instances-23af00d.md
-- **Service Bindings**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/service-bindings-392eb36.md
-- **Platforms**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/platforms-7610c08.md
-- **Brokers**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/brokers-743f3f7.md
+- **API Groups**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/sap-service-manager-api-groups-9b97aee.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/sap-service-manager-api-groups-9b97aee.md)
+- **Service Instances**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/instances-23af00d.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/instances-23af00d.md)
+- **Service Bindings**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/service-bindings-392eb36.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/service-bindings-392eb36.md)
+- **Platforms**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/platforms-7610c08.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/platforms-7610c08.md)
+- **Brokers**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/brokers-743f3f7.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/brokers-743f3f7.md)

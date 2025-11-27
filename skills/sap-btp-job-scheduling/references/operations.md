@@ -1,6 +1,6 @@
 # SAP BTP Job Scheduling Service - Operations Guide
 
-**Source**: https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs](https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs)
 **Last Updated**: 2025-11-22
 
 ---
@@ -308,10 +308,10 @@ Job Scheduling Service inherits accessibility features from SAP BTP cockpit:
 ## External References
 
 ### SAP Documentation
-- **Dashboard**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/manage-jobs-tasks-and-schedules-with-service-dashboard
-- **Service Behavior**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/service-behavior
-- **Backup and Restore**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/backup-and-restore
-- **Accessibility**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/accessibility-features-in-sap-job-scheduling-service
+- **Dashboard**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/manage-jobs-tasks-and-schedules-with-service-dashboard](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/manage-jobs-tasks-and-schedules-with-service-dashboard)
+- **Service Behavior**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/service-behavior](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/service-behavior)
+- **Backup and Restore**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/backup-and-restore](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/backup-and-restore)
+- **Accessibility**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/accessibility-features-in-sap-job-scheduling-service](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/accessibility-features-in-sap-job-scheduling-service)
 
 ### Source Files
 - `manage-jobs-tasks-and-schedules-with-service-dashboard-132fd06.md`

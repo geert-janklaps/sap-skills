@@ -176,7 +176,7 @@ async function processOrder(orderId) {
       "name": "notify-team",
       "type": "SLACK",
       "properties": {
-        "webhookUrl": "https://hooks.slack.com/..."
+        "webhookUrl": "[https://hooks.slack.com/..."](https://hooks.slack.com/...")
       }
     }
   ]
@@ -273,7 +273,7 @@ Automatic integration with:
 
 ## Source Documentation
 
-- Observability: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/establish-end-to-end-observability-34065a4.md
-- Observability Mission: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-implement-observability-in-a-full-stack-cap-application-c5636db.md
-- SAP Cloud ALM: https://help.sap.com/docs/cloud-alm
-- SAP Cloud Logging: https://help.sap.com/docs/cloud-logging
+- Observability: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/establish-end-to-end-observability-34065a4.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/establish-end-to-end-observability-34065a4.md)
+- Observability Mission: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-implement-observability-in-a-full-stack-cap-application-c5636db.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/mission-implement-observability-in-a-full-stack-cap-application-c5636db.md)
+- SAP Cloud ALM: [https://help.sap.com/docs/cloud-alm](https://help.sap.com/docs/cloud-alm)
+- SAP Cloud Logging: [https://help.sap.com/docs/cloud-logging](https://help.sap.com/docs/cloud-logging)

@@ -1,6 +1,6 @@
 # Kubernetes Connectivity - Complete Reference
 
-**Source**: https://github.com/SAP-docs/btp-connectivity/blob/main/docs/1-connectivity-documentation/connectivity-proxy-for-kubernetes-e661713.md
+**Source**: [https://github.com/SAP-docs/btp-connectivity/blob/main/docs/1-connectivity-documentation/connectivity-proxy-for-kubernetes-e661713.md](https://github.com/SAP-docs/btp-connectivity/blob/main/docs/1-connectivity-documentation/connectivity-proxy-for-kubernetes-e661713.md)
 
 ---
 
@@ -49,7 +49,7 @@ Bridges Kubernetes workloads with on-premise systems via Cloud Connector.
 
 ```bash
 # Add SAP registry
-helm repo add sap https://sapse.github.io/helm-charts
+helm repo add sap [https://sapse.github.io/helm-charts](https://sapse.github.io/helm-charts)
 
 # Install Connectivity Proxy
 helm install connectivity-proxy \
@@ -141,7 +141,7 @@ const proxy = {
 };
 
 // Make request to on-premise system
-const response = await axios.get('http://virtual-host/api/resource', {
+const response = await axios.get('[http://virtual-host/api/resource',](http://virtual-host/api/resource',) {
   proxy: {
     host: proxy.host,
     port: proxy.port,
@@ -255,8 +255,8 @@ After creating the Custom Resource, access the destination as a Kubernetes Servi
 const axios = require('axios');
 
 // Access destination via Transparent Proxy
-// URL format: http://<destination-name>.<namespace>
-const response = await axios.get('http://my-api-destination.default/api/resource', {
+// URL format: [http://<destination-name>.<namespace>](http://<destination-name>.<namespace>)
+const response = await axios.get('[http://my-api-destination.default/api/resource',](http://my-api-destination.default/api/resource',) {
   headers: {
     'Authorization': 'Bearer ' + userToken  // For user propagation
   }
@@ -477,7 +477,7 @@ kubectl exec <pod> -n <namespace> -it -- list-loggers
 
 | Error | Cause | Solution |
 |-------|-------|----------|
-| 405 | HTTPS instead of HTTP | Use `http://` with port 20003 |
+| 405 | HTTPS instead of HTTP | Use `[http://`](http://`) with port 20003 |
 | 407 | Missing proxy auth | Add `Proxy-Authorization: Bearer <token>` |
 | 503 | Cloud Connector offline | Check CC connection and Location ID |
 
@@ -491,10 +491,10 @@ kubectl exec <pod> -n <namespace> -it -- list-loggers
 
 ## Documentation Links
 
-- Connectivity Proxy: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivity-proxy-for-kubernetes
-- Transparent Proxy: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/transparent-proxy-for-kubernetes
-- Kyma Connectivity: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivity-in-kyma-environment
-- Helm Charts: https://github.com/SAP/connectivity-proxy
+- Connectivity Proxy: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivity-proxy-for-kubernetes](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivity-proxy-for-kubernetes)
+- Transparent Proxy: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/transparent-proxy-for-kubernetes](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/transparent-proxy-for-kubernetes)
+- Kyma Connectivity: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivity-in-kyma-environment](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivity-in-kyma-environment)
+- Helm Charts: [https://github.com/SAP/connectivity-proxy](https://github.com/SAP/connectivity-proxy)
 
 ---
 

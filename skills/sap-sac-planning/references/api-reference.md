@@ -1,6 +1,6 @@
 # SAP Analytics Cloud - Analytics Designer API Reference for Planning
 
-**Source**: https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.23/en-US/index.html
+**Source**: [https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.23/en-US/index.html](https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.23/en-US/index.html)
 **Version**: 2025.23
 **Last Updated**: 2025-11-22
 
@@ -1049,6 +1049,6 @@ ConvertUtils.numberToString(123);
 ---
 
 **Documentation Links**:
-- Full API Reference (2025.23): https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.23/en-US/index.html
-- SAP Analytics Cloud Help: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD
-- SAP Community: https://community.sap.com/topics/sap-analytics-cloud
+- Full API Reference (2025.23): [https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.23/en-US/index.html](https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.23/en-US/index.html)
+- SAP Analytics Cloud Help: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD)
+- SAP Community: [https://community.sap.com/topics/sap-analytics-cloud](https://community.sap.com/topics/sap-analytics-cloud)

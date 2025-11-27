@@ -6,7 +6,7 @@ license: GPL-3.0
 metadata:
   version: "1.0.0"
   last_verified: "2025-11-27"
-  sap_documentation_source: "https://help.sap.com/docs/cloud-transport-management"
+  sap_documentation_source: "[https://help.sap.com/docs/cloud-transport-management"](https://help.sap.com/docs/cloud-transport-management")
 ---
 
 # SAP Cloud Transport Management Skill
@@ -133,9 +133,9 @@ Assign roles: **Security > Role Collections > [Collection] > Edit > Users**
   "uaa": {
     "clientid": "sb-xxxxxx",
     "clientsecret": "xxxxxx",
-    "url": "https://<domain>.authentication.sap.hana.ondemand.com"
+    "url": "[https://<domain>.authentication.sap.hana.ondemand.com"](https://<domain>.authentication.sap.hana.ondemand.com")
   },
-  "uri": "https://transport-service-app-backend.ts.cfapps.sap.hana.ondemand.com"
+  "uri": "[https://transport-service-app-backend.ts.cfapps.sap.hana.ondemand.com"](https://transport-service-app-backend.ts.cfapps.sap.hana.ondemand.com")
 }
 ```
 
@@ -197,8 +197,8 @@ Required for applications exporting content directly to TMS.
 
 | Field | Value |
 |-------|-------|
-| URL (org/space) | `https://deploy-service.cf.<domain>/slprot/<org>/<space>/slp` |
-| URL (space GUID) | `https://deploy-service.cf.<domain>/slprot/<guid>/slp` |
+| URL (org/space) | `[https://deploy-service.cf.<domain>/slprot/<org>/<space>/slp`](https://deploy-service.cf.<domain>/slprot/<org>/<space>/slp`) |
+| URL (space GUID) | `[https://deploy-service.cf.<domain>/slprot/<guid>/slp`](https://deploy-service.cf.<domain>/slprot/<guid>/slp`) |
 | Authentication | BasicAuthentication |
 | User | Platform user email with `SpaceDeveloper` role |
 
@@ -213,13 +213,13 @@ Required for applications exporting content directly to TMS.
 | Authentication | OAuth2Password |
 | Client ID | `cf` |
 | Client Secret | (leave empty) |
-| Token Service URL | `https://login.cf.<domain>` |
+| Token Service URL | `[https://login.cf.<domain>`](https://login.cf.<domain>`) |
 
 ### BTP ABAP Environment Destinations
 
 | Field | Value |
 |-------|-------|
-| URL | `https://<instance>.abap.<region>.hana.ondemand.com/sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/` |
+| URL | `[https://<instance>.abap.<region>.hana.ondemand.com/sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/`](https://<instance>.abap.<region>.hana.ondemand.com/sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/`) |
 | Authentication | BasicAuthentication |
 | User | Communication user from `SAP_COM_0948` |
 
@@ -376,9 +376,9 @@ For detailed configuration procedures, see the reference files:
 
 ## Documentation Links
 
-- **GitHub Docs**: https://github.com/SAP-docs/sap-btp-cloud-transport-management
-- **SAP Help Portal**: https://help.sap.com/docs/cloud-transport-management
-- **API Reference**: https://api.sap.com/package/TmsForCloudPub/rest
+- **GitHub Docs**: [https://github.com/SAP-docs/sap-btp-cloud-transport-management](https://github.com/SAP-docs/sap-btp-cloud-transport-management)
+- **SAP Help Portal**: [https://help.sap.com/docs/cloud-transport-management](https://help.sap.com/docs/cloud-transport-management)
+- **API Reference**: [https://api.sap.com/package/TmsForCloudPub/rest](https://api.sap.com/package/TmsForCloudPub/rest)
 
 ---
 

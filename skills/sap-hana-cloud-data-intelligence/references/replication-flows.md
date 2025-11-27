@@ -369,10 +369,10 @@ After completing replication:
 
 ## Documentation Links
 
-- **Replicating Data**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/replicating-data
-- **Create Replication Flow**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/replicating-data/create-a-replication-flow-a425e34.md
-- **Cloud Storage Structure**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/replicating-data/cloud-storage-target-structure-12e0f97.md
-- **Kafka as Target**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/replicating-data/kafka-as-target-b9b819c.md
+- **Replicating Data**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/replicating-data](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/replicating-data)
+- **Create Replication Flow**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/replicating-data/create-a-replication-flow-a425e34.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/replicating-data/create-a-replication-flow-a425e34.md)
+- **Cloud Storage Structure**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/replicating-data/cloud-storage-target-structure-12e0f97.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/replicating-data/cloud-storage-target-structure-12e0f97.md)
+- **Kafka as Target**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/replicating-data/kafka-as-target-b9b819c.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/replicating-data/kafka-as-target-b9b819c.md)
 
 ---
 

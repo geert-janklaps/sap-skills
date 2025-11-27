@@ -26,8 +26,9 @@ jobs:
               continue
             fi
             
-            if ! grep -q "^---" "$file"; then
-              echo "❌ Missing frontmatter: $file"
+            # Check for both opening and closing frontmatter delimiters
+            if ! /usr/bin/head -1 "$file" | grep -q "^---" || ! awk '/^---/{c++}c==2{exit}END{exit c!=2}' "$file"; then
+              echo "❌ Invalid or incomplete frontmatter (must start and end with ---): $file"
               FAILED=1
             else
               echo "✅ Valid frontmatter: $file"
@@ -35,7 +36,7 @@ jobs:
           done
           
           if [ $FAILED -eq 1 ]; then
-            echo "❌ Some files are missing YAML frontmatter"
+            echo "❌ Some files have invalid or incomplete YAML frontmatter"
             exit 1
           fi
           echo "✅ All SKILL.md files have valid frontmatter"
@@ -105,24 +106,70 @@ jobs:
         run: |
           echo "Checking for broken internal links..."
           FAILED=0
+          
+          # Create a temporary file to collect all broken links
+          BROKEN_LINKS_FILE=$(mktemp)
+          
           # Check if referenced files exist
-          find . -name "*.md" -type f | while read -r file; do
-            grep -oP '\[.*?\]\(\K[^)#]+' "$file" 2>/dev/null | while read -r link; do
-              # Skip external links
-              if [[ "$link" =~ ^https?:// ]]; then
-                continue
-              fi
-              
-              # Resolve relative path
-              dir=$(dirname "$file")
-              target=$(cd "$dir" && cd $(dirname "$link") && pwd)/$(basename "$link")
-              
-              if [ ! -f "$target" ] && [ ! -d "$target" ]; then
-                echo "❌ Broken link in $file: $link"
-                FAILED=1
-              fi
-            done
-          done
+          # Use find with -print0 and read with -d '' to handle filenames with spaces
+          while IFS= read -r -d '' file; do
+            # Extract all markdown links from the file and save to temp file
+            grep -oP '\[.*?\]\(\K[^)#]+' "$file" 2>/dev/null > "${BROKEN_LINKS_FILE}.links" || true
+            
+            # Process each link without using pipes (to avoid subshells)
+            if [ -s "${BROKEN_LINKS_FILE}.links" ]; then
+              exec 3< "${BROKEN_LINKS_FILE}.links"
+              while IFS= read -r link <&3; do
+                # Skip empty lines and external links
+                [ -z "$link" ] && continue
+                [[ "$link" =~ ^https?:// ]] && continue
+                
+                # Get directory of the current file
+                dir=$(dirname "$file")
+                
+                # Resolve the target path safely
+                link_dir=$(dirname "$link")
+                link_base=$(basename "$link")
+                
+                # Handle case where link has no directory (just a filename)
+                if [ "$link_dir" = "." ]; then
+                  target="$dir/$link"
+                else
+                  # Check if the link's directory exists before trying to cd into it
+                  if [ ! -d "$dir/$link_dir" ]; then
+                    echo "❌ Broken link in $file: $link (directory $link_dir does not exist)" >> "$BROKEN_LINKS_FILE"
+                    continue
+                  fi
+                  
+                  # Safely resolve the target path
+                  if ! target=$(cd "$dir" && cd "$link_dir" && pwd 2>/dev/null); then
+                    echo "❌ Broken link in $file: $link (cannot resolve path $link_dir)" >> "$BROKEN_LINKS_FILE"
+                    continue
+                  fi
+                  target="$target/$link_base"
+                fi
+                
+                # Check if the resolved target exists
+                if [ ! -f "$target" ] && [ ! -d "$target" ]; then
+                  echo "❌ Broken link in $file: $link -> $target" >> "$BROKEN_LINKS_FILE"
+                fi
+              done
+              exec 3<&-
+            fi
+            
+            # Clean up links file
+            rm -f "${BROKEN_LINKS_FILE}.links" 2>/dev/null || true
+          done < <(find . -name "*.md" -type f -print0)
+          
+          # Check if any broken links were found
+          if [ -s "$BROKEN_LINKS_FILE" ]; then
+            FAILED=1
+            cat "$BROKEN_LINKS_FILE"
+          fi
+          
+          # Clean up
+          rm -f "$BROKEN_LINKS_FILE" 2>/dev/null || true
+          
           if [ $FAILED -eq 1 ]; then
             echo "❌ Some broken links were detected"
             exit 1

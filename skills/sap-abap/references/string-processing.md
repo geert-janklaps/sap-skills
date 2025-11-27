@@ -1,6 +1,6 @@
 # ABAP String Processing - Complete Reference
 
-**Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/07_String_Processing.md
+**Source**: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/07_String_Processing.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/07_String_Processing.md)
 
 ## Table of Contents
 
@@ -126,7 +126,7 @@ DATA(bytes) = xstrlen( xstr ).
 ```abap
 " && operator
 DATA(full) = first && ` ` && last.
-DATA(url) = `https://` && domain && `/` && path.
+DATA(url) = `[https://`](https://`) && domain && `/` && path.
 
 " &&= assignment operator
 text &&= ` additional`.

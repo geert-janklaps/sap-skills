@@ -1,6 +1,6 @@
 # SAP BTP Governance and Teams - Detailed Reference
 
-**Source**: https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/set-up-and-plan
+**Source**: [https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/set-up-and-plan](https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/set-up-and-plan)
 
 ---
 
@@ -414,9 +414,9 @@ resource "btp_subaccount_entitlement" "hana_cloud" {
 ---
 
 **Source Documentation**:
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/creating-a-governance-model-bf0ce2c.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/building-teams-fdeddf2.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/creating-a-knowledge-transfer-process-630c14c.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/creating-an-onboarding-process-for-development-projects-4bd29a8.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/tools-for-account-administration-6bdb3a7.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/shared-responsibility/shared-responsibility-model-between-you-and-sap-898509d.md
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/creating-a-governance-model-bf0ce2c.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/creating-a-governance-model-bf0ce2c.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/building-teams-fdeddf2.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/building-teams-fdeddf2.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/creating-a-knowledge-transfer-process-630c14c.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/creating-a-knowledge-transfer-process-630c14c.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/creating-an-onboarding-process-for-development-projects-4bd29a8.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/creating-an-onboarding-process-for-development-projects-4bd29a8.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/tools-for-account-administration-6bdb3a7.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/tools-for-account-administration-6bdb3a7.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/shared-responsibility/shared-responsibility-model-between-you-and-sap-898509d.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/shared-responsibility/shared-responsibility-model-between-you-and-sap-898509d.md)

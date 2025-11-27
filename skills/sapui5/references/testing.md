@@ -1,7 +1,7 @@
 # SAPUI5 Testing Guide
 
 **Source**: Official SAP SAPUI5 Documentation
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials)
 **Last Updated**: 2025-11-21
 
 ---
@@ -14,7 +14,7 @@ SAPUI5 applications should include:
 2. **Integration Tests** (OPA5): Test user interactions and flows
 3. **Mock Server**: Simulate backend for testing without real services
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: testing, qunit, opa)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: testing, qunit, opa)
 
 ---
 
@@ -178,7 +178,7 @@ sap.ui.define([
 });
 ```
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: qunit)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: qunit)
 
 ---
 
@@ -416,7 +416,7 @@ sap.ui.define([
 });
 ```
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: opa5, integration-testing)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: opa5, integration-testing)
 
 ---
 
@@ -558,7 +558,7 @@ sap.ui.define([
 
 **Usage**: `index.html?useMockServer=true`
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: mock-server)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: mock-server)
 
 ---
 
@@ -686,7 +686,7 @@ Enable code coverage in QUnit:
 - Unit tests: 80%+ coverage
 - Integration tests: Cover all critical user flows
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: code-coverage)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: code-coverage)
 
 ---
 
@@ -764,17 +764,17 @@ sap.ui.require(["sap/ui/support/RuleAnalyzer"], function(RuleAnalyzer) {
 
 **Or use keyboard**: `Ctrl+Alt+Shift+S`
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: support-assistant)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: support-assistant)
 
 ---
 
 ## Links to Official Documentation
 
-- **Testing Overview**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: testing)
-- **QUnit**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: qunit)
-- **OPA5**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: opa5)
-- **Mock Server**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: mock-server)
-- **Get Started Testing**: https://github.com/SAP-docs/sapui5/tree/main/docs/03_Get-Started (search: testing)
+- **Testing Overview**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: testing)
+- **QUnit**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: qunit)
+- **OPA5**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: opa5)
+- **Mock Server**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: mock-server)
+- **Get Started Testing**: [https://github.com/SAP-docs/sapui5/tree/main/docs/03_Get-Started](https://github.com/SAP-docs/sapui5/tree/main/docs/03_Get-Started) (search: testing)
 
 ---
 

@@ -1,6 +1,6 @@
 # Cloud Connector - Complete Reference
 
-**Source**: https://github.com/SAP-docs/btp-connectivity/blob/main/docs/1-connectivity-documentation/cloud-connector-e6c7616.md
+**Source**: [https://github.com/SAP-docs/btp-connectivity/blob/main/docs/1-connectivity-documentation/cloud-connector-e6c7616.md](https://github.com/SAP-docs/btp-connectivity/blob/main/docs/1-connectivity-documentation/cloud-connector-e6c7616.md)
 
 ---
 
@@ -79,7 +79,7 @@ go.bat   # Windows
 ### Access Administration UI
 
 ```
-URL: https://<hostname>:8443
+URL: [https://<hostname>:8443](https://<hostname>:8443)
 Default Port: 8443 (HTTPS)
 ```
 
@@ -311,7 +311,7 @@ Cloud Connector exposes REST APIs for external monitoring tools:
 
 **Via REST API:**
 ```bash
-curl -X GET "https://localhost:8443/api/v1/configuration/backup" \
+curl -X GET "[https://localhost:8443/api/v1/configuration/backup"](https://localhost:8443/api/v1/configuration/backup") \
   -H "Authorization: Basic <credentials>" \
   --output backup.zip
 ```
@@ -403,12 +403,12 @@ curl -X GET "https://localhost:8443/api/v1/configuration/backup" \
 
 ## Documentation Links
 
-- Cloud Connector Overview: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector
-- Installation: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/installation
-- Initial Configuration: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/initial-configuration
-- High Availability: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/high-availability-setup
-- Security Guidelines: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/security-guidelines
-- FAQ: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/frequently-asked-questions
+- Cloud Connector Overview: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector)
+- Installation: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/installation](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/installation)
+- Initial Configuration: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/initial-configuration](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/initial-configuration)
+- High Availability: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/high-availability-setup](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/high-availability-setup)
+- Security Guidelines: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/security-guidelines](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/security-guidelines)
+- FAQ: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/frequently-asked-questions](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/frequently-asked-questions)
 
 ---
 

@@ -353,9 +353,9 @@ Attachment: (optional file path)
 
 ## Documentation Links
 
-- **Data Workflow Operators**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/working-with-dataworkflow-operators
-- **Transfer Data**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/working-with-dataworkflow-operators/transfer-data-b250a0b.md
-- **Transfer Modes**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/working-with-dataworkflow-operators/transfer-modes-a615280.md
+- **Data Workflow Operators**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/working-with-dataworkflow-operators](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/working-with-dataworkflow-operators)
+- **Transfer Data**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/working-with-dataworkflow-operators/transfer-data-b250a0b.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/working-with-dataworkflow-operators/transfer-data-b250a0b.md)
+- **Transfer Modes**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/working-with-dataworkflow-operators/transfer-modes-a615280.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/working-with-dataworkflow-operators/transfer-modes-a615280.md)
 
 ---
 

@@ -114,7 +114,6 @@ This skill provides comprehensive guidance for implementing SAP Build Work Zone,
 ### Main Files
 - `SKILL.md` - Primary skill instructions and quick reference
 - `README.md` - This file with keywords
-- `PROGRESS_TRACKING.md` - Documentation extraction status
 
 ### Reference Files
 - `references/ui-integration-cards.md` - Card development guide
@@ -153,8 +152,8 @@ This skill should be triggered when users ask about:
 
 - **Created**: 2025-11-22
 - **Documentation Source**: SAP Help Portal (November 2025)
-- **GitHub Docs**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
-- **SAP Help Portal**: https://help.sap.com/docs/build-work-zone-advanced-edition
+- **GitHub Docs**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
+- **SAP Help Portal**: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)
 
 ## License
 

@@ -1,6 +1,6 @@
 # SAP BTP Operations and Monitoring - Detailed Reference
 
-**Source**: https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/go-live-and-monitor
+**Source**: [https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/go-live-and-monitor](https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/go-live-and-monitor)
 
 ---
 
@@ -156,7 +156,7 @@ SAP BTP Applications
 {
   "name": "daily-cleanup",
   "description": "Daily data cleanup job",
-  "action": "https://my-app.cfapps.region.hana.ondemand.com/cleanup",
+  "action": "[https://my-app.cfapps.region.hana.ondemand.com/cleanup",](https://my-app.cfapps.region.hana.ondemand.com/cleanup",)
   "active": true,
   "httpMethod": "POST",
   "schedules": [
@@ -198,7 +198,7 @@ For Neo applications (Java, SAP HANA XS, HTML5):
 
 ### SAP Trust Center
 
-Access platform status at: https://www.sap.com/about/trust-center/cloud-service-status.html
+Access platform status at: [https://www.sap.com/about/trust-center/cloud-service-status.html](https://www.sap.com/about/trust-center/cloud-service-status.html)
 
 **Features**:
 - Region-specific status
@@ -248,7 +248,7 @@ Subscribe to notifications for:
     },
     {
       "type": "SLACK",
-      "webhookUrl": "https://hooks.slack.com/..."
+      "webhookUrl": "[https://hooks.slack.com/..."](https://hooks.slack.com/...")
     }
   ]
 }
@@ -443,7 +443,7 @@ SAP recommends migrating from Neo to multi-cloud foundation:
 ---
 
 **Source Documentation**:
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/go-live-and-monitor/go-live-and-operate-b0ab4fb.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/integrate-and-test/integrate-and-test-84ddc25.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/improve-and-retire/improve-and-retire-89ffeab.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/managing-cost-c615301.md
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/go-live-and-monitor/go-live-and-operate-b0ab4fb.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/go-live-and-monitor/go-live-and-operate-b0ab4fb.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/integrate-and-test/integrate-and-test-84ddc25.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/integrate-and-test/integrate-and-test-84ddc25.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/improve-and-retire/improve-and-retire-89ffeab.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/improve-and-retire/improve-and-retire-89ffeab.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/managing-cost-c615301.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/managing-cost-c615301.md)

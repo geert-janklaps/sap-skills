@@ -2,7 +2,7 @@
 
 Complete reference for master data types supported by SAP Master Data Integration.
 
-**Source**: https://github.com/SAP-docs/sap-btp-master-data-integration/blob/main/docs/about-this-service/integration-models-8882bf9.md
+**Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration/blob/main/docs/about-this-service/integration-models-8882bf9.md](https://github.com/SAP-docs/sap-btp-master-data-integration/blob/main/docs/about-this-service/integration-models-8882bf9.md)
 
 ## Asset Management
 
@@ -122,5 +122,5 @@ Examples:
 
 ## Documentation Links
 
-- **Integration Models**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/integration-models
-- **SAP One Domain Model**: https://api.sap.com/sap-one-domain-model
+- **Integration Models**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/integration-models](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/integration-models)
+- **SAP One Domain Model**: [https://api.sap.com/sap-one-domain-model](https://api.sap.com/sap-one-domain-model)

@@ -2,7 +2,7 @@
 
 Complete guide for creating, managing, and deploying content packages in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/30-ContentPackages
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/30-ContentPackages](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/30-ContentPackages)
 
 ## Table of Contents
 
@@ -10,15 +10,14 @@ Complete guide for creating, managing, and deploying content packages in SAP Bui
 - [Package Types](#package-types)
   - [Global Content Packages](#global-content-packages)
   - [Local Content Packages](#local-content-packages)
-- [Supported Artifacts](#supported-artifacts)
-- [Package Development Workflow](#package-development-workflow)
-- [Package Manifest Structure](#package-manifest-structure)
-- [Package Creation Tools](#package-creation-tools)
-- [Package Deployment](#package-deployment)
-- [Package Installation](#package-installation)
+- [Supported Content Items](#supported-content-items)
+- [Creating a Content Package](#creating-a-content-package)
+- [Package Manifest](#package-manifest)
+- [Deploying Content Packages](#deploying-content-packages)
 - [Package Management](#package-management)
-- [Best Practices](#best-practices)
-- [Troubleshooting](#troubleshooting)
+- [Updating Content Packages](#updating-content-packages)
+- [Project Structure](#project-structure)
+- [Post-Creation Actions](#post-creation-actions)
 
 ---
 
@@ -151,7 +150,7 @@ For remote system integration, add prerequisites section:
       "destinations": [
         {
           "name": "MyDestination",
-          "document": "https://documentation.url"
+          "document": "[https://documentation.url"](https://documentation.url")
         },
         {
           "name": "SecondDestination"
@@ -263,5 +262,5 @@ content-package-project/
 ---
 
 **Documentation Links**:
-- Content Packages: https://help.sap.com/docs/build-work-zone-advanced-edition
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/30-ContentPackages
+- Content Packages: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/30-ContentPackages](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/30-ContentPackages)

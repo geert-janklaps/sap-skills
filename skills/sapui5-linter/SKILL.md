@@ -10,8 +10,8 @@ metadata:
   version: "1.0.0"
   last_updated: "2025-11-26"
   ui5_linter_version: "1.20.5
-  source: https://github.com/UI5/linter
-  documentation: https://github.com/UI5/linter/blob/main/README.md
+  source: [https://github.com/UI5/linter](https://github.com/UI5/linter)
+  documentation: [https://github.com/UI5/linter/blob/main/README.md](https://github.com/UI5/linter/blob/main/README.md)
   status: "CONTENT_RESTRUCTURED"
 ---
 
@@ -30,7 +30,7 @@ The **UI5 Linter** (@ui5/linter) is a static code analysis tool designed specifi
 - ✅ Fast performance: 1-40s depending on project size
 
 **Current Version**: 1.20.5 (November 2025)
-**Official Repository**: https://github.com/UI5/linter
+**Official Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
 
 ---
 
@@ -286,11 +286,11 @@ ui5lint --perf
 ## Reference Documentation
 
 ### External Resources
-- **Official Repository**: https://github.com/UI5/linter
-- **Issue Reporting**: https://github.com/UI5/linter/issues
-- **Discussions**: https://github.com/UI5/linter/discussions
-- **Chat Support**: https://discord.gg/sapui5
-- **SAP Community**: https://community.sap.com/tags/ui5
+- **Official Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
+- **Issue Reporting**: [https://github.com/UI5/linter/issues](https://github.com/UI5/linter/issues)
+- **Discussions**: [https://github.com/UI5/linter/discussions](https://github.com/UI5/linter/discussions)
+- **Chat Support**: [https://discord.gg/sapui5](https://discord.gg/sapui5)
+- **SAP Community**: [https://community.sap.com/tags/ui5](https://community.sap.com/tags/ui5)
 
 ### Detailed Documentation
 - **Complete Rules Reference**: `references/rules-complete.md`

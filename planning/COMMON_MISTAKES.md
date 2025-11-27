@@ -300,7 +300,7 @@ const app = new Hono()
 
 ✅ **CORRECT**:
 ```typescript
-// Tested in production: https://example.com
+// Tested in production: [https://example.com](https://example.com)
 import { Hono } from 'hono'
 const app = new Hono()
 // ... verified working code

@@ -121,7 +121,7 @@ Script variables can be referenced in calculated measures for what-if simulation
 Prefix global variable name with `p_` to pass values via URL:
 
 ```
-https://your-sac-tenant.com/app?p_myVariable=value
+[https://your-sac-tenant.com/app?p_myVariable=value](https://your-sac-tenant.com/app?p_myVariable=value)
 ```
 
 ---
@@ -500,8 +500,8 @@ Type partial names and use CTRL+Spacebar:
 
 ## External Resources
 
-- **API Reference**: https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html
-- **Scripting Documentation**: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/6a4db9a9c8634bcb86cecbf1f1dbbf8e.html
+- **API Reference**: [https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html](https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html)
+- **Scripting Documentation**: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/6a4db9a9c8634bcb86cecbf1f1dbbf8e.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/6a4db9a9c8634bcb86cecbf1f1dbbf8e.html)
 
 ---
 

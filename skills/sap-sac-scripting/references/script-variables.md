@@ -9,7 +9,7 @@ Source: `help-portal-82bbae6b7005482c87bfd59a91735b45.md`.
 
 ## Usage
 - Read/write directly: `MyGlobalVar = "value";`
-- Use as dynamic text sources (see `docs/text-widget.md`).
+- Use as dynamic text sources (see `text-widget.md`).
 - Use in filters, bindings, and calculations.
 
 ## URL parameter pattern

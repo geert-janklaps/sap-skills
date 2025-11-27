@@ -299,7 +299,7 @@ Connect from local VS Code desktop to BAS dev spaces.
   "vscodeExtensions": [
     {
       "name": "extension-name",
-      "url": "https://url-to-vsix-file"
+      "url": "[https://url-to-vsix-file"](https://url-to-vsix-file")
     }
   ]
 }
@@ -349,17 +349,17 @@ wex delete -x <namespace>/<ext-name>
 
 | Resource | URL |
 |----------|-----|
-| Service Center | https://help.sap.com/docs/bas/sap-business-application-studio/explore-services-using-service-center |
-| SAP System Provider | https://help.sap.com/docs/bas/sap-business-application-studio/sap-system-service-provider |
-| Developer Hub Provider | https://help.sap.com/docs/bas/sap-business-application-studio/developer-hub-service-provider |
-| Unified Customer Landscape | https://help.sap.com/docs/bas/sap-business-application-studio/unified-customer-landscape-service-provider |
-| Business Accelerator Hub | https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-accelerator-hub-service-provider |
-| Additional Extensions | https://help.sap.com/docs/bas/sap-business-application-studio/additional-extensions |
-| Custom Extensions | https://help.sap.com/docs/bas/sap-business-application-studio/create-and-deploy-extension |
-| Guide Center | https://help.sap.com/docs/bas/sap-business-application-studio/guide-center |
-| Multi-Subaccount | https://help.sap.com/docs/bas/sap-business-application-studio/develop-app-using-different-subaccounts |
+| Service Center | [https://help.sap.com/docs/bas/sap-business-application-studio/explore-services-using-service-center](https://help.sap.com/docs/bas/sap-business-application-studio/explore-services-using-service-center) |
+| SAP System Provider | [https://help.sap.com/docs/bas/sap-business-application-studio/sap-system-service-provider](https://help.sap.com/docs/bas/sap-business-application-studio/sap-system-service-provider) |
+| Developer Hub Provider | [https://help.sap.com/docs/bas/sap-business-application-studio/developer-hub-service-provider](https://help.sap.com/docs/bas/sap-business-application-studio/developer-hub-service-provider) |
+| Unified Customer Landscape | [https://help.sap.com/docs/bas/sap-business-application-studio/unified-customer-landscape-service-provider](https://help.sap.com/docs/bas/sap-business-application-studio/unified-customer-landscape-service-provider) |
+| Business Accelerator Hub | [https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-accelerator-hub-service-provider](https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-accelerator-hub-service-provider) |
+| Additional Extensions | [https://help.sap.com/docs/bas/sap-business-application-studio/additional-extensions](https://help.sap.com/docs/bas/sap-business-application-studio/additional-extensions) |
+| Custom Extensions | [https://help.sap.com/docs/bas/sap-business-application-studio/create-and-deploy-extension](https://help.sap.com/docs/bas/sap-business-application-studio/create-and-deploy-extension) |
+| Guide Center | [https://help.sap.com/docs/bas/sap-business-application-studio/guide-center](https://help.sap.com/docs/bas/sap-business-application-studio/guide-center) |
+| Multi-Subaccount | [https://help.sap.com/docs/bas/sap-business-application-studio/develop-app-using-different-subaccounts](https://help.sap.com/docs/bas/sap-business-application-studio/develop-app-using-different-subaccounts) |
 
 ---
 
 **Last Updated**: 2025-11-22
-**Source**: https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs](https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs)

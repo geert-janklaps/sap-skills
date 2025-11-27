@@ -232,7 +232,7 @@ See [README.md](README.md) for development workflow.
 
 ## Support
 
-**Issues**: https://github.com/secondsky/sap-skills/issues
+**Issues**: [https://github.com/secondsky/sap-skills/issues](https://github.com/secondsky/sap-skills/issues)
 **Documentation**: See individual skill directories for detailed guides
 **Discussions**: Use GitHub Discussions for questions and best practices
 

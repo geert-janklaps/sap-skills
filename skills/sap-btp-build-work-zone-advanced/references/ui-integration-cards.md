@@ -2,23 +2,36 @@
 
 Complete guide for developing UI Integration Cards in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/20-UIIntegrationCards
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/20-UIIntegrationCards](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/20-UIIntegrationCards)
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
+- [Creating a UI Card](#creating-a-ui-card)
+  - [Step 1: Open SAP Business Application Studio](#step-1-open-sap-business-application-studio)
+  - [Step 2: Create New Project](#step-2-create-new-project)
+  - [Step 3: Configure Project](#step-3-configure-project)
+  - [Step 4: Develop Card](#step-4-develop-card)
 - [Card Types](#card-types)
-- [Card Development Workflow](#card-development-workflow)
 - [Card Manifest Structure](#card-manifest-structure)
-- [Card Data Sources](#card-data-sources)
-- [Card Actions](#card-actions)
-- [Card Localization](#card-localization)
-- [Card Testing](#card-testing)
-- [Card Deployment](#card-deployment)
-- [Card Examples](#card-examples)
-- [Best Practices](#best-practices)
-- [Troubleshooting](#troubleshooting)
+- [Context Values](#context-values)
+  - [Available Context Paths](#available-context-paths)
+  - [Using Context in Cards](#using-context-in-cards)
+- [Card Interactions](#card-interactions)
+  - [Page Context Parameters](#page-context-parameters)
+  - [updateContext Action](#updatecontext-action)
+- [Design-Time Module](#design-time-module)
+  - [File Location](#file-location)
+  - [Configuration Structure](#configuration-structure)
+  - [Form Item Properties](#form-item-properties)
+  - [Dropdown List Configuration](#dropdown-list-configuration)
+- [Deploying Cards](#deploying-cards)
+  - [Prerequisites](#prerequisites-1)
+  - [Method 1: Direct Deployment](#method-1-direct-deployment)
+  - [Method 2: Package and Manual Upload](#method-2-package-and-manual-upload)
+- [Updating Cards](#updating-cards)
+- [Mobile Support](#mobile-support)
 
 ---
 
@@ -326,6 +339,6 @@ Enable mobile compatibility to allow cards in:
 ---
 
 **Documentation Links**:
-- SAPUI5 Card Explorer: https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/20-UIIntegrationCards
-- SAP Help Portal: https://help.sap.com/docs/build-work-zone-advanced-edition
+- SAPUI5 Card Explorer: [https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/](https://ui5.sap.com/test-resources/sap/ui/integration/demokit/cardExplorer/)
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/20-UIIntegrationCards](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/20-UIIntegrationCards)
+- SAP Help Portal: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)

@@ -190,18 +190,18 @@ This skill automatically triggers when working with:
 
 ## Source Information
 
-**Official Repository**: https://github.com/UI5/linter
+**Official Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
 **Current Version**: 1.20.5 (November 2025)
 **Node.js**: v20.11+ or v22+
 **License**: Apache-2.0
 
 ### Documentation Links
-- README: https://github.com/UI5/linter/blob/main/README.md
-- Rules: https://github.com/UI5/linter/blob/main/docs/Rules.md
-- Autofix: https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md
-- Development: https://github.com/UI5/linter/blob/main/docs/Development.md
-- Performance: https://github.com/UI5/linter/blob/main/docs/Performance.md
-- CHANGELOG: https://github.com/UI5/linter/blob/main/CHANGELOG.md
+- README: [https://github.com/UI5/linter/blob/main/README.md](https://github.com/UI5/linter/blob/main/README.md)
+- Rules: [https://github.com/UI5/linter/blob/main/docs/Rules.md](https://github.com/UI5/linter/blob/main/docs/Rules.md)
+- Autofix: [https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md](https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md)
+- Development: [https://github.com/UI5/linter/blob/main/docs/Development.md](https://github.com/UI5/linter/blob/main/docs/Development.md)
+- Performance: [https://github.com/UI5/linter/blob/main/docs/Performance.md](https://github.com/UI5/linter/blob/main/docs/Performance.md)
+- CHANGELOG: [https://github.com/UI5/linter/blob/main/CHANGELOG.md](https://github.com/UI5/linter/blob/main/CHANGELOG.md)
 
 ## Skill Metadata
 
@@ -225,12 +225,12 @@ This skill automatically triggers when working with:
 ## Contributing
 
 For issues or improvements related to this skill:
-- Repository: https://github.com/secondsky/sap-skills
-- Issues: https://github.com/secondsky/sap-skills/issues
+- Repository: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
+- Issues: [https://github.com/secondsky/sap-skills/issues](https://github.com/secondsky/sap-skills/issues)
 
 For UI5 Linter issues:
-- Repository: https://github.com/UI5/linter
-- Issues: https://github.com/UI5/linter/issues
+- Repository: [https://github.com/UI5/linter](https://github.com/UI5/linter)
+- Issues: [https://github.com/UI5/linter/issues](https://github.com/UI5/linter/issues)
 
 ---
 

@@ -1,6 +1,6 @@
 # SAP BTP Job Scheduling Service - Changelog & Version History
 
-**Source**: https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/10---What-s-New
+**Source**: [https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/10---What-s-New](https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/10---What-s-New)
 **Last Updated**: 2025-11-22
 
 ---
@@ -388,10 +388,10 @@ cf create-service-key <instance-name> <key-name>
 ## External References
 
 ### SAP Documentation
-- **What's New**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/what-s-new-for-sap-job-scheduling-service
-- **2023 Archive**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/2023-what-s-new-for-sap-job-scheduling-service-archive
-- **2022 Archive**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/2022-what-s-new-for-sap-job-scheduling-service-archive
-- **2021 Archive**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/2021-what-s-new-for-sap-job-scheduling-service-archive
+- **What's New**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/what-s-new-for-sap-job-scheduling-service](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/what-s-new-for-sap-job-scheduling-service)
+- **2023 Archive**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/2023-what-s-new-for-sap-job-scheduling-service-archive](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/2023-what-s-new-for-sap-job-scheduling-service-archive)
+- **2022 Archive**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/2022-what-s-new-for-sap-job-scheduling-service-archive](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/2022-what-s-new-for-sap-job-scheduling-service-archive)
+- **2021 Archive**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/2021-what-s-new-for-sap-job-scheduling-service-archive](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/2021-what-s-new-for-sap-job-scheduling-service-archive)
 
 ### Source Files
 - `what-s-new-for-sap-job-scheduling-service-35dd2f8.md`

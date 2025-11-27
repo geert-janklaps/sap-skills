@@ -1,6 +1,6 @@
 # SAP ABAP Programming Reference
 
-**Source**: https://codezentrale.de/category/sap/sap-abap/
+**Source**: [https://codezentrale.de/category/sap/sap-abap/](https://codezentrale.de/category/sap/sap-abap/)
 **Language**: Translated from German
 
 This reference covers ABAP programming patterns relevant to SAP HANA development.
@@ -419,4 +419,4 @@ it_target = CORRESPONDING #( it_source ).
 
 ---
 
-*Source: https://codezentrale.de/category/sap/sap-abap/*
+*Source: [https://codezentrale.de/category/sap/sap-abap/*](https://codezentrale.de/category/sap/sap-abap/*)

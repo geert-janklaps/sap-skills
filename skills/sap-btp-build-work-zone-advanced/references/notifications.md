@@ -2,7 +2,7 @@
 
 Complete guide for configuring and managing notifications in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
 
 ---
 
@@ -141,7 +141,7 @@ Configure event-triggered notifications for chatbots:
 ---
 
 **Documentation Links**:
-- Notifications: https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/about-notifications
-- Notification Service Integration: https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/integrating-with-central-services
-- SAP Learning - Notifications: https://learning.sap.com/learning-journeys/developing-with-sap-extension-suite (search "notifications")
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+- Notifications: [https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/about-notifications](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/about-notifications)
+- Notification Service Integration: [https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/integrating-with-central-services](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/integrating-with-central-services)
+- SAP Learning - Notifications: [https://learning.sap.com/learning-journeys/developing-with-sap-extension-suite](https://learning.sap.com/learning-journeys/developing-with-sap-extension-suite) (search "notifications")
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)

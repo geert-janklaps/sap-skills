@@ -1,6 +1,6 @@
 # Internal Table Grouping - Complete Reference
 
-**Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/11_Internal_Tables_Grouping.md
+**Source**: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/11_Internal_Tables_Grouping.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/11_Internal_Tables_Grouping.md)
 
 ---
 

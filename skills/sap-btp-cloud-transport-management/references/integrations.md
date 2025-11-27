@@ -1,6 +1,6 @@
 # SAP Cloud Transport Management - Integrations Reference
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/70-integrations/integrating-the-service-7e966f7.md
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/70-integrations/integrating-the-service-7e966f7.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/70-integrations/integrating-the-service-7e966f7.md)
 
 ---
 
@@ -166,7 +166,7 @@ SAP Cloud Transport Management integrates with development and change management
 - **Cloud Transport Management API**: Full transport operations
 - **Cloud Transport Management Version Endpoint API**: Version information
 
-**Reference**: https://api.sap.com/package/TmsForCloudPub/rest
+**Reference**: [https://api.sap.com/package/TmsForCloudPub/rest](https://api.sap.com/package/TmsForCloudPub/rest)
 
 ---
 
@@ -304,6 +304,6 @@ SAP Cloud Transport Management integrates with development and change management
 
 ## Documentation Links
 
-- Integrating the Service: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/70-integrations/integrating-the-service-7e966f7.md
-- Alert Notifications: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md
-- API Reference: https://api.sap.com/package/TmsForCloudPub/rest
+- Integrating the Service: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/70-integrations/integrating-the-service-7e966f7.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/70-integrations/integrating-the-service-7e966f7.md)
+- Alert Notifications: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/receive-notifications-for-sap-cloud-transport-management-actions-using-sap-alert-notifica-95d4fc7.md)
+- API Reference: [https://api.sap.com/package/TmsForCloudPub/rest](https://api.sap.com/package/TmsForCloudPub/rest)

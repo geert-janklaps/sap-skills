@@ -164,7 +164,7 @@ In Cloud Connector:
 
 #### OData Service List Not Displayed
 
-1. Test in internal network: `https://<system-url>/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection`
+1. Test in internal network: `[https://<system-url>/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection`](https://<system-url>/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/ServiceCollection`)
 2. Verify `sap-opu-iwfnd-catalogservice` service is active (transaction `/NSICF`)
 3. Check destination credentials
 
@@ -270,7 +270,7 @@ Example (eu10 region):
 ### Inbound Connectivity
 
 For firewall allowlisting:
-- Connectivity service host: `https://connectivity.[region].applicationstudio.cloud.sap`
+- Connectivity service host: `[https://connectivity.[region].applicationstudio.cloud.sap`](https://connectivity.[region].applicationstudio.cloud.sap`)
 - Inbound IPs listed in availability documentation
 
 For trial environments, use DNS resolution:
@@ -288,12 +288,12 @@ Connect to the data center closest to your physical location.
 
 | Resource | URL |
 |----------|-----|
-| Connectivity Troubleshooting | https://help.sap.com/docs/bas/sap-business-application-studio/connectivity |
-| Connecting to External Systems | https://help.sap.com/docs/bas/sap-business-application-studio/connecting-to-external-systems |
-| Cloud Connector | https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector |
-| Destination Configuration | https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/http-destinations |
-| Availability/IP Addresses | https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability |
-| Service Center | https://help.sap.com/docs/bas/sap-business-application-studio/explore-services-using-service-center |
+| Connectivity Troubleshooting | [https://help.sap.com/docs/bas/sap-business-application-studio/connectivity](https://help.sap.com/docs/bas/sap-business-application-studio/connectivity) |
+| Connecting to External Systems | [https://help.sap.com/docs/bas/sap-business-application-studio/connecting-to-external-systems](https://help.sap.com/docs/bas/sap-business-application-studio/connecting-to-external-systems) |
+| Cloud Connector | [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector) |
+| Destination Configuration | [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/http-destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/http-destinations) |
+| Availability/IP Addresses | [https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability](https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability) |
+| Service Center | [https://help.sap.com/docs/bas/sap-business-application-studio/explore-services-using-service-center](https://help.sap.com/docs/bas/sap-business-application-studio/explore-services-using-service-center) |
 
 ### SAP Guided Answers
 
@@ -311,4 +311,4 @@ Connect to the data center closest to your physical location.
 ---
 
 **Last Updated**: 2025-11-22
-**Source**: https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs](https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs)

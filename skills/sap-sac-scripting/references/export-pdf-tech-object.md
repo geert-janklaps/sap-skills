@@ -10,5 +10,5 @@ Trigger PDF export programmatically for analytic applications.
 - Integrate export into custom UI (buttons, workflows).
 
 ## Notes
-- Consider export limitations (see `docs/analytics-designer-restrictions.md`).
+- Consider export limitations (see `analytics-designer-restrictions.md`).
 

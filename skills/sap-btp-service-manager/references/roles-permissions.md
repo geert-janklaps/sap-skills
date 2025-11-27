@@ -2,7 +2,7 @@
 
 Complete reference for SAP Service Manager plans, roles, and scopes.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager
+**Documentation**: [https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager](https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager)
 
 ---
 
@@ -261,6 +261,6 @@ echo "<access_token>" | cut -d'.' -f2 | base64 -d | jq '.scope'
 
 ## Documentation Links
 
-- **Broker Plans**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/sap-service-manager-broker-plans-917a8a7.md
-- **Roles**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/sap-service-manager-roles-d95fbe7.md
-- **Role Assignment**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/assign-the-subaccount-service-administrator-collection-0735965.md
+- **Broker Plans**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/sap-service-manager-broker-plans-917a8a7.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/sap-service-manager-broker-plans-917a8a7.md)
+- **Roles**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/sap-service-manager-roles-d95fbe7.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/sap-service-manager-roles-d95fbe7.md)
+- **Role Assignment**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/assign-the-subaccount-service-administrator-collection-0735965.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/assign-the-subaccount-service-administrator-collection-0735965.md)

@@ -472,7 +472,7 @@ Custom extensions generate flexibility changes in `webapp/changes/`:
 
 ## Documentation Source
 
-**GitHub**: https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Developing-an-Application
+**GitHub**: [https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Developing-an-Application](https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Developing-an-Application)
 
 Key files:
 - `list-report-page-493f2aa.md`

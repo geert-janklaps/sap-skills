@@ -2,7 +2,7 @@
 
 Complete reference for SAP AI Core Generative AI Hub.
 
-**Documentation Source:** https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core
+**Documentation Source:** [https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core](https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core)
 
 ---
 
@@ -458,7 +458,7 @@ Submit support ticket:
 
 ## Documentation Links
 
-- Generative AI Hub: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/generative-ai-hub-7db524e.md
-- Supported Models: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/supported-models-509e588.md
+- Generative AI Hub: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/generative-ai-hub-7db524e.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/generative-ai-hub-7db524e.md)
+- Supported Models: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/supported-models-509e588.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/supported-models-509e588.md)
 - SAP Note 3437766: Token rates, limits, deprecation
-- SAP Discovery Center: https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core
+- SAP Discovery Center: [https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core)

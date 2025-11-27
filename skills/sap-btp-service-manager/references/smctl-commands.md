@@ -2,9 +2,9 @@
 
 Service Manager Control (SMCTL) is the CLI for SAP Service Manager.
 
-**Installation**: https://github.com/Peripli/service-manager-cli/releases/latest
+**Installation**: [https://github.com/Peripli/service-manager-cli/releases/latest](https://github.com/Peripli/service-manager-cli/releases/latest)
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager
+**Documentation**: [https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager](https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager)
 
 ---
 
@@ -91,18 +91,18 @@ smctl login [flags]
 **Examples**:
 ```bash
 # Interactive password login
-smctl login -a https://service-manager.cfapps.eu10.hana.ondemand.com \
+smctl login -a [https://service-manager.cfapps.eu10.hana.ondemand.com](https://service-manager.cfapps.eu10.hana.ondemand.com) \
   --param subdomain=my-subaccount
 
 # Client credentials (default)
-smctl login -a https://service-manager.cfapps.eu10.hana.ondemand.com \
+smctl login -a [https://service-manager.cfapps.eu10.hana.ondemand.com](https://service-manager.cfapps.eu10.hana.ondemand.com) \
   --param subdomain=my-subaccount \
   --auth-flow client-credentials \
   --client-id abc123 \
   --client-secret xyz789
 
 # Client credentials (X.509)
-smctl login -a https://service-manager.cfapps.eu10.hana.ondemand.com \
+smctl login -a [https://service-manager.cfapps.eu10.hana.ondemand.com](https://service-manager.cfapps.eu10.hana.ondemand.com) \
   --param subdomain=my-subaccount \
   --auth-flow client-credentials \
   --client-id abc123 \
@@ -399,7 +399,7 @@ smctl register-broker [name] [url] <description> [flags]
 
 **Example**:
 ```bash
-smctl register-broker my-broker https://broker.example.com "My broker" \
+smctl register-broker my-broker [https://broker.example.com](https://broker.example.com) "My broker" \
   -b admin:password123
 ```
 
@@ -423,7 +423,7 @@ smctl update-broker [name] <json_broker> [flags]
 
 **Example**:
 ```bash
-smctl update-broker broker '{"name": "new-name", "description": "new-description", "broker_url": "http://broker.com", "credentials": { "basic": { "username": "admin", "password": "admin" }}}'
+smctl update-broker broker '{"name": "new-name", "description": "new-description", "broker_url": "[http://broker.com",](http://broker.com",) "credentials": { "basic": { "username": "admin", "password": "admin" }}}'
 ```
 
 ---
@@ -729,12 +729,12 @@ smctl version
 
 ## Documentation Links
 
-- **Installation**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/installing-the-service-manager-control-smctl-command-line-tool-93532bd.md
-- **Login**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/login-a8ed7cf.md
-- **Provision**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/provision-b327b66.md
-- **Bind**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/bind-f53ff26.md
-- **Get Instance**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/get-instance-24fb85c.md
-- **Get Binding**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/get-binding-8495036.md
-- **List Offerings**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/list-offerings-8a0659f.md
-- **List Plans**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/list-plans-b0e4863.md
-- **GitHub Releases**: https://github.com/Peripli/service-manager-cli/releases
+- **Installation**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/installing-the-service-manager-control-smctl-command-line-tool-93532bd.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/installing-the-service-manager-control-smctl-command-line-tool-93532bd.md)
+- **Login**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/login-a8ed7cf.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/login-a8ed7cf.md)
+- **Provision**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/provision-b327b66.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/provision-b327b66.md)
+- **Bind**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/bind-f53ff26.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/bind-f53ff26.md)
+- **Get Instance**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/get-instance-24fb85c.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/get-instance-24fb85c.md)
+- **Get Binding**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/get-binding-8495036.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/get-binding-8495036.md)
+- **List Offerings**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/list-offerings-8a0659f.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/list-offerings-8a0659f.md)
+- **List Plans**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/list-plans-b0e4863.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/list-plans-b0e4863.md)
+- **GitHub Releases**: [https://github.com/Peripli/service-manager-cli/releases](https://github.com/Peripli/service-manager-cli/releases)

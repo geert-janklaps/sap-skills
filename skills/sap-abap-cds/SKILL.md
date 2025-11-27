@@ -10,17 +10,23 @@ metadata:
   last_verified: "2025-11-23"
   abap_release: "7.4 SP8+ / ABAP Cloud"
   sources:
-    - "https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html"
-    - "https://github.com/SAP-samples/abap-cheat-sheets"
+    - "[https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html"](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html")
+    - "[https://github.com/SAP-samples/abap-cheat-sheets"](https://github.com/SAP-samples/abap-cheat-sheets")
 ---
 
 # SAP ABAP CDS (Core Data Services)
 
-**Quick Reference**: https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html | SAP Cheat Sheets: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md
+## Related Skills
+
+- **sap-abap**: Use for ABAP programming patterns used with CDS or when implementing EML statements in ABAP
+- **sap-btp-cloud-platform**: Use for CDS deployment scenarios on BTP or ABAP Environment configurations
+- **sap-fiori-tools**: Use when building Fiori Elements applications that consume CDS views or working with UI annotations
+- **sap-cap-capire**: Use for comparing CDS syntax between ABAP and CAP or when integrating ABAP CDS with CAP services
+- **sap-api-style**: Use when documenting CDS-based OData services or following API documentation standards
+
+**Quick Reference**: [https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html) | SAP Cheat Sheets: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md)
 
 **Table of Contents**: [1. Fundamentals](#1-cds-view-fundamentals) | [2. Annotations](#2-essential-annotations) | [3. Expressions](#3-expressions-and-operations) | [4. Functions](#4-built-in-functions) | [5. Joins](#5-joins) | [6. Associations](#6-associations) | [7. Parameters](#7-input-parameters) | [8. Aggregates](#8-aggregate-expressions) | [9. Access Control](#9-access-control-dcl) | [10. ABAP Access](#10-data-retrieval-from-abap) | [11. Errors](#11-common-errors-and-solutions) | [12. Resources](#12-useful-transactions-and-tables)
-
-**Progress Tracking**: See `PROGRESS_TRACKING.md` for source documentation
 
 ---
 
@@ -492,9 +498,9 @@ For templates, see `templates/`:
 ## Source Documentation
 
 **Update this skill by checking**:
-- https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html (ABAP Cloud)
-- https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/7c078765ec6d4e6b88b71bdaf8a2bd9f.html (NetWeaver 7.52 User Guide)
-- https://github.com/SAP-samples/abap-cheat-sheets
-- https://community.sap.com/t5/tag/CDS%20Views/tg-p
+- [https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html) (ABAP Cloud)
+- [https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/7c078765ec6d4e6b88b71bdaf8a2bd9f.html](https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/7c078765ec6d4e6b88b71bdaf8a2bd9f.html) (NetWeaver 7.52 User Guide)
+- [https://github.com/SAP-samples/abap-cheat-sheets](https://github.com/SAP-samples/abap-cheat-sheets)
+- [https://community.sap.com/t5/tag/CDS%20Views/tg-p](https://community.sap.com/t5/tag/CDS%20Views/tg-p)
 
 **Last Verified**: 2025-11-23

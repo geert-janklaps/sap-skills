@@ -13,9 +13,9 @@ metadata:
   token_savings: ~75%
   errors_prevented: 25+
   official_docs:
-    - https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/0ac8c6754ff84605a4372468d002f2bf/75311f67527c41638ceb89af9cd8af3e.html
-    - https://help.sap.com/doc/c813a28922b54e50bd2a307b099787dc/release/en-US/CustomWidgetDevGuide_en.pdf
-  samples_repo: https://github.com/SAP-samples/analytics-cloud-datasphere-community-content/tree/main/SAC_Custom_Widgets
+    - [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/0ac8c6754ff84605a4372468d002f2bf/75311f67527c41638ceb89af9cd8af3e.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/0ac8c6754ff84605a4372468d002f2bf/75311f67527c41638ceb89af9cd8af3e.html)
+    - [https://help.sap.com/doc/c813a28922b54e50bd2a307b099787dc/release/en-US/CustomWidgetDevGuide_en.pdf](https://help.sap.com/doc/c813a28922b54e50bd2a307b099787dc/release/en-US/CustomWidgetDevGuide_en.pdf)
+  samples_repo: [https://github.com/SAP-samples/analytics-cloud-datasphere-community-content/tree/main/SAC_Custom_Widgets](https://github.com/SAP-samples/analytics-cloud-datasphere-community-content/tree/main/SAC_Custom_Widgets)
 allowed-tools:
   - Read
   - Write
@@ -65,7 +65,7 @@ A custom widget requires two files:
     {
       "kind": "main",
       "tag": "my-custom-widget",
-      "url": "https://your-host.com/widget.js",
+      "url": "[https://your-host.com/widget.js",](https://your-host.com/widget.js",)
       "integrity": "",
       "ignoreIntegrity": true
     }
@@ -231,7 +231,7 @@ this.myDataBinding.data.forEach(row => {
 **2. GitHub Pages**
 - Create repository with widget files
 - Enable GitHub Pages in Settings
-- Use URL: `https://username.github.io/repo/widget.js`
+- Use URL: `[https://username.github.io/repo/widget.js`](https://username.github.io/repo/widget.js`)
 
 **3. External Web Server**
 - AWS S3, Azure Blob, or any HTTPS server

@@ -1,6 +1,6 @@
 # Generative AI in ABAP - Complete Reference
 
-**Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/30_Generative_AI.md
+**Source**: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/30_Generative_AI.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/30_Generative_AI.md)
 
 ---
 

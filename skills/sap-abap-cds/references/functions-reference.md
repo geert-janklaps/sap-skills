@@ -2,7 +2,7 @@
 
 Complete reference for all built-in functions available in ABAP CDS views.
 
-**Source**: https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_builtin_functions.htm
+**Source**: [https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_builtin_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_builtin_functions.htm)
 
 ---
 
@@ -510,8 +510,8 @@ upper(
 
 ## Documentation Links
 
-- **ABAP Keyword Documentation — CDS Built-in Functions**: https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_builtin_functions.htm
-- **ABAP Keyword Documentation — CDS SQL Functions**: https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_functions_v2.htm
-- **SAP Learning - CDS Functions**: https://learning.sap.com/learning-journeys/acquire-core-abap-skills/calling-built-in-functions-in-cds-views
+- **ABAP Keyword Documentation — CDS Built-in Functions**: [https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_builtin_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_builtin_functions.htm)
+- **ABAP Keyword Documentation — CDS SQL Functions**: [https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_functions_v2.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_functions_v2.htm)
+- **SAP Learning - CDS Functions**: [https://learning.sap.com/learning-journeys/acquire-core-abap-skills/calling-built-in-functions-in-cds-views](https://learning.sap.com/learning-journeys/acquire-core-abap-skills/calling-built-in-functions-in-cds-views)
 
 **Last Updated**: 2025-11-23

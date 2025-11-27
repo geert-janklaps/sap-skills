@@ -2,7 +2,7 @@
 
 Complete API reference for SAP AI Core.
 
-**Documentation Source:** https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core
+**Documentation Source:** [https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core](https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core)
 
 ---
 
@@ -11,7 +11,7 @@ Complete API reference for SAP AI Core.
 ### OAuth Token Endpoint
 
 ```bash
-curl -X POST "https://<id-zone>.authentication.<region>.hana.ondemand.com/oauth/token" \
+curl -X POST "[https://<id-zone>.authentication.<region>.hana.ondemand.com/oauth/token"](https://<id-zone>.authentication.<region>.hana.ondemand.com/oauth/token") \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -d "grant_type=client_credentials&client_id=$CLIENT_ID&client_secret=$CLIENT_SECRET"
 ```
@@ -30,9 +30,9 @@ curl -X POST "https://<id-zone>.authentication.<region>.hana.ondemand.com/oauth/
 
 | Environment | URL Pattern |
 |-------------|-------------|
-| AI API | `https://api.ai.prod.<region>.hana.ondemand.com` |
-| Inference | `https://api.ai.prod.<region>.hana.ondemand.com/v2/inference/deployments/<deployment-id>` |
-| OAuth | `https://<id-zone>.authentication.<region>.hana.ondemand.com/oauth/token` |
+| AI API | `[https://api.ai.prod.<region>.hana.ondemand.com`](https://api.ai.prod.<region>.hana.ondemand.com`) |
+| Inference | `[https://api.ai.prod.<region>.hana.ondemand.com/v2/inference/deployments/<deployment-id>`](https://api.ai.prod.<region>.hana.ondemand.com/v2/inference/deployments/<deployment-id>`) |
+| OAuth | `[https://<id-zone>.authentication.<region>.hana.ondemand.com/oauth/token`](https://<id-zone>.authentication.<region>.hana.ondemand.com/oauth/token`) |
 
 **Regions:** `eu10`, `eu11`, `us10`, `us21`, `jp10`, `ap10`, `ap11`
 
@@ -196,7 +196,7 @@ POST $AI_API_URL/v2/lm/deployments
 ```json
 {
   "id": "d12345-abcd-efgh",
-  "deploymentUrl": "https://...",
+  "deploymentUrl": "[https://...",](https://...",)
   "status": "PENDING",
   "message": "Deployment created"
 }
@@ -217,7 +217,7 @@ GET $AI_API_URL/v2/lm/deployments/{deploymentId}
   "scenarioId": "foundation-models",
   "status": "RUNNING",
   "statusMessage": "",
-  "deploymentUrl": "https://...",
+  "deploymentUrl": "[https://...",](https://...",)
   "createdAt": "2024-01-15T10:00:00Z",
   "modifiedAt": "2024-01-15T10:05:00Z"
 }
@@ -607,7 +607,7 @@ POST $AI_API_URL/v2/lm/groundingPipelines
     "dataSource": {
       "type": "sharepoint",
       "configuration": {
-        "siteUrl": "https://company.sharepoint.com/sites/HR",
+        "siteUrl": "[https://company.sharepoint.com/sites/HR",](https://company.sharepoint.com/sites/HR",)
         "folderPath": "/Documents/Policies"
       }
     },
@@ -729,6 +729,6 @@ DELETE $AI_API_URL/v2/lm/executionSchedules/{scheduleId}
 
 ## Documentation Links
 
-- AI API Overview: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/ai-api-overview-716d4c3.md
-- Configurations: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-configurations-884ae34.md
-- Deployments: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/deploy-models-dd16e8e.md
+- AI API Overview: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/ai-api-overview-716d4c3.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/ai-api-overview-716d4c3.md)
+- Configurations: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-configurations-884ae34.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-configurations-884ae34.md)
+- Deployments: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/deploy-models-dd16e8e.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/deploy-models-dd16e8e.md)

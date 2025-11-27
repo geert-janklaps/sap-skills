@@ -432,8 +432,8 @@ Visual SQL-like transformation editor.
 
 ## Documentation Links
 
-- **Operators Reference**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects/data-intelligence-operators
-- **Graphs Reference**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects/data-intelligence-graphs
+- **Operators Reference**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects/data-intelligence-operators](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects/data-intelligence-operators)
+- **Graphs Reference**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects/data-intelligence-graphs](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects/data-intelligence-graphs)
 
 ---
 

@@ -2,7 +2,7 @@
 
 Complete terminology reference for SAP Business Technology Platform.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/glossary-e67a143.md
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/glossary-e67a143.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/glossary-e67a143.md)
 
 ---
 
@@ -257,5 +257,5 @@ Application security descriptor defining scopes, roles, and attributes for XSUAA
 
 ## Related Documentation
 
-- Basic Concepts: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts
-- Full Glossary: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/glossary-e67a143.md
+- Basic Concepts: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts)
+- Full Glossary: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/glossary-e67a143.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/glossary-e67a143.md)

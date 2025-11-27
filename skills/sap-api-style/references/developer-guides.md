@@ -1,6 +1,6 @@
 # Developer and Service Guides
 
-**Source**: https://github.com/SAP-docs/api-style-guide/tree/main/docs/60-developer-or-service-guide
+**Source**: [https://github.com/SAP-docs/api-style-guide/tree/main/docs/60-developer-or-service-guide](https://github.com/SAP-docs/api-style-guide/tree/main/docs/60-developer-or-service-guide)
 **Last Verified**: 2025-11-21
 
 **Attribution**: Content derived from [SAP API Style Guide](https://github.com/SAP-docs/api-style-guide) (Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
@@ -328,7 +328,7 @@ Customer customer = api.getCustomer("12345");
 
 ```javascript
 // Simple GET request example
-const response = await fetch('https://api.sap.com/customers/12345', {
+const response = await fetch('[https://api.sap.com/customers/12345',](https://api.sap.com/customers/12345',) {
   headers: {
     'Authorization': 'Bearer YOUR_TOKEN',
     'Content-Type': 'application/json'
@@ -567,7 +567,7 @@ async function getAccessToken() {
     `${CLIENT_ID}:${CLIENT_SECRET}`
   ).toString('base64');
 
-  const response = await fetch('https://auth.sap.com/oauth/token', {
+  const response = await fetch('[https://auth.sap.com/oauth/token',](https://auth.sap.com/oauth/token',) {
     method: 'POST',
     headers: {
       'Authorization': `Basic ${credentials}`,
@@ -587,7 +587,7 @@ async function getAccessToken() {
 async function callAPI() {
   const token = await getAccessToken();
 
-  const response = await fetch('https://api.sap.com/resource', {
+  const response = await fetch('[https://api.sap.com/resource',](https://api.sap.com/resource',) {
     headers: {
       'Authorization': `Bearer ${token}`
     }
@@ -650,7 +650,7 @@ Complete reference for OAuth 2.0 configuration options.
 
 ## Token Endpoint
 
-**URL**: `https://auth.sap.com/oauth/token`
+**URL**: `[https://auth.sap.com/oauth/token`](https://auth.sap.com/oauth/token`)
 
 ## Request Parameters
 
@@ -687,9 +687,9 @@ Complete reference for OAuth 2.0 configuration options.
 
 ### SAP Resources
 
-- **SAP Help Portal**: https://help.sap.com/
-- **SAP API Business Hub**: https://api.sap.com/
-- **SAP Community**: https://community.sap.com/
+- **SAP Help Portal**: [https://help.sap.com/](https://help.sap.com/)
+- **SAP API Business Hub**: [https://api.sap.com/](https://api.sap.com/)
+- **SAP Community**: [https://community.sap.com/](https://community.sap.com/)
 
 ### Related Documentation
 
@@ -701,4 +701,4 @@ Complete reference for OAuth 2.0 configuration options.
 
 **Document Version**: 1.0.0
 **Last Updated**: 2025-11-21
-**Maintainer**: SAP Skills Team | https://github.com/secondsky/sap-skills
+**Maintainer**: SAP Skills Team | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

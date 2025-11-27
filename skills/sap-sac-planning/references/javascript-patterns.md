@@ -1,8 +1,8 @@
 # SAP Analytics Cloud - JavaScript Patterns for Planning
 
 **Sources**:
-- https://www.denisreis.com/sap-analytics-cloud-javascript-api-code-snippets/
-- https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html
+- [https://www.denisreis.com/sap-analytics-cloud-javascript-api-code-snippets/](https://www.denisreis.com/sap-analytics-cloud-javascript-api-code-snippets/)
+- [https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html](https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html)
 **Last Updated**: 2025-11-22
 
 ---
@@ -621,7 +621,7 @@ function openDetailStory(entityId) {
 // Open SAP documentation
 function openDocumentation() {
     NavigationUtils.openUrl(
-        "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD"
+        "[https://help.sap.com/docs/SAP_ANALYTICS_CLOUD"](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD")
     );
 }
 ```
@@ -1076,6 +1076,6 @@ function onApplyGrowthClick() {
 ---
 
 **Documentation Links**:
-- API Reference: https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html
-- Code Snippets Blog: https://www.denisreis.com/sap-analytics-cloud-javascript-api-code-snippets/
-- SAP Community Scripting: https://community.sap.com/t5/technology-blog-posts-by-sap/start-your-scripting-journey-the-easy-way-with-sap-analytics-cloud-part/ba-p/13582659
+- API Reference: [https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html](https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html)
+- Code Snippets Blog: [https://www.denisreis.com/sap-analytics-cloud-javascript-api-code-snippets/](https://www.denisreis.com/sap-analytics-cloud-javascript-api-code-snippets/)
+- SAP Community Scripting: [https://community.sap.com/t5/technology-blog-posts-by-sap/start-your-scripting-journey-the-easy-way-with-sap-analytics-cloud-part/ba-p/13582659](https://community.sap.com/t5/technology-blog-posts-by-sap/start-your-scripting-journey-the-easy-way-with-sap-analytics-cloud-part/ba-p/13582659)

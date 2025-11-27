@@ -1,7 +1,7 @@
 # Operations & Monitoring - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Operations
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Operations](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Operations)
 **Last Updated**: 2025-11-22
 
 ---
@@ -45,7 +45,7 @@ Monitor → Integrations and APIs
         └── Number Ranges
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/operating-and-monitoring-cloud-integration-c401afc.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/operating-and-monitoring-cloud-integration-c401afc.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/operating-and-monitoring-cloud-integration-c401afc.md)
 
 ---
 
@@ -92,7 +92,7 @@ Monitor → Integrations and APIs
 4. **View attachments** for payload at failure
 5. **Navigate to artifact** to review configuration
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/monitor-message-processing-314df3f.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/monitor-message-processing-314df3f.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/monitor-message-processing-314df3f.md)
 
 ---
 
@@ -133,7 +133,7 @@ View endpoints for deployed artifacts:
 - Configured protocols
 - Authentication requirements
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-integration-content-09a7223.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-integration-content-09a7223.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-integration-content-09a7223.md)
 
 ---
 
@@ -197,7 +197,7 @@ Unique identifier generation.
 - Reset counters
 - Delete ranges
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-stores-59f8e3a.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-stores-59f8e3a.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-stores-59f8e3a.md)
 
 ---
 
@@ -251,7 +251,7 @@ Unique identifier generation.
 - Update host keys
 - Remove hosts
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-security-6e7c44c.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-security-6e7c44c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-security-6e7c44c.md)
 
 ---
 
@@ -298,7 +298,7 @@ Unique identifier generation.
 | Timeout | Network/routing issue |
 | Certificate Error | TLS/SSL problem |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/performing-connectivity-tests-d5b2fae.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/performing-connectivity-tests-d5b2fae.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/performing-connectivity-tests-d5b2fae.md)
 
 ---
 
@@ -351,7 +351,7 @@ cf logs <app-name> --recent
 cf logs <app-name>  # streaming
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/setting-log-levels-4e6d3fc.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/setting-log-levels-4e6d3fc.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/setting-log-levels-4e6d3fc.md)
 
 ---
 
@@ -386,7 +386,7 @@ cf logs <app-name>  # streaming
 - Datadog
 - New Relic
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/alerting-fe8c67d.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/alerting-fe8c67d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/alerting-fe8c67d.md)
 
 ---
 
@@ -418,7 +418,7 @@ cf logs <app-name>  # streaming
 - Optimize database operations
 - Consider async processing
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/inspect-a4d5e49.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/inspect-a4d5e49.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/inspect-a4d5e49.md)
 
 ---
 
@@ -449,8 +449,8 @@ cf logs <app-name>  # streaming
 
 ## Related Documentation
 
-- **Operating CI**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/operating-and-monitoring-cloud-integration-c401afc.md
-- **Message Monitoring**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/monitor-message-processing-314df3f.md
-- **Manage Security**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-security-6e7c44c.md
-- **Manage Stores**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-stores-59f8e3a.md
-- **Connectivity Tests**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/performing-connectivity-tests-d5b2fae.md
+- **Operating CI**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/operating-and-monitoring-cloud-integration-c401afc.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/operating-and-monitoring-cloud-integration-c401afc.md)
+- **Message Monitoring**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/monitor-message-processing-314df3f.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/monitor-message-processing-314df3f.md)
+- **Manage Security**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-security-6e7c44c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-security-6e7c44c.md)
+- **Manage Stores**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-stores-59f8e3a.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/manage-stores-59f8e3a.md)
+- **Connectivity Tests**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/performing-connectivity-tests-d5b2fae.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/performing-connectivity-tests-d5b2fae.md)

@@ -238,7 +238,6 @@ Build a replication flow from SAP BW to HANA Cloud with delta loading.
 sap-hana-cloud-data-intelligence/
 ├── SKILL.md                          # Main skill file
 ├── README.md                         # This file
-├── PROGRESS_TRACKING.md              # Documentation coverage
 ├── references/
 │   ├── operators-reference.md        # Complete operator catalog
 │   ├── abap-integration.md           # ABAP integration guide
@@ -255,9 +254,9 @@ sap-hana-cloud-data-intelligence/
 
 This skill extracts information from official SAP documentation:
 
-- **GitHub Repository**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence
-- **SAP Help Portal**: https://help.sap.com/docs/SAP_DATA_INTELLIGENCE
-- **SAP Developer Center**: https://developers.sap.com/topics/data-intelligence.html
+- **GitHub Repository**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence)
+- **SAP Help Portal**: [https://help.sap.com/docs/SAP_DATA_INTELLIGENCE](https://help.sap.com/docs/SAP_DATA_INTELLIGENCE)
+- **SAP Developer Center**: [https://developers.sap.com/topics/data-intelligence.html](https://developers.sap.com/topics/data-intelligence.html)
 
 ### Documentation Sections Covered
 
@@ -276,7 +275,6 @@ This skill extracts information from official SAP documentation:
 ### Updating the Skill
 
 1. Check GitHub repo for updates
-2. Review PROGRESS_TRACKING.md for coverage
 3. Update relevant reference files
 4. Test skill discovery
 
@@ -303,4 +301,4 @@ Contributions welcome! Please follow the skill creation guidelines in the main r
 
 **Last Updated**: 2025-11-27
 **Maintainer**: SAP Skills Maintainers
-**Repository**: https://github.com/secondsky/sap-skills
+**Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

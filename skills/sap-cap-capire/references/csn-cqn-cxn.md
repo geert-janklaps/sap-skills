@@ -1,6 +1,6 @@
 # CDS Schema & Query Notations Reference
 
-> Source: https://cap.cloud.sap/docs/cds/csn, https://cap.cloud.sap/docs/cds/cqn, https://cap.cloud.sap/docs/cds/cxn
+> Source: [https://cap.cloud.sap/docs/cds/csn,](https://cap.cloud.sap/docs/cds/csn,) [https://cap.cloud.sap/docs/cds/cqn,](https://cap.cloud.sap/docs/cds/cqn,) [https://cap.cloud.sap/docs/cds/cxn](https://cap.cloud.sap/docs/cds/cxn)
 
 ## CSN - Core Schema Notation
 

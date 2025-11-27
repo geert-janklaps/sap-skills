@@ -1,6 +1,6 @@
 # SAP Cloud Logging - Kyma Runtime Ingestion Reference
 
-**Source:** https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/ingest-via-kyma-runtime-612c7b9.md
+**Source:** [https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/ingest-via-kyma-runtime-612c7b9.md](https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/ingest-via-kyma-runtime-612c7b9.md)
 **Last Updated:** 2025-11-22
 
 ---
@@ -287,7 +287,7 @@ kubectl apply -n sap-cloud-logging-integration -f cls-instance.yaml
 
 ## Documentation Links
 
-- **Source:** https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/ingest-via-kyma-runtime-612c7b9.md
-- **Kyma Telemetry Module:** https://kyma-project.io/#/telemetry-manager/user/README
-- **BTP Service Operator:** https://github.com/SAP/sap-btp-service-operator
-- **Security Recommendations:** https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations
+- **Source:** [https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/ingest-via-kyma-runtime-612c7b9.md](https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/ingest-via-kyma-runtime-612c7b9.md)
+- **Kyma Telemetry Module:** [https://kyma-project.io/#/telemetry-manager/user/README](https://kyma-project.io/#/telemetry-manager/user/README)
+- **BTP Service Operator:** [https://github.com/SAP/sap-btp-service-operator](https://github.com/SAP/sap-btp-service-operator)
+- **Security Recommendations:** [https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations)

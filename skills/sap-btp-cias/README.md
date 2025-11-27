@@ -132,7 +132,6 @@ Use this skill when:
 sap-btp-cias/
 ├── SKILL.md                     # Main skill file (loaded on trigger)
 ├── README.md                    # This file (discovery keywords)
-├── EXTRACTION_PROGRESS.md       # Documentation extraction tracking
 ├── references/
 │   ├── setup-guide.md          # Complete setup procedures
 │   ├── security-guide.md       # Security and IdP configuration
@@ -204,9 +203,9 @@ sap-btp-cias/
 
 ## Documentation Sources
 
-- **Primary**: https://github.com/SAP-docs/btp-cloud-integration-automation-service
-- **SAP Help**: https://help.sap.com/docs/cloud-integration-automation-service
-- **Maintenance Planner**: https://maintenanceplanner.cfapps.eu10.hana.ondemand.com
+- **Primary**: [https://github.com/SAP-docs/btp-cloud-integration-automation-service](https://github.com/SAP-docs/btp-cloud-integration-automation-service)
+- **SAP Help**: [https://help.sap.com/docs/cloud-integration-automation-service](https://help.sap.com/docs/cloud-integration-automation-service)
+- **Maintenance Planner**: [https://maintenanceplanner.cfapps.eu10.hana.ondemand.com](https://maintenanceplanner.cfapps.eu10.hana.ondemand.com)
 
 ---
 

@@ -1,6 +1,6 @@
 # Glossary and External Resources
 
-**Source**: https://github.com/SAP-docs/api-style-guide/
+**Source**: [https://github.com/SAP-docs/api-style-guide/](https://github.com/SAP-docs/api-style-guide/)
 **Last Verified**: 2025-11-21
 
 **Attribution**: Content derived from [SAP API Style Guide](https://github.com/SAP-docs/api-style-guide) (Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
@@ -76,7 +76,7 @@ Documented errors occurring during method execution, typically using `@throws`, 
 ### M
 
 **Metadata (OData)**
-XML document describing the structure of an OData service. Accessible at `$metadata` endpoint (e.g., `https://api.sap.com/odata/$metadata`).
+XML document describing the structure of an OData service. Accessible at `$metadata` endpoint (e.g., `[https://api.sap.com/odata/$metadata](https://api.sap.com/odata/$metadata)`).
 
 ### O
 
@@ -141,7 +141,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 #### OpenAPI Specification
 
-**URL**: https://spec.openapis.org/oas/latest.html
+**URL**: [https://spec.openapis.org/oas/latest.html](https://spec.openapis.org/oas/latest.html)
 
 **Description**: The standard for RESTful APIs. A community-driven open specification within the OpenAPI Initiative for describing HTTP APIs in a machine-readable format.
 
@@ -155,7 +155,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 #### OData Specification
 
-**URL**: https://www.odata.org/documentation/
+**URL**: [https://www.odata.org/documentation/](https://www.odata.org/documentation/)
 
 **Description**: The standard for OData maintained by OASIS Open. Defines protocol for querying and updating data over HTTP.
 
@@ -171,7 +171,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 #### Java - Javadoc
 
-**URL**: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
+**URL**: [https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
 
 **Description**: Oracle's guidance on "How to Write Doc Comments for the Javadoc Tool" through their Technology Network.
 
@@ -181,11 +181,11 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 - Documentation comment format
 - Tool usage and configuration
 
-**Official Oracle Reference**: https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html
+**Official Oracle Reference**: [https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html)
 
 #### JavaScript - JSDoc
 
-**URL**: https://jsdoc.app/
+**URL**: [https://jsdoc.app/](https://jsdoc.app/)
 
 **Description**: JSDoc 3 documentation generator available on GitHub. Comprehensive tag reference and examples.
 
@@ -195,14 +195,14 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 - TypeScript documentation
 - Node.js project documentation
 
-**Tag Reference**: https://jsdoc.app/index.html#block-tags
+**Tag Reference**: [https://jsdoc.app/index.html#block-tags](https://jsdoc.app/index.html#block-tags)
 
-**Markdown Support**: https://jsdoc.app/about-including-markdown.html
+**Markdown Support**: [https://jsdoc.app/about-including-markdown.html](https://jsdoc.app/about-including-markdown.html)
 
 #### Microsoft .NET
 
 **C# XML Documentation**
-**URL**: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/
+**URL**: [https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/)
 
 **Description**: Microsoft's official guidance for C# XML documentation comments.
 
@@ -213,7 +213,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 - IntelliSense support
 
 **.NET Naming Guidelines**
-**URL**: https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
+**URL**: [https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
 
 **Description**: Microsoft's official naming conventions for .NET libraries.
 
@@ -225,7 +225,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 #### C/C++ - Doxygen
 
-**URL**: https://www.doxygen.nl/
+**URL**: [https://www.doxygen.nl/](https://www.doxygen.nl/)
 
 **Description**: Documentation generator supporting multiple languages including C++, C#, PHP, Java, and Python.
 
@@ -235,11 +235,11 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 - Diagram generation
 - Cross-platform documentation
 
-**Manual**: https://www.doxygen.nl/manual/
+**Manual**: [https://www.doxygen.nl/manual/](https://www.doxygen.nl/manual/)
 
 #### Python - Sphinx
 
-**URL**: https://www.sphinx-doc.org/
+**URL**: [https://www.sphinx-doc.org/](https://www.sphinx-doc.org/)
 
 **Description**: Documentation generator for Python with reStructuredText support.
 
@@ -253,7 +253,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 #### SAP API Business Hub
 
-**URL**: https://api.sap.com/
+**URL**: [https://api.sap.com/](https://api.sap.com/)
 
 **Description**: Central repository for SAP's REST and OData API references. Provides interactive API exploration, testing, and documentation.
 
@@ -267,7 +267,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 #### SAP Help Portal
 
-**URL**: https://help.sap.com/
+**URL**: [https://help.sap.com/](https://help.sap.com/)
 
 **Description**: Comprehensive SAP product documentation and help resources.
 
@@ -279,7 +279,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 #### SAP Developer Center
 
-**URL**: https://developers.sap.com/
+**URL**: [https://developers.sap.com/](https://developers.sap.com/)
 
 **Description**: Resources for SAP developers including tutorials, code samples, and developer guides.
 
@@ -289,11 +289,11 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 - Developer community
 - Learning paths
 
-**Tutorial Navigator**: https://developers.sap.com/tutorial-navigator.html
+**Tutorial Navigator**: [https://developers.sap.com/tutorial-navigator.html](https://developers.sap.com/tutorial-navigator.html)
 
 #### SAP Community
 
-**URL**: https://community.sap.com/
+**URL**: [https://community.sap.com/](https://community.sap.com/)
 
 **Description**: SAP's community platform for asking questions, sharing knowledge, and connecting with other developers.
 
@@ -305,7 +305,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 #### SAP Business Accelerator Hub (formerly API Business Hub)
 
-**URL**: https://api.sap.com/
+**URL**: [https://api.sap.com/](https://api.sap.com/)
 
 **Description**: Updated name for SAP API Business Hub. Provides APIs, events, and integrations.
 
@@ -321,7 +321,7 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 ### SAP API Style Guide Repository
 
-**URL**: https://github.com/SAP-docs/api-style-guide
+**URL**: [https://github.com/SAP-docs/api-style-guide](https://github.com/SAP-docs/api-style-guide)
 
 **Description**: Official SAP API Style Guide source repository containing all documentation standards.
 
@@ -337,20 +337,20 @@ SAP-specific OpenAPI extension attribute defining API lifecycle state: beta, act
 
 **Clone Command**:
 ```bash
-git clone https://github.com/SAP-docs/api-style-guide.git
+git clone [https://github.com/SAP-docs/api-style-guide.git](https://github.com/SAP-docs/api-style-guide.git)
 ```
 
 ### SAP BTP (Business Technology Platform)
 
-**Cockpit**: https://cockpit.sap.com/
+**Cockpit**: [https://cockpit.sap.com/](https://cockpit.sap.com/)
 
-**Documentation**: https://help.sap.com/docs/BTP
+**Documentation**: [https://help.sap.com/docs/BTP](https://help.sap.com/docs/BTP)
 
 **API Documentation**: Available through SAP API Business Hub
 
 ### SAP Integration Suite
 
-**URL**: https://help.sap.com/docs/INTEGRATION_SUITE
+**URL**: [https://help.sap.com/docs/INTEGRATION_SUITE](https://help.sap.com/docs/INTEGRATION_SUITE)
 
 **Includes**:
 - API Management
@@ -368,7 +368,7 @@ git clone https://github.com/SAP-docs/api-style-guide.git
 
 **JavaScript API Example**: Available through SAP NetWeaver documentation
 
-**URL**: https://help.sap.com/docs/SAP_NETWEAVER
+**URL**: [https://help.sap.com/docs/SAP_NETWEAVER](https://help.sap.com/docs/SAP_NETWEAVER)
 
 **Use For**:
 - JavaScript API patterns
@@ -408,16 +408,16 @@ git clone https://github.com/SAP-docs/api-style-guide.git
 
 | Task | Resource | URL |
 |------|----------|-----|
-| **Find SAP APIs** | SAP API Business Hub | https://api.sap.com/ |
-| **Learn SAP Development** | SAP Developer Center | https://developers.sap.com/ |
-| **Read Product Docs** | SAP Help Portal | https://help.sap.com/ |
-| **Ask Questions** | SAP Community | https://community.sap.com/ |
-| **Design REST APIs** | OpenAPI Spec | https://spec.openapis.org/ |
-| **Design OData APIs** | OData Spec | https://www.odata.org/ |
-| **Write Java Docs** | Javadoc Guide | https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html |
-| **Write JS Docs** | JSDoc Guide | https://jsdoc.app/ |
-| **Write .NET Docs** | Microsoft Docs | https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/ |
-| **Generate C++ Docs** | Doxygen | https://www.doxygen.nl/ |
+| **Find SAP APIs** | SAP API Business Hub | [https://api.sap.com/](https://api.sap.com/) |
+| **Learn SAP Development** | SAP Developer Center | [https://developers.sap.com/](https://developers.sap.com/) |
+| **Read Product Docs** | SAP Help Portal | [https://help.sap.com/](https://help.sap.com/) |
+| **Ask Questions** | SAP Community | [https://community.sap.com/](https://community.sap.com/) |
+| **Design REST APIs** | OpenAPI Spec | [https://spec.openapis.org/](https://spec.openapis.org/) |
+| **Design OData APIs** | OData Spec | [https://www.odata.org/](https://www.odata.org/) |
+| **Write Java Docs** | Javadoc Guide | [https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html) |
+| **Write JS Docs** | JSDoc Guide | [https://jsdoc.app/](https://jsdoc.app/) |
+| **Write .NET Docs** | Microsoft Docs | [https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/) |
+| **Generate C++ Docs** | Doxygen | [https://www.doxygen.nl/](https://www.doxygen.nl/) |
 
 ---
 
@@ -455,18 +455,18 @@ git clone https://github.com/SAP-docs/api-style-guide.git
 
 ### SAP Cloud Documentation
 
-- **SAP BTP**: https://help.sap.com/docs/BTP
-- **SAP Cloud Foundry**: https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/
-- **SAP Kyma**: https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/
+- **SAP BTP**: [https://help.sap.com/docs/BTP](https://help.sap.com/docs/BTP)
+- **SAP Cloud Foundry**: [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/)
+- **SAP Kyma**: [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/)
 
 ### SAP Development Tools
 
-- **SAP Business Application Studio**: https://help.sap.com/docs/BAS
+- **SAP Business Application Studio**: [https://help.sap.com/docs/BAS](https://help.sap.com/docs/BAS)
 - **SAP Web IDE**: (Deprecated - migrating to Business Application Studio)
-- **SAP HANA Cloud**: https://help.sap.com/docs/HANA_CLOUD
+- **SAP HANA Cloud**: [https://help.sap.com/docs/HANA_CLOUD](https://help.sap.com/docs/HANA_CLOUD)
 
 ---
 
 **Document Version**: 1.0.0
 **Last Updated**: 2025-11-21
-**Maintainer**: SAP Skills Team | https://github.com/secondsky/sap-skills
+**Maintainer**: SAP Skills Team | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

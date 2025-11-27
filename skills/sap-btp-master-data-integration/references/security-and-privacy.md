@@ -2,7 +2,7 @@
 
 Security guidelines, data protection, and privacy configurations for SAP Master Data Integration.
 
-**Source**: https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/security
+**Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/security](https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/security)
 
 ## Security Guidelines
 

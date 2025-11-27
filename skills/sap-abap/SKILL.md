@@ -15,6 +15,14 @@ metadata:
 
 # SAP ABAP Development Skill
 
+## Related Skills
+
+- **sap-abap-cds**: Use when developing CDS views for ABAP-backed Fiori applications or defining data models with annotations
+- **sap-btp-cloud-platform**: Use when working with ABAP Environment on BTP or deploying ABAP applications to the cloud
+- **sap-cap-capire**: Use when connecting ABAP systems with CAP applications or integrating with OData services
+- **sap-fiori-tools**: Use when building Fiori applications with ABAP backends or consuming OData services from ABAP systems
+- **sap-api-style**: Use when documenting ABAP APIs or following SAP API documentation standards
+
 ## Quick Reference
 
 ### Data Types and Declarations
@@ -233,6 +241,13 @@ CREATE DATA dref TYPE HANDLE elem_type.
 
 This skill includes 28 comprehensive reference files covering all aspects of ABAP development:
 
+### Related Skills
+- **sap-abap-cds**: For CDS view development and ABAP Cloud data modeling
+- **sap-btp-cloud-platform**: For ABAP Environment setup and BTP deployment
+- **sap-cap-capire**: For CAP service integration and ABAP system connections
+- **sap-fiori-tools**: For Fiori application development with ABAP backends
+- **sap-api-style**: For API documentation standards and best practices
+
 ### Quick Access
 - **Reference Guide**: `references/skill-reference-guide.md` - Complete guide to all reference files
 - **Internal Tables**: `references/internal-tables.md` - Complete table operations
@@ -349,5 +364,5 @@ out->write( result ).
 ## Source Documentation
 
 All content based on SAP official ABAP Cheat Sheets:
-- Repository: https://github.com/SAP-samples/abap-cheat-sheets
-- SAP Help: https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm
+- Repository: [https://github.com/SAP-samples/abap-cheat-sheets](https://github.com/SAP-samples/abap-cheat-sheets)
+- SAP Help: [https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)

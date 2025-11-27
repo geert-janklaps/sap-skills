@@ -2,7 +2,7 @@
 
 Complete security guidance for SAP BTP including authentication, authorization, and identity management.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/60-security
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/60-security](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/60-security)
 
 ---
 
@@ -111,12 +111,12 @@ Subaccount → Trust Configuration → New Trust Configuration
   "type": "oidc",
   "origin": "my-idp-origin",
   "config": {
-    "issuer": "https://idp.example.com",
+    "issuer": "[https://idp.example.com",](https://idp.example.com",)
     "clientId": "my-client-id",
     "clientSecret": "***",
-    "authorizationEndpoint": "https://idp.example.com/authorize",
-    "tokenEndpoint": "https://idp.example.com/token",
-    "userInfoEndpoint": "https://idp.example.com/userinfo"
+    "authorizationEndpoint": "[https://idp.example.com/authorize",](https://idp.example.com/authorize",)
+    "tokenEndpoint": "[https://idp.example.com/token",](https://idp.example.com/token",)
+    "userInfoEndpoint": "[https://idp.example.com/userinfo"](https://idp.example.com/userinfo")
   }
 }
 ```
@@ -321,7 +321,7 @@ User → SAP BTP App → Cloud Connector → On-Premise System
 {
   "Name": "my-onprem-system",
   "Type": "HTTP",
-  "URL": "http://virtualhost:port",
+  "URL": "[http://virtualhost:port",](http://virtualhost:port",)
   "ProxyType": "OnPremise",
   "Authentication": "PrincipalPropagation"
 }
@@ -339,10 +339,10 @@ User → SAP BTP App → SAP Cloud Service
 {
   "Name": "my-cloud-service",
   "Type": "HTTP",
-  "URL": "https://api.example.com",
+  "URL": "[https://api.example.com",](https://api.example.com",)
   "Authentication": "OAuth2SAMLBearerAssertion",
-  "audience": "https://audience.example.com",
-  "tokenServiceURL": "https://token.example.com/oauth/token"
+  "audience": "[https://audience.example.com",](https://audience.example.com",)
+  "tokenServiceURL": "[https://token.example.com/oauth/token"](https://token.example.com/oauth/token")
 }
 ```
 
@@ -369,7 +369,7 @@ User → SAP BTP App → SAP Cloud Service
 
 ```bash
 # Get audit logs
-curl -X GET "https://auditlog.cf.<region>.hana.ondemand.com/v2/auditlogrecords" \
+curl -X GET "[https://auditlog.cf.<region>.hana.ondemand.com/v2/auditlogrecords"](https://auditlog.cf.<region>.hana.ondemand.com/v2/auditlogrecords") \
   -H "Authorization: Bearer <token>"
 ```
 
@@ -437,6 +437,6 @@ echo "<token>" | cut -d. -f2 | base64 -d | jq
 
 ## Related Documentation
 
-- Security Overview: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/security-e129aa2.md
-- XSUAA: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/sap-authorization-and-trust-management-service-6373bb7.md
-- Troubleshooting: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/troubleshooting-for-sap-authorization-and-trust-management-service-c33d777.md
+- Security Overview: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/security-e129aa2.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/security-e129aa2.md)
+- XSUAA: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/sap-authorization-and-trust-management-service-6373bb7.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/sap-authorization-and-trust-management-service-6373bb7.md)
+- Troubleshooting: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/troubleshooting-for-sap-authorization-and-trust-management-service-c33d777.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/troubleshooting-for-sap-authorization-and-trust-management-service-c33d777.md)

@@ -145,12 +145,12 @@ helm upgrade --install my-app ./chart
 
 | Runtime | Documentation |
 |---------|--------------|
-| Cloud Foundry | https://help.sap.com/docs/btp/sap-business-technology-platform/cloud-foundry-environment |
-| Kyma | https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment |
-| ABAP | https://help.sap.com/docs/btp/sap-business-technology-platform/abap-environment |
+| Cloud Foundry | [https://help.sap.com/docs/btp/sap-business-technology-platform/cloud-foundry-environment](https://help.sap.com/docs/btp/sap-business-technology-platform/cloud-foundry-environment) |
+| Kyma | [https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment) |
+| ABAP | [https://help.sap.com/docs/btp/sap-business-technology-platform/abap-environment](https://help.sap.com/docs/btp/sap-business-technology-platform/abap-environment) |
 
 ## Source Documentation
 
-- Runtime Benefits: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/strengths-and-benefits-of-the-runtimes-and-their-programming-models-86688d1.md
-- CF/Kyma with CAP: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-cloud-foundry-and-sap-btp-kyma-runtimes-with-cap-0f9cfe9.md
-- ABAP Environment: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-abap-environment-with-abap-cloud-174b229.md
+- Runtime Benefits: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/strengths-and-benefits-of-the-runtimes-and-their-programming-models-86688d1.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/strengths-and-benefits-of-the-runtimes-and-their-programming-models-86688d1.md)
+- CF/Kyma with CAP: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-cloud-foundry-and-sap-btp-kyma-runtimes-with-cap-0f9cfe9.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-cloud-foundry-and-sap-btp-kyma-runtimes-with-cap-0f9cfe9.md)
+- ABAP Environment: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-abap-environment-with-abap-cloud-174b229.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-abap-environment-with-abap-cloud-174b229.md)

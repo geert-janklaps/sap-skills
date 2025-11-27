@@ -2,32 +2,17 @@
 
 Detailed troubleshooting procedures for Cloud Integration Automation Service.
 
-**Source**: https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs
+**Source**: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs](https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs)
 
 ---
 
 ## Table of Contents
 
 1. [Common Issues and Solutions](#common-issues-and-solutions)
-   - Empty Destination Dropdown
-   - Workflow Conflict Lock
-   - Application Access Denied
-   - Task Marked as Reserved
-   - Automation Execution Failures
-   - OAuth2 Certificate Issues
-2. [Error Codes and Messages](#error-codes-and-messages)
-3. [Support Procedures](#support-procedures)
-   - Creating Support Tickets
-   - Required Information
-   - Support Components
-4. [Monitoring and Logs](#monitoring-and-logs)
-   - Scenario Execution Monitoring
-   - Automation Logs
-   - Export Execution Summary
-5. [Self-Service Troubleshooting](#self-service-troubleshooting)
-   - Browser Issues
-   - Network Connectivity
-   - Cache and Cookies
+2. [Monitoring and Logs](#monitoring-and-logs)
+3. [Support Channels](#support-channels)
+4. [Accessibility Features](#accessibility-features)
+5. [Documentation Links](#documentation-links)
 
 ---
 
@@ -341,16 +326,16 @@ Users can adjust themes via the user info dropdown:
 
 ### Accessibility Resources
 
-- SAP BTP Cockpit Accessibility: https://help.sap.com/docs/btp/sap-business-technology-platform/accessibility-features
-- SAPUI5 Accessibility: https://sapui5.hana.ondemand.com/sdk/#/topic/03b914b46e624b138a6fb1b7cf2049ae
-- SAP Accessibility Statement: https://www.sap.com/about/company/diversity/accessibility.html
+- SAP BTP Cockpit Accessibility: [https://help.sap.com/docs/btp/sap-business-technology-platform/accessibility-features](https://help.sap.com/docs/btp/sap-business-technology-platform/accessibility-features)
+- SAPUI5 Accessibility: [https://sapui5.hana.ondemand.com/sdk/#/topic/03b914b46e624b138a6fb1b7cf2049ae](https://sapui5.hana.ondemand.com/sdk/#/topic/03b914b46e624b138a6fb1b7cf2049ae)
+- SAP Accessibility Statement: [https://www.sap.com/about/company/diversity/accessibility.html](https://www.sap.com/about/company/diversity/accessibility.html)
 
 ---
 
 ## Documentation Links
 
-- Monitoring and Troubleshooting: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/monitoring-and-troubleshooting-18460b7.md
-- Monitoring Scenario Implementation: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/monitoring-scenario-implementation-f8daffa.md
-- Working with Tasks: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/working-with-tasks-3da3577.md
-- Task Details: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/task-9ec0684.md
-- Confirm System Components: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/confirm-system-components-1f39555.md
+- Monitoring and Troubleshooting: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/monitoring-and-troubleshooting-18460b7.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/monitoring-and-troubleshooting-18460b7.md)
+- Monitoring Scenario Implementation: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/monitoring-scenario-implementation-f8daffa.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/monitoring-scenario-implementation-f8daffa.md)
+- Working with Tasks: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/working-with-tasks-3da3577.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/working-with-tasks-3da3577.md)
+- Task Details: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/task-9ec0684.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/task-9ec0684.md)
+- Confirm System Components: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/confirm-system-components-1f39555.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/confirm-system-components-1f39555.md)

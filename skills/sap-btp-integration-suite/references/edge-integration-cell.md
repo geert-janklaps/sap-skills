@@ -1,7 +1,7 @@
 # Edge Integration Cell - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite)
 **Last Updated**: 2025-11-22
 
 ---
@@ -41,7 +41,7 @@ Edge Integration Cell is an optional hybrid integration runtime that enables:
    - Centralized design and monitoring
    - Distributed execution
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-edge-integration-cell-aee74bb.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-edge-integration-cell-aee74bb.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-edge-integration-cell-aee74bb.md)
 
 ---
 
@@ -88,11 +88,11 @@ Edge Integration Cell is an optional hybrid integration runtime that enables:
 
 | Platform | Documentation |
 |----------|---------------|
-| Amazon EKS | https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-amazon-elastic-kubernetes-service-eks-6f95afa.md |
-| Azure AKS | https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-azure-kubernetes-service-aks-a3c3a9c.md |
-| Google GKE | https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-google-kubernetes-engine-gke-24a1e56.md |
-| Red Hat OpenShift | https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-red-hat-openshift-ocp-21ae0fd.md |
-| SUSE Rancher RKE2 | https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-suse-rancher-kubernetes-engine-rke2-0359e5c.md |
+| Amazon EKS | [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-amazon-elastic-kubernetes-service-eks-6f95afa.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-amazon-elastic-kubernetes-service-eks-6f95afa.md) |
+| Azure AKS | [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-azure-kubernetes-service-aks-a3c3a9c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-azure-kubernetes-service-aks-a3c3a9c.md) |
+| Google GKE | [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-google-kubernetes-engine-gke-24a1e56.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-google-kubernetes-engine-gke-24a1e56.md) |
+| Red Hat OpenShift | [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-red-hat-openshift-ocp-21ae0fd.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-red-hat-openshift-ocp-21ae0fd.md) |
+| SUSE Rancher RKE2 | [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-suse-rancher-kubernetes-engine-rke2-0359e5c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/prepare-for-deployment-on-suse-rancher-kubernetes-engine-rke2-0359e5c.md) |
 
 ---
 
@@ -126,7 +126,7 @@ Edge Integration Cell is an optional hybrid integration runtime that enables:
 | BTP Subaccount | Cloud Foundry enabled |
 | Role Collections | Edge Integration Cell Administrator |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/plan-your-setup-of-edge-integration-cell-217fed1.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/plan-your-setup-of-edge-integration-cell-217fed1.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/plan-your-setup-of-edge-integration-cell-217fed1.md)
 
 ---
 
@@ -183,7 +183,7 @@ kubectl top nodes
 2. Configure which keystores to sync
 3. Verify synchronization status
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/deploy-the-edge-integration-cell-solution-ab81b84.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/deploy-the-edge-integration-cell-solution-ab81b84.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/deploy-the-edge-integration-cell-solution-ab81b84.md)
 
 ---
 
@@ -227,7 +227,7 @@ kubectl top pods -n sap-integration
 - Not synced to cloud
 - Managed via API/CLI
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/manage-keystore-for-edge-integration-cell-39eb101.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/manage-keystore-for-edge-integration-cell-39eb101.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/manage-keystore-for-edge-integration-cell-39eb101.md)
 
 ### Upgrade
 
@@ -241,7 +241,7 @@ kubectl top pods -n sap-integration
 kubectl get pods -n sap-integration -w
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/upgrade-edge-integration-cell-27c3926.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/upgrade-edge-integration-cell-27c3926.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/upgrade-edge-integration-cell-27c3926.md)
 
 ### Backup and Restore
 
@@ -255,7 +255,7 @@ kubectl get pods -n sap-integration -w
 - Restore keystores
 - Redeploy integration content
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/backup-and-restore-edge-integration-cell-61cf37b.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/backup-and-restore-edge-integration-cell-61cf37b.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/backup-and-restore-edge-integration-cell-61cf37b.md)
 
 ---
 
@@ -303,10 +303,10 @@ kubectl get pv,pvc -n sap-integration
 # Test outbound connectivity
 kubectl run -it --rm test --image=curlimages/curl \
   --restart=Never -n sap-integration -- \
-  curl -v https://your-btp-url.hana.ondemand.com
+  curl -v [https://your-btp-url.hana.ondemand.com](https://your-btp-url.hana.ondemand.com)
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-edge-integration-cell-816d9e4.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-edge-integration-cell-816d9e4.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-edge-integration-cell-816d9e4.md)
 
 ---
 
@@ -320,13 +320,13 @@ Most Cloud Integration features supported with some exceptions.
 - Some deprecated adapters
 - Certain legacy configurations
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/edge-integration-cell-runtime-scope-144c64a.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/edge-integration-cell-runtime-scope-144c64a.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/edge-integration-cell-runtime-scope-144c64a.md)
 
 ---
 
 ## Related Documentation
 
-- **Overview**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-edge-integration-cell-aee74bb.md
-- **Planning**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/plan-your-setup-of-edge-integration-cell-217fed1.md
-- **Operations**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/operating-edge-integration-cell-2af17b8.md
-- **Troubleshooting**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-edge-integration-cell-816d9e4.md
+- **Overview**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-edge-integration-cell-aee74bb.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-edge-integration-cell-aee74bb.md)
+- **Planning**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/plan-your-setup-of-edge-integration-cell-217fed1.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/plan-your-setup-of-edge-integration-cell-217fed1.md)
+- **Operations**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/operating-edge-integration-cell-2af17b8.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/operating-edge-integration-cell-2af17b8.md)
+- **Troubleshooting**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-edge-integration-cell-816d9e4.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-edge-integration-cell-816d9e4.md)

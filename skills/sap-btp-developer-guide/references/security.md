@@ -322,6 +322,6 @@ entity Customers {
 
 ## Source Documentation
 
-- Security Considerations: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/security-considerations-for-applications-a73f6ff.md
-- CAP Security Guide: https://cap.cloud.sap/docs/guides/security/
-- SAP BTP Security Recommendations: https://help.sap.com/docs/btp/sap-btp-security-recommendations/sap-btp-security-recommendations
+- Security Considerations: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/security-considerations-for-applications-a73f6ff.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/security-considerations-for-applications-a73f6ff.md)
+- CAP Security Guide: [https://cap.cloud.sap/docs/guides/security/](https://cap.cloud.sap/docs/guides/security/)
+- SAP BTP Security Recommendations: [https://help.sap.com/docs/btp/sap-btp-security-recommendations/sap-btp-security-recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations/sap-btp-security-recommendations)

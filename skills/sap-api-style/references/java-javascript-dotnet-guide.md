@@ -1,7 +1,7 @@
 # SAP API Style Guide - Complete Reference Documentation
 ## Java/JavaScript/.NET API Documentation (All 39 Files Consolidated)
 
-**Source**: https://github.com/SAP-docs/api-style-guide/tree/main/docs/40-java-javascript-and-msnet
+**Source**: [https://github.com/SAP-docs/api-style-guide/tree/main/docs/40-java-javascript-and-msnet](https://github.com/SAP-docs/api-style-guide/tree/main/docs/40-java-javascript-and-msnet)
 **Last Verified**: 2025-11-21
 
 **Attribution**: Content derived from [SAP API Style Guide](https://github.com/SAP-docs/api-style-guide) (Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
@@ -392,7 +392,7 @@ public static final constant_type constant_name = constant_value;
 **JavaScript Syntax Options**:
 - Simple path: `@see setObject`
 - With link tag: `@see {@link setObject} for more information`
-- External URL: `@see {@link http://sap.help.com|the SAP Help Portal}`
+- External URL: `@see {@link [http://sap.help.com|the](http://sap.help.com|the) SAP Help Portal}`
 
 **Key Guidelines**:
 - Use double quotes for plain text references in Java
@@ -413,7 +413,7 @@ public static final constant_type constant_name = constant_value;
 ```javascript
 @see setObject
 @see {@link setObject} for more information
-@see {@link http://sap.help.com|the SAP Help Portal}
+@see {@link [http://sap.help.com|the](http://sap.help.com|the) SAP Help Portal}
 ```
 
 #### @deprecated Tag
@@ -1506,7 +1506,7 @@ Before finalizing documentation:
 
 ## REFERENCES & OFFICIAL STANDARDS
 
-**Official SAP API Style Guide**: https://github.com/SAP-docs/api-style-guide/tree/main/docs/40-java-javascript-and-msnet
+**Official SAP API Style Guide**: [https://github.com/SAP-docs/api-style-guide/tree/main/docs/40-java-javascript-and-msnet](https://github.com/SAP-docs/api-style-guide/tree/main/docs/40-java-javascript-and-msnet)
 
 **All 39 Files Extracted & Consolidated**: 2025-11-21
 

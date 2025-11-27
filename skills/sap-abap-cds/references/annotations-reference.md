@@ -2,7 +2,7 @@
 
 Complete reference for ABAP CDS annotations organized by category.
 
-**Source**: https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_annotations.html
+**Source**: [https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_annotations.html](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_annotations.html)
 
 ---
 
@@ -430,8 +430,8 @@ WRITE: / 'Field Label:', lv_label.
 
 ## Documentation Links
 
-- **SAP Help - Annotations (Cloud)**: https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_annotations.html
-- **SAP Help - Annotations (7.50)**: https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_annotations_sap.htm
-- **UI Annotations Reference**: https://ui5.sap.com/#/api/sap.ui.comp.smartfield.SmartField
+- **SAP Help - Annotations (Cloud)**: [https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_annotations.html](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_annotations.html)
+- **SAP Help - Annotations (7.50)**: [https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_annotations_sap.htm](https://help.sap.com/doc/abapdocu_750_index_htm/7.50/en-US/abencds_annotations_sap.htm)
+- **UI Annotations Reference**: [https://ui5.sap.com/#/api/sap.ui.comp.smartfield.SmartField](https://ui5.sap.com/#/api/sap.ui.comp.smartfield.SmartField)
 
 **Last Updated**: 2025-11-23

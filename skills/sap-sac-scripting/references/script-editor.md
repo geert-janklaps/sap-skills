@@ -17,5 +17,5 @@ Write JavaScript-based scripts on widgets/pages/popups to drive interactivity in
 - View available objects/functions in Analytics Designer or Optimized Story Experience API references.
 - Edit Scripts also available via widget **More Actions** menu.
 - Related indicator (gear) shows when scripts exist; run in view mode to test.
-- See also: script variables (`docs/script-variables.md`), script objects (`docs/script-objects.md`), keyboard shortcuts (Help Portal).
+- See also: script variables (`script-variables.md`), script objects (`script-objects.md`), keyboard shortcuts (Help Portal).
 

@@ -2,7 +2,7 @@
 
 Complete guide for creating and deploying workspace templates in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/40-WorkspaceTemplates
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/40-WorkspaceTemplates](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/40-WorkspaceTemplates)
 
 ---
 
@@ -155,5 +155,5 @@ Users can modify template defaults when creating workspaces:
 ---
 
 **Documentation Links**:
-- Workspace Templates: https://help.sap.com/docs/build-work-zone-advanced-edition
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/40-WorkspaceTemplates
+- Workspace Templates: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/40-WorkspaceTemplates](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/40-WorkspaceTemplates)

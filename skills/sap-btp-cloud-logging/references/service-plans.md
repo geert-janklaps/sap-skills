@@ -1,6 +1,6 @@
 # SAP Cloud Logging - Service Plans Reference
 
-**Source:** https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/service-plans-a9d2d1b.md
+**Source:** [https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/service-plans-a9d2d1b.md](https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/service-plans-a9d2d1b.md)
 **Last Updated:** 2025-11-22
 
 ---
@@ -121,7 +121,7 @@ Service availability varies by region. Check the SAP Discovery Center for:
 - Infrastructure providers (AWS, Azure, GCP)
 - Region-specific limitations
 
-**Discovery Center:** https://discovery-center.cloud.sap/serviceCatalog/cloud-logging
+**Discovery Center:** [https://discovery-center.cloud.sap/serviceCatalog/cloud-logging](https://discovery-center.cloud.sap/serviceCatalog/cloud-logging)
 
 ---
 
@@ -178,6 +178,6 @@ Retention Days = Net Storage / Daily Storage
 
 ## Documentation Links
 
-- **Source:** https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/service-plans-a9d2d1b.md
-- **Discovery Center:** https://discovery-center.cloud.sap/serviceCatalog/cloud-logging
+- **Source:** [https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/service-plans-a9d2d1b.md](https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/service-plans-a9d2d1b.md)
+- **Discovery Center:** [https://discovery-center.cloud.sap/serviceCatalog/cloud-logging](https://discovery-center.cloud.sap/serviceCatalog/cloud-logging)
 - **Capacity Estimator:** Available via Discovery Center

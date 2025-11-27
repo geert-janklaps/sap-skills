@@ -9,13 +9,21 @@ metadata:
   version: 1.4.0
   last_verified: 2025-11-27
   framework_version: "1.120.0+"
-  documentation_source: https://github.com/SAP-docs/sapui5
+  documentation_source: [https://github.com/SAP-docs/sapui5](https://github.com/SAP-docs/sapui5)
   documentation_files_analyzed: 1416
   reference_files: 11
   status: production
 ---
 
 # SAPUI5 Development Skill
+
+## Related Skills
+
+- **sap-fiori-tools**: Use for rapid Fiori application development, Page Editor configuration, and deployment automation
+- **sap-cap-capire**: Use for backend service integration, OData model binding, and CAP service consumption
+- **sap-btp-cloud-platform**: Use for deployment options, HTML5 Application Repository service, and BTP integration
+- **sap-abap**: Use when connecting to ABAP backends or consuming OData services from SAP systems
+- **sap-api-style**: Use when documenting UI5 application APIs or following REST/OData standards
 
 Comprehensive skill for building enterprise applications with SAP UI5 framework.
 

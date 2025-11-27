@@ -36,7 +36,7 @@ metadata:
   - [One-Time Schedules](#one-time-schedules)
 - [Authentication Quick Start](#authentication-quick-start)
   - [Standard Plan (OAuth 2.0)](#standard-plan-oauth-20)
-  - [xs-security.json Configuration]((xs-securityjson-configuration)
+  - [xs-security.json Configuration](#xs-securityjson-configuration)
 - [Create Job Example](#create-job-example)
 - [Node.js Client Library](#nodejs-client-library)
 - [Rate Limits](#rate-limits)
@@ -52,7 +52,7 @@ metadata:
 
 SAP Job Scheduling Service is a runtime-agnostic platform service for defining and managing one-time and recurring jobs or Cloud Foundry tasks on SAP BTP. It operates across multiple hyperscalers (AWS, Azure, GCP) without requiring application modifications.
 
-**Documentation Source**: https://help.sap.com/docs/job-scheduling
+**Documentation Source**: [https://help.sap.com/docs/job-scheduling](https://help.sap.com/docs/job-scheduling)
 
 **Last Verified**: 2025-11-27
 
@@ -228,7 +228,7 @@ curl -X POST "<uaa_url>/oauth/token" \
   -d "grant_type=client_credentials"
 
 # Use token in API calls
-curl -X GET "https://jobscheduler-rest.<landscape>/scheduler/jobs" \
+curl -X GET "[https://jobscheduler-rest.<landscape>/scheduler/jobs"](https://jobscheduler-rest.<landscape>/scheduler/jobs") \
   -H "Authorization: Bearer <access_token>" \
   -H "Content-Type: application/json"
 ```
@@ -253,7 +253,7 @@ POST /scheduler/jobs
 {
   "name": "myJob",
   "description": "Process daily reports",
-  "action": "https://myapp.cfapps.eu10.hana.ondemand.com/api/process",
+  "action": "[https://myapp.cfapps.eu10.hana.ondemand.com/api/process",](https://myapp.cfapps.eu10.hana.ondemand.com/api/process",)
   "active": true,
   "httpMethod": "POST",
   "schedules": [{
@@ -280,7 +280,7 @@ const scheduler = new JobSchedulerClient.Scheduler();
 // Create job
 scheduler.createJob({ url: vcapServices.jobscheduler[0].credentials.url }, {
   name: 'myJob',
-  action: 'https://myapp.../process',
+  action: '[https://myapp.../process',](https://myapp.../process',)
   active: true,
   httpMethod: 'GET',
   schedules: [{ cron: '* * * * 0 0 0', active: true }]
@@ -354,8 +354,8 @@ Limits stack - both can apply simultaneously.
 ## External Resources
 
 ### SAP Documentation
-- **SAP Help Portal**: https://help.sap.com/docs/job-scheduling
-- **SAP Developer Center**: https://developers.sap.com/
+- **SAP Help Portal**: [https://help.sap.com/docs/job-scheduling](https://help.sap.com/docs/job-scheduling)
+- **SAP Developer Center**: [https://developers.sap.com/](https://developers.sap.com/)
 
 ### Support
 - **Component**: BC-CP-CF-JBS
@@ -398,4 +398,4 @@ Limits stack - both can apply simultaneously.
 **Skill Version**: 1.0.1
 **Last Updated**: 2025-11-27
 **License**: GPL-3.0
-**Maintainer**: SAP Skills Team | https://github.com/secondsky/sap-skills
+**Maintainer**: SAP Skills Team | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

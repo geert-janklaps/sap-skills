@@ -1,6 +1,6 @@
 # CAP CLI - Complete Command Reference
 
-**Source**: https://cap.cloud.sap/docs/cli/
+**Source**: <[https://cap.cloud.sap/docs/cli/>](https://cap.cloud.sap/docs/cli/>)
 
 ## Table of Contents
 - [Project Commands](#project-commands)
@@ -9,8 +9,12 @@
 - [Database Commands](#database-commands)
 - [Service Commands](#service-commands)
 - [Utility Commands](#utility-commands)
+- [Plugin Commands](#plugin-commands)
+- [Development Workflow Examples](#development-workflow-examples)
+- [Troubleshooting](#troubleshooting)
 - [Configuration](#configuration)
 - [Advanced Options](#advanced-options)
+- [Best Practices](#best-practices)
 
 ## Project Commands
 
@@ -40,7 +44,7 @@ cds init my-app --add sample,hana,xsuaa,mta,multitenancy
 - `approuter` - Add approuter for HTML5 apps
 - `multitenancy` - Add SaaS multitenancy support
 - `typescript` - Add TypeScript support
-- ` Fiori` - Add Fiori templates
+- `Fiori` - Add Fiori templates
 
 ### cds add
 Add capabilities to existing project
@@ -211,10 +215,10 @@ Bind external services
 
 ```sh
 # Bind to external OData service
-cds bind ExternalService --to https://api.example.com
+cds bind ExternalService --to [https://api.example.com](https://api.example.com)
 
 # Bind with credentials
-cds bind ExternalService --to-cred '{"url":"https://api.example.com"}'
+cds bind ExternalService --to-cred '{"url":"[https://api.example.com"}'](https://api.example.com"}')
 ```
 
 ### cds tunnel
@@ -330,7 +334,7 @@ cds watch --profile development,hana
 export CDS_requires_db_credentials_url=postgresql://user:pass@host:5432/db
 
 # Set service bindings
-export CDS_requires_myService_credentials='{"url":"https://api.example.com"}'
+export CDS_requires_myService_credentials='{"url":"[https://api.example.com"}'](https://api.example.com"}')
 
 # Set profile
 export NODE_ENV=production
@@ -451,7 +455,7 @@ npm install @cap-js/graphql
 # Run GraphQL server
 cds watch --graphql
 
-# GraphQL endpoint: http://localhost:4004/graphql
+# GraphQL endpoint: [http://localhost:4004/graphql](http://localhost:4004/graphql)
 ```
 
 ### Fiori Tools
@@ -571,4 +575,4 @@ cds env get --effective
 
 **Last Updated**: 2025-11-27
 **CAP Version**: 9.4.x
-**Documentation**: https://cap.cloud.sap/docs/cli/
+**Documentation**: <[https://cap.cloud.sap/docs/cli/>](https://cap.cloud.sap/docs/cli/>)

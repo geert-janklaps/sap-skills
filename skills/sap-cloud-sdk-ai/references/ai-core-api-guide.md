@@ -201,7 +201,7 @@ const pipeline = await PipelinesApi.createPipeline(
   {
     type: 'MSSharePoint',
     configuration: {
-      siteUrl: 'https://company.sharepoint.com/sites/docs',
+      siteUrl: '[https://company.sharepoint.com/sites/docs',](https://company.sharepoint.com/sites/docs',)
       clientId: 'client-id',
       clientSecret: 'client-secret',
       tenantId: 'tenant-id'
@@ -522,9 +522,9 @@ var deploymentApi = new DeploymentApi(aiCoreService);
 
 ## Documentation Links
 
-- AI API JS: https://github.com/SAP/ai-sdk/blob/main/docs-js/ai-core/ai-api.mdx
-- Document Grounding JS: https://github.com/SAP/ai-sdk/blob/main/docs-js/ai-core/document-grounding.mdx
-- Prompt Registry JS: https://github.com/SAP/ai-sdk/blob/main/docs-js/ai-core/prompt-registry.mdx
-- AI Core Deployment Java: https://github.com/SAP/ai-sdk/blob/main/docs-java/ai-core/ai-core-deployment.mdx
-- Document Grounding Java: https://github.com/SAP/ai-sdk/blob/main/docs-java/ai-core/document-grounding.mdx
-- Prompt Registry Java: https://github.com/SAP/ai-sdk/blob/main/docs-java/ai-core/prompt-registry.mdx
+- AI API JS: [https://github.com/SAP/ai-sdk/blob/main/docs-js/ai-core/ai-api.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-js/ai-core/ai-api.mdx)
+- Document Grounding JS: [https://github.com/SAP/ai-sdk/blob/main/docs-js/ai-core/document-grounding.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-js/ai-core/document-grounding.mdx)
+- Prompt Registry JS: [https://github.com/SAP/ai-sdk/blob/main/docs-js/ai-core/prompt-registry.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-js/ai-core/prompt-registry.mdx)
+- AI Core Deployment Java: [https://github.com/SAP/ai-sdk/blob/main/docs-java/ai-core/ai-core-deployment.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-java/ai-core/ai-core-deployment.mdx)
+- Document Grounding Java: [https://github.com/SAP/ai-sdk/blob/main/docs-java/ai-core/document-grounding.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-java/ai-core/document-grounding.mdx)
+- Prompt Registry Java: [https://github.com/SAP/ai-sdk/blob/main/docs-java/ai-core/prompt-registry.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-java/ai-core/prompt-registry.mdx)

@@ -178,9 +178,9 @@ sap gateway, sap netweaver, sap s/4hana, sap btp, sap cloud platform, sap fiori 
 
 ## Official Documentation
 
-- **Main Docs**: https://github.com/SAP-docs/sapui5
-- **Demo Kit**: https://sapui5.hana.ondemand.com/
-- **API Reference**: https://sapui5.hana.ondemand.com/#/api
+- **Main Docs**: [https://github.com/SAP-docs/sapui5](https://github.com/SAP-docs/sapui5)
+- **Demo Kit**: [https://sapui5.hana.ondemand.com/](https://sapui5.hana.ondemand.com/)
+- **API Reference**: [https://sapui5.hana.ondemand.com/#/api](https://sapui5.hana.ondemand.com/#/api)
 
 ## Version
 
@@ -225,4 +225,4 @@ GPL-3.0
 
 ---
 
-**Maintained by**: SAP Skills Maintainers | https://github.com/secondsky/sap-skills
+**Maintained by**: SAP Skills Maintainers | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

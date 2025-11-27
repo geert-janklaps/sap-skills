@@ -1,6 +1,6 @@
 # CAP Plugins Complete Reference
 
-> Source: https://cap.cloud.sap/docs/plugins/
+> Source: [https://cap.cloud.sap/docs/plugins/](https://cap.cloud.sap/docs/plugins/)
 
 ## All Available Plugins (15)
 
@@ -537,7 +537,7 @@ Plugins auto-detect VCAP_SERVICES bindings.
     "requires": {
       "my-plugin": {
         "credentials": {
-          "url": "https://api.example.com",
+          "url": "[https://api.example.com",](https://api.example.com",)
           "apiKey": "..."
         }
       }
@@ -550,9 +550,9 @@ Plugins auto-detect VCAP_SERVICES bindings.
 
 ## Community Resources
 
-- **CAP JS Community**: https://github.com/cap-js-community
-- **Best of CAP JS**: https://bestofcapjs.org/
-- **SAP Community**: https://community.sap.com/
+- **CAP JS Community**: [https://github.com/cap-js-community](https://github.com/cap-js-community)
+- **Best of CAP JS**: [https://bestofcapjs.org/](https://bestofcapjs.org/)
+- **SAP Community**: [https://community.sap.com/](https://community.sap.com/)
 
 ## Support
 

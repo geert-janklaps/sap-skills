@@ -304,5 +304,5 @@ cf undeploy my-app --delete-services
 
 ## Source Documentation
 
-- Using MTAs: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/using-multitarget-applications-to-manage-dependencies-41184aa.md
-- MTA Documentation: https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-applications-in-cloud-foundry-environment
+- Using MTAs: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/using-multitarget-applications-to-manage-dependencies-41184aa.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/using-multitarget-applications-to-manage-dependencies-41184aa.md)
+- MTA Documentation: [https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-applications-in-cloud-foundry-environment](https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-applications-in-cloud-foundry-environment)

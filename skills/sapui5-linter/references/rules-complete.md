@@ -1,6 +1,6 @@
 # UI5 Linter - Complete Rules Reference
 
-**Source**: https://github.com/UI5/linter/blob/main/docs/Rules.md
+**Source**: [https://github.com/UI5/linter/blob/main/docs/Rules.md](https://github.com/UI5/linter/blob/main/docs/Rules.md)
 **Last Updated**: 2025-11-21
 **UI5 Linter Version**: 1.20.5
 
@@ -449,10 +449,10 @@ legacyAPI.call();
 
 ## Further Reading
 
-- **Main Repository**: https://github.com/UI5/linter
-- **Rules Documentation**: https://github.com/UI5/linter/blob/main/docs/Rules.md
-- **Autofix Scope**: https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md
-- **UI5 2.x Migration Guide**: https://ui5.sap.com/
+- **Main Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
+- **Rules Documentation**: [https://github.com/UI5/linter/blob/main/docs/Rules.md](https://github.com/UI5/linter/blob/main/docs/Rules.md)
+- **Autofix Scope**: [https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md](https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md)
+- **UI5 2.x Migration Guide**: [https://ui5.sap.com/](https://ui5.sap.com/)
 
 ---
 

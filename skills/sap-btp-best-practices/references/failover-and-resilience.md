@@ -1,6 +1,6 @@
 # SAP BTP Failover and Resilience - Detailed Reference
 
-**Source**: https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/deploy-and-deliver
+**Source**: [https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/deploy-and-deliver](https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/deploy-and-deliver)
 
 ---
 
@@ -381,12 +381,12 @@ app.get('/health', (req, res) => {
 ---
 
 **Source Documentation**:
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/planning-failover-on-sap-btp-8c46464.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/implementing-failover-df972c5.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/deploy-your-application-in-two-data-centers-61d08d8.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/keep-the-two-applications-in-sync-e6d2bdb.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/define-how-a-failover-is-detected-88b86db.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/decide-on-the-failback-963f962.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/multi-region-usecases.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/data-backups-managed-by-sap-6c1e071.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/sharing-clusters-in-kyma-57ec1ea.md
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/planning-failover-on-sap-btp-8c46464.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/planning-failover-on-sap-btp-8c46464.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/implementing-failover-df972c5.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/implementing-failover-df972c5.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/deploy-your-application-in-two-data-centers-61d08d8.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/deploy-your-application-in-two-data-centers-61d08d8.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/keep-the-two-applications-in-sync-e6d2bdb.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/keep-the-two-applications-in-sync-e6d2bdb.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/define-how-a-failover-is-detected-88b86db.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/define-how-a-failover-is-detected-88b86db.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/decide-on-the-failback-963f962.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/decide-on-the-failback-963f962.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/multi-region-usecases.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/multi-region-usecases.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/data-backups-managed-by-sap-6c1e071.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/data-backups-managed-by-sap-6c1e071.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/sharing-clusters-in-kyma-57ec1ea.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/sharing-clusters-in-kyma-57ec1ea.md)

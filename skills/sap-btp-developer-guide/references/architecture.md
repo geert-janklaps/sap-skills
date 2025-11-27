@@ -162,5 +162,5 @@ Features: Offline sync, push notifications, mobile security
 
 ## Source Documentation
 
-- Understanding Available Technology: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/understanding-available-technology-c1f21a4.md
-- Tools Available: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/tools-available-for-sap-btp-multi-cloud-foundation-7f95cfa.md
+- Understanding Available Technology: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/understanding-available-technology-c1f21a4.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/understanding-available-technology-c1f21a4.md)
+- Tools Available: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/tools-available-for-sap-btp-multi-cloud-foundation-7f95cfa.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/tools-available-for-sap-btp-multi-cloud-foundation-7f95cfa.md)

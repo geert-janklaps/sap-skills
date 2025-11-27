@@ -1,6 +1,6 @@
 # Consuming Services & Deployment Reference
 
-> Source: https://cap.cloud.sap/docs/guides/using-services, https://cap.cloud.sap/docs/guides/deployment/
+> Source: [https://cap.cloud.sap/docs/guides/using-services,](https://cap.cloud.sap/docs/guides/using-services,) [https://cap.cloud.sap/docs/guides/deployment/](https://cap.cloud.sap/docs/guides/deployment/)
 
 ## Consuming External Services
 
@@ -344,7 +344,7 @@ srv:
       service: srv
     ui5:
       external: true
-      url: https://ui5.sap.com
+      url: [https://ui5.sap.com](https://ui5.sap.com)
 ```
 
 ---

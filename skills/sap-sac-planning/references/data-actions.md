@@ -1,6 +1,6 @@
 # SAP Analytics Cloud - Data Actions and Multi Actions Reference
 
-**Source**: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/69a370e6cfd84315973101389baacde0.html
+**Source**: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/69a370e6cfd84315973101389baacde0.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/69a370e6cfd84315973101389baacde0.html)
 **Last Updated**: 2025-11-22
 
 ---
@@ -228,7 +228,7 @@ Call external HTTP APIs.
 
 **Configuration**:
 ```
-URL: https://api.example.com/endpoint
+URL: [https://api.example.com/endpoint](https://api.example.com/endpoint)
 Method: POST
 Headers:
   Content-Type: application/json
@@ -515,6 +515,6 @@ Formula:
 ---
 
 **Documentation Links**:
-- Data Actions: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/69a370e6cfd84315973101389baacde0.html
-- Multi Actions: https://learning.sap.com/learning-journeys/leveraging-sap-analytics-cloud-functionality-for-enterprise-planning/configuring-multi-actions
-- Parameters: https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/4835429d35534add875bae17e93b12e1.html
+- Data Actions: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/69a370e6cfd84315973101389baacde0.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/69a370e6cfd84315973101389baacde0.html)
+- Multi Actions: [https://learning.sap.com/learning-journeys/leveraging-sap-analytics-cloud-functionality-for-enterprise-planning/configuring-multi-actions](https://learning.sap.com/learning-journeys/leveraging-sap-analytics-cloud-functionality-for-enterprise-planning/configuring-multi-actions)
+- Parameters: [https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/4835429d35534add875bae17e93b12e1.html](https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/4835429d35534add875bae17e93b12e1.html)

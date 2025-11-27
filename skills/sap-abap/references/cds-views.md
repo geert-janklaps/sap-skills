@@ -1,6 +1,6 @@
 # CDS View Entities - Complete Reference
 
-**Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md
+**Source**: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md)
 
 ---
 

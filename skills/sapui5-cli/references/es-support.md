@@ -1,6 +1,6 @@
 # UI5 CLI ECMAScript Support Reference
 
-**Official Documentation**: https://ui5.github.io/cli/stable/pages/ESSupport/
+**Official Documentation**: [https://ui5.github.io/cli/stable/pages/ESSupport/](https://ui5.github.io/cli/stable/pages/ESSupport/)
 
 This reference provides complete information about ECMAScript version support, module formats, and language feature restrictions in UI5 CLI.
 
@@ -635,11 +635,11 @@ sap.ui.define([], function() {
 
 ## Additional Resources
 
-- **UI5 Documentation**: https://ui5.sap.com/
-- **sap.ui.define**: https://ui5.sap.com/#/api/sap.ui/methods/sap.ui.define
-- **UI5 Modules**: https://ui5.sap.com/#/topic/91f23a736f4d1014b6dd926db0e91070
+- **UI5 Documentation**: [https://ui5.sap.com/](https://ui5.sap.com/)
+- **sap.ui.define**: [https://ui5.sap.com/#/api/sap.ui/methods/sap.ui.define](https://ui5.sap.com/#/api/sap.ui/methods/sap.ui.define)
+- **UI5 Modules**: [https://ui5.sap.com/#/topic/91f23a736f4d1014b6dd926db0e91070](https://ui5.sap.com/#/topic/91f23a736f4d1014b6dd926db0e91070)
 
 ---
 
 **Last Updated**: 2025-11-21
-**Official Docs**: https://ui5.github.io/cli/stable/pages/ESSupport/
+**Official Docs**: [https://ui5.github.io/cli/stable/pages/ESSupport/](https://ui5.github.io/cli/stable/pages/ESSupport/)

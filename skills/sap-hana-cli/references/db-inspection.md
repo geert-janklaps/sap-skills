@@ -1,6 +1,6 @@
 # SAP HANA CLI - Database Inspection Functions
 
-**Source**: https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/dbInspect.js
+**Source**: [https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/dbInspect.js](https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/dbInspect.js)
 
 Detailed documentation of the database inspection functions used by hana-cli.
 
@@ -242,4 +242,4 @@ Extracts extended SQL syntax via regex:
 
 ---
 
-*Reference: https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/dbInspect.js*
+*Reference: [https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/dbInspect.js*](https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/dbInspect.js*)

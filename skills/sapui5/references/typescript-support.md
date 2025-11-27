@@ -1,7 +1,7 @@
 # TypeScript Support in SAPUI5
 
 **Source**: Official SAP SAPUI5 Documentation
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First](https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First)
 **Last Updated**: 2025-11-21
 
 ---
@@ -598,8 +598,8 @@ QUnit.test("Should format currency", (assert) => {
 
 ## Official Resources
 
-- **TypeScript Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First (search: typescript)
-- **UI5 TypeScript Tutorial**: https://github.com/SAP-samples/ui5-typescript-tutorial
+- **TypeScript Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First](https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First) (search: typescript)
+- **UI5 TypeScript Tutorial**: [https://github.com/SAP-samples/ui5-typescript-tutorial](https://github.com/SAP-samples/ui5-typescript-tutorial)
 - **TypeScript Guidelines**: Official SAPUI5 TypeScript guidelines
 - **Sample Applications**: TypeScript To-Do List demo
 

@@ -2,7 +2,7 @@
 
 Complete reference for SAP AI Core ML training and operations.
 
-**Documentation Source:** https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core
+**Documentation Source:** [https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core](https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core)
 
 ---
 
@@ -90,7 +90,7 @@ curl -X POST "$AI_API_URL/v2/admin/repositories" \
   -H "Content-Type: application/json" \
   -d '{
     "name": "training-repo",
-    "url": "https://github.com/org/training-workflows",
+    "url": "[https://github.com/org/training-workflows",](https://github.com/org/training-workflows",)
     "username": "<git-user>",
     "password": "<git-token>"
   }'
@@ -499,7 +499,7 @@ Features:
 
 ## Documentation Links
 
-- Training Overview: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/train-your-model-a9ceb06.md
-- ML Operations (Launchpad): https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/ml-operations-df78271.md
-- Schedules: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-training-schedule-bd409a9.md
-- Metrics: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/view-the-metric-resource-for-an-execution-d85dd44.md
+- Training Overview: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/train-your-model-a9ceb06.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/train-your-model-a9ceb06.md)
+- ML Operations (Launchpad): [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/ml-operations-df78271.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/ml-operations-df78271.md)
+- Schedules: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-training-schedule-bd409a9.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-training-schedule-bd409a9.md)
+- Metrics: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/view-the-metric-resource-for-an-execution-d85dd44.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/view-the-metric-resource-for-an-execution-d85dd44.md)

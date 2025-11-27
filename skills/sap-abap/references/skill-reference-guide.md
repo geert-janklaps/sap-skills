@@ -51,8 +51,8 @@ This document provides a comprehensive guide to all reference materials availabl
 ## Source Documentation
 
 All content based on official SAP ABAP Cheat Sheets:
-- **Repository**: https://github.com/SAP-samples/abap-cheat-sheets
-- **SAP Help**: https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm
+- **Repository**: [https://github.com/SAP-samples/abap-cheat-sheets](https://github.com/SAP-samples/abap-cheat-sheets)
+- **SAP Help**: [https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
 
 ## How to Use This Guide
 

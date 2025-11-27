@@ -91,7 +91,7 @@ stages:
 
   Release:
     cloudFoundryDeploy: true
-    cfApiEndpoint: https://api.cf.eu10.hana.ondemand.com
+    cfApiEndpoint: [https://api.cf.eu10.hana.ondemand.com](https://api.cf.eu10.hana.ondemand.com)
     cfOrg: my-org
     cfSpace: my-space
     mtarFilePath: mta_archives/my-cap-app.mtar
@@ -126,14 +126,14 @@ stages:
   Acceptance:
     cfDeploy: true
     cloudFoundryDeploy: true
-    cfApiEndpoint: https://api.cf.eu10.hana.ondemand.com
+    cfApiEndpoint: [https://api.cf.eu10.hana.ondemand.com](https://api.cf.eu10.hana.ondemand.com)
     cfOrg: my-org
     cfSpace: dev
 
   Release:
     cfDeploy: true
     cloudFoundryDeploy: true
-    cfApiEndpoint: https://api.cf.eu10.hana.ondemand.com
+    cfApiEndpoint: [https://api.cf.eu10.hana.ondemand.com](https://api.cf.eu10.hana.ondemand.com)
     cfOrg: my-org
     cfSpace: prod
 ```
@@ -333,6 +333,6 @@ stages:
 
 ## Source Documentation
 
-- CI/CD Overview: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/continuous-integration-and-delivery-ci-cd-fe74df5.md
-- CI/CD Introduction: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/introducing-continuous-integration-and-delivery-ci-cd-8ee5353.md
-- SAP CI/CD Service: https://help.sap.com/docs/continuous-integration-and-delivery
+- CI/CD Overview: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/continuous-integration-and-delivery-ci-cd-fe74df5.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/continuous-integration-and-delivery-ci-cd-fe74df5.md)
+- CI/CD Introduction: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/introducing-continuous-integration-and-delivery-ci-cd-8ee5353.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/introducing-continuous-integration-and-delivery-ci-cd-8ee5353.md)
+- SAP CI/CD Service: [https://help.sap.com/docs/continuous-integration-and-delivery](https://help.sap.com/docs/continuous-integration-and-delivery)

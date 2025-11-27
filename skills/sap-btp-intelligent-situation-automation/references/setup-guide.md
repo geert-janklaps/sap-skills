@@ -1,6 +1,6 @@
 # Setup Guide - SAP BTP Intelligent Situation Automation
 
-**Source**: https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs](https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs)
 **Last Verified**: 2025-11-22
 
 ---
@@ -34,7 +34,7 @@ Event Mesh enables:
 - Business situation event publishing
 - Situation type synchronization
 
-**Documentation**: https://help.sap.com/docs/SAP_EM
+**Documentation**: [https://help.sap.com/docs/SAP_EM](https://help.sap.com/docs/SAP_EM)
 
 ### Event Mesh Service Instance
 
@@ -207,9 +207,9 @@ After setup, verify:
 
 ## External Links
 
-- **SAP BTP Documentation**: https://help.sap.com/docs/BTP
-- **Event Mesh Documentation**: https://help.sap.com/docs/SAP_EM
-- **Subscription Guide**: https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html
+- **SAP BTP Documentation**: [https://help.sap.com/docs/BTP](https://help.sap.com/docs/BTP)
+- **Event Mesh Documentation**: [https://help.sap.com/docs/SAP_EM](https://help.sap.com/docs/SAP_EM)
+- **Subscription Guide**: [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html)
 
 ---
 

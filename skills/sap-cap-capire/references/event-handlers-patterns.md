@@ -1,6 +1,6 @@
 # CAP Event Handlers - Complete Pattern Reference
 
-**Source**: https://cap.cloud.sap/docs/node.js/event-handling
+**Source**: [https://cap.cloud.sap/docs/node.js/event-handling](https://cap.cloud.sap/docs/node.js/event-handling)
 
 ## Table of Contents
 - [Handler Registration](#handler-registration)
@@ -608,4 +608,4 @@ describe('CatalogService', () => {
 
 **Last Updated**: 2025-11-27
 **CAP Version**: 9.4.x
-**Documentation**: https://cap.cloud.sap/docs/node.js/event-handling
+**Documentation**: [https://cap.cloud.sap/docs/node.js/event-handling](https://cap.cloud.sap/docs/node.js/event-handling)

@@ -1,6 +1,6 @@
 # SAP Cloud Transport Management - Import Operations Reference
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/30-using-import-queue
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/30-using-import-queue](https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/30-using-import-queue)
 
 ---
 
@@ -600,9 +600,9 @@ Files **NOT** deleted if status is: Fatal, Initial, Repeatable, Running
 
 ## Documentation Links
 
-- Import Queue: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/using-the-import-queue-3c4b6f3.md
-- Import Requests: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/import-transport-requests-d2005d5.md
-- Add Files: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/add-files-to-import-queues-c3c87cb.md
-- Schedule Imports: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/schedule-imports-110a7a4.md
-- Automatic Import: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/enable-automatic-import-9171d39.md
-- Request Statuses: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/40-using-request-overview/statuses-of-transport-requests-3a8259e.md
+- Import Queue: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/using-the-import-queue-3c4b6f3.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/using-the-import-queue-3c4b6f3.md)
+- Import Requests: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/import-transport-requests-d2005d5.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/import-transport-requests-d2005d5.md)
+- Add Files: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/add-files-to-import-queues-c3c87cb.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/add-files-to-import-queues-c3c87cb.md)
+- Schedule Imports: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/schedule-imports-110a7a4.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/schedule-imports-110a7a4.md)
+- Automatic Import: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/enable-automatic-import-9171d39.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/30-using-import-queue/enable-automatic-import-9171d39.md)
+- Request Statuses: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/40-using-request-overview/statuses-of-transport-requests-3a8259e.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/40-using-request-overview/statuses-of-transport-requests-3a8259e.md)

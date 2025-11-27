@@ -496,5 +496,5 @@ const response = await client.run({
 
 ## Documentation Links
 
-- JS Foundation Models: https://github.com/SAP/ai-sdk/tree/main/docs-js/foundation-models
-- Java Foundation Models: https://github.com/SAP/ai-sdk/tree/main/docs-java/foundation-models
+- JS Foundation Models: [https://github.com/SAP/ai-sdk/tree/main/docs-js/foundation-models](https://github.com/SAP/ai-sdk/tree/main/docs-js/foundation-models)
+- Java Foundation Models: [https://github.com/SAP/ai-sdk/tree/main/docs-java/foundation-models](https://github.com/SAP/ai-sdk/tree/main/docs-java/foundation-models)

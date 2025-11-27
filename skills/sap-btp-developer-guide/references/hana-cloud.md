@@ -208,8 +208,8 @@ END;
 
 ```xml
 <!-- db/src/views/SalesAnalytics.hdbcalculationview -->
-<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore"
+<Calculation:scenario xmlns:xsi="[http://www.w3.org/2001/XMLSchema-instance"](http://www.w3.org/2001/XMLSchema-instance")
+  xmlns:Calculation="[http://www.sap.com/ndb/BiModelCalculation.ecore"](http://www.sap.com/ndb/BiModelCalculation.ecore")
   id="SalesAnalytics"
   applyPrivilegeType="NONE">
   <!-- View definition -->
@@ -266,6 +266,6 @@ END;
 
 ## Source Documentation
 
-- Data Persistence: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/data-persistence-using-usap-hana-cloud-f19c8e9.md
-- SAP HANA Cloud: https://help.sap.com/docs/hana-cloud
-- CAP HANA Guide: https://cap.cloud.sap/docs/guides/databases-hana
+- Data Persistence: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/data-persistence-using-usap-hana-cloud-f19c8e9.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/data-persistence-using-usap-hana-cloud-f19c8e9.md)
+- SAP HANA Cloud: [https://help.sap.com/docs/hana-cloud](https://help.sap.com/docs/hana-cloud)
+- CAP HANA Guide: [https://cap.cloud.sap/docs/guides/databases-hana](https://cap.cloud.sap/docs/guides/databases-hana)

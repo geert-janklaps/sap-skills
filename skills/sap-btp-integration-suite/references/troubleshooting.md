@@ -1,7 +1,7 @@
 # Troubleshooting - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite)
 **Last Updated**: 2025-11-22
 
 ---
@@ -64,7 +64,7 @@ Integration Suite → Monitor → Integrations and APIs
 | **Debug** | Detailed debugging |
 | **Trace** | Full message content (use sparingly) |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/monitor-message-processing-314df3f.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/monitor-message-processing-314df3f.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/monitor-message-processing-314df3f.md)
 
 ---
 
@@ -128,7 +128,7 @@ Integration Suite → Monitor → Integrations and APIs
 3. Verify hostname in certificate
 4. Ensure complete certificate chain
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-cloud-integration-37743c2.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-cloud-integration-37743c2.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-cloud-integration-37743c2.md)
 
 ---
 
@@ -174,7 +174,7 @@ Integration Suite → Monitor → Integrations and APIs
 | Message lost | Transaction rollback | Check error handling |
 | Connection error | Broker issue | Check JMS broker status |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-adapters-b7a3906.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-adapters-b7a3906.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-adapters-b7a3906.md)
 
 ---
 
@@ -219,7 +219,7 @@ Integration Suite → Monitor → Integrations and APIs
 3. Log intermediate values
 4. Use local testing with sample data
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-message-mapping-cb5311a.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-message-mapping-cb5311a.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-message-mapping-cb5311a.md)
 
 ---
 
@@ -253,7 +253,7 @@ Integration Suite → Monitor → Integrations and APIs
 4. Test with new credentials
 5. Remove old certificate (after validation)
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/security-artifact-renewal-083fc8d.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/security-artifact-renewal-083fc8d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/security-artifact-renewal-083fc8d.md)
 
 ---
 
@@ -329,7 +329,7 @@ Monitor → Manage Stores → Inspect
 └── Monitoring Storage Usage
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/inspect-a4d5e49.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/inspect-a4d5e49.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/inspect-a4d5e49.md)
 
 ---
 
@@ -363,7 +363,7 @@ Monitor → Manage Stores → Inspect
 | Cache | Stale data | Check cache key, TTL |
 | Transform | Format error | Validate input/output |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-api-management-e765066.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-api-management-e765066.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-api-management-e765066.md)
 
 ---
 
@@ -393,7 +393,7 @@ Monitor → Manage Stores → Inspect
 | 503 | Service Unavailable | Service overloaded |
 | 504 | Gateway Timeout | Backend too slow |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-http-error-catalog-069b461.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-http-error-catalog-069b461.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-http-error-catalog-069b461.md)
 
 ---
 
@@ -430,8 +430,8 @@ Monitor → Manage Stores → Inspect
 
 ## Related Documentation
 
-- **Cloud Integration Troubleshooting**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-cloud-integration-37743c2.md
-- **API Management Troubleshooting**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-api-management-e765066.md
-- **Adapter Troubleshooting**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-adapters-b7a3906.md
-- **Edge Integration Cell Troubleshooting**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-edge-integration-cell-816d9e4.md
-- **HTTP Error Catalog**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-http-error-catalog-069b461.md
+- **Cloud Integration Troubleshooting**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-cloud-integration-37743c2.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-cloud-integration-37743c2.md)
+- **API Management Troubleshooting**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-api-management-e765066.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-api-management-e765066.md)
+- **Adapter Troubleshooting**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-adapters-b7a3906.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-adapters-b7a3906.md)
+- **Edge Integration Cell Troubleshooting**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-edge-integration-cell-816d9e4.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-edge-integration-cell-816d9e4.md)
+- **HTTP Error Catalog**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-http-error-catalog-069b461.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-http-error-catalog-069b461.md)

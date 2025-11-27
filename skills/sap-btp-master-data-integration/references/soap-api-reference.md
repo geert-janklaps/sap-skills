@@ -6,20 +6,17 @@ Complete reference for SOAP-based integrations with SAP Master Data Integration.
 - [Endpoint Base URL](#endpoint-base-url)
 - [Authentication Methods](#authentication-methods)
 - [Available Endpoints](#available-endpoints)
-- [Business Partner Replication](#business-partner-replication)
-- [Business Partner Confirmations](#business-partner-confirmations)
+- [Business Partner Replication Service](#business-partner-replication-service)
+- [Confirmation Services](#confirmation-services)
 - [Business Partner Relationships](#business-partner-relationships)
 - [Key Mapping](#key-mapping)
-- [WSDL Operations](#wsdl-operations)
-- [Error Handling](#error-handling)
-- [Batch Processing](#batch-processing)
 
-**Source**: https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/development
+**Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/development](https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/development)
 
 ## Endpoint Base URL
 
 ```
-https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/
+[https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/](https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/)
 ```
 
 **Regions**: For the complete, current list of SAP BTP Cloud Foundry regions and API endpoints, see:
@@ -38,7 +35,7 @@ URL Param: ?tenantId=<identityzone>
 
 Example:
 ```
-https://one-mds.cfapps.eu10.hana.ondemand.com:443/businesspartner/v0/soap/BusinessPartnerBulkReplicateRequestIn?tenantId=<identityzone>
+[https://one-mds.cfapps.eu10.hana.ondemand.com:443/businesspartner/v0/soap/BusinessPartnerBulkReplicateRequestIn?tenantId=<identityzone>](https://one-mds.cfapps.eu10.hana.ondemand.com:443/businesspartner/v0/soap/BusinessPartnerBulkReplicateRequestIn?tenantId=<identityzone>)
 ```
 
 ### OAuth Authentication
@@ -324,7 +321,7 @@ Maximum 6 destinations per unique client connection.
 
 ## API Documentation
 
-**SAP Business Accelerator Hub**: https://api.sap.com (filter: SAP Master Data Integration)
+**SAP Business Accelerator Hub**: [https://api.sap.com](https://api.sap.com) (filter: SAP Master Data Integration)
 
 Note: Hub specifications are not tenant-specific and exclude custom extensions.
 
@@ -543,6 +540,6 @@ Similar structure to Customer node with procurement-specific attributes:
 
 ## Documentation Links
 
-- **SOAP APIs**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/soap-apis-for-business-partners
-- **Endpoints**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/endpoints-for-soap-replication
-- **Partial Data Handling**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/support-for-partial-data-handling
+- **SOAP APIs**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/soap-apis-for-business-partners](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/soap-apis-for-business-partners)
+- **Endpoints**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/endpoints-for-soap-replication](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/endpoints-for-soap-replication)
+- **Partial Data Handling**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/support-for-partial-data-handling](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/support-for-partial-data-handling)

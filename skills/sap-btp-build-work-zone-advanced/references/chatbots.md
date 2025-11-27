@@ -4,20 +4,20 @@
 
 Complete guide for integrating and configuring chatbots in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/50-Chatbots
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/50-Chatbots](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/50-Chatbots)
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Built-in Capabilities](#built-in-capabilities)
-- [Prerequisites](#prerequisites)
-- [Chatbot Options](#chatbot-options)
-- [Custom Chatbot Development](#custom-chatbot-development)
-- [SAP Conversational AI Configuration](#sap-conversational-ai-configuration)
-- [Chatbot Integration Steps](#chatbot-integration-steps)
-- [OAuth Client Setup](#oauth-client-setup)
+- [Chatbot Types](#chatbot-types)
+- [Implementation Process](#implementation-process)
 - [Webhook Configuration](#webhook-configuration)
-- [Chatbot Testing](#chatbot-testing)
+- [Chatbot Actions](#chatbot-actions)
+- [Rendering Cards with Chatbots](#rendering-cards-with-chatbots)
+- [SAP Conversational AI Integration](#sap-conversational-ai-integration)
+- [Chatbot Launcher](#chatbot-launcher)
+- [Fallback Handling](#fallback-handling)
 - [Troubleshooting](#troubleshooting)
 
 ---
@@ -55,7 +55,7 @@ Pre-built chatbots with built-in functionalities:
 ### Custom Chatbots
 
 Build independent chatbots using SAP Conversational AI platform:
-- URL: https://cai.tools.sap/
+- URL: [https://cai.tools.sap/](https://cai.tools.sap/)
 - Custom training and intents
 - Organization-specific actions
 
@@ -108,10 +108,10 @@ Webhooks enable chatbots to invoke SAP Build Work Zone services.
 ### Webhook URL Format
 
 ```
-https://<host-url>/api/v2/ai/webhook
+[https://<host-url>/api/v2/ai/webhook](https://<host-url>/api/v2/ai/webhook)
 ```
 
-Example: `https://dwpdev1.sapjam-integration.com/api/v2/ai/webhook`
+Example: `[https://dwpdev1.sapjam-integration.com/api/v2/ai/webhook`](https://dwpdev1.sapjam-integration.com/api/v2/ai/webhook`)
 
 ### Authorization
 
@@ -292,6 +292,6 @@ When chatbot cannot understand a request:
 ---
 
 **Documentation Links**:
-- Chatbots: https://help.sap.com/docs/build-work-zone-advanced-edition
-- SAP Conversational AI: https://cai.tools.sap/ (sunset/maintenance mode since Jan 2023)
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/50-Chatbots
+- Chatbots: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)
+- SAP Conversational AI: [https://cai.tools.sap/](https://cai.tools.sap/) (sunset/maintenance mode since Jan 2023)
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/50-Chatbots](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced/tree/main/docs/50-Chatbots)

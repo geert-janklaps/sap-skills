@@ -239,14 +239,14 @@ SAP Business Application Studio is available across multiple regions:
 
 | Resource | URL |
 |----------|-----|
-| Service Plans and Metering | https://help.sap.com/docs/bas/sap-business-application-studio/service-plans-and-metering |
-| Standard Plan Restrictions | https://help.sap.com/docs/bas/sap-business-application-studio/standard-plan-restrictions |
-| Free Plan Restrictions | https://help.sap.com/docs/bas/sap-business-application-studio/free-plan-restrictions |
-| Trial Plan Restrictions | https://help.sap.com/docs/bas/sap-business-application-studio/trial-plan-restrictions |
-| Availability | https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability |
-| Discovery Center | https://discovery-center.cloud.sap/serviceCatalog/business-application-studio |
+| Service Plans and Metering | [https://help.sap.com/docs/bas/sap-business-application-studio/service-plans-and-metering](https://help.sap.com/docs/bas/sap-business-application-studio/service-plans-and-metering) |
+| Standard Plan Restrictions | [https://help.sap.com/docs/bas/sap-business-application-studio/standard-plan-restrictions](https://help.sap.com/docs/bas/sap-business-application-studio/standard-plan-restrictions) |
+| Free Plan Restrictions | [https://help.sap.com/docs/bas/sap-business-application-studio/free-plan-restrictions](https://help.sap.com/docs/bas/sap-business-application-studio/free-plan-restrictions) |
+| Trial Plan Restrictions | [https://help.sap.com/docs/bas/sap-business-application-studio/trial-plan-restrictions](https://help.sap.com/docs/bas/sap-business-application-studio/trial-plan-restrictions) |
+| Availability | [https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability](https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability) |
+| Discovery Center | [https://discovery-center.cloud.sap/serviceCatalog/business-application-studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio) |
 
 ---
 
 **Last Updated**: 2025-11-22
-**Source**: https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs](https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs)

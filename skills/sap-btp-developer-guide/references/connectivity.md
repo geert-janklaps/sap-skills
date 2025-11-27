@@ -83,9 +83,9 @@ SAP BTP provides comprehensive connectivity infrastructure for secure communicat
 # destination configuration
 - name: S4HANA_CLOUD
   type: HTTP
-  url: https://my-s4.cloud.sap
+  url: [https://my-s4.cloud.sap](https://my-s4.cloud.sap)
   authentication: OAuth2SAMLBearerAssertion
-  tokenServiceURL: https://my-s4.cloud.sap/sap/bc/sec/oauth2/token
+  tokenServiceURL: [https://my-s4.cloud.sap/sap/bc/sec/oauth2/token](https://my-s4.cloud.sap/sap/bc/sec/oauth2/token)
 ```
 
 ### Cloud-to-On-Premise
@@ -142,7 +142,7 @@ SAP BTP provides comprehensive connectivity infrastructure for secure communicat
 |----------|-------|-------------|
 | Name | S4HANA | Destination identifier |
 | Type | HTTP | Protocol type |
-| URL | https://... | Target system URL |
+| URL | [https://...](https://...) | Target system URL |
 | Proxy Type | Internet/OnPremise | Connection type |
 | Authentication | OAuth2SAMLBearerAssertion | Auth method |
 
@@ -292,6 +292,6 @@ spec:
 
 ## Source Documentation
 
-- Connecting to Remote Systems: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/connecting-to-remote-systems-d61a5fc.md
-- SAP Connectivity Service: https://help.sap.com/docs/connectivity
-- Cloud Connector: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector
+- Connecting to Remote Systems: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/connecting-to-remote-systems-d61a5fc.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/connecting-to-remote-systems-d61a5fc.md)
+- SAP Connectivity Service: [https://help.sap.com/docs/connectivity](https://help.sap.com/docs/connectivity)
+- Cloud Connector: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector)

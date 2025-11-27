@@ -178,7 +178,6 @@ This skill provides comprehensive knowledge for SAP BTP Connectivity, covering a
 sap-btp-connectivity/
 ├── SKILL.md                              # Main skill file (317 lines - optimized)
 ├── README.md                             # This file
-├── PROGRESS_TRACKING.md                  # Documentation extraction status
 ├── references/
 │   ├── http-destinations.md              # HTTP destination properties
 │   ├── rfc-destinations.md               # RFC destination & pooling
@@ -206,14 +205,14 @@ sap-btp-connectivity/
 ## Documentation Sources
 
 ### Official SAP Documentation
-- **Main**: https://help.sap.com/docs/connectivity
-- **GitHub**: https://github.com/SAP-docs/btp-connectivity (383 files)
+- **Main**: [https://help.sap.com/docs/connectivity](https://help.sap.com/docs/connectivity)
+- **GitHub**: [https://github.com/SAP-docs/btp-connectivity](https://github.com/SAP-docs/btp-connectivity) (383 files)
 
 ### SAP Business Accelerator Hub
-- **Destination API**: https://api.sap.com/api/SAP_CP_CF_Connectivity_Destination
+- **Destination API**: [https://api.sap.com/api/SAP_CP_CF_Connectivity_Destination](https://api.sap.com/api/SAP_CP_CF_Connectivity_Destination)
 
 ### Release Notes
-- **What's New**: https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56
+- **What's New**: [https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56)
 
 ---
 
@@ -242,6 +241,12 @@ sap-btp-connectivity/
 - `sap-cap`: Cloud Application Programming Model
 - `sap-integration-suite`: Integration flows
 - `sap-btp-security`: IAM and authentication
+
+---
+
+## License
+
+GPL-3.0 License - See LICENSE file in repository root.
 
 ---
 

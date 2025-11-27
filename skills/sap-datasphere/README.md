@@ -48,7 +48,6 @@ This skill activates when working with:
 skills/sap-datasphere/
 ├── SKILL.md                              # Main skill file
 ├── README.md                             # This file
-├── PROGRESS_TRACKING.md                  # Documentation coverage tracking
 └── references/
     ├── data-acquisition-preparation.md   # Data flows, replication, tables
     ├── data-modeling.md                  # Analytic models, Business Builder
@@ -62,10 +61,10 @@ skills/sap-datasphere/
 
 ## Documentation Sources
 
-- **SAP Help Portal**: https://help.sap.com/docs/SAP_DATASPHERE
-- **GitHub Repository**: https://github.com/SAP-docs/sap-datasphere
-- **SAP Community**: https://community.sap.com/topics/datasphere
-- **API Reference**: https://api.sap.com/package/sapdatasphere
+- **SAP Help Portal**: [https://help.sap.com/docs/SAP_DATASPHERE](https://help.sap.com/docs/SAP_DATASPHERE)
+- **GitHub Repository**: [https://github.com/SAP-docs/sap-datasphere](https://github.com/SAP-docs/sap-datasphere)
+- **SAP Community**: [https://community.sap.com/topics/datasphere](https://community.sap.com/topics/datasphere)
+- **API Reference**: [https://api.sap.com/package/sapdatasphere](https://api.sap.com/package/sapdatasphere)
 
 ## Coverage
 

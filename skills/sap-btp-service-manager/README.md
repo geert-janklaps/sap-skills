@@ -1,8 +1,9 @@
 # SAP BTP Service Manager Skill
 
-**Status**: Production Ready
+**Status**: Production Ready  
 **Last Updated**: 2025-11-27
-**Version**: 1.1.0
+**Version**: 1.1.1
+**⚠️ Important**: SMCLI repository archived (2025-09-30) - Go installation recommended
 
 ---
 
@@ -143,7 +144,6 @@ This skill provides detailed knowledge for:
 sap-btp-service-manager/
 ├── SKILL.md                          # Main skill content
 ├── README.md                         # This file
-├── PROGRESS_TRACKING.md              # Documentation coverage tracking
 ├── references/
 │   ├── api-reference.md              # Complete API endpoints
 │   ├── smctl-commands.md             # Full SMCTL CLI reference
@@ -177,11 +177,15 @@ sap-btp-service-manager/
 ## Quick Usage
 
 ```bash
-# Install SMCTL
-# Download from: https://github.com/Peripli/service-manager-cli/releases
+# Install SMCTL (recommended - Go method)
+go install github.com/Peripli/service-manager-cli@latest
+export PATH=$PATH:$(go env GOPATH)/bin
+
+# Alternative: Download from releases (repository archived 2025-09-30)
+# [https://github.com/Peripli/service-manager-cli/releases](https://github.com/Peripli/service-manager-cli/releases)
 
 # Login
-smctl login -a https://service-manager.cfapps.eu10.hana.ondemand.com \
+smctl login -a [https://service-manager.cfapps.eu10.hana.ondemand.com](https://service-manager.cfapps.eu10.hana.ondemand.com) \
   --param subdomain=my-subaccount
 
 # List available services
@@ -201,11 +205,11 @@ smctl get-binding my-binding -o json
 
 ## Documentation Sources
 
-- **GitHub Docs**: https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs
-- **SAP Help Portal**: https://help.sap.com/docs/service-manager
-- **Service Operator**: https://github.com/SAP/sap-btp-service-operator
-- **SMCTL Releases**: https://github.com/Peripli/service-manager-cli/releases
-- **Swagger API**: `https://service-manager.cfapps.<region>.hana.ondemand.com/swaggerui/swagger-ui.html`
+- **GitHub Docs**: [https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs](https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs)
+- **SAP Help Portal**: [https://help.sap.com/docs/service-manager](https://help.sap.com/docs/service-manager)
+- **Service Operator**: [https://github.com/SAP/sap-btp-service-operator](https://github.com/SAP/sap-btp-service-operator)
+- **SMCTL Releases**: [https://github.com/Peripli/service-manager-cli/releases](https://github.com/Peripli/service-manager-cli/releases)
+- **Swagger API**: `[https://service-manager.cfapps.<region>.hana.ondemand.com/swaggerui/swagger-ui.html`](https://service-manager.cfapps.<region>.hana.ondemand.com/swaggerui/swagger-ui.html`)
 
 ---
 
@@ -214,6 +218,8 @@ smctl get-binding my-binding -o json
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0.0 | 2025-11-22 | Initial release |
+| 1.1.0 | 2025-11-27 | Documentation optimization and TOC enhancements |
+| 1.1.1 | 2025-11-27 | Updated SMCTL installation instructions to reflect repository archiving and prioritize Go installation method |
 
 ---
 
@@ -238,6 +244,6 @@ GPL-3.0
 
 ## Contributing
 
-Repository: https://github.com/secondsky/sap-skills
+Repository: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
 
 Follow the skill creation guidelines in [QUICK_WORKFLOW.md](../../QUICK_WORKFLOW.md).

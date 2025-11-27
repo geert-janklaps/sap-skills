@@ -1,6 +1,6 @@
 # ABAP Constructor Expressions - Complete Reference
 
-**Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/05_Constructor_Expressions.md
+**Source**: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/05_Constructor_Expressions.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/05_Constructor_Expressions.md)
 
 ## Table of Contents
 
@@ -12,8 +12,11 @@
 6. [SWITCH Operator](#switch-operator)
 7. [REDUCE Operator](#reduce-operator)
 8. [FILTER Operator](#filter-operator)
-9. [FOR Expressions](#for-expressions)
-10. [EXACT Operator](#exact-operator)
+9. [LET Expressions](#let-expressions)
+10. [CAST Operator](#cast-operator)
+11. [REF Operator](#ref-operator)
+12. [ALPHA Conversion](#alpha-conversion)
+13. [EXACT Operator](#exact-operator)
 
 ---
 

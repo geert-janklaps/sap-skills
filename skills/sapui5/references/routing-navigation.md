@@ -1,7 +1,7 @@
 # SAPUI5 Routing & Navigation
 
 **Source**: Official SAP SAPUI5 Documentation
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials)
 **Last Updated**: 2025-11-21
 
 ---
@@ -26,7 +26,7 @@ SAPUI5 implements hash-based routing for single-page applications, enabling deep
 SAPUI5 uses URL hash to manage application state:
 
 ```
-https://myapp.com/index.html#/products/123?tab=details
+[https://myapp.com/index.html#/products/123?tab=details](https://myapp.com/index.html#/products/123?tab=details)
                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
                                         Hash
 ```
@@ -715,10 +715,10 @@ this.getRouter().attachRouteMatched(function(oEvent) {
 
 ## Official Documentation
 
-- **Routing and Navigation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: routing)
-- **API Reference - Router**: https://sapui5.hana.ondemand.com/#/api/sap.ui.core.routing.Router
-- **API Reference - Route**: https://sapui5.hana.ondemand.com/#/api/sap.ui.core.routing.Route
-- **Flexible Column Layout**: https://sapui5.hana.ondemand.com/#/api/sap.f.FlexibleColumnLayout
+- **Routing and Navigation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: routing)
+- **API Reference - Router**: [https://sapui5.hana.ondemand.com/#/api/sap.ui.core.routing.Router](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.routing.Router)
+- **API Reference - Route**: [https://sapui5.hana.ondemand.com/#/api/sap.ui.core.routing.Route](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.routing.Route)
+- **Flexible Column Layout**: [https://sapui5.hana.ondemand.com/#/api/sap.f.FlexibleColumnLayout](https://sapui5.hana.ondemand.com/#/api/sap.f.FlexibleColumnLayout)
 
 ---
 

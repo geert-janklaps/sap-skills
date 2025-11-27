@@ -134,15 +134,21 @@ cloud connector, connectivity service
 
 ## Documentation Sources
 
-- **GitHub**: https://github.com/SAP-docs/sap-btp-integration-suite
-- **SAP Help**: https://help.sap.com/docs/integration-suite
-- **SAP Community**: https://community.sap.com/topics/cloud-platform-integration-suite
-- **SAP API Hub**: https://api.sap.com/
+- **GitHub**: [https://github.com/SAP-docs/sap-btp-integration-suite](https://github.com/SAP-docs/sap-btp-integration-suite)
+- **SAP Help**: [https://help.sap.com/docs/integration-suite](https://help.sap.com/docs/integration-suite)
+- **SAP Community**: [https://community.sap.com/topics/cloud-platform-integration-suite](https://community.sap.com/topics/cloud-platform-integration-suite)
+- **SAP API Hub**: [https://api.sap.com/](https://api.sap.com/)
 
 ## Usage
 
 This skill is automatically triggered when working with SAP Integration Suite topics.
 For deep-dive information, refer to the `references/` directory.
+
+## License
+
+GPL-3.0 License - See LICENSE file in repository root.
+
+---
 
 ## Last Updated
 

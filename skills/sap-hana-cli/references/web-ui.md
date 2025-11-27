@@ -1,6 +1,6 @@
 # SAP HANA CLI - Web UI Reference
 
-**Source**: https://github.com/SAP-samples/hana-developer-cli-tool-example
+**Source**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
 
 The hana-cli includes a browser-based Fiori LaunchPad interface for visual operations.
 
@@ -178,7 +178,7 @@ OData and REST endpoints include Swagger UI:
 
 ```bash
 # Access API documentation
-http://localhost:3010/api-docs
+[http://localhost:3010/api-docs](http://localhost:3010/api-docs)
 ```
 
 ### GraphQL Endpoint
@@ -186,7 +186,7 @@ http://localhost:3010/api-docs
 GraphQL support available at:
 
 ```bash
-http://localhost:3010/graphql
+[http://localhost:3010/graphql](http://localhost:3010/graphql)
 ```
 
 ---
@@ -242,4 +242,4 @@ Runtime UI adaptation via `SessionStorageConnector`.
 
 ---
 
-*Reference: https://github.com/SAP-samples/hana-developer-cli-tool-example/tree/main/app*
+*Reference: [https://github.com/SAP-samples/hana-developer-cli-tool-example/tree/main/app*](https://github.com/SAP-samples/hana-developer-cli-tool-example/tree/main/app*)

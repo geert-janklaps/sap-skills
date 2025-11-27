@@ -12,12 +12,20 @@ metadata:
 
 # SAP BTP Best Practices
 
+## Related Skills
+
+- **sap-btp-cloud-platform**: Use for technical implementation details, CLI commands, and runtime configurations
+- **sap-btp-connectivity**: Use for connectivity patterns, destination configuration, and Cloud Connector setup
+- **sap-btp-service-manager**: Use for service lifecycle management and programmatic service operations
+- **sap-btp-developer-guide**: Use for development workflows, CAP integration, and application patterns
+- **sap-cap-capire**: Use when designing CAP applications on BTP or implementing multitenancy
+- **sap-fiori-tools**: Use for UI deployment strategies and frontend application guidelines
+
 Production-ready SAP BTP implementation guidance based on official SAP documentation.
 
 **Quick Links**:
-- **Official Guide**: https://github.com/SAP-docs/btp-best-practices-guide
-- **SAP Help Portal**: https://help.sap.com/docs/btp/btp-administrators-guide
-- **Progress Tracking**: `PROGRESS_TRACKING.md`
+- **Official Guide**: [https://github.com/SAP-docs/btp-best-practices-guide](https://github.com/SAP-docs/btp-best-practices-guide)
+- **SAP Help Portal**: [https://help.sap.com/docs/btp/btp-administrators-guide](https://help.sap.com/docs/btp/btp-administrators-guide)
 
 ---
 
@@ -225,7 +233,7 @@ SAP BTP provides AI capabilities through **SAP AI Core** for:
 
 **Key Resources**:
 - Repository: [SAP-samples/sap-btp-ai-best-practices](https://github.com/SAP-samples/sap-btp-ai-best-practices)
-- Documentation: https://btp-ai-bp.docs.sap/
+- Documentation: [https://btp-ai-bp.docs.sap/](https://btp-ai-bp.docs.sap/)
 
 **Best Practices**:
 - Use service keys for secure authentication
@@ -395,7 +403,6 @@ This skill provides comprehensive reference documentation:
   - 20+ use cases catalog
 
 ### Progress Tracking
-- **`PROGRESS_TRACKING.md`**
   - Implementation status
   - Coverage details
   - Validation checklists

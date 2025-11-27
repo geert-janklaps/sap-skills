@@ -1,6 +1,6 @@
 # External Documentation Links - SAP BTP Intelligent Situation Automation
 
-**Source**: https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs](https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs)
 **Purpose**: Centralized reference for all SAP documentation links cited in source docs
 **Last Verified**: 2025-11-22
 
@@ -47,18 +47,18 @@ The source documentation uses SAP Help Portal document IDs (loio* format). These
 **Preferred (Direct Access)**:
 Use the viewer format for direct document access:
 ```
-https://help.sap.com/viewer/{loio_id}/en-US
+[https://help.sap.com/viewer/{loio_id}/en-US](https://help.sap.com/viewer/{loio_id}/en-US)
 ```
 
 Example:
 ```
-https://help.sap.com/viewer/loio4832a67a390d42ca9f876a1ded9ea84d/en-US
+[https://help.sap.com/viewer/loio4832a67a390d42ca9f876a1ded9ea84d/en-US](https://help.sap.com/viewer/loio4832a67a390d42ca9f876a1ded9ea84d/en-US)
 ```
 
 **Alternative (Search-based)**:
 For discovery when exact document ID is uncertain, use search:
 ```
-https://help.sap.com/docs/intelligent-situation-automation?locale=en-US&q=loio{ID}
+[https://help.sap.com/docs/intelligent-situation-automation?locale=en-US&q=loio{ID}](https://help.sap.com/docs/intelligent-situation-automation?locale=en-US&q=loio{ID})
 ```
 
 Note: The viewer format provides direct access; the search format may return multiple results.
@@ -68,41 +68,41 @@ Note: The viewer format provides direct access; the search format may return mul
 ## SAP Business Technology Platform (BTP)
 
 ### Core BTP Documentation
-- **SAP BTP Overview**: https://help.sap.com/docs/BTP
-- **BTP Cloud Foundry Environment**: https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html
+- **SAP BTP Overview**: [https://help.sap.com/docs/BTP](https://help.sap.com/docs/BTP)
+- **BTP Cloud Foundry Environment**: [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html)
 
 ### Subscription & Account Management
 | Topic | Link |
 |-------|------|
-| Subscribe to Multitenant Applications | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html |
-| Managing Global Accounts | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/667f34ba9222450491c2b848cd17e189.html |
-| Create a Subaccount | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/05280a123d3044ae97457a25b3013918.html |
-| Managing Entitlements and Quotas | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8248745dde24afb91479361de336111.html |
+| Subscribe to Multitenant Applications | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html) |
+| Managing Global Accounts | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/667f34ba9222450491c2b848cd17e189.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/667f34ba9222450491c2b848cd17e189.html) |
+| Create a Subaccount | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/05280a123d3044ae97457a25b3013918.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/05280a123d3044ae97457a25b3013918.html) |
+| Managing Entitlements and Quotas | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8248745dde24afb91479361de336111.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c8248745dde24afb91479361de336111.html) |
 
 ### Connectivity
 | Topic | Link |
 |-------|------|
-| Create HTTP Destinations | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/783fa1c418a244d0abb5f153e69ca4ce.html |
-| SAP Cloud Connector | https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf |
-| Regions and Hosts | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html |
+| Create HTTP Destinations | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/783fa1c418a244d0abb5f153e69ca4ce.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/783fa1c418a244d0abb5f153e69ca4ce.html) |
+| SAP Cloud Connector | [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf) |
+| Regions and Hosts | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html) |
 
 ### Security & Authorization
 | Topic | Link |
 |-------|------|
-| Trust and Federation with Identity Providers | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html |
-| Building Roles and Role Collections | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/eaa6a26291914b348e875a00b6beb729.html |
-| Assigning Role Collections to Users or User Groups | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/31532c77bd61421e9d40d100fd75ef52.html |
-| Authorization and Trust Management in Cloud Foundry | https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6373bb7a96114d619bfdfdc6f505d1b9.html |
+| Trust and Federation with Identity Providers | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html) |
+| Building Roles and Role Collections | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/eaa6a26291914b348e875a00b6beb729.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/eaa6a26291914b348e875a00b6beb729.html) |
+| Assigning Role Collections to Users or User Groups | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/31532c77bd61421e9d40d100fd75ef52.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/31532c77bd61421e9d40d100fd75ef52.html) |
+| Authorization and Trust Management in Cloud Foundry | [https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6373bb7a96114d619bfdfdc6f505d1b9.html](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6373bb7a96114d619bfdfdc6f505d1b9.html) |
 
 ### Monitoring & Logging
 | Topic | Link |
 |-------|------|
-| Audit Log Viewer for Cloud Foundry | https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e3baa5f1a0c64c44aac8ab3ea3d1b500.html |
+| Audit Log Viewer for Cloud Foundry | [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e3baa5f1a0c64c44aac8ab3ea3d1b500.html](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e3baa5f1a0c64c44aac8ab3ea3d1b500.html) |
 
 ### Feature Scope Description
 | Document | Link |
 |----------|------|
-| FSD for BTP (Cloud Foundry, ABAP, Kyma) | https://help.sap.com/http.svc/rc/5e8107bf49684962b897217040398007/Cloud/en-US/SAP_Cloud_Platform_FSD.pdf |
+| FSD for BTP (Cloud Foundry, ABAP, Kyma) | [https://help.sap.com/http.svc/rc/5e8107bf49684962b897217040398007/Cloud/en-US/SAP_Cloud_Platform_FSD.pdf](https://help.sap.com/http.svc/rc/5e8107bf49684962b897217040398007/Cloud/en-US/SAP_Cloud_Platform_FSD.pdf) |
 
 ---
 
@@ -110,9 +110,9 @@ Note: The viewer format provides direct access; the search format may return mul
 
 | Topic | Link |
 |-------|------|
-| SAP Event Mesh Product Page | https://help.sap.com/viewer/product/SAP_EM/Cloud/en-US |
-| Event Mesh Documentation | https://help.sap.com/docs/SAP_EM |
-| Create Event Mesh Instance | https://help.sap.com/docs/SAP_EM/bf82e6b26456494cbdd197057c09979f |
+| SAP Event Mesh Product Page | [https://help.sap.com/viewer/product/SAP_EM/Cloud/en-US](https://help.sap.com/viewer/product/SAP_EM/Cloud/en-US) |
+| Event Mesh Documentation | [https://help.sap.com/docs/SAP_EM](https://help.sap.com/docs/SAP_EM) |
+| Create Event Mesh Instance | [https://help.sap.com/docs/SAP_EM/bf82e6b26456494cbdd197057c09979f](https://help.sap.com/docs/SAP_EM/bf82e6b26456494cbdd197057c09979f) |
 
 ---
 
@@ -120,18 +120,18 @@ Note: The viewer format provides direct access; the search format may return mul
 
 | Topic | Link |
 |-------|------|
-| SAP S/4HANA Cloud Documentation | https://help.sap.com/docs/S4HANA_CLOUD |
-| Communication Management | https://help.sap.com/docs/S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa |
-| Communication Arrangements | https://help.sap.com/docs/S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/fab3fd449cf74c6384622b98831e989e.html |
+| SAP S/4HANA Cloud Documentation | [https://help.sap.com/docs/S4HANA_CLOUD](https://help.sap.com/docs/S4HANA_CLOUD) |
+| Communication Management | [https://help.sap.com/docs/S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa](https://help.sap.com/docs/S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa) |
+| Communication Arrangements | [https://help.sap.com/docs/S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/fab3fd449cf74c6384622b98831e989e.html](https://help.sap.com/docs/S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/fab3fd449cf74c6384622b98831e989e.html) |
 
 ### Communication Scenarios
 | Scenario | Code | Documentation |
 |----------|------|---------------|
-| Business Situation Integration | SAP_COM_0345 | https://api.sap.com/communicationscenario/SAP_COM_0345 |
-| Business Situation Master Data Integration | SAP_COM_0376 | https://api.sap.com/communicationscenario/SAP_COM_0376 |
-| Enterprise Event Enablement | SAP_COM_0092 | https://api.sap.com/communicationscenario/SAP_COM_0092 |
-| Purchase Requisition Integration | SAP_COM_0102 | https://api.sap.com/communicationscenario/SAP_COM_0102 |
-| Physical Inventory Document Integration | SAP_COM_0107 | https://api.sap.com/communicationscenario/SAP_COM_0107 |
+| Business Situation Integration | SAP_COM_0345 | [https://api.sap.com/communicationscenario/SAP_COM_0345](https://api.sap.com/communicationscenario/SAP_COM_0345) |
+| Business Situation Master Data Integration | SAP_COM_0376 | [https://api.sap.com/communicationscenario/SAP_COM_0376](https://api.sap.com/communicationscenario/SAP_COM_0376) |
+| Enterprise Event Enablement | SAP_COM_0092 | [https://api.sap.com/communicationscenario/SAP_COM_0092](https://api.sap.com/communicationscenario/SAP_COM_0092) |
+| Purchase Requisition Integration | SAP_COM_0102 | [https://api.sap.com/communicationscenario/SAP_COM_0102](https://api.sap.com/communicationscenario/SAP_COM_0102) |
+| Physical Inventory Document Integration | SAP_COM_0107 | [https://api.sap.com/communicationscenario/SAP_COM_0107](https://api.sap.com/communicationscenario/SAP_COM_0107) |
 
 ---
 
@@ -139,9 +139,9 @@ Note: The viewer format provides direct access; the search format may return mul
 
 | Topic | Link |
 |-------|------|
-| SAP S/4HANA Documentation | https://help.sap.com/docs/SAP_S4HANA |
-| Activate and Maintain Services | https://help.sap.com/docs/SAP_S4HANA/684cffda9cbc4187ad7dad790b03b983 |
-| Activate OData Services for APIs | https://help.sap.com/docs/SAP_S4HANA/684cffda9cbc4187ad7dad790b03b983/fb3f3ce1a8b14b53a7fb4f847c920afc.html |
+| SAP S/4HANA Documentation | [https://help.sap.com/docs/SAP_S4HANA](https://help.sap.com/docs/SAP_S4HANA) |
+| Activate and Maintain Services | [https://help.sap.com/docs/SAP_S4HANA/684cffda9cbc4187ad7dad790b03b983](https://help.sap.com/docs/SAP_S4HANA/684cffda9cbc4187ad7dad790b03b983) |
+| Activate OData Services for APIs | [https://help.sap.com/docs/SAP_S4HANA/684cffda9cbc4187ad7dad790b03b983/fb3f3ce1a8b14b53a7fb4f847c920afc.html](https://help.sap.com/docs/SAP_S4HANA/684cffda9cbc4187ad7dad790b03b983/fb3f3ce1a8b14b53a7fb4f847c920afc.html) |
 
 ---
 
@@ -149,9 +149,9 @@ Note: The viewer format provides direct access; the search format may return mul
 
 | Resource | Link |
 |----------|------|
-| API Hub Main | https://api.sap.com/ |
-| Business Situation API | https://api.sap.com/api/API_BUSINESS_SITUATION |
-| Business Situation Type API | https://api.sap.com/api/API_BUSINESS_SITUATION_TYPE |
+| API Hub Main | [https://api.sap.com/](https://api.sap.com/) |
+| Business Situation API | [https://api.sap.com/api/API_BUSINESS_SITUATION](https://api.sap.com/api/API_BUSINESS_SITUATION) |
+| Business Situation Type API | [https://api.sap.com/api/API_BUSINESS_SITUATION_TYPE](https://api.sap.com/api/API_BUSINESS_SITUATION_TYPE) |
 
 ---
 
@@ -159,8 +159,8 @@ Note: The viewer format provides direct access; the search format may return mul
 
 | Topic | Link |
 |-------|------|
-| ISA Help Portal | https://help.sap.com/docs/intelligent-situation-automation |
-| ISA GitHub Documentation | https://github.com/SAP-docs/sap-btp-intelligent-situation-automation |
+| ISA Help Portal | [https://help.sap.com/docs/intelligent-situation-automation](https://help.sap.com/docs/intelligent-situation-automation) |
+| ISA GitHub Documentation | [https://github.com/SAP-docs/sap-btp-intelligent-situation-automation](https://github.com/SAP-docs/sap-btp-intelligent-situation-automation) |
 
 ---
 
@@ -175,9 +175,9 @@ When SAP documentation changes:
 
 ### Link Patterns
 SAP Help Portal links follow these patterns:
-- Product docs: `https://help.sap.com/docs/{PRODUCT}`
-- Viewer format: `https://help.sap.com/viewer/{loio_id}/{locale}` (preferred for direct access)
-- New format: `https://help.sap.com/docs/{product}/{doc_id}.html`
+- Product docs: `[https://help.sap.com/docs/{PRODUCT}`](https://help.sap.com/docs/{PRODUCT}`)
+- Viewer format: `[https://help.sap.com/viewer/{loio_id}/{locale}`](https://help.sap.com/viewer/{loio_id}/{locale}`) (preferred for direct access)
+- New format: `[https://help.sap.com/docs/{product}/{doc_id}.html`](https://help.sap.com/docs/{product}/{doc_id}.html`)
 
 See "Direct Link Formats" section above for usage examples.
 

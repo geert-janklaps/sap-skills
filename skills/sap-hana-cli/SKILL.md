@@ -15,10 +15,17 @@ metadata:
 
 # SAP HANA Developer CLI (hana-cli)
 
+## Related Skills
+
+- **sap-cap-capire**: Use for CAP database development, HDI container management, and CDS syntax comparison
+- **sap-btp-cloud-platform**: Use for HANA Cloud operations, BTP integration, and cloud instance management
+- **sap-abap-cds**: Use for comparing CDS syntax between CAP and ABAP or understanding HANA CDS features
+- **sap-datasphere**: Use when working with SAP Datasphere integration or data warehousing scenarios
+
 A developer-centric command-line interface for SAP HANA database development, particularly useful in non-SAP tooling environments like VS Code.
 
-**Repository**: https://github.com/SAP-samples/hana-developer-cli-tool-example
-**npm Package**: https://www.npmjs.com/package/hana-cli
+**Repository**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
+**npm Package**: [https://www.npmjs.com/package/hana-cli](https://www.npmjs.com/package/hana-cli)
 **Current Version**: 3.202405.1 (April 2024)
 **Node.js Requirement**: ≥20.19.0
 
@@ -253,11 +260,11 @@ hana-cli inspectUser
 
 ## Resources
 
-- **GitHub**: https://github.com/SAP-samples/hana-developer-cli-tool-example
-- **Intro Video**: https://youtu.be/dvVQfi9Qgog
-- **Cloud Shells Demo**: https://youtu.be/L7QyVLvAIIQ
-- **SAP HANA Cloud**: https://help.sap.com/docs/hana-cloud
-- **SAP CAP**: https://cap.cloud.sap/docs/
+- **GitHub**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
+- **Intro Video**: [https://youtu.be/dvVQfi9Qgog](https://youtu.be/dvVQfi9Qgog)
+- **Cloud Shells Demo**: [https://youtu.be/L7QyVLvAIIQ](https://youtu.be/L7QyVLvAIIQ)
+- **SAP HANA Cloud**: [https://help.sap.com/docs/hana-cloud](https://help.sap.com/docs/hana-cloud)
+- **SAP CAP**: [https://cap.cloud.sap/docs/](https://cap.cloud.sap/docs/)
 
 ---
 

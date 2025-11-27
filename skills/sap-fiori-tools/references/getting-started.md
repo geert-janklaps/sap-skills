@@ -41,7 +41,7 @@ Use package manager: Homebrew or Node Version Manager (nvm)
 ```bash
 npm config get @sap:registry
 ```
-Expected values: `https://registry.npmjs.org` or `undefined`
+Expected values: `[https://registry.npmjs.org`](https://registry.npmjs.org`) or `undefined`
 
 If set incorrectly to `@sap`, remove entry from `.npmrc` file in home directory.
 
@@ -360,7 +360,7 @@ Verify PATH variable content:
 
 ## Documentation Source
 
-**GitHub**: https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Getting-Started-with-SAP-Fiori-Tools
+**GitHub**: [https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Getting-Started-with-SAP-Fiori-Tools](https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Getting-Started-with-SAP-Fiori-Tools)
 
 Key files:
 - `getting-started-with-sap-fiori-tools-2d8b1cb.md`

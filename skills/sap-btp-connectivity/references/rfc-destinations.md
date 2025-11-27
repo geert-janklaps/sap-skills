@@ -1,6 +1,6 @@
 # RFC Destinations - Complete Reference
 
-**Source**: https://github.com/SAP-docs/btp-connectivity/blob/main/docs/1-connectivity-documentation/rfc-destinations-238d027.md
+**Source**: [https://github.com/SAP-docs/btp-connectivity/blob/main/docs/1-connectivity-documentation/rfc-destinations-238d027.md](https://github.com/SAP-docs/btp-connectivity/blob/main/docs/1-connectivity-documentation/rfc-destinations-238d027.md)
 
 ---
 
@@ -234,9 +234,9 @@ await client.close();
 
 ## Documentation Links
 
-- RFC Destinations: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/rfc-destinations
-- Pooling Configuration: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/pooling-configuration
-- Invoking Function Modules: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/invoking-abap-function-modules-via-rfc
+- RFC Destinations: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/rfc-destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/rfc-destinations)
+- Pooling Configuration: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/pooling-configuration](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/pooling-configuration)
+- Invoking Function Modules: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/invoking-abap-function-modules-via-rfc](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/invoking-abap-function-modules-via-rfc)
 
 ---
 

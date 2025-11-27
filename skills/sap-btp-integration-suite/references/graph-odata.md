@@ -1,7 +1,7 @@
 # Graph & OData Provisioning - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite)
 **Last Updated**: 2025-11-22
 
 ---
@@ -54,7 +54,7 @@ Graph is a capability that provides a unified API to access business data across
 └──────────┘ └──────────┘ └──────────────┘
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-graph-ad1c48d.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-graph-ad1c48d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-graph-ad1c48d.md)
 
 ---
 
@@ -85,7 +85,7 @@ Visual tool for exploring the data graph:
 - Test queries
 - Explore navigation paths
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/graph-e03300f.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/graph-e03300f.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/graph-e03300f.md)
 
 ---
 
@@ -120,9 +120,9 @@ User-defined entities that extend the standard graph:
 | Complex | Structured nested types |
 
 **Documentation**:
-- Unified: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/unified-entities-9bcd2ec.md
-- Mirrored: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/mirrored-entities-07fdc7a.md
-- Custom: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/custom-entities-af8dcd6.md
+- Unified: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/unified-entities-9bcd2ec.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/unified-entities-9bcd2ec.md)
+- Mirrored: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/mirrored-entities-07fdc7a.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/mirrored-entities-07fdc7a.md)
+- Custom: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/custom-entities-af8dcd6.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/custom-entities-af8dcd6.md)
 
 ---
 
@@ -266,7 +266,7 @@ OData Provisioning exposes SAP Business Suite data as OData services on BTP with
 | Backend components | IW_BEP 200 or SAP_GWFND |
 | Service plan | Appropriate IS service plan |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/odata-provisioning-d257fc3.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/odata-provisioning-d257fc3.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/odata-provisioning-d257fc3.md)
 
 ---
 
@@ -299,11 +299,11 @@ Configure user access:
 ### Service URL Pattern
 
 ```
-https://<tenant>.integrationsuite.cfapps.<region>.hana.ondemand.com
+[https://<tenant>.integrationsuite.cfapps.<region>.hana.ondemand.com](https://<tenant>.integrationsuite.cfapps.<region>.hana.ondemand.com)
   /odata/v4/<service-name>/<entity-set>
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/runtime-access-and-role-assignment-for-odata-provisioning-b46816c.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/runtime-access-and-role-assignment-for-odata-provisioning-b46816c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/runtime-access-and-role-assignment-for-odata-provisioning-b46816c.md)
 
 ---
 
@@ -337,7 +337,7 @@ When limits are exceeded:
 - Check quota usage in cockpit
 - Request quota increase if needed
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/limits-a61f1ce.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/limits-a61f1ce.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/limits-a61f1ce.md)
 
 ---
 
@@ -368,8 +368,8 @@ When limits are exceeded:
 
 ## Related Documentation
 
-- **Graph Overview**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-graph-ad1c48d.md
-- **Business Data Graph**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/business-data-graph-894e28c.md
-- **OData Provisioning**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/odata-provisioning-d257fc3.md
-- **Graph Troubleshooting**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-graph-2cfb06c.md
-- **Limits**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/limits-a61f1ce.md
+- **Graph Overview**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-graph-ad1c48d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-graph-ad1c48d.md)
+- **Business Data Graph**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/business-data-graph-894e28c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/business-data-graph-894e28c.md)
+- **OData Provisioning**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/odata-provisioning-d257fc3.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/odata-provisioning-d257fc3.md)
+- **Graph Troubleshooting**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-graph-2cfb06c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-graph-2cfb06c.md)
+- **Limits**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/limits-a61f1ce.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/limits-a61f1ce.md)

@@ -1,6 +1,6 @@
 # UI5 Linter - Support and Community Resources
 
-**Source**: https://github.com/UI5/linter/blob/main/SUPPORT.md
+**Source**: [https://github.com/UI5/linter/blob/main/SUPPORT.md](https://github.com/UI5/linter/blob/main/SUPPORT.md)
 **Last Updated**: 2025-11-21
 **UI5 Linter Version**: 1.20.5
 
@@ -34,7 +34,7 @@ This guide helps you get support for UI5 Linter issues, connect with the communi
 
 ### 1. StackOverflow ⭐ Recommended for Questions
 
-**URL**: http://stackoverflow.com/questions/tagged/ui5-tooling
+**URL**: [http://stackoverflow.com/questions/tagged/ui5-tooling](http://stackoverflow.com/questions/tagged/ui5-tooling)
 
 **Tag**: `ui5-tooling`
 
@@ -97,7 +97,7 @@ What are the limitations of autofix for `no-globals`? How do I manually fix unsu
 
 ### 2. OpenUI5 Community Slack
 
-**Invite**: https://ui5-slack-invite.cfapps.eu10.hana.ondemand.com
+**Invite**: [https://ui5-slack-invite.cfapps.eu10.hana.ondemand.com](https://ui5-slack-invite.cfapps.eu10.hana.ondemand.com)
 
 **Channel**: `#tooling`
 
@@ -109,7 +109,7 @@ What are the limitations of autofix for `no-globals`? How do I manually fix unsu
 - Sharing experiences
 
 **How to Join**:
-1. Visit https://ui5-slack-invite.cfapps.eu10.hana.ondemand.com
+1. Visit [https://ui5-slack-invite.cfapps.eu10.hana.ondemand.com](https://ui5-slack-invite.cfapps.eu10.hana.ondemand.com)
 2. Enter your email
 3. Accept invitation
 4. Join `#tooling` channel
@@ -302,19 +302,19 @@ Use ignore patterns, lint specific directories, and check benchmarks.
 
 ### Official Documentation
 
-**Main Repository**: https://github.com/UI5/linter
+**Main Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
 
 **Documentation**:
-- README: https://github.com/UI5/linter/blob/main/README.md
-- Rules: https://github.com/UI5/linter/blob/main/docs/Rules.md
-- Autofix: https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md
-- Performance: https://github.com/UI5/linter/blob/main/docs/Performance.md
+- README: [https://github.com/UI5/linter/blob/main/README.md](https://github.com/UI5/linter/blob/main/README.md)
+- Rules: [https://github.com/UI5/linter/blob/main/docs/Rules.md](https://github.com/UI5/linter/blob/main/docs/Rules.md)
+- Autofix: [https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md](https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md)
+- Performance: [https://github.com/UI5/linter/blob/main/docs/Performance.md](https://github.com/UI5/linter/blob/main/docs/Performance.md)
 
 ---
 
 ### UI5 Community Resources
 
-**SAP Community**: https://community.sap.com/
+**SAP Community**: [https://community.sap.com/](https://community.sap.com/)
 
 **Topics**: SAPUI5, OpenUI5, UI5 Tooling
 
@@ -322,13 +322,13 @@ Use ignore patterns, lint specific directories, and check benchmarks.
 
 ---
 
-**OpenUI5 Website**: https://openui5.org/
+**OpenUI5 Website**: [https://openui5.org/](https://openui5.org/)
 
 **Best For**: UI5 framework documentation and resources
 
 ---
 
-**SAPUI5 Documentation**: https://sapui5.hana.ondemand.com/
+**SAPUI5 Documentation**: [https://sapui5.hana.ondemand.com/](https://sapui5.hana.ondemand.com/)
 
 **Best For**: Official SAPUI5 framework documentation
 
@@ -336,7 +336,7 @@ Use ignore patterns, lint specific directories, and check benchmarks.
 
 ### Learning Resources
 
-**UI5 Tooling**: https://sap.github.io/ui5-tooling/
+**UI5 Tooling**: [https://sap.github.io/ui5-tooling/](https://sap.github.io/ui5-tooling/)
 
 **Related Tools**: UI5 CLI, UI5 Builder, UI5 Server, UI5 Linter
 
@@ -363,7 +363,7 @@ Use ignore patterns, lint specific directories, and check benchmarks.
 ### Step 2: Search Existing Issues
 
 ```
-https://github.com/UI5/linter/issues?q=is%3Aissue+YOUR+SEARCH+TERMS
+[https://github.com/UI5/linter/issues?q=is%3Aissue+YOUR+SEARCH+TERMS](https://github.com/UI5/linter/issues?q=is%3Aissue+YOUR+SEARCH+TERMS)
 ```
 
 **Common Searches**:

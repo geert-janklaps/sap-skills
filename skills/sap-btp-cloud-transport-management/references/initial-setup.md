@@ -1,6 +1,6 @@
 # SAP Cloud Transport Management - Initial Setup Reference
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/10-initial-setup
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/10-initial-setup](https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/10-initial-setup)
 
 ---
 
@@ -183,9 +183,9 @@ Required for programmatic/API access.
     "uaa": {
         "clientid": "sb-xxxxxx",
         "clientsecret": "xxxxxx",
-        "url": "https://<domain>.authentication.sap.hana.ondemand.com"
+        "url": "[https://<domain>.authentication.sap.hana.ondemand.com"](https://<domain>.authentication.sap.hana.ondemand.com")
     },
-    "uri": "https://transport-service-app-backend.ts.cfapps.sap.hana.ondemand.com"
+    "uri": "[https://transport-service-app-backend.ts.cfapps.sap.hana.ondemand.com"](https://transport-service-app-backend.ts.cfapps.sap.hana.ondemand.com")
 }
 ```
 
@@ -231,8 +231,8 @@ These credentials enable API-based programmatic access and are used to configure
 
 ## Documentation Links
 
-- Initial Setup Overview: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/initial-setup-66fd728.md
-- Subscribing: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/subscribing-to-cloud-transport-management-7fe10fc.md
-- Entitlements: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/configuring-entitlements-to-sap-cloud-transport-management-13894be.md
-- Role Collections: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/setting-up-role-collections-eb134e0.md
-- Service Instance: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/creating-a-service-instance-and-a-service-key-f449560.md
+- Initial Setup Overview: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/initial-setup-66fd728.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/initial-setup-66fd728.md)
+- Subscribing: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/subscribing-to-cloud-transport-management-7fe10fc.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/subscribing-to-cloud-transport-management-7fe10fc.md)
+- Entitlements: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/configuring-entitlements-to-sap-cloud-transport-management-13894be.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/configuring-entitlements-to-sap-cloud-transport-management-13894be.md)
+- Role Collections: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/setting-up-role-collections-eb134e0.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/setting-up-role-collections-eb134e0.md)
+- Service Instance: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/creating-a-service-instance-and-a-service-key-f449560.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/10-initial-setup/creating-a-service-instance-and-a-service-key-f449560.md)

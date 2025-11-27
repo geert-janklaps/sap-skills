@@ -1,7 +1,7 @@
 # SAP Fiori Elements Guide
 
 **Source**: Official SAP SAPUI5 Documentation
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements)
 **Last Updated**: 2025-11-21
 
 ---
@@ -17,7 +17,7 @@ SAP Fiori Elements provides metadata-driven templates for creating enterprise ap
 - Reduced maintenance effort
 - Built-in best practices
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements)
 
 ---
 
@@ -395,7 +395,7 @@ Simplified list report for task-oriented applications.
 **@Communication.Contact**: Contact information
 **@Communication.Address**: Address fields
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements (search: annotations)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements) (search: annotations)
 
 ---
 
@@ -455,7 +455,7 @@ Actions shown in object page footer:
 </Annotation>
 ```
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements (search: actions)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements) (search: actions)
 
 ---
 
@@ -493,7 +493,7 @@ Enable users to save incomplete work:
 - Cancel discards draft
 - Warning on navigation if unsaved changes
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements (search: draft)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements) (search: draft)
 
 ---
 
@@ -542,7 +542,7 @@ Multi-column responsive layout for master-detail-detail views:
 - ThreeColumnsMidExpanded
 - ThreeColumnsEndExpanded
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/10_More_About_Controls (search: flexible-column-layout)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/10_More_About_Controls](https://github.com/SAP-docs/sapui5/tree/main/docs/10_More_About_Controls) (search: flexible-column-layout)
 
 ---
 
@@ -578,7 +578,7 @@ Reusable UI components for custom pages:
 - MicroChart
 - ValueHelp
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements (search: building-blocks)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements) (search: building-blocks)
 
 ---
 
@@ -668,7 +668,7 @@ Add custom content to specific locations:
 </core:FragmentDefinition>
 ```
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements (search: extensibility, extension-points)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements) (search: extensibility, extension-points)
 
 ---
 
@@ -802,11 +802,11 @@ Add custom content to specific locations:
 
 ## Links to Official Documentation
 
-- **Fiori Elements Overview**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements
-- **Annotations**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements (search: annotations)
-- **Building Blocks**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements (search: building-blocks)
-- **Extensions**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements (search: extensibility)
-- **Draft Handling**: https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements (search: draft)
+- **Fiori Elements Overview**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements)
+- **Annotations**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements) (search: annotations)
+- **Building Blocks**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements) (search: building-blocks)
+- **Extensions**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements) (search: extensibility)
+- **Draft Handling**: [https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements](https://github.com/SAP-docs/sapui5/tree/main/docs/06_SAP_Fiori_Elements) (search: draft)
 
 ---
 

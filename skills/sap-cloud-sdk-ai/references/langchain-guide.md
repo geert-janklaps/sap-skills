@@ -404,7 +404,7 @@ import { ToolNode } from '@langchain/langgraph/prebuilt';
 const getWeather = tool(
   async ({ city }) => {
     const response = await fetch(
-      `https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true`
+      `[https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true`](https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true`)
     );
     const data = await response.json();
     return JSON.stringify(data.current_weather);
@@ -506,5 +506,5 @@ const response = await client.invoke(messages, {
 
 ## Documentation Links
 
-- LangChain SDK: https://github.com/SAP/ai-sdk/tree/main/docs-js/langchain
-- LangGraph Tutorial: https://github.com/SAP/ai-sdk/blob/main/docs-js/tutorials/getting-started-with-agents.mdx
+- LangChain SDK: [https://github.com/SAP/ai-sdk/tree/main/docs-js/langchain](https://github.com/SAP/ai-sdk/tree/main/docs-js/langchain)
+- LangGraph Tutorial: [https://github.com/SAP/ai-sdk/blob/main/docs-js/tutorials/getting-started-with-agents.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-js/tutorials/getting-started-with-agents.mdx)

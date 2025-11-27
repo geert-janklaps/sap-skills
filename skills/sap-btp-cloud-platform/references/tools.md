@@ -2,7 +2,7 @@
 
 Complete reference for SAP BTP administration and development tools.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/tools-abcae5b.md
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/tools-abcae5b.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/tools-abcae5b.md)
 
 ---
 
@@ -21,7 +21,7 @@ Complete reference for SAP BTP administration and development tools.
 
 | Tool | Purpose | Access |
 |------|---------|--------|
-| **SAP BTP Cockpit** | Web-based admin UI | https://cockpit.btp.cloud.sap |
+| **SAP BTP Cockpit** | Web-based admin UI | [https://cockpit.btp.cloud.sap](https://cockpit.btp.cloud.sap) |
 | **btp CLI** | Terminal administration | Download from BTP Cockpit |
 | **REST APIs** | Programmatic access | SAP API Business Hub |
 | **Terraform Provider** | Infrastructure as Code | registry.terraform.io |
@@ -44,7 +44,7 @@ Complete reference for SAP BTP administration and development tools.
 btp login
 
 # Login with specific URL
-btp login --url https://cpcli.cf.eu10.hana.ondemand.com
+btp login --url [https://cpcli.cf.eu10.hana.ondemand.com](https://cpcli.cf.eu10.hana.ondemand.com)
 
 # Login with password (not recommended)
 btp login --user user@example.com --password xxx
@@ -193,8 +193,8 @@ btp list accounts/subaccount
 brew install cloudfoundry/tap/cf-cli@8
 
 # Linux (Debian/Ubuntu)
-wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
-echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
+wget -q -O - [https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key](https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key) | sudo apt-key add -
+echo "deb [https://packages.cloudfoundry.org/debian](https://packages.cloudfoundry.org/debian) stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
 sudo apt update && sudo apt install cf8-cli
 
 # Windows (via Chocolatey)
@@ -205,7 +205,7 @@ choco install cloudfoundry-cli
 
 ```bash
 # Login
-cf login -a https://api.cf.eu10.hana.ondemand.com
+cf login -a [https://api.cf.eu10.hana.ondemand.com](https://api.cf.eu10.hana.ondemand.com)
 
 # Login with SSO
 cf login --sso
@@ -374,7 +374,7 @@ kubelogin
 brew install helm
 
 # Add repo
-helm repo add my-repo https://charts.example.com
+helm repo add my-repo [https://charts.example.com](https://charts.example.com)
 
 # Install chart
 helm install my-release my-repo/my-chart -n my-namespace
@@ -431,7 +431,7 @@ terraform {
 ```hcl
 provider "btp" {
   globalaccount = "my-global-account"
-  cli_server_url = "https://cli.btp.cloud.sap"
+  cli_server_url = "[https://cli.btp.cloud.sap"](https://cli.btp.cloud.sap")
 }
 ```
 
@@ -466,6 +466,6 @@ resource "btp_subaccount_role_collection_assignment" "dev_admin" {
 
 ## Related Documentation
 
-- Tools Overview: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/tools-abcae5b.md
-- btp CLI: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops
-- Terraform: https://registry.terraform.io/providers/SAP/btp/latest/docs
+- Tools Overview: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/tools-abcae5b.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/tools-abcae5b.md)
+- btp CLI: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops)
+- Terraform: [https://registry.terraform.io/providers/SAP/btp/latest/docs](https://registry.terraform.io/providers/SAP/btp/latest/docs)

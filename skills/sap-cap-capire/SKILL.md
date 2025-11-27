@@ -15,6 +15,17 @@ metadata:
 
 # SAP CAP-Capire Development Skill
 
+## Related Skills
+
+- **sap-fiori-tools**: Use for UI layer development, Fiori Elements integration, and frontend application generation
+- **sapui5**: Use for custom UI development, advanced UI patterns, and freestyle application building
+- **sap-btp-cloud-platform**: Use for deployment options, Cloud Foundry/Kyma configuration, and BTP service integration
+- **sap-hana-cli**: Use for database management, schema inspection, and HDI container administration
+- **sap-abap**: Use for ABAP system integration, external service consumption, and SAP extensions
+- **sap-btp-best-practices**: Use for production deployment patterns and architectural guidance
+- **sap-ai-core**: Use when adding AI capabilities to CAP applications or integrating with SAP AI services
+- **sap-api-style**: Use when documenting CAP OData services or following API documentation standards
+
 ## Table of Contents
 - [Quick Start](#quick-start)
 - [Project Structure](#project-structure)
@@ -229,7 +240,7 @@ entity Books { ... }
 
 ## Bundled Resources
 
-### Reference Documentation (18 files)
+### Reference Documentation (20 files)
 1. **references/annotations-reference.md** - Complete UI annotations reference (10K lines)
 2. **references/cdl-syntax.md** - Complete CDL syntax reference (503 lines)
 3. **references/cql-queries.md** - CQL query language guide
@@ -262,12 +273,12 @@ entity Books { ... }
 8. **templates/xs-security.json** - XSUAA security configuration
 
 ### Quick References
-- **CAP Documentation**: https://cap.cloud.sap/docs/
-- **CDS Language**: https://cap.cloud.sap/docs/cds/
-- **Node.js Runtime**: https://cap.cloud.sap/docs/node.js/
-- **Java Runtime**: https://cap.cloud.sap/docs/java/
-- **Best Practices**: https://cap.cloud.sap/docs/about/best-practices
-- **GitHub Repository**: https://github.com/cap-js/docs
+- **CAP Documentation**: [https://cap.cloud.sap/docs/](https://cap.cloud.sap/docs/)
+- **CDS Language**: [https://cap.cloud.sap/docs/cds/](https://cap.cloud.sap/docs/cds/)
+- **Node.js Runtime**: [https://cap.cloud.sap/docs/node.js/](https://cap.cloud.sap/docs/node.js/)
+- **Java Runtime**: [https://cap.cloud.sap/docs/java/](https://cap.cloud.sap/docs/java/)
+- **Best Practices**: [https://cap.cloud.sap/docs/about/best-practices](https://cap.cloud.sap/docs/about/best-practices)
+- **GitHub Repository**: [https://github.com/cap-js/docs](https://github.com/cap-js/docs)
 
 ## Common CLI Commands
 ```sh

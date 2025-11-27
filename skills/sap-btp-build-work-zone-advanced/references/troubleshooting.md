@@ -2,23 +2,24 @@
 
 Common issues and solutions for SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
 
 ## Table of Contents
 
 - [API Errors](#api-errors)
   - [HTTP 503 - Service Unavailable](#http-503---service-unavailable)
   - [HTTP 429 - Too Many Requests](#http-429---too-many-requests)
-  - [OAuth Authentication Failures](#oauth-authentication-failures)
-- [Card Deployment Issues](#card-deployment-issues)
+  - [OAuth Authentication Failure](#oauth-authentication-failure)
+- [Card Issues](#card-issues)
   - [Card Not Displaying](#card-not-displaying)
-  - [Card Data Not Loading](#card-data-not-loading)
-  - [SAPUI5 Version Compatibility](#sapui5-version-compatibility)
+  - [Card Deployment Failed](#card-deployment-failed)
 - [Workspace Issues](#workspace-issues)
-  - [Workspace Creation Fails](#workspace-creation-fails)
-  - [Member Access Problems](#member-access-problems)
+  - [Cannot Create Workspace](#cannot-create-workspace)
+  - [Missing Content](#missing-content)
 - [Performance Issues](#performance-issues)
-- [Integration Problems](#integration-problems)
+  - [Slow Page Load](#slow-page-load)
+- [Integration Issues](#integration-issues)
+  - [Microsoft Teams Connection Failed](#microsoft-teams-connection-failed)
 
 ---
 
@@ -120,5 +121,5 @@ Common issues and solutions for SAP Build Work Zone, advanced edition.
 ---
 
 **Documentation Links**:
-- Troubleshooting Guide: https://help.sap.com/docs/build-work-zone-advanced-edition
-- SAP Samples: https://github.com/SAP-samples/build-workzone-integration
+- Troubleshooting Guide: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)
+- SAP Samples: [https://github.com/SAP-samples/build-workzone-integration](https://github.com/SAP-samples/build-workzone-integration)

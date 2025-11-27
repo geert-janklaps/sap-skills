@@ -462,8 +462,8 @@ For exactly-once semantics:
 
 ## Documentation Links
 
-- **Structured Data Operators**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/working-with-structureddata-operators
-- **Data Transform**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/working-with-structureddata-operators/data-transform-8fe8c02.md
+- **Structured Data Operators**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/working-with-structureddata-operators](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/working-with-structureddata-operators)
+- **Data Transform**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/working-with-structureddata-operators/data-transform-8fe8c02.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/working-with-structureddata-operators/data-transform-8fe8c02.md)
 
 ---
 

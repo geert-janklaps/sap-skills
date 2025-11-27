@@ -1,6 +1,6 @@
 # SAP HANA CLI - HDI Container Management
 
-**Source**: https://github.com/SAP-samples/hana-developer-cli-tool-example
+**Source**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
 
 HDI (HANA Deployment Infrastructure) containers provide isolated runtime environments for database artifacts.
 
@@ -257,4 +257,4 @@ hana-cli hanaCloudHDIInstancesUI
 
 ---
 
-*Reference: https://github.com/SAP-samples/hana-developer-cli-tool-example*
+*Reference: [https://github.com/SAP-samples/hana-developer-cli-tool-example*](https://github.com/SAP-samples/hana-developer-cli-tool-example*)

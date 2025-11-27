@@ -42,13 +42,13 @@
 ### 📚 Understand the Standards
 
 **Official Documentation**:
-- Anthropic Skills Repo: https://github.com/anthropics/skills
+- Anthropic Skills Repo: [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
 - Agent Skills Spec: [anthropics/skills/agent_skills_spec.md](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
 
 **SAP Documentation**:
-- SAP Developer Center: https://developers.sap.com/
-- SAP Help Portal: https://help.sap.com/
-- SAP Community: https://community.sap.com/
+- SAP Developer Center: [https://developers.sap.com/](https://developers.sap.com/)
+- SAP Help Portal: [https://help.sap.com/](https://help.sap.com/)
+- SAP Community: [https://community.sap.com/](https://community.sap.com/)
 
 ---
 
@@ -56,7 +56,7 @@
 
 **Working Examples**:
 - **skill-review**: `skills/skill-review/` - Quality assurance skill
-- **Official Examples**: https://github.com/anthropics/skills
+- **Official Examples**: [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
 
 ---
 
@@ -161,7 +161,7 @@ A: Check [ONE_PAGE_CHECKLIST.md](ONE_PAGE_CHECKLIST.md) - if all boxes check, yo
 A: See [QUICK_WORKFLOW.md](QUICK_WORKFLOW.md) for step-by-step instructions.
 
 **Q: How do I verify against official Anthropic standards?**
-A: Compare against https://github.com/anthropics/skills/blob/main/agent_skills_spec.md
+A: Compare against [https://github.com/anthropics/skills/blob/main/agent_skills_spec.md](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
 
 ---
 
@@ -169,24 +169,24 @@ A: Compare against https://github.com/anthropics/skills/blob/main/agent_skills_s
 
 1. Check [ONE_PAGE_CHECKLIST.md](ONE_PAGE_CHECKLIST.md) for common requirements
 2. Look at `skills/skill-review/` for a working example
-3. Open an issue: https://github.com/secondsky/sap-skills/issues
+3. Open an issue: [https://github.com/secondsky/sap-skills/issues](https://github.com/secondsky/sap-skills/issues)
 
 ---
 
 ## External Resources
 
 ### Anthropic
-- **Official Anthropic Skills**: https://github.com/anthropics/skills
-- **Claude Code Docs**: https://docs.claude.com/en/docs/claude-code/skills
+- **Official Anthropic Skills**: [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
+- **Claude Code Docs**: [https://docs.claude.com/en/docs/claude-code/skills](https://docs.claude.com/en/docs/claude-code/skills)
 - **Support Articles**:
   - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)
   - [Creating custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)
 
 ### SAP
-- **SAP Developer Center**: https://developers.sap.com/
-- **SAP Help Portal**: https://help.sap.com/
-- **SAP Community**: https://community.sap.com/
-- **SAP Business Accelerator Hub**: https://api.sap.com/
+- **SAP Developer Center**: [https://developers.sap.com/](https://developers.sap.com/)
+- **SAP Help Portal**: [https://help.sap.com/](https://help.sap.com/)
+- **SAP Community**: [https://community.sap.com/](https://community.sap.com/)
+- **SAP Business Accelerator Hub**: [https://api.sap.com/](https://api.sap.com/)
 
 ---
 

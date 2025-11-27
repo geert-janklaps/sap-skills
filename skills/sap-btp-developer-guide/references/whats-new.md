@@ -67,7 +67,7 @@ This document tracks updates to the SAP BTP Developer's Guide organized chronolo
 
 ## Tracking Updates
 
-**Source**: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/what-s-new-for-sap-btp-developer-s-guide-7cf7a39.md
+**Source**: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/what-s-new-for-sap-btp-developer-s-guide-7cf7a39.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/what-s-new-for-sap-btp-developer-s-guide-7cf7a39.md)
 
 To check for new updates:
 1. Visit the source documentation

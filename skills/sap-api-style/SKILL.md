@@ -20,6 +20,14 @@ metadata:
 
 # SAP API Style Guide
 
+## Related Skills
+
+- **sap-cap-capire**: Use for OData service documentation, CAP API patterns, and service definition standards
+- **sap-fiori-tools**: Use for API consumption patterns, Fiori app integration, and OData best practices
+- **sap-abap**: Use when documenting ABAP APIs, implementing REST services, or following API design patterns
+- **sapui5**: Use for frontend API integration, OData consumption, and UI service patterns
+- **sap-btp-cloud-platform**: Use for BTP service API documentation and integration patterns
+
 ## Table of Contents
 
 1. [Overview](#overview)
@@ -38,7 +46,7 @@ metadata:
 
 This skill provides comprehensive guidance for documenting SAP APIs according to official SAP API Style Guide standards. It covers all major API types and documentation approaches used across the SAP ecosystem.
 
-**Documentation Source**: https://github.com/SAP-docs/api-style-guide (76 files extracted)
+**Documentation Source**: [https://github.com/SAP-docs/api-style-guide](https://github.com/SAP-docs/api-style-guide) (76 files extracted)
 
 **Last Verified**: 2025-11-21
 
@@ -289,7 +297,6 @@ All templates include:
    - Quick reference tables
    - Tool documentation links
 
-9. **PROGRESS_TRACKING.md** (333 lines)
    - Content extraction and organization tracking
    - Source file mapping from SAP documentation
    - Consolidation and adaptation notes
@@ -372,20 +379,20 @@ See individual reference files for complete anti-patterns and fixes.
 ## External Resources
 
 ### Standards
-- **OpenAPI Specification**: https://spec.openapis.org/oas/latest.html
-- **OData v4.01**: https://www.odata.org/documentation/
-- **Javadoc**: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
-- **JSDoc 3**: https://jsdoc.app/
-- **Doxygen**: https://www.doxygen.nl/
+- **OpenAPI Specification**: [https://spec.openapis.org/oas/latest.html](https://spec.openapis.org/oas/latest.html)
+- **OData v4.01**: [https://www.odata.org/documentation/](https://www.odata.org/documentation/)
+- **Javadoc**: [https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
+- **JSDoc 3**: [https://jsdoc.app/](https://jsdoc.app/)
+- **Doxygen**: [https://www.doxygen.nl/](https://www.doxygen.nl/)
 
 ### SAP Resources
-- **SAP API Business Hub**: https://api.sap.com/
-- **SAP Developer Center**: https://developers.sap.com/
-- **SAP Help Portal**: https://help.sap.com/
-- **SAP Community**: https://community.sap.com/
+- **SAP API Business Hub**: [https://api.sap.com/](https://api.sap.com/)
+- **SAP Developer Center**: [https://developers.sap.com/](https://developers.sap.com/)
+- **SAP Help Portal**: [https://help.sap.com/](https://help.sap.com/)
+- **SAP Community**: [https://community.sap.com/](https://community.sap.com/)
 
 ### Source
-- **SAP API Style Guide**: https://github.com/SAP-docs/api-style-guide
+- **SAP API Style Guide**: [https://github.com/SAP-docs/api-style-guide](https://github.com/SAP-docs/api-style-guide)
 
 ## Updates and Maintenance
 
@@ -398,7 +405,7 @@ See individual reference files for complete anti-patterns and fixes.
 - Added Bundled Resources section for content discovery
 
 **To Update This Skill**:
-1. Check source repository for changes: https://github.com/SAP-docs/api-style-guide
+1. Check source repository for changes: [https://github.com/SAP-docs/api-style-guide](https://github.com/SAP-docs/api-style-guide)
 2. Review "What's New in the Style Guide"
 3. Update affected reference files
 4. Update templates if standards changed
@@ -413,4 +420,4 @@ See individual reference files for complete anti-patterns and fixes.
 **Skill Version**: 1.1.0
 **Last Updated**: 2025-11-27
 **License**: GPL-3.0
-**Maintainer**: SAP Skills Team | https://github.com/secondsky/sap-skills
+**Maintainer**: SAP Skills Team | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

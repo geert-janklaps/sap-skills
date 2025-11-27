@@ -68,7 +68,6 @@ This skill triggers when you're working with:
 ### Main Files
 - `SKILL.md` - Core skill instructions and quick reference
 - `README.md` - This file (keywords and overview)
-- `PROGRESS_TRACKING.md` - Documentation source tracking
 
 ### Reference Files (11 files)
 **Core APIs**:
@@ -359,8 +358,8 @@ GPL-3.0 License
 
 ## Maintainer
 
-SAP Skills Maintainers | https://github.com/secondsky/sap-skills
+SAP Skills Maintainers | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
 
 ---
 
-**Repository**: https://github.com/secondsky/sap-skills
+**Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

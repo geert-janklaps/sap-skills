@@ -11,5 +11,5 @@ Identify missing or broken references across scripts and widgets.
 
 ## Notes
 - Run after refactoring/renaming widgets.
-- Pair with Errors panel for full coverage (`docs/check-errors.md`).
+- Pair with Errors panel for full coverage (`check-errors.md`).
 

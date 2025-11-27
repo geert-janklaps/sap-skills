@@ -1,7 +1,7 @@
 # Content Transport Reference
 
-**Source**: https://github.com/SAP-docs/sap-datasphere/tree/main/docs/Integrating-data-and-managing-spaces/Transporting-Content-Between-Tenants
-**Source**: https://github.com/SAP-docs/sap-datasphere/tree/main/docs/Acquiring-Preparing-Modeling-Data/Creating-Finding-Sharing-Objects
+**Source**: [https://github.com/SAP-docs/sap-datasphere/tree/main/docs/Integrating-data-and-managing-spaces/Transporting-Content-Between-Tenants](https://github.com/SAP-docs/sap-datasphere/tree/main/docs/Integrating-data-and-managing-spaces/Transporting-Content-Between-Tenants)
+**Source**: [https://github.com/SAP-docs/sap-datasphere/tree/main/docs/Acquiring-Preparing-Modeling-Data/Creating-Finding-Sharing-Objects](https://github.com/SAP-docs/sap-datasphere/tree/main/docs/Acquiring-Preparing-Modeling-Data/Creating-Finding-Sharing-Objects)
 
 ---
 
@@ -192,7 +192,7 @@ Sharing destinations enable direct content transfer between tenants.
 ```yaml
 destination:
   name: production_tenant
-  url: https://prod.datasphere.cloud.sap
+  url: [https://prod.datasphere.cloud.sap](https://prod.datasphere.cloud.sap)
   authentication: OAuth 2.0
   client_id: xxx
   client_secret: xxx
@@ -277,7 +277,7 @@ npm install -g @sap/datasphere-cli
 
 ```bash
 # Login
-datasphere login --url https://tenant.datasphere.cloud.sap
+datasphere login --url [https://tenant.datasphere.cloud.sap](https://tenant.datasphere.cloud.sap)
 
 # Using service key
 datasphere login --service-key key.json
@@ -559,11 +559,11 @@ Space/
 
 ## Documentation Links
 
-- **Transport Overview**: https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/df12666
-- **Export Packages**: https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/24aba84
-- **Import Content**: https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/b607a12
-- **CSN/JSON**: https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/f8ff062
-- **CLI**: https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/6494657
+- **Transport Overview**: [https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/df12666](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/df12666)
+- **Export Packages**: [https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/24aba84](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/24aba84)
+- **Import Content**: [https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/b607a12](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/b607a12)
+- **CSN/JSON**: [https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/f8ff062](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/f8ff062)
+- **CLI**: [https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/6494657](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/6494657)
 
 ---
 

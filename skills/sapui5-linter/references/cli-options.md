@@ -1,6 +1,6 @@
 # UI5 Linter - CLI Options Complete Reference
 
-**Source**: https://github.com/UI5/linter/blob/main/README.md
+**Source**: [https://github.com/UI5/linter/blob/main/README.md](https://github.com/UI5/linter/blob/main/README.md)
 **Last Updated**: 2025-11-21
 **UI5 Linter Version**: 1.20.5
 
@@ -681,8 +681,8 @@ UI5LINT_FIX_DRY_RUN=true ui5lint --fix
 
 ## Further Reading
 
-- **Main Repository**: https://github.com/UI5/linter
-- **README**: https://github.com/UI5/linter/blob/main/README.md
+- **Main Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
+- **README**: [https://github.com/UI5/linter/blob/main/README.md](https://github.com/UI5/linter/blob/main/README.md)
 - **Configuration Guide**: See configuration.md reference
 - **Autofix Guide**: See autofix-complete.md reference
 - **Rules Reference**: See rules-complete.md reference

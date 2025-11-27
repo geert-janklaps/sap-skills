@@ -2,9 +2,9 @@
 
 The SAP BTP Service Operator enables Kubernetes clusters to consume SAP BTP services through native Kubernetes resources.
 
-**GitHub Repository**: https://github.com/SAP/sap-btp-service-operator
+**GitHub Repository**: [https://github.com/SAP/sap-btp-service-operator](https://github.com/SAP/sap-btp-service-operator)
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments
+**Documentation**: [https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments](https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments)
 
 ---
 
@@ -13,25 +13,33 @@ The SAP BTP Service Operator enables Kubernetes clusters to consume SAP BTP serv
 1. [Prerequisites](#prerequisites)
    - [Infrastructure & Tools](#infrastructure--tools)
    - [Environment Setup](#environment-setup)
-2. [Installation](#installation)
-   - [Install cert-manager](#install-cert-manager)
-   - [Create Service Manager Resources](#create-service-manager-resources)
-   - [Deploy Service Operator](#deploy-service-operator)
-3. [ServiceInstance CRD](#serviceinstance-crd)
-   - [Resource Definition](#resource-definition)
-   - [Examples](#examples)
-4. [ServiceBinding CRD](#servicebinding-crd)
-   - [Resource Definition](#resource-definition-1)
-   - [Examples](#examples-1)
-5. [Migration from Service Catalog](#migration-from-service-catalog)
-   - [Migration Steps](#migration-steps)
-   - [Breaking Changes](#breaking-changes)
-6. [Configuration](#configuration)
-   - [Namespace Scoping](#namespace-scoping)
-   - [Custom Resources](#custom-resources)
-7. [Troubleshooting](#troubleshooting)
-   - [Common Issues](#common-issues)
-   - [Debug Commands](#debug-commands)
+   - [SAP BTP Requirements](#sap-btp-requirements)
+2. [Setup Process](#setup-process)
+   - [Install cert-manager](#step-1-install-cert-manager)
+   - [Create Service Manager Credentials](#step-2-create-service-manager-credentials)
+   - [Extract Credentials](#step-3-extract-credentials)
+   - [Deploy Operator with Helm](#step-4-deploy-operator-with-helm)
+3. [Custom Resource Definitions](#custom-resource-definitions)
+   - [ServiceInstance CRD](#serviceinstance-crd)
+   - [ServiceBinding CRD](#servicebinding-crd)
+4. [Using Credentials in Pods](#using-credentials-in-pods)
+   - [Environment Variables](#environment-variables)
+   - [Volume Mount](#volume-mount)
+5. [Migration from Service Catalog (svcat)](#migration-from-service-catalog-svcat)
+   - [Prerequisites](#prerequisites-1)
+   - [Step 1: Prepare Platform](#step-1-prepare-platform)
+   - [Step 2: Install Migration CLI](#step-2-install-migration-cli)
+   - [Step 3: Dry Run Migration](#step-3-dry-run-migration)
+   - [Step 4: Execute Migration](#step-4-execute-migration)
+   - [Migration Process](#migration-process)
+   - [Important Notes](#important-notes)
+6. [Troubleshooting](#troubleshooting)
+   - [Operator Not Starting](#operator-not-starting)
+   - [Instance Creation Fails](#instance-creation-fails)
+   - [Binding Creation Fails](#binding-creation-fails)
+   - [Secret Not Created](#secret-not-created)
+7. [Best Practices](#best-practices)
+8. [Documentation Links](#documentation-links)
 
 ---
 
@@ -75,7 +83,7 @@ cert-manager handles TLS certificates for operator communication.
 
 ```bash
 # Install cert-manager
-kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.12.0/cert-manager.yaml
+kubectl apply -f [https://github.com/cert-manager/cert-manager/releases/download/v1.12.0/cert-manager.yaml](https://github.com/cert-manager/cert-manager/releases/download/v1.12.0/cert-manager.yaml)
 
 # Verify installation
 kubectl get pods -n cert-manager
@@ -91,7 +99,7 @@ Wait for all cert-manager pods to be Running.
 
 ```bash
 # Login to Service Manager
-smctl login -a https://service-manager.cfapps.<region>.hana.ondemand.com \
+smctl login -a [https://service-manager.cfapps.<region>.hana.ondemand.com](https://service-manager.cfapps.<region>.hana.ondemand.com) \
   --param subdomain=<subdomain>
 
 # Create instance with service-operator-access plan
@@ -138,7 +146,7 @@ From the binding, extract:
 
 ```bash
 # Add Helm repository
-helm repo add sap-btp-operator https://sap.github.io/sap-btp-service-operator/
+helm repo add sap-btp-operator [https://sap.github.io/sap-btp-service-operator/](https://sap.github.io/sap-btp-service-operator/)
 helm repo update
 
 # Install operator
@@ -390,7 +398,7 @@ smctl curl -X PATCH "/v1/platforms/<platformID>" \
 
 ```bash
 # From GitHub releases
-# https://github.com/SAP/sap-btp-service-operator/releases
+# [https://github.com/SAP/sap-btp-service-operator/releases](https://github.com/SAP/sap-btp-service-operator/releases)
 
 # Or via Go
 go install github.com/SAP/sap-btp-service-operator/tools/btpmigrate@latest
@@ -499,8 +507,8 @@ kubectl get secrets | grep <binding-name>
 
 ## Documentation Links
 
-- **Setup**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/setup-e977f23.md
-- **Prerequisites**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/prerequisites-dd5faaa.md
-- **Working with Operator**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/working-with-sap-btp-service-operator-0ccebd7.md
-- **Migration**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/migrating-from-svcat-to-sap-btp-service-ec7f5c7.md
-- **GitHub Repository**: https://github.com/SAP/sap-btp-service-operator
+- **Setup**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/setup-e977f23.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/setup-e977f23.md)
+- **Prerequisites**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/prerequisites-dd5faaa.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/prerequisites-dd5faaa.md)
+- **Working with Operator**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/working-with-sap-btp-service-operator-0ccebd7.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/working-with-sap-btp-service-operator-0ccebd7.md)
+- **Migration**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/migrating-from-svcat-to-sap-btp-service-ec7f5c7.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/Consuming-SAP-BTP-Services-from-Various-Environments/migrating-from-svcat-to-sap-btp-service-ec7f5c7.md)
+- **GitHub Repository**: [https://github.com/SAP/sap-btp-service-operator](https://github.com/SAP/sap-btp-service-operator)

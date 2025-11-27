@@ -871,8 +871,8 @@ MAP(status, 'A', 'Active', 'I', 'Inactive', 'Unknown')
 
 ## Documentation Links
 
-- **Function Reference**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference
-- **DTL Functions**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference/function-reference-for-data-transformation-language
+- **Function Reference**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference)
+- **DTL Functions**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference/function-reference-for-data-transformation-language](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference/function-reference-for-data-transformation-language)
 
 ---
 

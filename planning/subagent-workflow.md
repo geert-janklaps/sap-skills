@@ -518,7 +518,7 @@ Use Explore to compare planning/claude-code-skill-standards.md with official Ant
 ## Further Reading
 
 - **Claude Agent SDK**: `/home/jez/Documents/claude-skills/skills/claude-agent-sdk/SKILL.md`
-- **Official Skills Spec**: https://github.com/anthropics/skills/blob/main/agent_skills_spec.md
+- **Official Skills Spec**: [https://github.com/anthropics/skills/blob/main/agent_skills_spec.md](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
 - **ONE_PAGE_CHECKLIST**: `/home/jez/Documents/claude-skills/ONE_PAGE_CHECKLIST.md`
 - **Standards Doc**: `/home/jez/Documents/claude-skills/planning/claude-code-skill-standards.md`
 

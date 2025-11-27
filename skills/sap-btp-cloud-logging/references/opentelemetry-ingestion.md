@@ -1,6 +1,6 @@
 # SAP Cloud Logging - OpenTelemetry Ingestion Reference
 
-**Source:** https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/ingest-via-opentelemetry-api-endpoint-fdc78af.md
+**Source:** [https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/ingest-via-opentelemetry-api-endpoint-fdc78af.md](https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/ingest-via-opentelemetry-api-endpoint-fdc78af.md)
 **Last Updated:** 2025-11-22
 
 ---
@@ -367,7 +367,7 @@ spec:
 ### Connection Refused
 
 1. Verify `ingest_otlp.enabled: true` in instance configuration
-2. Check endpoint format is `hostname:443` (not `https://...`)
+2. Check endpoint format is `hostname:443` (not `[https://...](https://...)`)
 3. Verify firewall/network allows gRPC traffic
 
 ### Certificate Errors
@@ -394,7 +394,7 @@ spec:
 
 ## Documentation Links
 
-- **Source:** https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/ingest-via-opentelemetry-api-endpoint-fdc78af.md
-- **OpenTelemetry:** https://opentelemetry.io/docs/
-- **OpenTelemetry Collector:** https://opentelemetry.io/docs/collector/
-- **SAP BTP Observability:** https://help.sap.com/docs/btp/sap-business-technology-platform/observability
+- **Source:** [https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/ingest-via-opentelemetry-api-endpoint-fdc78af.md](https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/ingest-via-opentelemetry-api-endpoint-fdc78af.md)
+- **OpenTelemetry:** [https://opentelemetry.io/docs/](https://opentelemetry.io/docs/)
+- **OpenTelemetry Collector:** [https://opentelemetry.io/docs/collector/](https://opentelemetry.io/docs/collector/)
+- **SAP BTP Observability:** [https://help.sap.com/docs/btp/sap-business-technology-platform/observability](https://help.sap.com/docs/btp/sap-business-technology-platform/observability)

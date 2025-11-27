@@ -2,7 +2,7 @@
 
 Monitoring configuration and troubleshooting guidance for SAP Master Data Integration.
 
-**Source**: https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/monitoring-and-troubleshooting
+**Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/monitoring-and-troubleshooting](https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/monitoring-and-troubleshooting)
 
 ## Business Data Orchestration Monitoring
 
@@ -63,7 +63,7 @@ Map between:
 - Master Data Integration service instances
 - SAP Cloud ALM services
 
-**Documentation**: https://help.sap.com/docs/cloud-alm/setup-administration/business-data-orchestration
+**Documentation**: [https://help.sap.com/docs/cloud-alm/setup-administration/business-data-orchestration](https://help.sap.com/docs/cloud-alm/setup-administration/business-data-orchestration)
 
 ---
 
@@ -156,11 +156,11 @@ Events sent during REST API operations:
 ## Troubleshooting Workflow
 
 ### Step 1: Check Platform Status
-Visit SAP Trust Center: https://www.sap.com/about/cloud-trust-center/cloud-status.html
+Visit SAP Trust Center: [https://www.sap.com/about/cloud-trust-center/cloud-status.html](https://www.sap.com/about/cloud-trust-center/cloud-status.html)
 
 ### Step 2: Consult Guided Answers
 Use SAP Guided Answers tool for troubleshooting scenarios:
-https://ga.support.sap.com/dtp/viewer/index.html#/tree/3124/actions/48440
+[https://ga.support.sap.com/dtp/viewer/index.html#/tree/3124/actions/48440](https://ga.support.sap.com/dtp/viewer/index.html#/tree/3124/actions/48440)
 
 ### Step 3: Contact Support
 If problems persist, contact SAP Support.
@@ -278,8 +278,8 @@ For personal data stored in MDI:
 
 | Resource | URL |
 |----------|-----|
-| SAP Trust Center | https://www.sap.com/about/cloud-trust-center/ |
-| Guided Answers | https://ga.support.sap.com/dtp/viewer/index.html |
-| Support Portal | https://support.sap.com/ |
-| Cloud ALM | https://help.sap.com/docs/cloud-alm |
-| API Hub | https://api.sap.com |
+| SAP Trust Center | [https://www.sap.com/about/cloud-trust-center/](https://www.sap.com/about/cloud-trust-center/) |
+| Guided Answers | [https://ga.support.sap.com/dtp/viewer/index.html](https://ga.support.sap.com/dtp/viewer/index.html) |
+| Support Portal | [https://support.sap.com/](https://support.sap.com/) |
+| Cloud ALM | [https://help.sap.com/docs/cloud-alm](https://help.sap.com/docs/cloud-alm) |
+| API Hub | [https://api.sap.com](https://api.sap.com) |

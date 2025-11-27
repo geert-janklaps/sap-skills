@@ -249,9 +249,9 @@ resources:
 
 | Resource | URL |
 |----------|-----|
-| SAP Extensibility Explorer | https://experience.sap.com/extensibility-explorer/ |
-| Discovery Center Missions | https://discovery-center.cloud.sap/ |
-| CAP External Services | https://cap.cloud.sap/docs/guides/using-services |
+| SAP Extensibility Explorer | [https://experience.sap.com/extensibility-explorer/](https://experience.sap.com/extensibility-explorer/) |
+| Discovery Center Missions | [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/) |
+| CAP External Services | [https://cap.cloud.sap/docs/guides/using-services](https://cap.cloud.sap/docs/guides/using-services) |
 
 ## Related Skill Guides
 
@@ -264,4 +264,4 @@ resources:
 
 ## Source Documentation
 
-- Extending SAP Solutions: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/extending-existing-sap-solutions-using-sap-btp-40aa232.md
+- Extending SAP Solutions: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/extending-existing-sap-solutions-using-sap-btp-40aa232.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/extending-existing-sap-solutions-using-sap-btp-40aa232.md)

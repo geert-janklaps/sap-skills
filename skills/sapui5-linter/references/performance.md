@@ -1,6 +1,6 @@
 # UI5 Linter - Performance Reference
 
-**Source**: https://github.com/UI5/linter/blob/main/docs/Performance.md
+**Source**: [https://github.com/UI5/linter/blob/main/docs/Performance.md](https://github.com/UI5/linter/blob/main/docs/Performance.md)
 **Last Updated**: 2025-11-21
 **UI5 Linter Version**: 1.20.5
 
@@ -546,10 +546,10 @@ diff benchmark-baseline.txt benchmark-current.txt
 
 ## Further Reading
 
-- **Performance Documentation**: https://github.com/UI5/linter/blob/main/docs/Performance.md
-- **Hyperfine Tool**: https://github.com/sharkdp/hyperfine
-- **UI5 Tooling Performance**: https://sap.github.io/ui5-tooling/
-- **Main Repository**: https://github.com/UI5/linter
+- **Performance Documentation**: [https://github.com/UI5/linter/blob/main/docs/Performance.md](https://github.com/UI5/linter/blob/main/docs/Performance.md)
+- **Hyperfine Tool**: [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
+- **UI5 Tooling Performance**: [https://sap.github.io/ui5-tooling/](https://sap.github.io/ui5-tooling/)
+- **Main Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
 
 ---
 

@@ -2,8 +2,8 @@
 
 Detailed guidance for SAP BTP Kyma environment development and administration.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts
-**Kyma Project**: https://kyma-project.io/
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts)
+**Kyma Project**: [https://kyma-project.io/](https://kyma-project.io/)
 
 ---
 
@@ -216,7 +216,7 @@ spec:
     - handler: jwt
       config:
         jwks_urls:
-        - https://<subaccount>.authentication.<region>.hana.ondemand.com/token_keys
+        - [https://<subaccount>.authentication.<region>.hana.ondemand.com/token_keys](https://<subaccount>.authentication.<region>.hana.ondemand.com/token_keys)
 ```
 
 ### Helm Chart
@@ -344,7 +344,7 @@ metadata:
   name: my-subscription
   namespace: my-namespace
 spec:
-  sink: http://my-function.my-namespace.svc.cluster.local
+  sink: [http://my-function.my-namespace.svc.cluster.local](http://my-function.my-namespace.svc.cluster.local)
   source: myapp
   types:
   - order.created.v1
@@ -382,9 +382,9 @@ accessStrategies:
 - handler: jwt
   config:
     jwks_urls:
-    - https://<subaccount>.authentication.<region>.hana.ondemand.com/token_keys
+    - [https://<subaccount>.authentication.<region>.hana.ondemand.com/token_keys](https://<subaccount>.authentication.<region>.hana.ondemand.com/token_keys)
     trusted_issuers:
-    - https://<subaccount>.authentication.<region>.hana.ondemand.com/oauth/token
+    - [https://<subaccount>.authentication.<region>.hana.ondemand.com/oauth/token](https://<subaccount>.authentication.<region>.hana.ondemand.com/oauth/token)
 ```
 
 ### RBAC
@@ -493,7 +493,7 @@ kubectl logs my-pod -c my-container -n my-namespace --previous
 
 ## Related Documentation
 
-- Kyma Environment: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/kyma-environment-468c2f3.md
-- Kyma Modules: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/kyma-modules-0dda141.md
-- Getting Started: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/20-getting-started/getting-started-in-the-kyma-environment-d1abd18.md
-- Kyma Project: https://kyma-project.io/docs/
+- Kyma Environment: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/kyma-environment-468c2f3.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/kyma-environment-468c2f3.md)
+- Kyma Modules: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/kyma-modules-0dda141.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/kyma-modules-0dda141.md)
+- Getting Started: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/20-getting-started/getting-started-in-the-kyma-environment-d1abd18.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/20-getting-started/getting-started-in-the-kyma-environment-d1abd18.md)
+- Kyma Project: [https://kyma-project.io/docs/](https://kyma-project.io/docs/)

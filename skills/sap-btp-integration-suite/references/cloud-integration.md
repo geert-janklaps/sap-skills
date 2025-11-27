@@ -1,7 +1,7 @@
 # Cloud Integration - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci)
 **Last Updated**: 2025-11-22
 
 ---
@@ -32,7 +32,7 @@ Cloud Integration enables building and running integration flows across cloud, o
 - Steps transform, route, and process messages
 - Security material protects sensitive data
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development)
 
 ---
 
@@ -107,7 +107,7 @@ ${exchangeId}
 ${camelId}
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-content-modifier-8f04a70.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-content-modifier-8f04a70.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-content-modifier-8f04a70.md)
 
 #### Message Mapping
 Graphical transformation between source and target structures.
@@ -121,12 +121,12 @@ Graphical transformation between source and target structures.
 - Conversion functions
 - Custom Groovy functions
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/message-mapping-459ccdf.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/message-mapping-459ccdf.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/message-mapping-459ccdf.md)
 
 #### XSLT Mapping
 XML transformation using XSLT stylesheets.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/create-xslt-mapping-5ce1f15.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/create-xslt-mapping-5ce1f15.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/create-xslt-mapping-5ce1f15.md)
 
 #### Converters
 | Converter | Function |
@@ -158,7 +158,7 @@ regex, not regex
 
 **Best Practice**: Use same condition type (XML or Non-XML) for all branches.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-router-d7fddbd.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-router-d7fddbd.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-router-d7fddbd.md)
 
 #### Filter
 Removes messages not matching specified conditions.
@@ -183,7 +183,7 @@ Dynamically determines recipients at runtime.
 
 **Difference**: General Splitter preserves envelope; Iterating Splitter strips envelope elements.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-splitter-dabea9d.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-splitter-dabea9d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-splitter-dabea9d.md)
 
 ### Aggregator
 Combines split messages back together.
@@ -342,7 +342,7 @@ ${exception.stacktrace}
 - Local process exceptions not caught by main process
 - Processing terminates after handling
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-exception-subprocess-690e078.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-exception-subprocess-690e078.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/define-exception-subprocess-690e078.md)
 
 ### Error Configuration
 
@@ -419,13 +419,13 @@ Sender → ID Mapping (Get) → Exists?
 - Use `Eval()` class
 - Bind variables unnecessarily
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/general-scripting-guidelines-fcbf0f2.md)
 
 ---
 
 ## Related Documentation
 
-- **Development Guide**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development
-- **Operations Guide**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Operations
-- **Security Guide**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/SecurityCF
-- **Design Guidelines**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/integration-flow-design-guidelines-6803389.md
+- **Development Guide**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development)
+- **Operations Guide**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Operations](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Operations)
+- **Security Guide**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/SecurityCF](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/SecurityCF)
+- **Design Guidelines**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/integration-flow-design-guidelines-6803389.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/integration-flow-design-guidelines-6803389.md)

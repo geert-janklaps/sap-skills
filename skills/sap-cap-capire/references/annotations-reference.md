@@ -1,6 +1,6 @@
 # CDS Annotations Complete Reference
 
-**Source**: https://cap.cloud.sap/docs/cds/annotations
+**Source**: [https://cap.cloud.sap/docs/cds/annotations](https://cap.cloud.sap/docs/cds/annotations)
 
 ## Table of Contents
 - [Core Annotations](#core-annotations)

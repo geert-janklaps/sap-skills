@@ -120,7 +120,6 @@ serving templates, metadata retrieval, content packages
 sap-ai-core/
 ├── SKILL.md                        # Main skill file
 ├── README.md                       # This file
-├── PROGRESS_TRACKING.md            # Documentation extraction progress
 ├── references/
 │   ├── orchestration-modules.md    # Detailed orchestration module docs
 │   ├── generative-ai-hub.md        # Generative AI Hub reference
@@ -164,11 +163,11 @@ curl -X GET "$AI_API_URL/v2/lm/scenarios/foundation-models/models" \
 
 | Resource | URL |
 |----------|-----|
-| SAP AI Core Guide | https://help.sap.com/docs/sap-ai-core |
-| SAP AI Launchpad Guide | https://help.sap.com/docs/sap-ai-launchpad |
-| GitHub Docs Source | https://github.com/SAP-docs/sap-artificial-intelligence |
+| SAP AI Core Guide | [https://help.sap.com/docs/sap-ai-core](https://help.sap.com/docs/sap-ai-core) |
+| SAP AI Launchpad Guide | [https://help.sap.com/docs/sap-ai-launchpad](https://help.sap.com/docs/sap-ai-launchpad) |
+| GitHub Docs Source | [https://github.com/SAP-docs/sap-artificial-intelligence](https://github.com/SAP-docs/sap-artificial-intelligence) |
 | SAP Note (Models) | SAP Note 3437766 |
-| SAP Discovery Center | https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core |
+| SAP Discovery Center | [https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core) |
 
 ## License
 

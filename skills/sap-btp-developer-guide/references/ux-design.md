@@ -259,12 +259,12 @@ annotate service.Books with @(
 
 | Resource | URL |
 |----------|-----|
-| SAP Fiori Design Guidelines | https://experience.sap.com/fiori-design-web/ |
-| Accessibility Guidelines | https://experience.sap.com/fiori-design-web/accessibility/ |
-| SAPUI5 Demo Kit | https://sapui5.hana.ondemand.com/ |
+| SAP Fiori Design Guidelines | [https://experience.sap.com/fiori-design-web/](https://experience.sap.com/fiori-design-web/) |
+| Accessibility Guidelines | [https://experience.sap.com/fiori-design-web/accessibility/](https://experience.sap.com/fiori-design-web/accessibility/) |
+| SAPUI5 Demo Kit | [https://sapui5.hana.ondemand.com/](https://sapui5.hana.ondemand.com/) |
 | Fiori Tools | SAP Business Application Studio |
 
 ## Source Documentation
 
-- UX Design: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/user-experience-design-323bd93.md
-- UX Compliance: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/ux-design-and-product-compliance-standards-91e4468.md
+- UX Design: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/user-experience-design-323bd93.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/user-experience-design-323bd93.md)
+- UX Compliance: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/ux-design-and-product-compliance-standards-91e4468.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/ux-design-and-product-compliance-standards-91e4468.md)

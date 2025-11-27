@@ -90,7 +90,7 @@
 - ✅ Package versions correct: 1.20.5 verified from npm
 
 ### ✅ COMPLIANCE CHECKLIST
-- ✅ Compared against https://github.com/anthropics/skills/blob/main/agent_skills_spec.md
+- ✅ Compared against [https://github.com/anthropics/skills/blob/main/agent_skills_spec.md](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
 - ✅ No deprecated patterns used
 - ✅ Only standard frontmatter fields (name, description, license, metadata - all allowed)
 - ✅ Writing style consistent (imperative, third-person in description)
@@ -108,7 +108,6 @@
 - ✅ Token savings: ~64% (10.8k tokens saved)
 - ✅ Errors documented: 2-3 typical errors without skill vs 0 with skill
 - ✅ Error prevention: 100% (deprecated API usage, config issues, autofix misuse)
-- ✅ Metrics documented in PROGRESS_TRACKING.md
 
 ### ✅ DOCUMENTATION CHECKLIST
 - ✅ SKILL.md complete (~4,500 words)
@@ -244,7 +243,6 @@ Errors: 0 (all common pitfalls documented)
 skills/sapui5-linter/
 ├── SKILL.md                           ✅ 4,500 words
 ├── README.md                          ✅ 1,500 words
-├── PROGRESS_TRACKING.md               ✅ Extraction tracking
 ├── VERIFICATION.md                    ✅ This file
 ├── references/
 │   ├── rules-complete.md              ✅ 3,500 words

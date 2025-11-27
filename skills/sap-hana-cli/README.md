@@ -8,7 +8,7 @@ A comprehensive Claude Code skill for the SAP HANA Developer Command Line Interf
 
 This skill provides guidance for using the **hana-cli** npm package - a developer-centric CLI tool for SAP HANA database development. It covers all 91 commands, 17+ output formats, HDI container management, and cloud operations.
 
-**Source Repository**: https://github.com/SAP-samples/hana-developer-cli-tool-example
+**Source Repository**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
 
 ---
 
@@ -179,7 +179,6 @@ This skill provides guidance for using the **hana-cli** npm package - a develope
 sap-hana-cli/
 ├── SKILL.md                           # Main skill instructions
 ├── README.md                          # This file (keywords)
-├── PROGRESS_TRACKING.md               # Extraction progress
 ├── references/
 │   ├── command-reference.md           # All 91 commands
 │   ├── connection-security.md         # Connection & security
@@ -222,12 +221,12 @@ This skill activates when users:
 
 ## Resources
 
-- **GitHub Repository**: https://github.com/SAP-samples/hana-developer-cli-tool-example
-- **npm Package**: https://www.npmjs.com/package/hana-cli
-- **Intro Video**: https://youtu.be/dvVQfi9Qgog
-- **Cloud Shell Demo**: https://youtu.be/L7QyVLvAIIQ
-- **SAP HANA Cloud**: https://help.sap.com/docs/hana-cloud
-- **SAP CAP**: https://cap.cloud.sap/docs/
+- **GitHub Repository**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
+- **npm Package**: [https://www.npmjs.com/package/hana-cli](https://www.npmjs.com/package/hana-cli)
+- **Intro Video**: [https://youtu.be/dvVQfi9Qgog](https://youtu.be/dvVQfi9Qgog)
+- **Cloud Shell Demo**: [https://youtu.be/L7QyVLvAIIQ](https://youtu.be/L7QyVLvAIIQ)
+- **SAP HANA Cloud**: [https://help.sap.com/docs/hana-cloud](https://help.sap.com/docs/hana-cloud)
+- **SAP CAP**: [https://cap.cloud.sap/docs/](https://cap.cloud.sap/docs/)
 
 ---
 

@@ -1,6 +1,6 @@
 # UI5 Linter - Configuration Complete Reference
 
-**Source**: https://github.com/UI5/linter/blob/main/README.md
+**Source**: [https://github.com/UI5/linter/blob/main/README.md](https://github.com/UI5/linter/blob/main/README.md)
 **Last Updated**: 2025-11-21
 **UI5 Linter Version**: 1.20.5
 
@@ -833,10 +833,10 @@ Configuration: `ui5lint.config.js`
 
 ## Further Reading
 
-- **Main Repository**: https://github.com/UI5/linter
-- **README**: https://github.com/UI5/linter/blob/main/README.md
+- **Main Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
+- **README**: [https://github.com/UI5/linter/blob/main/README.md](https://github.com/UI5/linter/blob/main/README.md)
 - **CLI Options**: See cli-options.md reference
-- **Node.js Glob Patterns**: https://github.com/isaacs/node-glob#glob-primer
+- **Node.js Glob Patterns**: [https://github.com/isaacs/node-glob#glob-primer](https://github.com/isaacs/node-glob#glob-primer)
 
 ---
 

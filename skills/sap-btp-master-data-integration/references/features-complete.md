@@ -2,20 +2,21 @@
 
 Comprehensive feature documentation for SAP Master Data Integration.
 
-**Table of Contents**
+## Table of Contents
+
 - [Core Features](#core-features)
-- [Distribution Models](#distribution-models)
-- [Filtering](#filtering)
+- [Distribution Models](#3-distribution-models)
+- [Filtering](#4-filtering)
 - [Delta Tokens](#delta-tokens)
 - [Extensibility](#extensibility)
 - [Key Mapping](#key-mapping)
 - [Events API](#events-api)
 - [Requests API](#requests-api)
 - [Business Data Orchestration](#business-data-orchestration)
-- [Data Privacy](#data-privacy)
+- [Data Privacy](#sap-data-privacy-integration)
 - [Monitoring](#monitoring)
 
-**Source**: https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/features
+**Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/features](https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/features)
 
 ---
 
@@ -322,6 +323,6 @@ SAP Master Data Integration service (including SAP Master Data Orchestration) is
 
 ## Documentation Links
 
-- **Features**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/features
-- **Distribution Models**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/distribution-models
-- **Monitoring**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/monitoring
+- **Features**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/features](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/features)
+- **Distribution Models**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/distribution-models](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/distribution-models)
+- **Monitoring**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/monitoring](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/monitoring)

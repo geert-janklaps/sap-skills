@@ -68,7 +68,6 @@ This skill activates when you mention:
 sap-btp-job-scheduling/
 ├── SKILL.md                    # Main skill file
 ├── README.md                   # This file
-├── PROGRESS_TRACKING.md        # Documentation coverage
 ├── references/
 │   ├── concepts.md             # Schedule types, formats, lifecycle
 │   ├── rest-api.md             # Complete REST API reference
@@ -85,9 +84,9 @@ sap-btp-job-scheduling/
 
 ## Documentation Sources
 
-- **Primary Source**: https://github.com/SAP-docs/sap-btp-job-scheduling-service
-- **SAP Help Portal**: https://help.sap.com/docs/job-scheduling
-- **API Reference**: https://api.sap.com/
+- **Primary Source**: [https://github.com/SAP-docs/sap-btp-job-scheduling-service](https://github.com/SAP-docs/sap-btp-job-scheduling-service)
+- **SAP Help Portal**: [https://help.sap.com/docs/job-scheduling](https://help.sap.com/docs/job-scheduling)
+- **API Reference**: [https://api.sap.com/](https://api.sap.com/)
 
 ## Key Features Covered
 
@@ -132,4 +131,4 @@ sap-btp-job-scheduling/
 ## Support
 
 - **SAP Support Component**: BC-CP-CF-JBS
-- **Skill Repository**: https://github.com/secondsky/sap-skills
+- **Skill Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

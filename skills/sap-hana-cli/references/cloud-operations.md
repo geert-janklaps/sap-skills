@@ -1,6 +1,6 @@
 # SAP HANA CLI - Cloud & BTP Operations
 
-**Source**: https://github.com/SAP-samples/hana-developer-cli-tool-example
+**Source**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
 
 Commands for managing SAP HANA Cloud instances and SAP BTP integration.
 
@@ -189,7 +189,7 @@ Full compatibility with AWS Cloud9.
 
 ### Video Demo
 
-Cloud shell usage: https://youtu.be/L7QyVLvAIIQ
+Cloud shell usage: [https://youtu.be/L7QyVLvAIIQ](https://youtu.be/L7QyVLvAIIQ)
 
 ---
 
@@ -268,7 +268,7 @@ cds bind --to hana --for hybrid
       "kind": "hana",
       "binding": {
         "type": "cf",
-        "apiEndpoint": "https://api.cf.eu10.hana.ondemand.com",
+        "apiEndpoint": "[https://api.cf.eu10.hana.ondemand.com",](https://api.cf.eu10.hana.ondemand.com",)
         "org": "my-org",
         "space": "dev",
         "instance": "hana-hdi"
@@ -327,10 +327,10 @@ hana-cli btpInfo
 
 ## Cloud Resources
 
-- **SAP HANA Cloud**: https://help.sap.com/docs/hana-cloud
-- **SAP BTP**: https://help.sap.com/docs/btp
-- **HANA Cloud Getting Started**: https://developers.sap.com/group.hana-cloud-get-started-1-trial.html
+- **SAP HANA Cloud**: [https://help.sap.com/docs/hana-cloud](https://help.sap.com/docs/hana-cloud)
+- **SAP BTP**: [https://help.sap.com/docs/btp](https://help.sap.com/docs/btp)
+- **HANA Cloud Getting Started**: [https://developers.sap.com/group.hana-cloud-get-started-1-trial.html](https://developers.sap.com/group.hana-cloud-get-started-1-trial.html)
 
 ---
 
-*Reference: https://github.com/SAP-samples/hana-developer-cli-tool-example*
+*Reference: [https://github.com/SAP-samples/hana-developer-cli-tool-example*](https://github.com/SAP-samples/hana-developer-cli-tool-example*)

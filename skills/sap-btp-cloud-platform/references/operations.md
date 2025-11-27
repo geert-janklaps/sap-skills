@@ -2,7 +2,7 @@
 
 Complete guidance for SAP BTP operations, monitoring, logging, and alerting.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops)
 
 ---
 
@@ -166,7 +166,7 @@ Security-relevant chronological records for compliance and security.
 
 **Via API**:
 ```bash
-curl -X GET "https://auditlog.cf.<region>.hana.ondemand.com/v2/auditlogrecords" \
+curl -X GET "[https://auditlog.cf.<region>.hana.ondemand.com/v2/auditlogrecords"](https://auditlog.cf.<region>.hana.ondemand.com/v2/auditlogrecords") \
   -H "Authorization: Bearer <token>" \
   -H "Accept: application/json"
 ```
@@ -417,7 +417,7 @@ kubectl describe pod <pod-name> -n my-namespace
 
 ## Related Documentation
 
-- Operations: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops
-- Audit Logging: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/50-administration-and-ops/audit-logging-in-the-cloud-foundry-environment-f92c86a.md
-- Operating Model: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/70-getting-support
-- Data Protection: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/data-protection-and-privacy-7e513d3.md
+- Operations: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops)
+- Audit Logging: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/50-administration-and-ops/audit-logging-in-the-cloud-foundry-environment-f92c86a.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/50-administration-and-ops/audit-logging-in-the-cloud-foundry-environment-f92c86a.md)
+- Operating Model: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/70-getting-support](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/70-getting-support)
+- Data Protection: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/data-protection-and-privacy-7e513d3.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/data-protection-and-privacy-7e513d3.md)

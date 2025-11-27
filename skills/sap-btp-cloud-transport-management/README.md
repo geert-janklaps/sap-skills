@@ -133,7 +133,6 @@ This skill activates when working with:
 sap-btp-cloud-transport-management/
 ├── SKILL.md                      # Main skill file
 ├── README.md                     # This file (keywords)
-├── EXTRACTION_PROGRESS.md        # Documentation coverage tracking
 └── references/
     ├── initial-setup.md          # Setup procedures
     ├── destinations.md           # 8 destination type configurations
@@ -147,8 +146,8 @@ sap-btp-cloud-transport-management/
 
 ## Documentation Sources
 
-- **SAP Help Portal**: https://help.sap.com/docs/cloud-transport-management
-- **API Reference**: https://api.sap.com/package/TmsForCloudPub/rest
+- **SAP Help Portal**: [https://help.sap.com/docs/cloud-transport-management](https://help.sap.com/docs/cloud-transport-management)
+- **API Reference**: [https://api.sap.com/package/TmsForCloudPub/rest](https://api.sap.com/package/TmsForCloudPub/rest)
 
 ## Coverage
 

@@ -8,7 +8,7 @@ metadata:
   last_verified: 2025-11-27
   sac_version: "2025.23"
   api_reference_version: "2025.14"
-  documentation_source: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD
+  documentation_source: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD)
   reference_files: 52
   template_patterns: 40
   status: production
@@ -175,9 +175,9 @@ NavigationUtils.openStory(storyId, "", urlParameters, false);
 
 ## Official Documentation
 
-- **Analytics Designer API**: https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/latest/en-US/
-- **Optimized Story Experience API**: https://help.sap.com/doc/1639cb9ccaa54b2592224df577abe822/latest/en-US/
-- **SAC Scripting Docs**: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD
+- **Analytics Designer API**: [Analytics Designer API](https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/latest/en-US/)
+- **Optimized Story Experience API**: [Optimized Story Experience API](https://help.sap.com/doc/1639cb9ccaa54b2592224df577abe822/latest/en-US/)
+- **SAC Scripting Docs**: [SAC Scripting Docs](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD)
 
 ---
 

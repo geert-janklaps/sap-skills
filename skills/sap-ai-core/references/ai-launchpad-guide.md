@@ -2,7 +2,7 @@
 
 Comprehensive reference for SAP AI Launchpad features and operations.
 
-**Documentation Source:** https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-launchpad
+**Documentation Source:** [https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-launchpad](https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-launchpad)
 
 ---
 
@@ -588,11 +588,11 @@ Supported languages vary by region and deployment.
 
 ## Documentation Links
 
-- What is AI Launchpad: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/what-is-sap-ai-launchpad-760889a.md
-- Initial Setup: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/initial-setup-5d8adb6.md
-- Service Plans: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/service-plans-ec1717d.md
-- ML Operations: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/ml-operations-df78271.md
-- Generative AI Hub: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/generative-ai-hub-b0b935b.md
-- Prompt Experimentation: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/prompt-experimentation-384cc0c.md
-- Orchestration: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/build-your-orchestration-workflow-b7dc8b4.md
-- Deployments: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/deployments-0543c2c.md
+- What is AI Launchpad: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/what-is-sap-ai-launchpad-760889a.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/what-is-sap-ai-launchpad-760889a.md)
+- Initial Setup: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/initial-setup-5d8adb6.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/initial-setup-5d8adb6.md)
+- Service Plans: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/service-plans-ec1717d.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/service-plans-ec1717d.md)
+- ML Operations: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/ml-operations-df78271.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/ml-operations-df78271.md)
+- Generative AI Hub: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/generative-ai-hub-b0b935b.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/generative-ai-hub-b0b935b.md)
+- Prompt Experimentation: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/prompt-experimentation-384cc0c.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/prompt-experimentation-384cc0c.md)
+- Orchestration: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/build-your-orchestration-workflow-b7dc8b4.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/build-your-orchestration-workflow-b7dc8b4.md)
+- Deployments: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/deployments-0543c2c.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-launchpad/deployments-0543c2c.md)

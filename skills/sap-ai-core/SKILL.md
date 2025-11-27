@@ -11,6 +11,13 @@ metadata:
 
 # SAP AI Core & AI Launchpad Skill
 
+## Related Skills
+
+- **sap-btp-cloud-platform**: Use for platform context, BTP account setup, and service integration
+- **sap-cap-capire**: Use for building AI-powered applications with CAP or integrating AI services
+- **sap-cloud-sdk-ai**: Use for SDK integration, AI service calls, and Java/JavaScript implementations
+- **sap-btp-best-practices**: Use for production deployment patterns and AI governance guidelines
+
 ## Table of Contents
 
 1. [Overview](#overview)
@@ -251,6 +258,6 @@ Request quota increases via support ticket (Component: `CA-ML-AIC`).
 3. `templates/tool-definition.json` - Tool calling definition template
 
 **Official Sources**:
-- SAP AI Core Guide: https://help.sap.com/docs/sap-ai-core
-- SAP AI Launchpad Guide: https://help.sap.com/docs/sap-ai-launchpad
+- SAP AI Core Guide: [https://help.sap.com/docs/sap-ai-core](https://help.sap.com/docs/sap-ai-core)
+- SAP AI Launchpad Guide: [https://help.sap.com/docs/sap-ai-launchpad](https://help.sap.com/docs/sap-ai-launchpad)
 - SAP Note 3437766: Model token rates and limits

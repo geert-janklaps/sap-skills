@@ -1,6 +1,6 @@
 # UI5 FileSystem API Reference
 
-**Official Documentation**: https://ui5.github.io/cli/stable/pages/FileSystem/
+**Official Documentation**: [https://ui5.github.io/cli/stable/pages/FileSystem/](https://ui5.github.io/cli/stable/pages/FileSystem/)
 
 This reference provides comprehensive details about the UI5 FileSystem abstraction layer, adapters, and reader/writer collections for custom task and middleware development.
 
@@ -707,7 +707,7 @@ try {
 
 ## API Reference
 
-**Full API Documentation**: https://ui5.github.io/cli/v4/api/
+**Full API Documentation**: [https://ui5.github.io/cli/v4/api/](https://ui5.github.io/cli/v4/api/)
 
 **Key Modules**:
 - `@ui5/fs` - Main module
@@ -754,5 +754,5 @@ try {
 ---
 
 **Last Updated**: 2025-11-21
-**Official Docs**: https://ui5.github.io/cli/stable/pages/FileSystem/
-**API Docs**: https://ui5.github.io/cli/v4/api/
+**Official Docs**: [https://ui5.github.io/cli/stable/pages/FileSystem/](https://ui5.github.io/cli/stable/pages/FileSystem/)
+**API Docs**: [https://ui5.github.io/cli/v4/api/](https://ui5.github.io/cli/v4/api/)

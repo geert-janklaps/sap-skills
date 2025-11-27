@@ -75,7 +75,6 @@ Use this skill when:
 sap-btp-master-data-integration/
 ├── SKILL.md                          # Main skill instructions
 ├── README.md                         # This file (discovery keywords)
-├── PROGRESS_TRACKING.md              # Documentation extraction tracking
 └── references/
     ├── glossary-and-pricing.md       # Complete glossary, pricing, maintenance windows
     ├── setup-guide-complete.md       # Prerequisites, tenant management, version history
@@ -111,10 +110,10 @@ sap-btp-master-data-integration/
 
 | Source | URL |
 |--------|-----|
-| Primary Documentation | https://help.sap.com/docs/master-data-integration |
-| GitHub Source | https://github.com/SAP-docs/sap-btp-master-data-integration |
-| API Catalog | https://api.sap.com (filter: SAP Master Data Integration) |
-| Discovery Center | https://discovery-center.cloud.sap/serviceCatalog/master-data-integration |
+| Primary Documentation | [https://help.sap.com/docs/master-data-integration](https://help.sap.com/docs/master-data-integration) |
+| GitHub Source | [https://github.com/SAP-docs/sap-btp-master-data-integration](https://github.com/SAP-docs/sap-btp-master-data-integration) |
+| API Catalog | [https://api.sap.com](https://api.sap.com) (filter: SAP Master Data Integration) |
+| Discovery Center | [https://discovery-center.cloud.sap/serviceCatalog/master-data-integration](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration) |
 
 ## Coverage
 
@@ -134,13 +133,12 @@ This skill extracts and organizes content from **90 documentation files** across
 ## Maintenance
 
 **Last Updated**: 2025-11-27
-**Source Repository**: https://github.com/SAP-docs/sap-btp-master-data-integration
+**Source Repository**: [https://github.com/SAP-docs/sap-btp-master-data-integration](https://github.com/SAP-docs/sap-btp-master-data-integration)
 **Review Schedule**: Quarterly
 
 To update this skill:
 1. Check source repository for changes
 2. Fetch updated documentation
-3. Update PROGRESS_TRACKING.md
 4. Update relevant reference files
 5. Update SKILL.md if core concepts change
 

@@ -2,7 +2,7 @@
 
 Complete guidance for extending SAP solutions using SAP BTP.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/40-extensions
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/40-extensions](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/40-extensions)
 
 ---
 
@@ -368,7 +368,7 @@ Extensions functionality is **NOT available** in:
 
 ## Related Documentation
 
-- Extensions: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/extensions-08b1eff.md
-- Formations: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/automating-integrations-using-formations-68b04fa.md
-- S/4HANA Extensions: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md
-- SuccessFactors Extensions: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/extending-sap-successfactors-in-the-cloud-foundry-and-kyma-environment-9e33934.md
+- Extensions: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/extensions-08b1eff.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/extensions-08b1eff.md)
+- Formations: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/automating-integrations-using-formations-68b04fa.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/automating-integrations-using-formations-68b04fa.md)
+- S/4HANA Extensions: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md)
+- SuccessFactors Extensions: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/extending-sap-successfactors-in-the-cloud-foundry-and-kyma-environment-9e33934.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/extending-sap-successfactors-in-the-cloud-foundry-and-kyma-environment-9e33934.md)

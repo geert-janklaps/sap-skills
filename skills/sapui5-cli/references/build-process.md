@@ -1,6 +1,6 @@
 # UI5 Build Process Complete Reference
 
-**Official Documentation**: https://ui5.github.io/cli/stable/pages/Builder/
+**Official Documentation**: [https://ui5.github.io/cli/stable/pages/Builder/](https://ui5.github.io/cli/stable/pages/Builder/)
 
 This reference provides comprehensive details about the UI5 build process, tasks, optimization, and bundling.
 
@@ -80,7 +80,7 @@ ui5 build self-contained --all
 **Before**:
 ```html
 <script id="sap-ui-bootstrap"
-    src="https://ui5.sap.com/resources/sap-ui-core.js"
+    src="[https://ui5.sap.com/resources/sap-ui-core.js"](https://ui5.sap.com/resources/sap-ui-core.js")
     data-sap-ui-libs="sap.m">
 </script>
 ```
@@ -803,4 +803,4 @@ ui5 build --create-build-manifest
 ---
 
 **Last Updated**: 2025-11-21
-**Official Docs**: https://ui5.github.io/cli/stable/pages/Builder/
+**Official Docs**: [https://ui5.github.io/cli/stable/pages/Builder/](https://ui5.github.io/cli/stable/pages/Builder/)

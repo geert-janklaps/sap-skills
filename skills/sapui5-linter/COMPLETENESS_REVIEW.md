@@ -2,7 +2,7 @@
 
 **Review Date**: 2025-11-21
 **Reviewer**: SAP Skills Maintainers
-**Repository**: https://github.com/UI5/linter
+**Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
 **Status**: ✅ COMPREHENSIVE with minor enhancements needed
 
 ---
@@ -364,7 +364,6 @@ The skill comprehensively covers all user-facing functionality, rules, configura
 1. Create `references/contributing.md`
 2. Create `references/support-and-community.md`
 3. Create `references/advanced-ci-cd.md`
-4. Update PROGRESS_TRACKING.md
 5. Commit enhancements
 
 ---

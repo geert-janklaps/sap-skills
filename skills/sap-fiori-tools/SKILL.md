@@ -15,6 +15,14 @@ metadata:
 
 # SAP Fiori Tools Development Skill
 
+## Related Skills
+
+- **sapui5**: Use for underlying UI5 framework details, custom control development, and advanced UI patterns
+- **sap-cap-capire**: Use for CAP service integration, OData consumption, and backend service configuration
+- **sap-abap-cds**: Use when consuming ABAP CDS views as OData services or working with ABAP backends
+- **sap-btp-cloud-platform**: Use for deployment targets, BTP destination configuration, and Cloud Foundry deployment
+- **sap-api-style**: Use when documenting OData APIs or following API documentation standards for Fiori apps
+
 Comprehensive guidance for developing SAP Fiori applications using SAP Fiori tools extensions.
 
 ## Overview
@@ -48,7 +56,7 @@ Official SAP sample repository with Fiori Elements applications built using SAP 
 
 **Quick Start**:
 ```bash
-git clone https://github.com/SAP-samples/fiori-tools-samples
+git clone [https://github.com/SAP-samples/fiori-tools-samples](https://github.com/SAP-samples/fiori-tools-samples)
 cd fiori-tools-samples/V4/apps/salesorder
 npm install
 npm start
@@ -392,7 +400,7 @@ For detailed information on specific topics:
 
 ## Documentation Sources
 
-**Primary Source**: https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs
+**Primary Source**: [https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs](https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs)
 
 **Last Updated**: 2025-11-22
 
@@ -407,5 +415,5 @@ For detailed information on specific topics:
 | Adaptation Projects | Root docs folder |
 
 **SAP Resources**:
-- Fiori Design Guidelines: https://experience.sap.com/fiori-design-web/
-- SAP Help Portal: https://help.sap.com/docs/SAP_FIORI_tools
+- Fiori Design Guidelines: [https://experience.sap.com/fiori-design-web/](https://experience.sap.com/fiori-design-web/)
+- SAP Help Portal: [https://help.sap.com/docs/SAP_FIORI_tools](https://help.sap.com/docs/SAP_FIORI_tools)

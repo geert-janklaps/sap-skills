@@ -1,6 +1,6 @@
 # CAP Tools Complete Reference
 
-> Source: https://cap.cloud.sap/docs/tools/
+> Source: [https://cap.cloud.sap/docs/tools/](https://cap.cloud.sap/docs/tools/)
 
 ## CDS Editors & IDEs
 

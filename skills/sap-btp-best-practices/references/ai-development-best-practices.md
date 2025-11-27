@@ -3,7 +3,7 @@
 Comprehensive guide for implementing AI solutions on SAP Business Technology Platform using SAP AI Core and related services.
 
 **Source Repository**: [SAP-samples/sap-btp-ai-best-practices](https://github.com/SAP-samples/sap-btp-ai-best-practices)  
-**Documentation Portal**: https://btp-ai-bp.docs.sap/  
+**Documentation Portal**: [https://btp-ai-bp.docs.sap/](https://btp-ai-bp.docs.sap/)  
 **Project Catalog**: [AI4U Project Catalog](https://ai4u-website.cfapps.eu10-004.hana.ondemand.com/project-catalog)
 
 ---
@@ -205,7 +205,7 @@ The repository includes 20+ end-to-end implementations:
 
 ```bash
 # Clone the repository
-git clone https://github.com/SAP-samples/sap-btp-ai-best-practices.git
+git clone [https://github.com/SAP-samples/sap-btp-ai-best-practices.git](https://github.com/SAP-samples/sap-btp-ai-best-practices.git)
 cd sap-btp-ai-best-practices
 
 # Navigate to a specific best practice
@@ -222,13 +222,13 @@ python main.py
 
 | Resource | Link |
 |----------|------|
-| **Documentation Portal** | https://btp-ai-bp.docs.sap/ |
-| **GitHub Repository** | https://github.com/SAP-samples/sap-btp-ai-best-practices |
-| **Project Catalog** | https://ai4u-website.cfapps.eu10-004.hana.ondemand.com/project-catalog |
-| **SAP AI Core Documentation** | https://help.sap.com/docs/sap-ai-core |
+| **Documentation Portal** | [https://btp-ai-bp.docs.sap/](https://btp-ai-bp.docs.sap/) |
+| **GitHub Repository** | [https://github.com/SAP-samples/sap-btp-ai-best-practices](https://github.com/SAP-samples/sap-btp-ai-best-practices) |
+| **Project Catalog** | [https://ai4u-website.cfapps.eu10-004.hana.ondemand.com/project-catalog](https://ai4u-website.cfapps.eu10-004.hana.ondemand.com/project-catalog) |
+| **SAP AI Core Documentation** | [https://help.sap.com/docs/sap-ai-core](https://help.sap.com/docs/sap-ai-core) |
 
 ---
 
 **License**: Apache-2.0  
 **Last Updated**: 2025-11-22  
-**Repository**: https://github.com/secondsky/sap-skills
+**Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

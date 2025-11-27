@@ -1,6 +1,6 @@
 # SAP BTP Job Scheduling Service - Setup Guide
 
-**Source**: https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs](https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs)
 **Last Updated**: 2025-11-22
 
 ---
@@ -185,9 +185,9 @@ Check `VCAP_SERVICES` for `jobscheduler` credentials.
 {
   "jobscheduler": [{
     "credentials": {
-      "url": "https://jobscheduler-rest.cfapps.eu10.hana.ondemand.com",
+      "url": "[https://jobscheduler-rest.cfapps.eu10.hana.ondemand.com",](https://jobscheduler-rest.cfapps.eu10.hana.ondemand.com",)
       "uaa": {
-        "url": "https://xxx.authentication.eu10.hana.ondemand.com",
+        "url": "[https://xxx.authentication.eu10.hana.ondemand.com",](https://xxx.authentication.eu10.hana.ondemand.com",)
         "clientid": "sb-xxx",
         "clientsecret": "xxx"
       }
@@ -202,9 +202,9 @@ Check `VCAP_SERVICES` for `jobscheduler` credentials.
 {
   "jobscheduler": [{
     "credentials": {
-      "url": "https://jobscheduler-rest.cfapps.eu10.hana.ondemand.com",
+      "url": "[https://jobscheduler-rest.cfapps.eu10.hana.ondemand.com",](https://jobscheduler-rest.cfapps.eu10.hana.ondemand.com",)
       "uaa": {
-        "certurl": "https://xxx.authentication.cert.eu10.hana.ondemand.com",
+        "certurl": "[https://xxx.authentication.cert.eu10.hana.ondemand.com",](https://xxx.authentication.cert.eu10.hana.ondemand.com",)
         "clientid": "sb-xxx",
         "certificate": "-----BEGIN CERTIFICATE-----\n...",
         "key": "-----BEGIN RSA PRIVATE KEY-----\n..."
@@ -385,9 +385,9 @@ cf restage my-app
 ## External References
 
 ### SAP Documentation
-- **Initial Setup**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/initial-setup
-- **Getting Started**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/getting-started
-- **XSUAA Documentation**: https://help.sap.com/docs/btp/sap-business-technology-platform/security
+- **Initial Setup**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/initial-setup](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/initial-setup)
+- **Getting Started**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/getting-started](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/getting-started)
+- **XSUAA Documentation**: [https://help.sap.com/docs/btp/sap-business-technology-platform/security](https://help.sap.com/docs/btp/sap-business-technology-platform/security)
 
 ### Source Files
 - `initial-setup-0adb655.md`

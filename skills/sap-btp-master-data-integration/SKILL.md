@@ -168,7 +168,7 @@ Master data type is Business Partner?
 
 ## SOAP Endpoints
 
-Base URL: `https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/`
+Base URL: `[https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/`](https://one-mds.cfapps.{region}.hana.ondemand.com/businesspartner/v0/soap/`)
 
 | Purpose | Endpoint |
 |---------|----------|
@@ -234,7 +234,7 @@ Configure partner determination logic in MDI for C4C → S/4HANA scenarios.
 Template available in SAP Note 2987243.
 
 ### Platform Status
-Check SAP Trust Center: https://www.sap.com/about/cloud-trust-center/
+Check SAP Trust Center: [https://www.sap.com/about/cloud-trust-center/](https://www.sap.com/about/cloud-trust-center/)
 
 ### Support Component
 `BC-CP-CF-ONEMDS`
@@ -258,7 +258,7 @@ Check SAP Trust Center: https://www.sap.com/about/cloud-trust-center/
 
 ## Documentation Sources
 
-**Primary Documentation**: https://help.sap.com/docs/master-data-integration
-**GitHub Source**: https://github.com/SAP-docs/sap-btp-master-data-integration
-**API Catalog**: https://api.sap.com (filter: SAP Master Data Integration)
-**SAP Discovery Center**: https://discovery-center.cloud.sap/serviceCatalog/master-data-integration
+**Primary Documentation**: [https://help.sap.com/docs/master-data-integration](https://help.sap.com/docs/master-data-integration)
+**GitHub Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration](https://github.com/SAP-docs/sap-btp-master-data-integration)
+**API Catalog**: [https://api.sap.com](https://api.sap.com) (filter: SAP Master Data Integration)
+**SAP Discovery Center**: [https://discovery-center.cloud.sap/serviceCatalog/master-data-integration](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration)

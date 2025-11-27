@@ -1,7 +1,7 @@
 # Adapters - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci/Development)
 **Last Updated**: 2025-11-22
 
 ---
@@ -29,7 +29,7 @@ SAP Integration Suite provides 80+ adapters for connectivity:
 
 Additionally, 170+ **Open Connectors** provide API-based access to SaaS applications.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/connectivity-options-93d82e8.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/connectivity-options-93d82e8.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/connectivity-options-93d82e8.md)
 
 ---
 
@@ -54,8 +54,8 @@ Additionally, 170+ **Open Connectors** provide API-based access to SaaS applicat
 | Timeout | Connection timeout in ms |
 
 **Documentation**:
-- Sender: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/https-sender-adapter-0ae4a78.md
-- Receiver: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/http-receiver-adapter-2da452e.md
+- Sender: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/https-sender-adapter-0ae4a78.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/https-sender-adapter-0ae4a78.md)
+- Receiver: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/http-receiver-adapter-2da452e.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/http-receiver-adapter-2da452e.md)
 
 ### SFTP Adapter
 
@@ -80,14 +80,14 @@ Additionally, 170+ **Open Connectors** provide API-based access to SaaS applicat
 | Handling | Append, Overwrite, Fail |
 
 **Documentation**:
-- Sender: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-sftp-sender-adapter-2de9ee5.md
-- Receiver: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-sftp-receiver-adapter-4ef52cf.md
+- Sender: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-sftp-sender-adapter-2de9ee5.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-sftp-sender-adapter-2de9ee5.md)
+- Receiver: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-sftp-receiver-adapter-4ef52cf.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-sftp-receiver-adapter-4ef52cf.md)
 
 ### FTP Adapter
 
 Similar to SFTP but for non-secure FTP connections.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/ftp-adapter-4464f89.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/ftp-adapter-4464f89.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/ftp-adapter-4464f89.md)
 
 ### SOAP Adapter
 
@@ -104,7 +104,7 @@ Similar to SFTP but for non-secure FTP connections.
 | Authentication | Basic, Certificate, OAuth |
 | WS-Security | Signing, encryption options |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-soap-soap-1-x-receiver-adapter-57f7b34.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-soap-soap-1-x-receiver-adapter-57f7b34.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-soap-soap-1-x-receiver-adapter-57f7b34.md)
 
 ### OData Adapter
 
@@ -125,8 +125,8 @@ Similar to SFTP but for non-secure FTP connections.
 | Authentication | Basic, OAuth, Certificate |
 
 **Documentation**:
-- V2: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-odata-v2-receiver-adapter-c5c2e38.md
-- V4: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-odata-v4-receiver-adapter-cd66a12.md
+- V2: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-odata-v2-receiver-adapter-c5c2e38.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-odata-v2-receiver-adapter-c5c2e38.md)
+- V4: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-odata-v4-receiver-adapter-cd66a12.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-odata-v4-receiver-adapter-cd66a12.md)
 
 ### RFC Adapter
 
@@ -139,7 +139,7 @@ Connect to SAP ABAP systems via RFC.
 | Connection | Via Cloud Connector |
 | Authentication | User/Password |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/rfc-receiver-adapter-5c76048.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/rfc-receiver-adapter-5c76048.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/rfc-receiver-adapter-5c76048.md)
 
 ### IDoc Adapter
 
@@ -153,7 +153,7 @@ Send/receive SAP IDocs.
 - Sends IDocs to SAP systems
 - Supports exactly-once delivery
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/idoc-adapter-6042250.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/idoc-adapter-6042250.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/idoc-adapter-6042250.md)
 
 ### Mail Adapter
 
@@ -175,7 +175,7 @@ Send/receive SAP IDocs.
 | Body | Message content |
 | Attachments | Include attachments |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/mail-adapter-f1145cc.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/mail-adapter-f1145cc.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/mail-adapter-f1145cc.md)
 
 ---
 
@@ -191,7 +191,7 @@ Internal message queuing.
 | Retry | Enable automatic retry |
 | Transaction | Enable transactional handling |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/jms-adapter-0993f2a.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/jms-adapter-0993f2a.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/jms-adapter-0993f2a.md)
 
 ### AMQP Adapter
 
@@ -205,7 +205,7 @@ Connect to AMQP 1.0 brokers.
 - IBM MQ
 - Solace PubSub+
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/amqp-adapter-5cc1a71.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/amqp-adapter-5cc1a71.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/amqp-adapter-5cc1a71.md)
 
 ### Kafka Adapter
 
@@ -219,7 +219,7 @@ Connect to Apache Kafka.
 | Authentication | SASL, SSL |
 | Serialization | Avro, JSON, String |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/kafka-adapter-3e7b995.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/kafka-adapter-3e7b995.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/kafka-adapter-3e7b995.md)
 
 ### ProcessDirect Adapter
 
@@ -229,7 +229,7 @@ Internal iFlow-to-iFlow communication (synchronous, same tenant).
 |-----------|-------------|
 | Address | Internal endpoint path |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/processdirect-adapter-7445718.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/processdirect-adapter-7445718.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/processdirect-adapter-7445718.md)
 
 ---
 
@@ -242,13 +242,13 @@ Internal iFlow-to-iFlow communication (synchronous, same tenant).
 - SuccessFactors SOAP
 - SuccessFactors REST
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-successfactors-odata-v2-receiver-adapter-d16dd12.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-successfactors-odata-v2-receiver-adapter-d16dd12.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/configure-the-successfactors-odata-v2-receiver-adapter-d16dd12.md)
 
 ### SAP Ariba Adapter
 
 Connect to Ariba Network.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/ariba-adapter-98da76c.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/ariba-adapter-98da76c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/ariba-adapter-98da76c.md)
 
 ### Salesforce Adapter
 
@@ -258,13 +258,13 @@ Connect to Ariba Network.
 - Bulk operations
 - Streaming API
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/salesforce-receiver-adapter-a548be9.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/salesforce-receiver-adapter-a548be9.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/salesforce-receiver-adapter-a548be9.md)
 
 ### Microsoft Dynamics CRM Adapter
 
 Connect to Dynamics 365/CRM.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/microsoft-dynamics-crm-receiver-adapter-ee724c8.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/microsoft-dynamics-crm-receiver-adapter-ee724c8.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/microsoft-dynamics-crm-receiver-adapter-ee724c8.md)
 
 ### Open Connectors
 
@@ -272,7 +272,7 @@ Access 170+ SaaS applications via unified API.
 
 **Examples**: Slack, HubSpot, Zendesk, Shopify, ServiceNow, Workday
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/openconnectors-receiver-adapter-1a27cee.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/openconnectors-receiver-adapter-1a27cee.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/openconnectors-receiver-adapter-1a27cee.md)
 
 ---
 
@@ -307,7 +307,7 @@ Direct database connectivity.
 | SQL Statement | Query or DML statement |
 | Batch Mode | Enable batch operations |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/jdbc-receiver-adapter-88be644.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/jdbc-receiver-adapter-88be644.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/jdbc-receiver-adapter-88be644.md)
 
 ---
 
@@ -323,7 +323,7 @@ Direct database connectivity.
 - DynamoDB (NoSQL)
 - EventBridge (events)
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/amazonwebservices-receiver-adapter-bc7d1aa.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/amazonwebservices-receiver-adapter-bc7d1aa.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/amazonwebservices-receiver-adapter-bc7d1aa.md)
 
 ### Microsoft Azure
 
@@ -352,7 +352,7 @@ Applicability Statement 2 for EDI over HTTP.
 - MDN (receipt) handling
 - Certificate-based authentication
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/as2-adapter-d3af635.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/as2-adapter-d3af635.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/as2-adapter-d3af635.md)
 
 ### AS4 Adapter
 
@@ -363,13 +363,13 @@ OASIS ebMS 3.0/AS4 standard.
 - Push/Pull modes
 - Receipt handling
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/as4-receiver-adapter-3a2fde8.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/as4-receiver-adapter-3a2fde8.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/as4-receiver-adapter-3a2fde8.md)
 
 ### ELSTER Adapter
 
 German tax authority integration.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/elster-receiver-adapter-e374ef7.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/elster-receiver-adapter-e374ef7.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/elster-receiver-adapter-e374ef7.md)
 
 ---
 
@@ -389,7 +389,7 @@ Create custom adapters using the ADK.
 4. Package as OSGi bundle
 5. Deploy to tenant
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/develop-adapters-f798db6.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/develop-adapters-f798db6.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/develop-adapters-f798db6.md)
 
 ---
 
@@ -424,6 +424,6 @@ Always configure appropriate timeouts:
 
 ## Related Documentation
 
-- **Connectivity Options**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/connectivity-options-93d82e8.md
-- **Cloud Connector**: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector
-- **Destination Configuration**: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/http-destinations
+- **Connectivity Options**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/connectivity-options-93d82e8.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/connectivity-options-93d82e8.md)
+- **Cloud Connector**: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector)
+- **Destination Configuration**: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/http-destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/http-destinations)

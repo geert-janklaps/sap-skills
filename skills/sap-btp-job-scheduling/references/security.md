@@ -1,6 +1,6 @@
 # SAP BTP Job Scheduling Service - Security Guide
 
-**Source**: https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/50---Security
+**Source**: [https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/50---Security](https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/50---Security)
 **Last Updated**: 2025-11-22
 
 ---
@@ -69,7 +69,7 @@
 **Client Credentials Flow (clientsecret):**
 
 ```bash
-curl -X POST "https://<uaa-url>/oauth/token" \
+curl -X POST "[https://<uaa-url>/oauth/token"](https://<uaa-url>/oauth/token") \
   -H "Authorization: Basic $(echo -n '<clientid>:<clientsecret>' | base64)" \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -d "grant_type=client_credentials"
@@ -78,7 +78,7 @@ curl -X POST "https://<uaa-url>/oauth/token" \
 **Certificate-Based Authentication:**
 
 ```bash
-curl -X POST "https://<certurl>/oauth/token" \
+curl -X POST "[https://<certurl>/oauth/token"](https://<certurl>/oauth/token") \
   --cert /path/to/certificate.pem \
   --key /path/to/key.pem \
   -H "Content-Type: application/x-www-form-urlencoded" \
@@ -426,9 +426,9 @@ npm install @sap/xsenv @sap/xssec passport
 ## External References
 
 ### SAP Documentation
-- **Security Overview**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/security
-- **Secure Access**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/secure-access
-- **XSUAA Documentation**: https://help.sap.com/docs/btp/sap-business-technology-platform/security
+- **Security Overview**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/security](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/security)
+- **Secure Access**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/secure-access](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/secure-access)
+- **XSUAA Documentation**: [https://help.sap.com/docs/btp/sap-business-technology-platform/security](https://help.sap.com/docs/btp/sap-business-technology-platform/security)
 
 ### Source Files
 - `security-9fb8213.md`

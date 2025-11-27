@@ -1,6 +1,6 @@
 # CAP Java Runtime Complete Reference
 
-**Source**: https://cap.cloud.sap/docs/java/
+**Source**: [https://cap.cloud.sap/docs/java/](https://cap.cloud.sap/docs/java/)
 
 ## Getting Started
 
@@ -49,7 +49,7 @@ mvn com.sap.cds:cds-maven-plugin:add -Dfeature=INTEGRATION_TEST
 mvn spring-boot:run
 ```
 
-Access at `http://localhost:8080` with mock user "authenticated".
+Access at `[http://localhost:8080`](http://localhost:8080`) with mock user "authenticated".
 
 ## Event Handlers
 

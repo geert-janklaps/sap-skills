@@ -1,6 +1,6 @@
 # SAP BTP Job Scheduling Service - Core Concepts
 
-**Source**: https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/20---Concepts
+**Source**: [https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/20---Concepts](https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/20---Concepts)
 **Last Updated**: 2025-11-22
 
 ---
@@ -458,9 +458,9 @@ Schedules auto-deactivate when:
 ## External References
 
 ### SAP Documentation
-- **Core Concepts**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/concepts
-- **Schedule Formats**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/schedule-formats
-- **Service Behavior**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/service-behavior
+- **Core Concepts**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/concepts](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/concepts)
+- **Schedule Formats**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/schedule-formats](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/schedule-formats)
+- **Service Behavior**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/service-behavior](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/service-behavior)
 
 ### Source Files
 - `concepts-26572ad.md`

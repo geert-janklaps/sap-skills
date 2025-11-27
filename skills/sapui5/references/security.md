@@ -1,7 +1,7 @@
 # SAPUI5 Security Guide
 
 **Source**: Official SAP SAPUI5 Documentation
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps)
 **Last Updated**: 2025-11-21
 
 ---
@@ -17,7 +17,7 @@ Security is critical for enterprise applications. SAPUI5 provides built-in secur
 4. **Follow secure coding practices**
 5. **Test for vulnerabilities**
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: security, secure-programming)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: security, secure-programming)
 
 ---
 
@@ -78,7 +78,7 @@ sap.ui.require([
     var sSafeHTML = sanitizeHTML(sUnsafeHTML, {
         uriRewriter: function(sUrl) {
             // Whitelist URLs
-            if (sUrl.startsWith("https://trusted.com/")) {
+            if (sUrl.startsWith("[https://trusted.com/](https://trusted.com/)")) {
                 return sUrl;
             }
             return "";
@@ -140,18 +140,18 @@ CSP prevents XSS by controlling which resources can be loaded and executed.
 **Server-Side** (Recommended):
 ```
 Content-Security-Policy: default-src 'self';
-    script-src 'self' https://sapui5.hana.ondemand.com;
+    script-src 'self' [https://sapui5.hana.ondemand.com;](https://sapui5.hana.ondemand.com;)
     style-src 'self' 'unsafe-inline';
     img-src 'self' data:;
     font-src 'self' data:;
-    connect-src 'self' https://api.mybackend.com;
+    connect-src 'self' [https://api.mybackend.com;](https://api.mybackend.com;)
 ```
 
 **Meta Tag** (Alternative):
 ```html
 <meta http-equiv="Content-Security-Policy"
     content="default-src 'self';
-        script-src 'self' https://sapui5.hana.ondemand.com;
+        script-src 'self' [https://sapui5.hana.ondemand.com;](https://sapui5.hana.ondemand.com;)
         style-src 'self' 'unsafe-inline';">
 ```
 
@@ -210,7 +210,7 @@ Content-Security-Policy: frame-ancestors 'none';
 
 Or specify allowed origins:
 ```
-Content-Security-Policy: frame-ancestors 'self' https://trusted.com;
+Content-Security-Policy: frame-ancestors 'self' [https://trusted.com;](https://trusted.com;)
 ```
 
 ### Framebuster Script
@@ -289,7 +289,7 @@ if (oUser.role === "admin") {
     "sap.app": {
         "dataSources": {
             "mainService": {
-                "uri": "https://api.mycompany.com/odata/",  // HTTPS
+                "uri": "[https://api.mycompany.com/odata/",](https://api.mycompany.com/odata/",)  // HTTPS
                 "type": "OData"
             }
         }
@@ -300,7 +300,7 @@ if (oUser.role === "admin") {
 **Redirect HTTP to HTTPS** (Server-Side):
 ```
 HTTP/1.1 301 Moved Permanently
-Location: https://myapp.com/
+Location: [https://myapp.com/](https://myapp.com/)
 ```
 
 ### CORS
@@ -308,7 +308,7 @@ Location: https://myapp.com/
 **Configure CORS** properly on backend:
 
 ```
-Access-Control-Allow-Origin: https://myapp.com
+Access-Control-Allow-Origin: [https://myapp.com](https://myapp.com)
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Methods: GET, POST, PUT, DELETE
 Access-Control-Allow-Headers: Content-Type, Authorization
@@ -494,7 +494,7 @@ oModel.read("/Products", {
     "sap.app": {
         "dataSources": {
             "mainService": {
-                "uri": "https://api.mycompany.com/odata/?apikey=secret123"
+                "uri": "[https://api.mycompany.com/odata/?apikey=secret123"](https://api.mycompany.com/odata/?apikey=secret123")
             }
         }
     }
@@ -505,7 +505,7 @@ oModel.read("/Products", {
     "sap.app": {
         "dataSources": {
             "mainService": {
-                "uri": "https://api.mycompany.com/odata/"
+                "uri": "[https://api.mycompany.com/odata/"](https://api.mycompany.com/odata/")
                 // API key sent via server-side proxy
             }
         }
@@ -552,7 +552,7 @@ fetch("/config.json").then(config => {
 **OWASP ZAP**:
 ```bash
 # Scan application
-zap-cli quick-scan -s xss,sqli http://localhost:8080
+zap-cli quick-scan -s xss,sqli [http://localhost:8080](http://localhost:8080)
 ```
 
 **Retire.js** (Check for vulnerable libraries):
@@ -670,11 +670,11 @@ oModel.read("/Orders(" + sId + ")", {
 
 ## Official Documentation
 
-- **Security**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: security, secure-programming)
-- **XSS Prevention**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: cross-site-scripting)
-- **CSP**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: content-security-policy)
-- **URL Whitelist**: https://sapui5.hana.ondemand.com/#/api/sap.base.security.URLWhitelist
-- **OWASP Top 10**: https://owasp.org/www-project-top-ten/
+- **Security**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: security, secure-programming)
+- **XSS Prevention**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: cross-site-scripting)
+- **CSP**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: content-security-policy)
+- **URL Whitelist**: [https://sapui5.hana.ondemand.com/#/api/sap.base.security.URLWhitelist](https://sapui5.hana.ondemand.com/#/api/sap.base.security.URLWhitelist)
+- **OWASP Top 10**: [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)
 
 ---
 

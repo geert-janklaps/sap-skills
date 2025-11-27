@@ -113,7 +113,6 @@ Comprehensive Claude Code skill for SAP Cloud Logging service on SAP Business Te
 | `references/saml-authentication.md` | SAML setup with Identity Authentication |
 
 ### Tracking Files
-- `EXTRACTION_PROGRESS.md` - Documentation extraction status and update links
 
 ---
 
@@ -135,17 +134,17 @@ This skill should be used when:
 ## Documentation Sources
 
 ### Primary Source
-- **GitHub Repository:** https://github.com/SAP-docs/btp-cloud-logging
+- **GitHub Repository:** [https://github.com/SAP-docs/btp-cloud-logging](https://github.com/SAP-docs/btp-cloud-logging)
 
 ### Official Documentation
-- **SAP Help Portal:** https://help.sap.com/docs/cloud-logging
-- **Discovery Center:** https://discovery-center.cloud.sap/serviceCatalog/cloud-logging
+- **SAP Help Portal:** [https://help.sap.com/docs/cloud-logging](https://help.sap.com/docs/cloud-logging)
+- **Discovery Center:** [https://discovery-center.cloud.sap/serviceCatalog/cloud-logging](https://discovery-center.cloud.sap/serviceCatalog/cloud-logging)
 
 ### Related Documentation
-- **OpenSearch:** https://opensearch.org/docs/latest/
-- **OpenTelemetry:** https://opentelemetry.io/docs/
-- **SAP Cloud Identity Services:** https://help.sap.com/docs/cloud-identity
-- **SAP BTP Security Recommendations:** https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations
+- **OpenSearch:** [https://opensearch.org/docs/latest/](https://opensearch.org/docs/latest/)
+- **OpenTelemetry:** [https://opentelemetry.io/docs/](https://opentelemetry.io/docs/)
+- **SAP Cloud Identity Services:** [https://help.sap.com/docs/cloud-identity](https://help.sap.com/docs/cloud-identity)
+- **SAP BTP Security Recommendations:** [https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations)
 
 ---
 
@@ -156,7 +155,6 @@ This skill should be used when:
 - **On Release:** Update when new Cloud Logging features are released
 
 ### Update Process
-1. Check `EXTRACTION_PROGRESS.md` for documentation links
 2. Fetch latest documentation from GitHub
 3. Update affected sections in SKILL.md and references
 4. Update version and `last_updated` in SKILL.md frontmatter
@@ -189,7 +187,6 @@ This skill should be used when:
 1. Check documentation sources for updates
 2. Follow skill standards in `CLAUDE.md`
 3. Verify with `skill-review` skill
-4. Update `EXTRACTION_PROGRESS.md` with changes
 
 ---
 
@@ -201,5 +198,5 @@ GPL-3.0 License - See repository LICENSE file
 
 ## Support
 
-- **Issues:** https://github.com/secondsky/sap-skills/issues
+- **Issues:** [https://github.com/secondsky/sap-skills/issues](https://github.com/secondsky/sap-skills/issues)
 - **SAP Support:** Component `BC-CP-CLS`

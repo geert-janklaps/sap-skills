@@ -16,24 +16,34 @@ metadata:
 
 # SAP BTP Developer Guide Skill
 
+## Related Skills
+
+- **sap-btp-cloud-platform**: Use for platform fundamentals, account management, and runtime configurations
+- **sap-btp-best-practices**: Use for architectural guidance, governance models, and production patterns
+- **sap-cap-capire**: Use for CAP development details, service definitions, and database integration
+- **sap-fiori-tools**: Use for UI development, Fiori application setup, and frontend deployment
+- **sap-abap**: Use for ABAP Cloud development, RAP patterns, and ABAP Environment specifics
+- **sap-btp-connectivity**: Use for implementing secure connections to on-premise systems
+
 Comprehensive guidance for developing, deploying, and operating business applications on SAP Business Technology Platform.
 
 ## Table of Contents
 
 ### Quick Navigation
+- [Table of Contents](#table-of-contents)
 - [When to Use This Skill](#when-to-use-this-skill)
 - [Runtime and Programming Model Selection](#runtime-and-programming-model-selection)
 - [Development Workflow](#development-workflow)
 - [Key Services and Tools](#key-services-and-tools)
 - [Security Implementation](#security-implementation)
 - [Connectivity Patterns](#connectivity-patterns)
-- [CI/CD Implementation](#cicd-implementation)
+- [CI/CD Implementation](#ci-cd-implementation)
 - [Observability Implementation](#observability-implementation)
 - [Tutorials and Missions](#tutorials-and-missions)
-- [Partner/ISV Development](#partnerisv-development)
+- [Partner/ISV Development](#partner-isv-development)
 - [Common Errors and Solutions](#common-errors-and-solutions)
 - [Bundled Resources](#bundled-resources)
-- [Source Documentation](#source-documentation)
+- [Quick Reference Links](#quick-reference-links)
 - [Version Information](#version-information)
 
 ## When to Use This Skill
@@ -309,8 +319,7 @@ For tutorial details: See `references/tutorials.md`
 sap-btp-developer-guide/
 ├── SKILL.md                 # This file - Main guidance
 ├── README.md               # Quick reference with auto-trigger keywords
-├── PROGRESS_TRACKING.md    # Documentation coverage tracking
-└── references/             # Detailed guides (23 files)
+└── references/             # Detailed guides (22 files)
     ├── Architecture & Setup
     │   ├── architecture.md      # Platform services and architecture
     │   ├── runtimes.md          # Runtime comparison (CF vs Kyma vs ABAP)
@@ -390,22 +399,21 @@ For partner details: See `references/partners.md`
 ## Quick Reference Links
 
 **Official Documentation:**
-- SAP BTP Help: https://help.sap.com/docs/btp
-- CAP Documentation: https://cap.cloud.sap/docs/
-- SAP Discovery Center: https://discovery-center.cloud.sap/
-- SAP API Business Hub: https://api.sap.com/
+- SAP BTP Help: [https://help.sap.com/docs/btp](https://help.sap.com/docs/btp)
+- CAP Documentation: [https://cap.cloud.sap/docs/](https://cap.cloud.sap/docs/)
+- SAP Discovery Center: [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/)
+- SAP API Business Hub: [https://api.sap.com/](https://api.sap.com/)
 
 **Design Resources:**
-- SAP Fiori Design: https://experience.sap.com/fiori-design-web/
-- SAPUI5 SDK: https://sapui5.hana.ondemand.com/
+- SAP Fiori Design: [https://experience.sap.com/fiori-design-web/](https://experience.sap.com/fiori-design-web/)
+- SAPUI5 SDK: [https://sapui5.hana.ondemand.com/](https://sapui5.hana.ondemand.com/)
 
 **Learning:**
-- SAP Developers: https://developers.sap.com/
-- SAP Learning: https://learning.sap.com/
+- SAP Developers: [https://developers.sap.com/](https://developers.sap.com/)
+- SAP Learning: [https://learning.sap.com/](https://learning.sap.com/)
 
 **Source Documentation:**
-- This skill is based on: https://github.com/SAP-docs/btp-developer-guide
-- Track updates: See `PROGRESS_TRACKING.md`
+- This skill is based on: [https://github.com/SAP-docs/btp-developer-guide](https://github.com/SAP-docs/btp-developer-guide)
 
 ## Common Errors and Solutions
 
@@ -421,5 +429,5 @@ For partner details: See `references/partners.md`
 - **Skill Version**: 1.1.0
 - **Last Verified**: 2025-11-27
 - **Source Last Updated**: 2025-11-21
-- **Based On**: SAP BTP Developer Guide (https://github.com/SAP-docs/btp-developer-guide)
+- **Based On**: SAP BTP Developer Guide ([https://github.com/SAP-docs/btp-developer-guide](https://github.com/SAP-docs/btp-developer-guide))
 - **Next Review**: 2026-02-21

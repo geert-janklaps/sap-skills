@@ -364,4 +364,4 @@ if (confirmed) {
 
 **License**: GPL-3.0  
 **Last Updated**: 2025-11-22  
-**Repository**: https://github.com/secondsky/sap-skills
+**Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

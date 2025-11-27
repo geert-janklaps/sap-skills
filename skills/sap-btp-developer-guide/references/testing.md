@@ -395,6 +395,6 @@ module.exports = {
 
 ## Source Documentation
 
-- Testing: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/performing-ui-usability-and-unit-tests-50a7c7d.md
-- SAPUI5 Testing: https://sapui5.hana.ondemand.com/#/topic/291c9121e6044ab381e0b51716f97f52
-- CAP Testing: https://cap.cloud.sap/docs/node.js/cds-test
+- Testing: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/performing-ui-usability-and-unit-tests-50a7c7d.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/performing-ui-usability-and-unit-tests-50a7c7d.md)
+- SAPUI5 Testing: [https://sapui5.hana.ondemand.com/#/topic/291c9121e6044ab381e0b51716f97f52](https://sapui5.hana.ondemand.com/#/topic/291c9121e6044ab381e0b51716f97f52)
+- CAP Testing: [https://cap.cloud.sap/docs/node.js/cds-test](https://cap.cloud.sap/docs/node.js/cds-test)

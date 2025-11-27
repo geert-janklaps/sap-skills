@@ -1,6 +1,6 @@
 # UI5 Linter - Complete Autofix Reference
 
-**Source**: https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md
+**Source**: [https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md](https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md)
 **Last Updated**: 2025-11-21
 **UI5 Linter Version**: 1.20.5
 
@@ -682,11 +682,11 @@ ui5lint --fix "webapp/**/*.js"
 
 ## Further Reading
 
-- **Autofix Documentation**: https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md
-- **Issue #619** (Core API Limitations): https://github.com/UI5/linter/issues/619
-- **Issue #620** (Configuration API Limitations): https://github.com/UI5/linter/issues/620
-- **Main Repository**: https://github.com/UI5/linter
-- **Development Guide**: https://github.com/UI5/linter/blob/main/docs/Development.md
+- **Autofix Documentation**: [https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md](https://github.com/UI5/linter/blob/main/docs/Scope-of-Autofix.md)
+- **Issue #619** (Core API Limitations): [https://github.com/UI5/linter/issues/619](https://github.com/UI5/linter/issues/619)
+- **Issue #620** (Configuration API Limitations): [https://github.com/UI5/linter/issues/620](https://github.com/UI5/linter/issues/620)
+- **Main Repository**: [https://github.com/UI5/linter](https://github.com/UI5/linter)
+- **Development Guide**: [https://github.com/UI5/linter/blob/main/docs/Development.md](https://github.com/UI5/linter/blob/main/docs/Development.md)
 
 ---
 

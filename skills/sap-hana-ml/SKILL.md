@@ -179,31 +179,25 @@ pipeline = Pipeline([
 
 ## Bundled Resources
 
-### Reference Files (12K-19K lines each)
-- **`references/DATAFRAME_REFERENCE.md`** (10,356 lines)
+### Reference Files
+- **`references/DATAFRAME_REFERENCE.md`** (479 lines)
   - ConnectionContext API, DataFrame operations, SQL generation
   
-- **`references/PAL_ALGORITHMS.md`** (18,647 lines)
+- **`references/PAL_ALGORITHMS.md`** (869 lines)
   - Complete PAL algorithm reference (100+ algorithms)
   - Classification, Regression, Clustering, Time Series, Preprocessing
   
-- **`references/APL_ALGORITHMS.md`** (12,271 lines)
+- **`references/APL_ALGORITHMS.md`** (534 lines)
   - AutoML capabilities, automated feature engineering
   - AutoClassifier, AutoRegressor, GradientBoosting classes
   
-- **`references/VISUALIZERS.md`** (13,535 lines)
+- **`references/VISUALIZERS.md`** (704 lines)
   - 14 visualization modules (EDA, SHAP, metrics, time series)
   - Plot types, configuration, export options
   
-- **`references/SUPPORTING_MODULES.md`** (13,692 lines)
+- **`references/SUPPORTING_MODULES.md`** (626 lines)
   - Model storage, spatial analytics, graph algorithms
   - Text mining, statistics, error handling
-
-### Quick Reference Guides
-- **Algorithm Categories** - PAL vs APL comparison
-- **Connection Patterns** - Different authentication methods
-- **Model Deployment** - Export, save, load patterns
-- **Performance Tuning** - Optimization techniques
 
 ---
 
@@ -222,5 +216,5 @@ except Error as e:
 
 ## Documentation
 
-- **Official Docs**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.html
-- **PyPI Package**: https://pypi.org/project/hana-ml/
+- **Official Docs**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.html)
+- **PyPI Package**: [https://pypi.org/project/hana-ml/](https://pypi.org/project/hana-ml/)

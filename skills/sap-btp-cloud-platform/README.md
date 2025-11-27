@@ -30,10 +30,10 @@ SAP BTP, SAP Business Technology Platform, Cloud Foundry, CF, Kyma, ABAP environ
 
 ## Source Documentation
 
-- **Main Repository**: https://github.com/SAP-docs/sap-btp-cloud-platform
-- **SAP Help Portal**: https://help.sap.com/docs/btp
-- **SAP Discovery Center**: https://discovery-center.cloud.sap/
-- **BTP Best Practices**: https://github.com/SAP-docs/btp-best-practices-guide
+- **Main Repository**: [https://github.com/SAP-docs/sap-btp-cloud-platform](https://github.com/SAP-docs/sap-btp-cloud-platform)
+- **SAP Help Portal**: [https://help.sap.com/docs/btp](https://help.sap.com/docs/btp)
+- **SAP Discovery Center**: [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/)
+- **BTP Best Practices**: [https://github.com/SAP-docs/btp-best-practices-guide](https://github.com/SAP-docs/btp-best-practices-guide)
 
 ## Skill Structure
 
@@ -41,7 +41,6 @@ SAP BTP, SAP Business Technology Platform, Cloud Foundry, CF, Kyma, ABAP environ
 sap-btp-cloud-platform/
 ├── SKILL.md              # Main skill content (336 lines, optimized)
 ├── README.md             # This file
-├── PROGRESS_TRACKING.md  # Documentation coverage tracking
 └── references/           # 13 comprehensive reference files
     ├── glossary.md           # Complete terminology (40+ terms)
     ├── cloud-foundry.md      # CF environment, CLI, buildpacks
@@ -91,7 +90,6 @@ This skill extracts and organizes content from **1683 documentation files** in t
 
 - **Last Verified**: 2025-11-27
 - **Next Review**: 2026-02-27 (Quarterly)
-- **Source Sync**: Check [PROGRESS_TRACKING.md](PROGRESS_TRACKING.md) for coverage details
 
 ## Related Skills
 

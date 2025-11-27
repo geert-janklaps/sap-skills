@@ -157,7 +157,6 @@ Use this skill when:
 sap-cap-capire/
 ├── SKILL.md                        # Main skill file (306 lines)
 ├── README.md                       # This file
-├── EXTRACTION_PROGRESS.md          # Documentation extraction tracking
 ├── references/                     # 20 comprehensive reference files
 │   ├── annotations-reference.md    # UI annotations reference (10K lines)
 │   ├── cdl-syntax.md               # Complete CDL syntax reference (503 lines)
@@ -192,13 +191,13 @@ sap-cap-capire/
 
 ## Documentation Links
 
-- **CAP Documentation**: https://cap.cloud.sap/docs/
-- **CAP GitHub**: https://github.com/cap-js/docs
-- **SAP Samples**: https://github.com/SAP-samples/cloud-cap-samples
-- **CDS Language**: https://cap.cloud.sap/docs/cds/
-- **Node.js Runtime**: https://cap.cloud.sap/docs/node.js/
-- **Java Runtime**: https://cap.cloud.sap/docs/java/
-- **Plugins**: https://cap.cloud.sap/docs/plugins/
+- **CAP Documentation**: [https://cap.cloud.sap/docs/](https://cap.cloud.sap/docs/)
+- **CAP GitHub**: [https://github.com/cap-js/docs](https://github.com/cap-js/docs)
+- **SAP Samples**: [https://github.com/SAP-samples/cloud-cap-samples](https://github.com/SAP-samples/cloud-cap-samples)
+- **CDS Language**: [https://cap.cloud.sap/docs/cds/](https://cap.cloud.sap/docs/cds/)
+- **Node.js Runtime**: [https://cap.cloud.sap/docs/node.js/](https://cap.cloud.sap/docs/node.js/)
+- **Java Runtime**: [https://cap.cloud.sap/docs/java/](https://cap.cloud.sap/docs/java/)
+- **Plugins**: [https://cap.cloud.sap/docs/plugins/](https://cap.cloud.sap/docs/plugins/)
 
 ## Version Information
 

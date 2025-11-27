@@ -2,7 +2,7 @@
 
 Complete guide for the SAP Build Work Zone, advanced edition mobile application.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
 
 ---
 
@@ -120,5 +120,5 @@ For organizations requiring customized mobile applications:
 ---
 
 **Documentation Links**:
-- Mobile App: https://help.sap.com/docs/build-work-zone-advanced-edition
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+- Mobile App: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)

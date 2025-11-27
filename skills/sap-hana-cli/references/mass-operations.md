@@ -1,6 +1,6 @@
 # SAP HANA CLI - Mass Operations Reference
 
-**Source**: https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/massConvert.js
+**Source**: [https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/massConvert.js](https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/massConvert.js)
 
 Commands and functions for batch operations on database objects.
 
@@ -213,4 +213,4 @@ entity ORDERS {
 
 ---
 
-*Reference: https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/massConvert.js*
+*Reference: [https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/massConvert.js*](https://github.com/SAP-samples/hana-developer-cli-tool-example/blob/main/utils/massConvert.js*)

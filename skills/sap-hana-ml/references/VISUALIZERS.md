@@ -1,7 +1,7 @@
 # HANA ML Visualizers Reference
 
 **Module**: `hana_ml.visualizers`
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.visualizers.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.visualizers.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.visualizers.html)
 
 ---
 
@@ -700,5 +700,5 @@ apt-get install graphviz
 # macOS
 brew install graphviz
 
-# Windows: Download from https://graphviz.org/download/
+# Windows: Download from [https://graphviz.org/download/](https://graphviz.org/download/)
 ```

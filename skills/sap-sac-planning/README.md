@@ -135,7 +135,6 @@ This skill should be triggered when users mention:
 sap-sac-planning/
 ├── SKILL.md                          # Main skill instructions
 ├── README.md                         # This file
-├── PROGRESS_TRACKING.md              # Documentation coverage tracking
 ├── references/
 │   ├── api-reference.md              # Complete Analytics Designer API
 │   ├── data-actions.md               # Data Actions & Multi Actions
@@ -271,4 +270,4 @@ Contributions welcome! Please follow the repository guidelines in CLAUDE.md and 
 ---
 
 **Maintained by**: SAP Skills Maintainers
-**Repository**: https://github.com/secondsky/sap-skills
+**Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

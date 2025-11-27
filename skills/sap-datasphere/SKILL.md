@@ -448,19 +448,6 @@ For transport procedures, see `references/content-transport.md`.
 
 ---
 
-## Bundled Resources
-
-| Resource | Description |
-|----------|-------------|
-| `references/data-acquisition-preparation.md` | Data flows, replication, tables |
-| `references/data-modeling.md` | Analytic models, Business Builder |
-| `references/graphical-sql-views.md` | Views, E-R models, lookups |
-| `references/administration.md` | Tenant, spaces, users, monitoring |
-| `references/connectivity.md` | All connection types |
-| `references/data-integration-monitor.md` | Monitoring, scheduling |
-| `references/data-access-security.md` | Row-level security |
-| `references/content-transport.md` | Export, import, packages |
-
 ---
 
 ## Common Errors and Solutions
@@ -486,14 +473,12 @@ For transport procedures, see `references/content-transport.md`.
 6. **`references/data-integration-monitor.md`** - Task scheduling, monitoring, real-time replication, and delta mechanisms
 7. **`references/data-access-security.md`** - Row-level security, DAC configurations, and authorization scenarios
 8. **`references/content-transport.md`** - Package export/import, transport management, and tenant migration
-9. **`PROGRESS_TRACKING.md`** - Internal documentation coverage tracking and development status
 
 ### File Structure
 ```
 skills/sap-datasphere/
 ├── SKILL.md                              # Main skill file (468 lines)
 ├── README.md                             # Quick reference and keywords
-├── PROGRESS_TRACKING.md                  # Documentation coverage tracking
 └── references/
     ├── data-acquisition-preparation.md   # Data flows, replication, tables
     ├── data-modeling.md                  # Analytic models, Business Builder
@@ -507,10 +492,10 @@ skills/sap-datasphere/
 
 ## Documentation Links
 
-- **SAP Help Portal**: https://help.sap.com/docs/SAP_DATASPHERE
-- **Source Repository**: https://github.com/SAP-docs/sap-datasphere
-- **SAP Community**: https://community.sap.com/topics/datasphere
-- **API Reference**: https://api.sap.com/package/saaborddatasphere
+- **SAP Help Portal**: [https://help.sap.com/docs/SAP_DATASPHERE](https://help.sap.com/docs/SAP_DATASPHERE)
+- **Source Repository**: [https://github.com/SAP-docs/sap-datasphere](https://github.com/SAP-docs/sap-datasphere)
+- **SAP Community**: [https://community.sap.com/topics/datasphere](https://community.sap.com/topics/datasphere)
+- **API Reference**: [https://api.sap.com/package/saaborddatasphere](https://api.sap.com/package/saaborddatasphere)
 
 ---
 

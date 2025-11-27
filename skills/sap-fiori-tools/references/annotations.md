@@ -402,7 +402,7 @@ Local annotations win over backend annotations when:
 
 ## Documentation Source
 
-**GitHub**: https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Developing-an-Application
+**GitHub**: [https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Developing-an-Application](https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Developing-an-Application)
 
 Key files:
 - `maintaining-annotations-with-language-server-6fc93f8.md`

@@ -489,7 +489,7 @@ Private Versions:
 ---
 
 **Documentation Links**:
-- Version Management: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/9d9056a13b764ad3aca8fef2630fcc00.html
-- Public Versions: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/b6e3d093988e4c3eba7eb6c1c110e954.html
-- Private Versions: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/1a011f8041a84e109a3b6bf8c1c81bc1.html
-- Sharing Versions: https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/e763e27e0f4c419488381f77937a0ff1.html
+- Version Management: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/9d9056a13b764ad3aca8fef2630fcc00.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/9d9056a13b764ad3aca8fef2630fcc00.html)
+- Public Versions: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/b6e3d093988e4c3eba7eb6c1c110e954.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/b6e3d093988e4c3eba7eb6c1c110e954.html)
+- Private Versions: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/1a011f8041a84e109a3b6bf8c1c81bc1.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/1a011f8041a84e109a3b6bf8c1c81bc1.html)
+- Sharing Versions: [https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/e763e27e0f4c419488381f77937a0ff1.html](https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/2023.20/en-US/e763e27e0f4c419488381f77937a0ff1.html)

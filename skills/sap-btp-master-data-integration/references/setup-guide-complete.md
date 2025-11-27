@@ -2,16 +2,16 @@
 
 Comprehensive setup and administration documentation for SAP Master Data Integration.
 
-**Table of Contents**
+## Table of Contents
+
 - [Technical Prerequisites](#technical-prerequisites)
 - [Tenant Management](#tenant-management)
-- [Client Configuration](#client-configuration)
-- [Service Instance Parameters](#service-instance-parameters)
-- [Business Data Orchestration](#business-data-orchestration)
-- [Monitoring and Operations](#monitoring-and-operations)
+- [Client Configuration Attributes](#client-configuration-attributes)
+- [Business Data Orchestration](#distribution-model-configuration)
+- [SAP Cloud ALM Monitoring](#sap-cloud-alm-monitoring)
 - [Version History](#version-history)
 
-**Source**: https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/initial-setup-and-administration
+**Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/initial-setup-and-administration](https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/initial-setup-and-administration)
 
 ---
 
@@ -459,7 +459,7 @@ Direct authentication with username/password plus service instance credentials.
 
 ## Documentation Links
 
-- **Initial Setup**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/initial-setup-and-administration
-- **Creating Tenants**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/creating-tenants
-- **Connecting Applications**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/connecting-applications
-- **Authentication**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/authentication-and-authorization
+- **Initial Setup**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/initial-setup-and-administration](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/initial-setup-and-administration)
+- **Creating Tenants**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/creating-tenants](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/creating-tenants)
+- **Connecting Applications**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/connecting-applications](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/connecting-applications)
+- **Authentication**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/authentication-and-authorization](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/authentication-and-authorization)

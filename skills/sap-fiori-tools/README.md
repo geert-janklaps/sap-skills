@@ -193,11 +193,11 @@ The skill automatically activates when you ask about SAP Fiori tools topics. Exa
 
 ## Documentation Sources
 
-**Primary**: https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs
+**Primary**: [https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs](https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs)
 
-**SAP Help Portal**: https://help.sap.com/docs/SAP_FIORI_tools
+**SAP Help Portal**: [https://help.sap.com/docs/SAP_FIORI_tools](https://help.sap.com/docs/SAP_FIORI_tools)
 
-**Fiori Design Guidelines**: https://experience.sap.com/fiori-design-web/
+**Fiori Design Guidelines**: [https://experience.sap.com/fiori-design-web/](https://experience.sap.com/fiori-design-web/)
 
 ## Version Information
 
@@ -260,4 +260,4 @@ GPL-3.0
 
 ## Maintainer
 
-SAP Skills Repository | https://github.com/secondsky/sap-skills
+SAP Skills Repository | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

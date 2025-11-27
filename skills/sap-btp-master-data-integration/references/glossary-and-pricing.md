@@ -2,7 +2,7 @@
 
 Complete glossary, pricing details, and service scope for SAP Master Data Integration.
 
-**Source**: https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/about-this-service
+**Source**: [https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/about-this-service](https://github.com/SAP-docs/sap-btp-master-data-integration/tree/main/docs/about-this-service)
 
 ---
 
@@ -160,7 +160,7 @@ For current regional availability, consult [SAP Discovery Center](https://discov
 ## Blog Posts
 
 **SAP Master Data Integration — sharing and synchronizing master data in the integrated Intelligent Suite**
-- URL: https://blogs.sap.com/2020/07/21/sap-cloud-platform-master-data-integration-sharing-and-synchronizing-master-data-in-the-integrated-intelligent-suite/
+- URL: [https://blogs.sap.com/2020/07/21/sap-cloud-platform-master-data-integration-sharing-and-synchronizing-master-data-in-the-integrated-intelligent-suite/](https://blogs.sap.com/2020/07/21/sap-cloud-platform-master-data-integration-sharing-and-synchronizing-master-data-in-the-integrated-intelligent-suite/)
 - Published: July 21, 2020
 
 ---
@@ -191,8 +191,8 @@ Support Component: `BC-CP-CF-ONEMDS`
 
 ## Documentation Links
 
-- **Feature Scope**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/feature-scope-description
-- **Pricing**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/pricing
-- **Glossary**: https://help.sap.com/docs/master-data-integration/sap-master-data-integration/glossary
-- **SAP Discovery Center**: https://discovery-center.cloud.sap/serviceCatalog/master-data-integration
-- **SAP Trust Center**: https://www.sap.com/about/trust-center.html
+- **Feature Scope**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/feature-scope-description](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/feature-scope-description)
+- **Pricing**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/pricing](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/pricing)
+- **Glossary**: [https://help.sap.com/docs/master-data-integration/sap-master-data-integration/glossary](https://help.sap.com/docs/master-data-integration/sap-master-data-integration/glossary)
+- **SAP Discovery Center**: [https://discovery-center.cloud.sap/serviceCatalog/master-data-integration](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration)
+- **SAP Trust Center**: [https://www.sap.com/about/trust-center.html](https://www.sap.com/about/trust-center.html)

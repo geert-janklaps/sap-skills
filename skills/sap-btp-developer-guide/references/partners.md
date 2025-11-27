@@ -85,7 +85,7 @@ SAP BTP provides deployment options for partners (ISVs) to build and deliver ABA
 
 **Type**: Reference application for multitenant CAP SaaS
 
-**GitHub**: https://github.com/SAP-samples/partner-reference-application/
+**GitHub**: [https://github.com/SAP-samples/partner-reference-application/](https://github.com/SAP-samples/partner-reference-application/)
 
 **Demonstrates:**
 - Full-stack cloud applications using SAP Cloud Application Programming Model (CAP)
@@ -101,13 +101,13 @@ SAP BTP provides deployment options for partners (ISVs) to build and deliver ABA
 4. Feature expansion
 5. Application extension
 
-**Bill of Materials**: Complete service list at https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/01-BillOfMaterials.md
+**Bill of Materials**: Complete service list at [https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/01-BillOfMaterials.md](https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/01-BillOfMaterials.md)
 
 ### Partner Reference Application Extension
 
 **Type**: Customer-specific extension example
 
-**GitHub**: https://github.com/SAP-samples/partner-reference-application-extension
+**GitHub**: [https://github.com/SAP-samples/partner-reference-application-extension](https://github.com/SAP-samples/partner-reference-application-extension)
 
 **Demonstrates:**
 - Enhanced catering management capabilities
@@ -122,7 +122,7 @@ SAP BTP provides deployment options for partners (ISVs) to build and deliver ABA
 
 **Type**: Reference application for multitenant ABAP SaaS
 
-**GitHub**: https://github.com/SAP-samples/abap-platform-partner-reference-application
+**GitHub**: [https://github.com/SAP-samples/abap-platform-partner-reference-application](https://github.com/SAP-samples/abap-platform-partner-reference-application)
 
 **Demonstrates:**
 - Full-stack ABAP Cloud development using RAP
@@ -297,5 +297,5 @@ Operational Phase
 
 ## Source Documentation
 
-- ISV ABAP Guide: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/build-and-run-abap-applications-for-partners-who-are-independent-software-vendors-210db8e.md
-- ISV SaaS Guide: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/build-and-run-multitenant-saas-applications-for-partners-who-are-independent-software-ven-9b5e06f.md
+- ISV ABAP Guide: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/build-and-run-abap-applications-for-partners-who-are-independent-software-vendors-210db8e.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/build-and-run-abap-applications-for-partners-who-are-independent-software-vendors-210db8e.md)
+- ISV SaaS Guide: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/build-and-run-multitenant-saas-applications-for-partners-who-are-independent-software-ven-9b5e06f.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/build-and-run-multitenant-saas-applications-for-partners-who-are-independent-software-ven-9b5e06f.md)

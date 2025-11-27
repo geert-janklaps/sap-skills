@@ -8,7 +8,7 @@ metadata:
   version: "1.0.1"
   last_verified: "2025-11-27"
   sap_product: "Cloud Integration Automation Service"
-  source_docs: "https://github.com/SAP-docs/btp-cloud-integration-automation-service"
+  source_docs: "[https://github.com/SAP-docs/btp-cloud-integration-automation-service"](https://github.com/SAP-docs/btp-cloud-integration-automation-service")
 ---
 
 # SAP BTP Cloud Integration Automation Service (CIAS)
@@ -272,10 +272,10 @@ After automation failure:
 ## Documentation Sources
 
 **Primary**:
-- GitHub: https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs
-- SAP Help Portal: https://help.sap.com/docs/cloud-integration-automation-service
+- GitHub: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs](https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs)
+- SAP Help Portal: [https://help.sap.com/docs/cloud-integration-automation-service](https://help.sap.com/docs/cloud-integration-automation-service)
 
 **Related**:
-- Maintenance Planner: https://maintenanceplanner.cfapps.eu10.hana.ondemand.com
-- Credential Store: https://help.sap.com/viewer/601525c6e5604e4192451d5e7328fa3c/Cloud/en-US/02e8f7d1016740b8adf68690f36df142.html
-- SAP BTP Destinations: https://help.sap.com/docs/btp/sap-business-technology-platform/destination
+- Maintenance Planner: [https://maintenanceplanner.cfapps.eu10.hana.ondemand.com](https://maintenanceplanner.cfapps.eu10.hana.ondemand.com)
+- Credential Store: [https://help.sap.com/viewer/601525c6e5604e4192451d5e7328fa3c/Cloud/en-US/02e8f7d1016740b8adf68690f36df142.html](https://help.sap.com/viewer/601525c6e5604e4192451d5e7328fa3c/Cloud/en-US/02e8f7d1016740b8adf68690f36df142.html)
+- SAP BTP Destinations: [https://help.sap.com/docs/btp/sap-business-technology-platform/destination](https://help.sap.com/docs/btp/sap-business-technology-platform/destination)

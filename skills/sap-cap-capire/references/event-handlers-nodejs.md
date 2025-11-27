@@ -1,19 +1,19 @@
 # CAP Event Handlers for Node.js Complete Reference
 
-**Source**: https://cap.cloud.sap/docs/node.js/events
+**Source**: [https://cap.cloud.sap/docs/node.js/events](https://cap.cloud.sap/docs/node.js/events)
 
 ## Table of Contents
 - [Handler Registration](#handler-registration)
-- [Handler Types](#handler-types)
-- [Request Context](#request-context)
-- [Event Handlers in TypeScript](#event-handlers-in-typescript)
-- [Database Access](#database-access)
+- [Handler Phases](#handler-phases)
+- [Event Names](#event-names)
+- [Request Object (req)](#request-object-req)
 - [Error Handling](#error-handling)
-- [Transaction Management](#transaction-management)
-- [External Services](#external-services)
-- [Testing Event Handlers](#testing-event-handlers)
-- [Best Practices](#best-practices)
-- [Common Patterns](#common-patterns)
+- [Database Operations](#database-operations)
+- [Connecting to Services](#connecting-to-services)
+- [Event Emission](#event-emission)
+- [Lifecycle Events](#lifecycle-events)
+- [Context Access](#context-access)
+- [TypeScript](#typescript)
 
 ## Handler Registration
 

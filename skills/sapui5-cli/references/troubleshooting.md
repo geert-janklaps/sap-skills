@@ -1,6 +1,6 @@
 # UI5 CLI Troubleshooting Guide
 
-**Official Documentation**: https://ui5.github.io/cli/stable/pages/Troubleshooting/
+**Official Documentation**: [https://ui5.github.io/cli/stable/pages/Troubleshooting/](https://ui5.github.io/cli/stable/pages/Troubleshooting/)
 
 This reference provides solutions for common UI5 CLI issues and errors.
 
@@ -110,7 +110,7 @@ ui5 serve --accept-remote-connections
 
 **Access from other devices**:
 ```
-http://<your-ip-address>:8080
+[http://<your-ip-address>:8080](http://<your-ip-address>:8080)
 ```
 
 ---
@@ -386,13 +386,13 @@ framework:
 
 UI5 CLI validates configuration against the official schema automatically (Spec v2.0+).
 
-**Schema URL**: https://ui5.github.io/cli/schema/ui5.yaml.json
+**Schema URL**: [https://ui5.github.io/cli/schema/ui5.yaml.json](https://ui5.github.io/cli/schema/ui5.yaml.json)
 
 **IDE Integration** (VS Code example):
 ```json
 {
   "yaml.schemas": {
-    "https://ui5.github.io/cli/schema/ui5.yaml.json": "ui5.yaml"
+    "[https://ui5.github.io/cli/schema/ui5.yaml.json":](https://ui5.github.io/cli/schema/ui5.yaml.json":) "ui5.yaml"
   }
 }
 ```
@@ -730,9 +730,9 @@ Include in bug reports:
 - Minimal reproduction steps
 - ui5.yaml configuration
 
-**GitHub Issues**: https://github.com/UI5/cli/issues
+**GitHub Issues**: [https://github.com/UI5/cli/issues](https://github.com/UI5/cli/issues)
 
 ---
 
 **Last Updated**: 2025-11-21
-**Official Docs**: https://ui5.github.io/cli/stable/pages/Troubleshooting/
+**Official Docs**: [https://ui5.github.io/cli/stable/pages/Troubleshooting/](https://ui5.github.io/cli/stable/pages/Troubleshooting/)

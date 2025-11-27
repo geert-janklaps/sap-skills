@@ -2,7 +2,7 @@
 
 Complete reference for expressions, operators, and conditional logic in ABAP CDS views.
 
-**Source**: https://discoveringabap.com/2021/10/13/exploring-abap-on-hana-7-expressions-operations-in-cds-views/
+**Source**: [https://discoveringabap.com/2021/10/13/exploring-abap-on-hana-7-expressions-operations-in-cds-views/](https://discoveringabap.com/2021/10/13/exploring-abap-on-hana-7-expressions-operations-in-cds-views/)
 
 ---
 
@@ -494,7 +494,7 @@ cast(amount as abap.curr(15,2)) as FormattedAmount
 
 ## Documentation Links
 
-- **ABAP Keyword Documentation — CDS DDL: CDS View Entity, sql_functions**: https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_builtin_functions.htm
-- **Discovering ABAP - Expressions**: https://discoveringabap.com/2021/10/13/exploring-abap-on-hana-7-expressions-operations-in-cds-views/
+- **ABAP Keyword Documentation — CDS DDL: CDS View Entity, sql_functions**: [https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_builtin_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_builtin_functions.htm)
+- **Discovering ABAP - Expressions**: [https://discoveringabap.com/2021/10/13/exploring-abap-on-hana-7-expressions-operations-in-cds-views/](https://discoveringabap.com/2021/10/13/exploring-abap-on-hana-7-expressions-operations-in-cds-views/)
 
 **Last Updated**: 2025-11-23

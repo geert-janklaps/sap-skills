@@ -149,7 +149,6 @@ This skill activates when discussing:
 sap-abap/
 ├── SKILL.md                        # Main skill file with quick reference
 ├── README.md                       # This file (keywords for discoverability)
-├── PROGRESS_TRACKING.md            # Content extraction progress
 └── references/                     # Detailed reference files (28 files)
     ├── abap-dictionary.md          # DDIC objects, types
     ├── abap-sql.md                 # ABAP SQL comprehensive guide
@@ -197,8 +196,8 @@ Ask Claude about any ABAP development topic:
 ## Source Documentation
 
 Content based on official SAP ABAP Cheat Sheets:
-- **Repository**: https://github.com/SAP-samples/abap-cheat-sheets
-- **SAP Help**: https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm
+- **Repository**: [https://github.com/SAP-samples/abap-cheat-sheets](https://github.com/SAP-samples/abap-cheat-sheets)
+- **SAP Help**: [https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
 
 ## Version
 
@@ -207,3 +206,9 @@ Content based on official SAP ABAP Cheat Sheets:
 - **ABAP Release**: Latest (7.5x / Cloud)
 - **Reference Files**: 28
 - **Source Coverage**: 91% (31 of 34 source files)
+
+---
+
+## License
+
+GPL-3.0 License - See LICENSE file in repository root.

@@ -1760,10 +1760,10 @@ REVIEWER SIGN-OFF:
 
 ## References
 
-- **SAP API Style Guide**: https://github.com/SAP-docs/api-style-guide
-- **OpenAPI Specification**: https://spec.openapis.org/oas/latest.html
-- **OData v4.01**: https://www.odata.org/documentation/
-- **SAP API Business Hub**: https://api.sap.com/
+- **SAP API Style Guide**: [https://github.com/SAP-docs/api-style-guide](https://github.com/SAP-docs/api-style-guide)
+- **OpenAPI Specification**: [https://spec.openapis.org/oas/latest.html](https://spec.openapis.org/oas/latest.html)
+- **OData v4.01**: [https://www.odata.org/documentation/](https://www.odata.org/documentation/)
+- **SAP API Business Hub**: [https://api.sap.com/](https://api.sap.com/)
 
 ---
 
@@ -1771,4 +1771,4 @@ REVIEWER SIGN-OFF:
 **Last Updated**: 2025-11-21
 **Status**: Complete
 **License**: GPL-3.0
-**Maintainer**: SAP Skills Team | https://github.com/secondsky/sap-skills
+**Maintainer**: SAP Skills Team | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

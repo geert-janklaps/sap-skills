@@ -126,9 +126,9 @@ Ask Claude Code to use the skill:
    ```
 
 2. **Find official SAP docs**
-   - SAP Help Portal: https://help.sap.com/
-   - SAP Developer Center: https://developers.sap.com/
-   - SAP Community: https://community.sap.com/
+   - SAP Help Portal: [https://help.sap.com/](https://help.sap.com/)
+   - SAP Developer Center: [https://developers.sap.com/](https://developers.sap.com/)
+   - SAP Community: [https://community.sap.com/](https://community.sap.com/)
 
 3. **Verify SDK versions**
    - Check package.json for @sap/* packages

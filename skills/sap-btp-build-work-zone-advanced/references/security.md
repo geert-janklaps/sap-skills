@@ -2,19 +2,26 @@
 
 Security configuration for SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
 
 ## Table of Contents
 
 - [Authentication Methods](#authentication-methods)
   - [SAML Identity Providers](#saml-identity-providers)
   - [OAuth Clients](#oauth-clients)
-- [Role-Based Access Control](#role-based-access-control)
-- [Certificate Management](#certificate-management)
-- [Security Headers](#security-headers)
-- [Content Security](#content-security)
-- [Audit and Compliance](#audit-and-compliance)
-- [Best Practices](#best-practices)
+  - [Single Sign-On (SSO)](#single-sign-on-sso)
+- [Access Control](#access-control)
+  - [Role Collections](#role-collections)
+  - [Workspace Permissions](#workspace-permissions)
+- [HTTP Security Headers](#http-security-headers)
+  - [Recommended Headers](#recommended-headers)
+  - [Example Configuration](#example-configuration)
+  - [Configuration Location](#configuration-location)
+- [Compliance Features](#compliance-features)
+  - [Compliance Monitor](#compliance-monitor)
+  - [Profanity Monitor](#profanity-monitor)
+  - [Content Administration](#content-administration)
+- [Audit Logging](#audit-logging)
 
 ---
 
@@ -124,5 +131,5 @@ For detailed audit logging configuration, see `references/auditing.md`.
 ---
 
 **Documentation Links**:
-- Security Guide: https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/security
-- SAP Cloud Identity: https://help.sap.com/docs/cloud-identity-services
+- Security Guide: [https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/security](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/security)
+- SAP Cloud Identity: [https://help.sap.com/docs/cloud-identity-services](https://help.sap.com/docs/cloud-identity-services)

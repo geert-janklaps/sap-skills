@@ -1,6 +1,6 @@
 # SAP HANA CLI - System Administration Reference
 
-**Source**: https://github.com/SAP-samples/hana-developer-cli-tool-example
+**Source**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
 
 Commands for system monitoring, configuration, and administration.
 
@@ -276,4 +276,4 @@ System Overview:
 
 ---
 
-*Reference: https://github.com/SAP-samples/hana-developer-cli-tool-example*
+*Reference: [https://github.com/SAP-samples/hana-developer-cli-tool-example*](https://github.com/SAP-samples/hana-developer-cli-tool-example*)

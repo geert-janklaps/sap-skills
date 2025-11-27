@@ -406,6 +406,6 @@ async function handleRateLimit<T>(fn: () => Promise<T>): Promise<T> {
 
 ## Documentation Links
 
-- JS Error Handling: https://github.com/SAP/ai-sdk/blob/main/docs-js/error-handling.mdx
-- JS FAQ: https://github.com/SAP/ai-sdk/blob/main/docs-js/faq.mdx
-- Java FAQ: https://github.com/SAP/ai-sdk/blob/main/docs-java/faq.mdx
+- JS Error Handling: [https://github.com/SAP/ai-sdk/blob/main/docs-js/error-handling.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-js/error-handling.mdx)
+- JS FAQ: [https://github.com/SAP/ai-sdk/blob/main/docs-js/faq.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-js/faq.mdx)
+- Java FAQ: [https://github.com/SAP/ai-sdk/blob/main/docs-java/faq.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-java/faq.mdx)

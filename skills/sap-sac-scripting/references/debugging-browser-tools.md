@@ -119,7 +119,7 @@ Enable enhanced debugging features with debug mode.
 Append `;debug=true` to the application URL:
 
 ```
-https://your-tenant.sapanalytics.cloud/app.html?story=STORY_ID;debug=true
+[https://your-tenant.sapanalytics.cloud/app.html?story=STORY_ID;debug=true](https://your-tenant.sapanalytics.cloud/app.html?story=STORY_ID;debug=true)
 ```
 
 ### Debug Mode Features
@@ -417,7 +417,7 @@ During debugging:
 | F11 | Step into |
 | Shift+F11 | Step out |
 
-For script editor shortcuts, see: https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/release/en-US/68dfa2fd057c4d13ad2772825e83b491.html
+For script editor shortcuts, see: [https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/release/en-US/68dfa2fd057c4d13ad2772825e83b491.html](https://help.sap.com/doc/00f68c2e08b941f081002fd3691d86a7/release/en-US/68dfa2fd057c4d13ad2772825e83b491.html)
 
 ---
 

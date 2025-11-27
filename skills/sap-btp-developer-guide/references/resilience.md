@@ -319,5 +319,5 @@ actions:
 
 ## Source Documentation
 
-- Developing Resilient Applications: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/developing-resilient-applications-b1b929a.md
-- SAP BTP Resilience Guide: https://help.sap.com/docs/btp/best-practices/developing-resilient-apps
+- Developing Resilient Applications: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/developing-resilient-applications-b1b929a.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/developing-resilient-applications-b1b929a.md)
+- SAP BTP Resilience Guide: [https://help.sap.com/docs/btp/best-practices/developing-resilient-apps](https://help.sap.com/docs/btp/best-practices/developing-resilient-apps)

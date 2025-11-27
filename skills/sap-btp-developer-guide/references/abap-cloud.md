@@ -399,9 +399,9 @@ ENDCLASS.
 
 ## Source Documentation
 
-- ABAP Environment: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-abap-environment-with-abap-cloud-174b229.md
-- ABAP Cloud Development: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/developing-with-abap-cloud-in-the-sap-btp-abap-environment-9aaaf65.md
-- Elastic Scaling: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/benefit-from-the-elastic-scaling-of-abap-application-servers-c1d35c5.md
-- System Hibernation: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/use-system-hibernation-6a8d7ee.md
-- ATC Governance: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/keep-clean-core-governance-with-abap-test-cockpit-698ddfa.md
-- Joule: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/use-joule-for-developers-generative-ai-in-abap-cloud-63c8ac1.md
+- ABAP Environment: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-abap-environment-with-abap-cloud-174b229.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/sap-btp-abap-environment-with-abap-cloud-174b229.md)
+- ABAP Cloud Development: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/developing-with-abap-cloud-in-the-sap-btp-abap-environment-9aaaf65.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/developing-with-abap-cloud-in-the-sap-btp-abap-environment-9aaaf65.md)
+- Elastic Scaling: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/benefit-from-the-elastic-scaling-of-abap-application-servers-c1d35c5.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/benefit-from-the-elastic-scaling-of-abap-application-servers-c1d35c5.md)
+- System Hibernation: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/use-system-hibernation-6a8d7ee.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/use-system-hibernation-6a8d7ee.md)
+- ATC Governance: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/keep-clean-core-governance-with-abap-test-cockpit-698ddfa.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/keep-clean-core-governance-with-abap-test-cockpit-698ddfa.md)
+- Joule: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/use-joule-for-developers-generative-ai-in-abap-cloud-63c8ac1.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/use-joule-for-developers-generative-ai-in-abap-cloud-63c8ac1.md)

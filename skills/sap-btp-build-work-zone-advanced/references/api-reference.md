@@ -2,26 +2,42 @@
 
 Complete API reference for SCIM, OData, and Webhook APIs in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
 
 ## Table of Contents
 
 - [API Documentation Resources](#api-documentation-resources)
 - [SCIM API](#scim-api)
-  - [Authentication](#authentication)
+  - [Overview](#overview-scim)
   - [Rate Limits](#rate-limits)
-  - [Endpoints](#endpoints)
-  - [User Management](#user-management)
+  - [Response Headers](#response-headers)
+  - [Content Type](#content-type)
+  - [User Filtering](#user-filtering)
+  - [SCIM Operations](#scim-operations)
+  - [User Lists](#user-lists)
+  - [Maintenance Windows](#maintenance-windows)
 - [OData API](#odata-api)
-  - [Authentication](#authentication-1)
+  - [Overview](#overview-odata)
+  - [Authentication](#authentication)
+  - [Key Endpoints](#key-endpoints)
+  - [Query Options](#query-options)
   - [Business Records](#business-records)
-  - [Common Operations](#common-operations)
-- [Webhook API](#webhook-api)
+- [Webhooks](#webhooks)
+  - [Overview](#overview-webhooks)
+  - [Webhook URL Format](#webhook-url-format)
   - [Configuration](#configuration)
   - [Event Types](#event-types)
-  - [Payload Format](#payload-format)
-- [Error Handling](#error-handling)
-- [Code Examples](#code-examples)
+  - [Payload Structure](#payload-structure)
+- [Chatbot API](#chatbot-api)
+  - [Available Template Variables](#available-template-variables)
+  - [Webhook Actions](#webhook-actions)
+  - [Create Workspace Example](#create-workspace-example)
+  - [Render Card Example](#render-card-example)
+- [Authentication](#authentication-main)
+  - [OAuth 2.0 Setup](#oauth-20-setup)
+  - [Token Request](#token-request)
+  - [API Request](#api-request)
+- [Alias Accounts](#alias-accounts)
 
 ---
 
@@ -29,15 +45,15 @@ Complete API reference for SCIM, OData, and Webhook APIs in SAP Build Work Zone,
 
 | Resource | URL |
 |----------|-----|
-| SAP API Hub | https://api.sap.com/ (SAP Cloud Portal Service) |
-| OData API Docs | https://jam2.sapjam.com/work_zone/ODataDocs/ui |
-| Webhook Reference | https://jam2.sapjam.com/work_zone/ODataDocs/webhook_reference |
+| SAP API Hub | [https://api.sap.com/](https://api.sap.com/) (SAP Cloud Portal Service) |
+| OData API Docs | [https://jam2.sapjam.com/work_zone/ODataDocs/ui](https://jam2.sapjam.com/work_zone/ODataDocs/ui) |
+| Webhook Reference | [https://jam2.sapjam.com/work_zone/ODataDocs/webhook_reference](https://jam2.sapjam.com/work_zone/ODataDocs/webhook_reference) |
 
 ---
 
 ## SCIM API
 
-### Overview
+### Overview {#overview-scim}
 
 SAP Build Work Zone implements SCIM 2.0 for user provisioning.
 
@@ -101,7 +117,7 @@ HTTP 503 Service Unavailable
 
 ## OData API
 
-### Overview
+### Overview {#overview-odata}
 
 SAP Build Work Zone uses OData v2 protocol with support for OData v4 query syntax (e.g., advanced `$filter`, `$select` expressions).
 
@@ -111,7 +127,7 @@ SAP Build Work Zone uses OData v2 protocol with support for OData v4 query synta
 
 **Base URL**: `/api/v1/OData`
 
-### Authentication
+### Authentication {#authentication}
 
 Same OAuth flow as SCIM API.
 
@@ -149,14 +165,14 @@ Configure OData annotations to display external business records:
 
 ## Webhooks
 
-### Overview
+### Overview {#overview-webhooks}
 
 Track platform events and send notifications to external applications.
 
 ### Webhook URL Format
 
 ```
-https://<host-url>/api/v2/ai/webhook
+[https://<host-url>/api/v2/ai/webhook](https://<host-url>/api/v2/ai/webhook)
 ```
 
 ### Configuration
@@ -242,7 +258,7 @@ When configuring chatbot webhooks, the following template variables are availabl
 
 ---
 
-## Authentication
+## Authentication {#authentication-main}
 
 ### OAuth 2.0 Setup
 
@@ -284,7 +300,7 @@ For system-level API access:
 ---
 
 **Documentation Links**:
-- SAP API Hub: https://api.sap.com/
-- OData Docs: https://jam2.sapjam.com/work_zone/ODataDocs/ui
-- Webhook Reference: https://jam2.sapjam.com/work_zone/ODataDocs/webhook_reference
-- SAP Help Portal: https://help.sap.com/docs/build-work-zone-advanced-edition
+- SAP API Hub: [https://api.sap.com/](https://api.sap.com/)
+- OData Docs: [https://jam2.sapjam.com/work_zone/ODataDocs/ui](https://jam2.sapjam.com/work_zone/ODataDocs/ui)
+- Webhook Reference: [https://jam2.sapjam.com/work_zone/ODataDocs/webhook_reference](https://jam2.sapjam.com/work_zone/ODataDocs/webhook_reference)
+- SAP Help Portal: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)

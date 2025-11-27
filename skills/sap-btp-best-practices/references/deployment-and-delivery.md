@@ -1,6 +1,6 @@
 # SAP BTP Deployment and Delivery - Detailed Reference
 
-**Source**: https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/deploy-and-deliver
+**Source**: [https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/deploy-and-deliver](https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/deploy-and-deliver)
 
 ---
 
@@ -117,7 +117,7 @@ A managed, automated delivery approach is recommended because it:
 - Open-source CI/CD library
 - Extensive customization options
 - Jenkins-based pipelines
-- GitHub: https://github.com/SAP/jenkins-library
+- GitHub: [https://github.com/SAP/jenkins-library](https://github.com/SAP/jenkins-library)
 
 ---
 
@@ -395,12 +395,12 @@ node {
 
 ```bash
 # Using Cloud Transport Management API
-curl -X POST "https://[ctms-url]/v2/files/upload" \
+curl -X POST "[https://[ctms-url]/v2/files/upload"](https://[ctms-url]/v2/files/upload") \
   -H "Authorization: Bearer $TOKEN" \
   -F "file=@my-app.mtar"
 
 # Create transport request
-curl -X POST "https://[ctms-url]/v2/nodes/[node-id]/transportRequests" \
+curl -X POST "[https://[ctms-url]/v2/nodes/[node-id]/transportRequests"](https://[ctms-url]/v2/nodes/[node-id]/transportRequests") \
   -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"fileId": "[file-id]", "description": "Deploy version 1.0.0"}'
@@ -434,6 +434,6 @@ curl -X POST "https://[ctms-url]/v2/nodes/[node-id]/transportRequests" \
 ---
 
 **Source Documentation**:
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/deploy-and-deliver-5972cdb.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/deploying-applications-866ab13.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/delivering-applications-b39bae3.md
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/deploy-and-deliver-5972cdb.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/deploy-and-deliver-5972cdb.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/deploying-applications-866ab13.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/deploying-applications-866ab13.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/delivering-applications-b39bae3.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/deploy-and-deliver/delivering-applications-b39bae3.md)

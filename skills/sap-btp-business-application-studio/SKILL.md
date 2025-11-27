@@ -204,7 +204,6 @@ Configure SAP HANA Cloud to allow BAS IP addresses. See [Availability](https://h
 - `references/git-operations.md` - Git commands, stash, authentication, Gerrit
 - `references/development-workflow.md` - Project creation, UI development, debugging, CI/CD
 - `references/service-center-and-tools.md` - Service providers, extensions, IDE features
-- `references/PROGRESS_TRACKING.md` - Documentation source tracking
 
 ## Templates
 
@@ -217,10 +216,10 @@ Configure SAP HANA Cloud to allow BAS IP addresses. See [Availability](https://h
 
 | Resource | URL |
 |----------|-----|
-| SAP Help Portal | https://help.sap.com/docs/bas |
-| GitHub Docs Source | https://github.com/SAP-docs/sap-btp-business-application-studio |
-| Discovery Center | https://discovery-center.cloud.sap/serviceCatalog/business-application-studio |
-| Availability/IPs | https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability |
+| SAP Help Portal | [https://help.sap.com/docs/bas](https://help.sap.com/docs/bas) |
+| GitHub Docs Source | [https://github.com/SAP-docs/sap-btp-business-application-studio](https://github.com/SAP-docs/sap-btp-business-application-studio) |
+| Discovery Center | [https://discovery-center.cloud.sap/serviceCatalog/business-application-studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio) |
+| Availability/IPs | [https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability](https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability) |
 
 ---
 

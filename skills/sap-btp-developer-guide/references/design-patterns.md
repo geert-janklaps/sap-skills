@@ -108,9 +108,9 @@ Superior UX drives business value through:
 8. Evolve architecture
 
 **Resources:**
-- SAP One Domain Model: https://api.sap.com/sap-one-domain-model
-- CAP Domain Modeling: https://cap.cloud.sap/docs/guides/domain-modeling
-- DDD Starter Modeling: https://github.com/ddd-crew/ddd-starter-modelling-process
+- SAP One Domain Model: [https://api.sap.com/sap-one-domain-model](https://api.sap.com/sap-one-domain-model)
+- CAP Domain Modeling: [https://cap.cloud.sap/docs/guides/domain-modeling](https://cap.cloud.sap/docs/guides/domain-modeling)
+- DDD Starter Modeling: [https://github.com/ddd-crew/ddd-starter-modelling-process](https://github.com/ddd-crew/ddd-starter-modelling-process)
 
 ## CAP Design Principles
 
@@ -325,7 +325,7 @@ ENDCLASS.
 
 ## Source Documentation
 
-- Design (CAP): https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/design-6bb7339.md
-- Design (ABAP): https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/design-314ae3e.md
-- Technology Design: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/technology-design-a5b8129.md
-- UX Design: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/user-experience-design-323bd93.md
+- Design (CAP): [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/design-6bb7339.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/design-6bb7339.md)
+- Design (ABAP): [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/design-314ae3e.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/design-314ae3e.md)
+- Technology Design: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/technology-design-a5b8129.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/technology-design-a5b8129.md)
+- UX Design: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/user-experience-design-323bd93.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/user-experience-design-323bd93.md)

@@ -1,6 +1,6 @@
 # Administration Reference
 
-**Source**: https://github.com/SAP-docs/sap-datasphere/tree/main/docs/Administering
+**Source**: [https://github.com/SAP-docs/sap-datasphere/tree/main/docs/Administering](https://github.com/SAP-docs/sap-datasphere/tree/main/docs/Administering)
 
 ---
 
@@ -98,8 +98,8 @@
 {
   "clientid": "sb-xxx",
   "clientsecret": "xxx",
-  "url": "https://xxx.authentication.xxx.hana.ondemand.com",
-  "apiurl": "https://xxx.hana.ondemand.com"
+  "url": "[https://xxx.authentication.xxx.hana.ondemand.com",](https://xxx.authentication.xxx.hana.ondemand.com",)
+  "apiurl": "[https://xxx.hana.ondemand.com"](https://xxx.hana.ondemand.com")
 }
 ```
 
@@ -611,7 +611,7 @@ Elastic compute nodes provide additional processing capacity for intensive workl
 **Agent Properties**:
 ```properties
 # Connection settings
-datasphere.tenant.url=https://xxx.hana.ondemand.com
+datasphere.tenant.url=[https://xxx.hana.ondemand.com](https://xxx.hana.ondemand.com)
 datasphere.agent.name=dp_agent_01
 
 # Performance settings
@@ -693,10 +693,10 @@ datasphere.batch.size=10000
 
 ## Documentation Links
 
-- **Tenant Configuration**: https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/2f80b57
-- **Space Management**: https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/2ace657
-- **User Management**: https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/4fb82cb
-- **Monitoring**: https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/28910cd
+- **Tenant Configuration**: [https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/2f80b57](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/2f80b57)
+- **Space Management**: [https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/2ace657](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/2ace657)
+- **User Management**: [https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/4fb82cb](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/4fb82cb)
+- **Monitoring**: [https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/28910cd](https://help.sap.com/docs/SAP_DATASPHERE/c8a54ee704e94e15926551293243fd1d/28910cd)
 
 ---
 

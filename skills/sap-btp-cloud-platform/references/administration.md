@@ -2,7 +2,7 @@
 
 Complete guidance for SAP BTP account administration and operations.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops)
 
 ---
 
@@ -334,7 +334,7 @@ Access via:
 
 ```bash
 # API access
-curl -X GET "https://auditlog.cf.<region>.hana.ondemand.com/v2/auditlogrecords" \
+curl -X GET "[https://auditlog.cf.<region>.hana.ondemand.com/v2/auditlogrecords"](https://auditlog.cf.<region>.hana.ondemand.com/v2/auditlogrecords") \
   -H "Authorization: Bearer <token>"
 ```
 
@@ -422,6 +422,6 @@ Low-code automation for:
 
 ## Related Documentation
 
-- Administration: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops
-- btp CLI: https://help.sap.com/docs/btp/btp-cli-command-reference/btp-cli-command-reference
-- Terraform: https://registry.terraform.io/providers/SAP/btp/latest/docs
+- Administration: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/50-administration-and-ops)
+- btp CLI: [https://help.sap.com/docs/btp/btp-cli-command-reference/btp-cli-command-reference](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-cli-command-reference)
+- Terraform: [https://registry.terraform.io/providers/SAP/btp/latest/docs](https://registry.terraform.io/providers/SAP/btp/latest/docs)

@@ -408,11 +408,11 @@ Customer-managed key encryption enabled by default since September 18, 2022.
 
 ### On-Premise System Access
 
-Built-in web proxy at `http://localhost:8887`.
+Built-in web proxy at `[http://localhost:8887`.](http://localhost:8887`.)
 
 **Refresh Destinations**:
 ```bash
-curl http://localhost:8887/reload
+curl [http://localhost:8887/reload](http://localhost:8887/reload)
 ```
 
 **Git Repositories**: Use exact host:port from destination URL.
@@ -435,11 +435,11 @@ npm config set @<scope>:registry <URL>
 Requires administrator access and REST API tool.
 
 **Process**:
-1. Get workspace list: `https://<bas-url>/ws-manager/api/v1/workspace?all=true`
+1. Get workspace list: `[https://<bas-url>/ws-manager/api/v1/workspace?all=true`](https://<bas-url>/ws-manager/api/v1/workspace?all=true`)
 2. Copy workspace `id` from `config` section
 3. Optionally export data first
-4. Get JWT: `https://<bas-url>/jwt`
-5. DELETE request: `https://<bas-url>/ws-manager/api/v1/workspace/<ws-id>?all=true`
+4. Get JWT: `[https://<bas-url>/jwt`](https://<bas-url>/jwt`)
+5. DELETE request: `[https://<bas-url>/ws-manager/api/v1/workspace/<ws-id>?all=true`](https://<bas-url>/ws-manager/api/v1/workspace/<ws-id>?all=true`)
 6. Header: `X-Approuter-Authorization: Bearer <JWT_Token>`
 
 ---
@@ -448,17 +448,17 @@ Requires administrator access and REST API tool.
 
 | Resource | URL |
 |----------|-----|
-| Project Creation | https://help.sap.com/docs/bas/sap-business-application-studio/create-a-project |
-| Layout Editor | https://help.sap.com/docs/bas/sap-business-application-studio/layout-editor |
-| Task Explorer | https://help.sap.com/docs/bas/sap-business-application-studio/task-explorer |
-| Run Configurations | https://help.sap.com/docs/bas/sap-business-application-studio/creating-run-configurations |
-| Debugging | https://help.sap.com/docs/bas/sap-business-application-studio/debugging |
-| MTA Development | https://help.sap.com/docs/bas/sap-business-application-studio/mta-development |
-| CI/CD | https://help.sap.com/docs/bas/sap-business-application-studio/continuous-integration-and-delivery |
-| VS Code Extensions | https://help.sap.com/docs/bas/sap-business-application-studio/explore-and-install-vs-code-extensions |
-| Malware Scan | https://help.sap.com/docs/bas/sap-business-application-studio/malware-scan-in-dev-spaces |
+| Project Creation | [https://help.sap.com/docs/bas/sap-business-application-studio/create-a-project](https://help.sap.com/docs/bas/sap-business-application-studio/create-a-project) |
+| Layout Editor | [https://help.sap.com/docs/bas/sap-business-application-studio/layout-editor](https://help.sap.com/docs/bas/sap-business-application-studio/layout-editor) |
+| Task Explorer | [https://help.sap.com/docs/bas/sap-business-application-studio/task-explorer](https://help.sap.com/docs/bas/sap-business-application-studio/task-explorer) |
+| Run Configurations | [https://help.sap.com/docs/bas/sap-business-application-studio/creating-run-configurations](https://help.sap.com/docs/bas/sap-business-application-studio/creating-run-configurations) |
+| Debugging | [https://help.sap.com/docs/bas/sap-business-application-studio/debugging](https://help.sap.com/docs/bas/sap-business-application-studio/debugging) |
+| MTA Development | [https://help.sap.com/docs/bas/sap-business-application-studio/mta-development](https://help.sap.com/docs/bas/sap-business-application-studio/mta-development) |
+| CI/CD | [https://help.sap.com/docs/bas/sap-business-application-studio/continuous-integration-and-delivery](https://help.sap.com/docs/bas/sap-business-application-studio/continuous-integration-and-delivery) |
+| VS Code Extensions | [https://help.sap.com/docs/bas/sap-business-application-studio/explore-and-install-vs-code-extensions](https://help.sap.com/docs/bas/sap-business-application-studio/explore-and-install-vs-code-extensions) |
+| Malware Scan | [https://help.sap.com/docs/bas/sap-business-application-studio/malware-scan-in-dev-spaces](https://help.sap.com/docs/bas/sap-business-application-studio/malware-scan-in-dev-spaces) |
 
 ---
 
 **Last Updated**: 2025-11-22
-**Source**: https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs](https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs)

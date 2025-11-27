@@ -2,7 +2,7 @@
 
 Complete guidance for SAP BTP ABAP environment development and administration.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts)
 
 ---
 
@@ -164,7 +164,7 @@ Eclipse-based IDE for ABAP development:
 2. Install ADT plugin from SAP update site
 3. Connect to ABAP system
 
-**ADT Update Site**: https://tools.hana.ondemand.com/latest
+**ADT Update Site**: [https://tools.hana.ondemand.com/latest](https://tools.hana.ondemand.com/latest)
 
 ### ADT Features
 
@@ -193,7 +193,7 @@ cf service-key my-abap-system my-key
 
 | Component | URL Pattern |
 |-----------|-------------|
-| Fiori Launchpad | `https://<system>.abap.<region>.hana.ondemand.com/` |
+| Fiori Launchpad | `[https://<system>.abap.<region>.hana.ondemand.com/`](https://<system>.abap.<region>.hana.ondemand.com/`) |
 | SAP GUI for HTML | Via Fiori Launchpad |
 | ADT | Via Eclipse with service key |
 
@@ -385,13 +385,13 @@ ProductId,
 | US West | Azure | us20 |
 | Japan (Tokyo) | Azure | jp20 |
 
-Full list: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-for-the-abap-environment-879f373.md
+Full list: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-for-the-abap-environment-879f373.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-for-the-abap-environment-879f373.md)
 
 ---
 
 ## Related Documentation
 
-- ABAP Environment: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/abap-environment-11d6265.md
-- Service Plans: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/service-plans-and-metering-for-sap-btp-abap-environment-b7f5a93.md
-- Getting Started: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/20-getting-started/getting-started-in-the-abap-environment-2ffdd24.md
-- SAP Help Portal: https://help.sap.com/docs/btp/sap-business-technology-platform/abap-environment
+- ABAP Environment: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/abap-environment-11d6265.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/abap-environment-11d6265.md)
+- Service Plans: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/service-plans-and-metering-for-sap-btp-abap-environment-b7f5a93.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/service-plans-and-metering-for-sap-btp-abap-environment-b7f5a93.md)
+- Getting Started: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/20-getting-started/getting-started-in-the-abap-environment-2ffdd24.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/20-getting-started/getting-started-in-the-abap-environment-2ffdd24.md)
+- SAP Help Portal: [https://help.sap.com/docs/btp/sap-business-technology-platform/abap-environment](https://help.sap.com/docs/btp/sap-business-technology-platform/abap-environment)

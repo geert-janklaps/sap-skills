@@ -1,8 +1,8 @@
 # Metadata-Driven Controls (MDC) and TypeScript Control Library Development
 
 **Sources**: 
-- MDC Tutorial: https://github.com/SAP-samples/ui5-mdc-json-tutorial
-- TypeScript Control Library: https://github.com/SAP-samples/ui5-typescript-control-library
+- MDC Tutorial: [https://github.com/SAP-samples/ui5-mdc-json-tutorial](https://github.com/SAP-samples/ui5-mdc-json-tutorial)
+- TypeScript Control Library: [https://github.com/SAP-samples/ui5-typescript-control-library](https://github.com/SAP-samples/ui5-typescript-control-library)
 **Last Updated**: 2025-11-22
 
 ---
@@ -24,8 +24,8 @@ Both topics use TypeScript as the implementation language and represent modern b
 Metadata-Driven Controls (sap.ui.mdc) are powerful UI5 controls that allow dynamic UI creation at runtime based on metadata. Instead of explicitly defining every control, you configure and modify them based on provided metadata.
 
 **Official Documentation**:
-- API Reference: https://sdk.openui5.org/api/sap.ui.mdc
-- Documentation: https://sdk.openui5.org/topic/1dd2aa91115d43409452a271d11be95b
+- API Reference: [https://sdk.openui5.org/api/sap.ui.mdc](https://sdk.openui5.org/api/sap.ui.mdc)
+- Documentation: [https://sdk.openui5.org/topic/1dd2aa91115d43409452a271d11be95b](https://sdk.openui5.org/topic/1dd2aa91115d43409452a271d11be95b)
 
 **Key Benefits**:
 - Dynamic UI generation at runtime
@@ -233,7 +233,7 @@ Assisted data input with suggestions:
 
 ### MDC Tutorial Exercises
 
-The official SAP MDC tutorial (https://github.com/SAP-samples/ui5-mdc-json-tutorial) covers:
+The official SAP MDC tutorial ([https://github.com/SAP-samples/ui5-mdc-json-tutorial](https://github.com/SAP-samples/ui5-mdc-json-tutorial)) covers:
 
 | Exercise | Topic | Key Learnings |
 |----------|-------|---------------|
@@ -246,7 +246,7 @@ The official SAP MDC tutorial (https://github.com/SAP-samples/ui5-mdc-json-tutor
 
 **Running the Tutorial**:
 ```bash
-git clone https://github.com/SAP-samples/ui5-mdc-json-tutorial.git
+git clone [https://github.com/SAP-samples/ui5-mdc-json-tutorial.git](https://github.com/SAP-samples/ui5-mdc-json-tutorial.git)
 cd ui5-mdc-json-tutorial/ex5  # Or any exercise
 npm install
 npm start
@@ -260,7 +260,7 @@ npm start
 
 Developing UI5 control libraries in TypeScript provides type safety, better tooling support, and improved maintainability for reusable components.
 
-**Source Repository**: https://github.com/SAP-samples/ui5-typescript-control-library
+**Source Repository**: [https://github.com/SAP-samples/ui5-typescript-control-library](https://github.com/SAP-samples/ui5-typescript-control-library)
 
 ---
 
@@ -705,16 +705,16 @@ npm-run-all --parallel watch:ts start:server
 ## Resources
 
 ### MDC Resources
-- **MDC Tutorial**: https://github.com/SAP-samples/ui5-mdc-json-tutorial
-- **MDC API Reference**: https://sdk.openui5.org/api/sap.ui.mdc
-- **MDC Documentation**: https://sdk.openui5.org/topic/1dd2aa91115d43409452a271d11be95b
-- **MDC Demokit Sample**: https://sdk.openui5.org/entity/sap.ui.mdc/sample/sap.ui.mdc.demokit.sample.TableFilterBarJson
+- **MDC Tutorial**: [https://github.com/SAP-samples/ui5-mdc-json-tutorial](https://github.com/SAP-samples/ui5-mdc-json-tutorial)
+- **MDC API Reference**: [https://sdk.openui5.org/api/sap.ui.mdc](https://sdk.openui5.org/api/sap.ui.mdc)
+- **MDC Documentation**: [https://sdk.openui5.org/topic/1dd2aa91115d43409452a271d11be95b](https://sdk.openui5.org/topic/1dd2aa91115d43409452a271d11be95b)
+- **MDC Demokit Sample**: [https://sdk.openui5.org/entity/sap.ui.mdc/sample/sap.ui.mdc.demokit.sample.TableFilterBarJson](https://sdk.openui5.org/entity/sap.ui.mdc/sample/sap.ui.mdc.demokit.sample.TableFilterBarJson)
 
 ### TypeScript Control Library Resources
-- **Sample Repository**: https://github.com/SAP-samples/ui5-typescript-control-library
-- **TypeScript Interface Generator**: https://github.com/SAP/ui5-typescript/tree/main/packages/ts-interface-generator
-- **UI5 Tooling Transpile**: https://www.npmjs.com/package/ui5-tooling-transpile
-- **TypeScript Hello World**: https://github.com/SAP-samples/ui5-typescript-helloworld
+- **Sample Repository**: [https://github.com/SAP-samples/ui5-typescript-control-library](https://github.com/SAP-samples/ui5-typescript-control-library)
+- **TypeScript Interface Generator**: [https://github.com/SAP/ui5-typescript/tree/main/packages/ts-interface-generator](https://github.com/SAP/ui5-typescript/tree/main/packages/ts-interface-generator)
+- **UI5 Tooling Transpile**: [https://www.npmjs.com/package/ui5-tooling-transpile](https://www.npmjs.com/package/ui5-tooling-transpile)
+- **TypeScript Hello World**: [https://github.com/SAP-samples/ui5-typescript-helloworld](https://github.com/SAP-samples/ui5-typescript-helloworld)
 
 ---
 

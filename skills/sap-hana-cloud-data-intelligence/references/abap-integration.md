@@ -468,15 +468,15 @@ Default: "Required Conversions Plus Time Format and Currency" (cannot be changed
 
 ### Resources
 
-- **SAP Community**: https://community.sap.com/topics/data-intelligence
-- **SAP Support Portal**: https://support.sap.com
+- **SAP Community**: [https://community.sap.com/topics/data-intelligence](https://community.sap.com/topics/data-intelligence)
+- **SAP Support Portal**: [https://support.sap.com](https://support.sap.com)
 
 ---
 
 ## Documentation Links
 
-- **ABAP Integration Guide**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration
-- **User Guide**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration/user-guide-for-abap-integration
+- **ABAP Integration Guide**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration)
+- **User Guide**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration/user-guide-for-abap-integration](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration/user-guide-for-abap-integration)
 
 ---
 

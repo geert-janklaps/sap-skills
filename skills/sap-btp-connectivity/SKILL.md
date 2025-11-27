@@ -22,6 +22,14 @@ metadata:
 
 # SAP BTP Connectivity Skill
 
+## Related Skills
+
+- **sap-btp-cloud-platform**: Use for platform fundamentals, BTP account setup, and integration patterns
+- **sap-btp-best-practices**: Use for implementation guidance, security best practices, and production deployment
+- **sap-cap-capire**: Use for CAP service connectivity, destination consumption, and secure API access
+- **sap-fiori-tools**: Use for configuring Fiori app destinations and frontend connectivity
+- **sap-abap**: Use when connecting to ABAP systems via RFC or implementing principal propagation
+
 ## Table of Contents
 
 1. [Overview](#overview)
@@ -67,18 +75,18 @@ SAP BTP Connectivity provides secure access from SAP BTP applications to remote 
    ```
    Name: my-destination
    Type: HTTP
-   URL: https://api.example.com
+   URL: [https://api.example.com](https://api.example.com)
    ProxyType: Internet
    Authentication: OAuth2ClientCredentials
    clientId: <your-client-id>
    clientSecret: <your-client-secret>
-   tokenServiceURL: https://auth.example.com/oauth/token
+   tokenServiceURL: [https://auth.example.com/oauth/token](https://auth.example.com/oauth/token)
    ```
 
 ### Set Up Cloud Connector
 
 1. Download from [SAP Tools](https://tools.hana.ondemand.com/#cloud)
-2. Access: `https://localhost:8443`
+2. Access: `[https://localhost:8443`](https://localhost:8443`)
 3. Login: `Administrator` / `manage` (change immediately)
 4. Add subaccount connection
 
@@ -132,7 +140,7 @@ For on-premise systems accessing SAP BTP services via Cloud Connector.
 Authentication: OAuth2ClientCredentials
 clientId: <client-id>
 clientSecret: <client-secret>
-tokenServiceURL: https://auth.example.com/oauth/token
+tokenServiceURL: [https://auth.example.com/oauth/token](https://auth.example.com/oauth/token)
 ```
 
 ### OAuth2SAMLBearerAssertion (User Propagation)
@@ -140,7 +148,7 @@ tokenServiceURL: https://auth.example.com/oauth/token
 Authentication: OAuth2SAMLBearerAssertion
 audience: <target-audience>
 clientKey: <client-key>
-tokenServiceURL: https://auth.example.com/oauth2/token
+tokenServiceURL: [https://auth.example.com/oauth2/token](https://auth.example.com/oauth2/token)
 KeyStoreLocation: <certificate-location>
 ```
 
@@ -162,7 +170,7 @@ Requires Cloud Connector X.509 certificate generation.
 - **Development**: Portable archive (manual execution)
 
 ### Initial Configuration
-1. Access UI: `https://<hostname>:8443`
+1. Access UI: `[https://<hostname>:8443`](https://<hostname>:8443`)
 2. Login: `Administrator` / `manage`
 3. **Change password immediately**
 4. Select mode: Master or Shadow
@@ -217,7 +225,7 @@ helm install transparent-proxy \
 |------|-------|----------|
 | **400** | Malformed request | Check request syntax |
 | **401** | Authentication failure | Verify credentials/tokens |
-| **405** | HTTPS instead of HTTP | Use `http://` with port 20003 |
+| **405** | HTTPS instead of HTTP | Use `[http://`](http://`) with port 20003 |
 | **407** | Missing authorization | Add `Proxy-Authorization: Bearer <token>` |
 | **503** | Cloud Connector offline | Check CC connection and Location ID |
 
@@ -305,13 +313,13 @@ helm install transparent-proxy \
 
 ## Documentation Links
 
-- **Official SAP Documentation**: https://help.sap.com/docs/connectivity
-- **GitHub Repository**: https://github.com/SAP-docs/btp-connectivity
-- **Destination API**: https://api.sap.com/api/SAP_CP_CF_Connectivity_Destination
-- **Release Notes**: https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56
+- **Official SAP Documentation**: [https://help.sap.com/docs/connectivity](https://help.sap.com/docs/connectivity)
+- **GitHub Repository**: [https://github.com/SAP-docs/btp-connectivity](https://github.com/SAP-docs/btp-connectivity)
+- **Destination API**: [https://api.sap.com/api/SAP_CP_CF_Connectivity_Destination](https://api.sap.com/api/SAP_CP_CF_Connectivity_Destination)
+- **Release Notes**: [https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56)
 
 ---
 
 **Last Updated**: 2025-11-27  
 **Next Review**: 2026-02-27  
-**Source**: https://github.com/SAP-docs/btp-connectivity (383 files, 352+ analyzed)
+**Source**: [https://github.com/SAP-docs/btp-connectivity](https://github.com/SAP-docs/btp-connectivity) (383 files, 352+ analyzed)

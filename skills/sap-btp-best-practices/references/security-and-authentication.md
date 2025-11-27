@@ -1,6 +1,6 @@
 # SAP BTP Security and Authentication - Detailed Reference
 
-**Source**: https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/set-up-and-plan
+**Source**: [https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/set-up-and-plan](https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/set-up-and-plan)
 
 ---
 
@@ -412,9 +412,9 @@ Lightweight on-premise agent establishing secure tunnel:
 ---
 
 **Source Documentation**:
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/security-concepts-951d36c.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-authentication-1dbce9c.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-authorization-cb9f0ac.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-identity-lifecycle-2c30208.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/role-based-access-control-rbac-in-kyma-bb31080.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/destination-authentication-methods-765423d.md
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/security-concepts-951d36c.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/security-concepts-951d36c.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-authentication-1dbce9c.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-authentication-1dbce9c.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-authorization-cb9f0ac.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-authorization-cb9f0ac.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-identity-lifecycle-2c30208.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-identity-lifecycle-2c30208.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/role-based-access-control-rbac-in-kyma-bb31080.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/role-based-access-control-rbac-in-kyma-bb31080.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/destination-authentication-methods-765423d.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/destination-authentication-methods-765423d.md)

@@ -257,14 +257,14 @@ Process:
 
 | Resource | URL |
 |----------|-----|
-| Dev Space Types | https://help.sap.com/docs/bas/sap-business-application-studio/dev-space-types |
-| Dev Space Manager | https://help.sap.com/docs/bas/sap-business-application-studio/working-in-dev-space-manager |
-| SAP Fiori Dev Space | https://help.sap.com/docs/bas/sap-business-application-studio/sap-fiori |
-| Full Stack Cloud Application | https://help.sap.com/docs/bas/sap-business-application-studio/full-stack-cloud-application |
-| HANA Native Application | https://help.sap.com/docs/bas/sap-business-application-studio/sap-hana-native-application |
-| Mobile Application | https://help.sap.com/docs/bas/sap-business-application-studio/sap-mobile-application |
+| Dev Space Types | [https://help.sap.com/docs/bas/sap-business-application-studio/dev-space-types](https://help.sap.com/docs/bas/sap-business-application-studio/dev-space-types) |
+| Dev Space Manager | [https://help.sap.com/docs/bas/sap-business-application-studio/working-in-dev-space-manager](https://help.sap.com/docs/bas/sap-business-application-studio/working-in-dev-space-manager) |
+| SAP Fiori Dev Space | [https://help.sap.com/docs/bas/sap-business-application-studio/sap-fiori](https://help.sap.com/docs/bas/sap-business-application-studio/sap-fiori) |
+| Full Stack Cloud Application | [https://help.sap.com/docs/bas/sap-business-application-studio/full-stack-cloud-application](https://help.sap.com/docs/bas/sap-business-application-studio/full-stack-cloud-application) |
+| HANA Native Application | [https://help.sap.com/docs/bas/sap-business-application-studio/sap-hana-native-application](https://help.sap.com/docs/bas/sap-business-application-studio/sap-hana-native-application) |
+| Mobile Application | [https://help.sap.com/docs/bas/sap-business-application-studio/sap-mobile-application](https://help.sap.com/docs/bas/sap-business-application-studio/sap-mobile-application) |
 
 ---
 
 **Last Updated**: 2025-11-22
-**Source**: https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs](https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs)

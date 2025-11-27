@@ -2,7 +2,7 @@
 
 Common issues and solutions for SAP BTP.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/60-security
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/60-security](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/60-security)
 
 ---
 
@@ -179,7 +179,7 @@ Common issues and solutions for SAP BTP.
 {
   "oauth2-configuration": {
     "redirect-uris": [
-      "https://myapp.cfapps.eu10.hana.ondemand.com/**"
+      "[https://myapp.cfapps.eu10.hana.ondemand.com/**"](https://myapp.cfapps.eu10.hana.ondemand.com/**")
     ]
   }
 }
@@ -447,7 +447,7 @@ kubectl get all -n <ns>
 echo "<token>" | cut -d. -f2 | base64 -d | jq
 
 # Test token endpoint
-curl -X POST "https://<uaa-url>/oauth/token" \
+curl -X POST "[https://<uaa-url>/oauth/token"](https://<uaa-url>/oauth/token") \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -d "grant_type=client_credentials" \
   -u "client_id:client_secret"
@@ -457,6 +457,6 @@ curl -X POST "https://<uaa-url>/oauth/token" \
 
 ## Related Documentation
 
-- Security Troubleshooting: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/troubleshooting-for-sap-authorization-and-trust-management-service-c33d777.md
-- Extensions Troubleshooting: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/troubleshooting-for-sap-s-4hana-cloud-extensibility-service-3725f59.md
-- Getting Support: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/70-getting-support
+- Security Troubleshooting: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/troubleshooting-for-sap-authorization-and-trust-management-service-c33d777.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/60-security/troubleshooting-for-sap-authorization-and-trust-management-service-c33d777.md)
+- Extensions Troubleshooting: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/troubleshooting-for-sap-s-4hana-cloud-extensibility-service-3725f59.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/40-extensions/troubleshooting-for-sap-s-4hana-cloud-extensibility-service-3725f59.md)
+- Getting Support: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/70-getting-support](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/70-getting-support)

@@ -1,6 +1,6 @@
 # SAP Analytics Cloud - Planning Workflows and Calendar Reference
 
-**Source**: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/af4b7e39edd249d3b59fa7d4ab110a7a.html
+**Source**: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/af4b7e39edd249d3b59fa7d4ab110a7a.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/af4b7e39edd249d3b59fa7d4ab110a7a.html)
 **Last Updated**: 2025-11-22
 
 ---
@@ -25,7 +25,7 @@ The SAP Analytics Cloud calendar organizes collaborative planning workflows, str
 ### Accessing Calendar
 
 1. Main Menu → **Calendar**
-2. Or via direct URL: `https://<tenant>/calendar`
+2. Or via direct URL: `[https://<tenant>/calendar`](https://<tenant>/calendar`)
 
 ### Calendar Views
 
@@ -537,7 +537,7 @@ Track progress with status indicators:
 ---
 
 **Documentation Links**:
-- Calendar Overview: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/af4b7e39edd249d3b59fa7d4ab110a7a.html
-- Multi-Level Approval: https://blogs.sap.com/2020/07/10/multi-level-approval-in-sac-using-calendar-tasks/
-- Data Locking: https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/e07d46e950794d5a928a9b16d1394de6.html
-- Workflow Planning: https://blogs.sap.com/2022/04/13/sap-analytics-cloud-workflow-planning/
+- Calendar Overview: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/af4b7e39edd249d3b59fa7d4ab110a7a.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/af4b7e39edd249d3b59fa7d4ab110a7a.html)
+- Multi-Level Approval: [https://blogs.sap.com/2020/07/10/multi-level-approval-in-sac-using-calendar-tasks/](https://blogs.sap.com/2020/07/10/multi-level-approval-in-sac-using-calendar-tasks/)
+- Data Locking: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/e07d46e950794d5a928a9b16d1394de6.html](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/e07d46e950794d5a928a9b16d1394de6.html)
+- Workflow Planning: [https://blogs.sap.com/2022/04/13/sap-analytics-cloud-workflow-planning/](https://blogs.sap.com/2022/04/13/sap-analytics-cloud-workflow-planning/)

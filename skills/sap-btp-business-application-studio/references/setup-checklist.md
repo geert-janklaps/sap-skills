@@ -213,9 +213,9 @@ Enable developer access to Cloud Foundry:
 
 | Resource | Pattern |
 |----------|---------|
-| BAS Access | `https://<subaccount>.eu10.applicationstudio.cloud.sap` (varies by region) |
-| BTP Cockpit | `https://cockpit.btp.cloud.sap` |
-| Discovery Center | `https://discovery-center.cloud.sap/serviceCatalog/business-application-studio` |
+| BAS Access | `[https://<subaccount>.eu10.applicationstudio.cloud.sap`](https://<subaccount>.eu10.applicationstudio.cloud.sap`) (varies by region) |
+| BTP Cockpit | `[https://cockpit.btp.cloud.sap`](https://cockpit.btp.cloud.sap`) |
+| Discovery Center | `[https://discovery-center.cloud.sap/serviceCatalog/business-application-studio`](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio`) |
 
 ### Key Commands
 
@@ -236,14 +236,14 @@ cf services
 
 | Resource | URL |
 |----------|-----|
-| Setup Guide | https://help.sap.com/docs/bas/sap-business-application-studio/set-up-sap-business-application-studio |
-| Subscription Guide | https://help.sap.com/docs/bas/sap-business-application-studio/subscribe-to-sap-business-application-studio |
-| Role Assignment | https://help.sap.com/docs/bas/sap-business-application-studio/manage-authorizations-and-roles |
-| Trial Account Setup | https://help.sap.com/docs/bas/sap-business-application-studio/getting-started-with-trial-account |
-| Availability | https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability |
-| Build & Deploy | https://help.sap.com/docs/bas/sap-business-application-studio/build-and-deploy |
+| Setup Guide | [https://help.sap.com/docs/bas/sap-business-application-studio/set-up-sap-business-application-studio](https://help.sap.com/docs/bas/sap-business-application-studio/set-up-sap-business-application-studio) |
+| Subscription Guide | [https://help.sap.com/docs/bas/sap-business-application-studio/subscribe-to-sap-business-application-studio](https://help.sap.com/docs/bas/sap-business-application-studio/subscribe-to-sap-business-application-studio) |
+| Role Assignment | [https://help.sap.com/docs/bas/sap-business-application-studio/manage-authorizations-and-roles](https://help.sap.com/docs/bas/sap-business-application-studio/manage-authorizations-and-roles) |
+| Trial Account Setup | [https://help.sap.com/docs/bas/sap-business-application-studio/getting-started-with-trial-account](https://help.sap.com/docs/bas/sap-business-application-studio/getting-started-with-trial-account) |
+| Availability | [https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability](https://help.sap.com/docs/bas/sap-business-application-studio/sap-business-application-studio-availability) |
+| Build & Deploy | [https://help.sap.com/docs/bas/sap-business-application-studio/build-and-deploy](https://help.sap.com/docs/bas/sap-business-application-studio/build-and-deploy) |
 
 ---
 
 **Last Updated**: 2025-11-22
-**Source**: https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs](https://github.com/SAP-docs/sap-btp-business-application-studio/tree/main/docs)

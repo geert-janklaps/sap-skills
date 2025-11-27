@@ -1,7 +1,7 @@
 # SAPUI5 Core Architecture & Concepts
 
 **Source**: Official SAP SAPUI5 Documentation
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials)
 **Last Updated**: 2025-11-21
 
 ---
@@ -24,7 +24,7 @@ SAPUI5 applications are built around **Components** - self-contained, reusable u
 - Dependency management
 - Lifecycle management
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: component)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: component)
 
 ---
 
@@ -51,7 +51,7 @@ SAPUI5 implements MVC for clean separation:
 - Navigation
 - Lifecycle hooks: onInit, onBeforeRendering, onAfterRendering, onExit
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: mvc, controller, view)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: mvc, controller, view)
 
 ---
 
@@ -91,7 +91,7 @@ sap.ui.require([
 - Dependencies declared explicitly
 - Supports lazy loading
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: module, define, require)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: module, define, require)
 
 ---
 
@@ -124,11 +124,11 @@ Initialize SAPUI5 in index.html:
 - `data-sap-ui-onInit`: Module to run after initialization
 
 **CDN Options**:
-- SAP CDN: `https://sapui5.hana.ondemand.com/resources/sap-ui-core.js`
-- OpenUI5 CDN: `https://openui5.hana.ondemand.com/resources/sap-ui-core.js`
-- Specific version: `https://sapui5.hana.ondemand.com/1.120.0/resources/sap-ui-core.js`
+- SAP CDN: `[https://sapui5.hana.ondemand.com/resources/sap-ui-core.js`](https://sapui5.hana.ondemand.com/resources/sap-ui-core.js`)
+- OpenUI5 CDN: `[https://openui5.hana.ondemand.com/resources/sap-ui-core.js`](https://openui5.hana.ondemand.com/resources/sap-ui-core.js`)
+- Specific version: `[https://sapui5.hana.ondemand.com/1.120.0/resources/sap-ui-core.js`](https://sapui5.hana.ondemand.com/1.120.0/resources/sap-ui-core.js`)
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: bootstrap, initialization)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: bootstrap, initialization)
 
 ---
 
@@ -170,7 +170,7 @@ sap.ui.getCore().loadLibrary("sap.ui.table", { async: true })
     });
 ```
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First (search: library, supported-library-combinations)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First](https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First) (search: library, supported-library-combinations)
 
 ---
 
@@ -207,7 +207,7 @@ data-sap-ui-resourceroots='{
 }'
 ```
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: folder-structure, namespace)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: folder-structure, namespace)
 
 ---
 
@@ -232,7 +232,7 @@ SAPUI5 builds a tree of controls:
 - `onBeforeRendering()`: Before DOM update
 - `onAfterRendering()`: After DOM update (DOM manipulation here)
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: rendering, control-tree)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: rendering, control-tree)
 
 ---
 
@@ -277,7 +277,7 @@ onOpenDialog: function() {
 - Modular UI definition
 - No separate controller
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: fragment)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: fragment)
 
 ---
 
@@ -364,7 +364,7 @@ Central configuration file:
 - **sap.ui**: UI technology and device types
 - **sap.ui5**: UI5-specific config (models, routing, dependencies)
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: manifest, descriptor)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: manifest, descriptor)
 
 ---
 
@@ -395,7 +395,7 @@ Central configuration file:
 - Not parent-child relationship
 - Example: Label's `labelFor` association
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: property, event, aggregation)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: property, event, aggregation)
 
 ---
 
@@ -421,7 +421,7 @@ sap.ui.Device.system.desktop
 - Grid for responsive grids
 - Avoid fixed pixel sizes
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: device, responsive, content-density)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: device, responsive, content-density)
 
 ---
 
@@ -457,7 +457,7 @@ sap.ui.getCore().applyTheme("sap_horizon");
 - Based on SAP theme
 - Only override needed parameters
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First (search: theme, supported-combinations)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First](https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First) (search: theme, supported-combinations)
 
 ---
 
@@ -495,7 +495,7 @@ sap.ui.getCore().applyTheme("sap_horizon");
    - Use `busy` state during loading
    - Minimize DOM manipulations
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: performance)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: performance)
 
 ---
 
@@ -527,18 +527,18 @@ sap.ui.getCore().applyTheme("sap_horizon");
    - Enable CORS properly
    - Use CSRF tokens
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: security, secure-programming)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: security, secure-programming)
 
 ---
 
 ## Links to Official Documentation
 
-- **Core Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials
-- **App Development**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps
-- **Getting Started**: https://github.com/SAP-docs/sapui5/tree/main/docs/03_Get-Started
-- **Read Me First**: https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First
-- **API Reference**: https://sapui5.hana.ondemand.com/#/api
-- **Demo Kit**: https://sapui5.hana.ondemand.com/
+- **Core Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials)
+- **App Development**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps)
+- **Getting Started**: [https://github.com/SAP-docs/sapui5/tree/main/docs/03_Get-Started](https://github.com/SAP-docs/sapui5/tree/main/docs/03_Get-Started)
+- **Read Me First**: [https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First](https://github.com/SAP-docs/sapui5/tree/main/docs/02_Read-Me-First)
+- **API Reference**: [https://sapui5.hana.ondemand.com/#/api](https://sapui5.hana.ondemand.com/#/api)
+- **Demo Kit**: [https://sapui5.hana.ondemand.com/](https://sapui5.hana.ondemand.com/)
 
 ---
 

@@ -552,10 +552,10 @@ def on_input(msg_id, header, body):
 
 ## Documentation Links
 
-- **Subengines Overview**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/subengines
-- **Python Subengine**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/subengines/create-operators-with-the-python-subengine-7e8f7d2.md
-- **Node.js Subengine**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/subengines (Node.js SDK files)
-- **C++ Subengine**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/subengines/working-with-the-c-subengine-to-create-operators-d8f634c.md
+- **Subengines Overview**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/subengines](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/subengines)
+- **Python Subengine**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/subengines/create-operators-with-the-python-subengine-7e8f7d2.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/subengines/create-operators-with-the-python-subengine-7e8f7d2.md)
+- **Node.js Subengine**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/subengines](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/subengines) (Node.js SDK files)
+- **C++ Subengine**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/subengines/working-with-the-c-subengine-to-create-operators-d8f634c.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/subengines/working-with-the-c-subengine-to-create-operators-d8f634c.md)
 
 ---
 

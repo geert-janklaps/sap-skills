@@ -1,7 +1,7 @@
 # Integration Advisor & Trading Partner Management - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite)
 **Last Updated**: 2025-11-22
 
 ---
@@ -51,7 +51,7 @@ Type Systems → MIGs → MAGs → Runtime Artifacts
   Library    Messages  forms     CI/PO
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/overview-of-sap-integration-advisor-f99fdaf.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/overview-of-sap-integration-advisor-f99fdaf.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/overview-of-sap-integration-advisor-f99fdaf.md)
 
 ---
 
@@ -87,7 +87,7 @@ Organizations can upload proprietary message structures:
 | Codelists | Enumerated values |
 | Qualifiers | Context specifiers |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md)
 
 ---
 
@@ -135,7 +135,7 @@ MIG: ORDERS_CustomerA
 3. **Be specific** - Define exact requirements
 4. **Version control** - Track changes
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md)
 
 ---
 
@@ -188,7 +188,7 @@ Integration Advisor uses machine learning to:
 | Operation mapping | Process Orchestration |
 | XSD schemas | Both platforms |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md)
 
 ---
 
@@ -221,7 +221,7 @@ SAP Trading Partner Management (TPM) streamlines B2B relationship management and
 | JSON | JSON messages |
 | IDoc | SAP IDocs |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/trading-partner-management-28fe3dc.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/trading-partner-management-28fe3dc.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/trading-partner-management-28fe3dc.md)
 
 ---
 
@@ -270,7 +270,7 @@ Partner profiles store B2B partner information and requirements.
 | Directory | File drop location |
 | Authentication | Password or SSH key |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/trading-partner-management-28fe3dc.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/trading-partner-management-28fe3dc.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/trading-partner-management-28fe3dc.md)
 
 ---
 
@@ -377,13 +377,13 @@ Track B2B messages in Integration Suite Monitor:
 | **EDI** | Electronic Data Interchange |
 | **Partner Directory** | Runtime parameter store |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-sap-trading-partner-management-81860a4.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-sap-trading-partner-management-81860a4.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-sap-trading-partner-management-81860a4.md)
 
 ---
 
 ## Related Documentation
 
-- **Integration Advisor**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md
-- **TPM Overview**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/trading-partner-management-28fe3dc.md
-- **Glossary (IA)**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/terminology-glossary-for-sap-integration-advisor-9c221b4.md
-- **Glossary (TPM)**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-sap-trading-partner-management-81860a4.md
+- **Integration Advisor**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/integration-advisor-3309fe0.md)
+- **TPM Overview**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/trading-partner-management-28fe3dc.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/trading-partner-management-28fe3dc.md)
+- **Glossary (IA)**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/terminology-glossary-for-sap-integration-advisor-9c221b4.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/terminology-glossary-for-sap-integration-advisor-9c221b4.md)
+- **Glossary (TPM)**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-sap-trading-partner-management-81860a4.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-sap-trading-partner-management-81860a4.md)

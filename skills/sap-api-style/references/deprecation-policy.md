@@ -1,6 +1,6 @@
 # SAP API Deprecation Policy
 
-**Source**: https://github.com/SAP-docs/api-style-guide/blob/main/docs/api-deprecation-policy-65a10e3.md
+**Source**: [https://github.com/SAP-docs/api-style-guide/blob/main/docs/api-deprecation-policy-65a10e3.md](https://github.com/SAP-docs/api-style-guide/blob/main/docs/api-deprecation-policy-65a10e3.md)
 **Last Verified**: 2025-11-21
 
 **Attribution**: Content derived from [SAP API Style Guide](https://github.com/SAP-docs/api-style-guide) (Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
@@ -200,7 +200,7 @@ APIs must include changelog entries in `artifact.json`:
       "state": "deprecated",
       "date": "2024-01-15",
       "version": "1.5.0",
-      "notes": "Deprecated in favor of Employee Management API v2.0. Migration guide available at https://help.sap.com/migration-guide"
+      "notes": "Deprecated in favor of Employee Management API v2.0. Migration guide available at [https://help.sap.com/migration-guide"](https://help.sap.com/migration-guide")
     },
     {
       "state": "active",
@@ -325,7 +325,7 @@ x-sap-stateInfo:
     "state": "deprecated",
     "date": "2024-01-15",
     "version": "1.5.0",
-    "notes": "Deprecated. Use NewAPI v2.0. Migration guide: https://..."
+    "notes": "Deprecated. Use NewAPI v2.0. Migration guide: [https://..."](https://...")
   }]
 }
 ```
@@ -529,7 +529,7 @@ paths:
 
         This endpoint will be decommissioned on January 15, 2025.
 
-        Migration guide: https://help.sap.com/order-api-migration
+        Migration guide: [https://help.sap.com/order-api-migration](https://help.sap.com/order-api-migration)
       x-sap-stateInfo:
         state: deprecated
         deprecationDate: "2024-01-15"
@@ -564,7 +564,7 @@ public class CustomerService {
      *             supports additional customer types.
      *             This method will be removed in version 3.0.0
      *             (scheduled for January 15, 2025).
-     *             Migration guide: https://help.sap.com/customer-api-migration
+     *             Migration guide: [https://help.sap.com/customer-api-migration](https://help.sap.com/customer-api-migration)
      */
     @Deprecated(since = "2.0.0", forRemoval = true)
     public Customer getCustomer(int customerId) throws NotFoundException {
@@ -641,14 +641,14 @@ Total Timeline:
 
 ### External Standards
 
-- **OpenAPI Specification**: https://spec.openapis.org/oas/latest.html
-- **Semantic Versioning**: https://semver.org/
-- **HTTP Status Codes**: https://httpstatuses.com/
+- **OpenAPI Specification**: [https://spec.openapis.org/oas/latest.html](https://spec.openapis.org/oas/latest.html)
+- **Semantic Versioning**: [https://semver.org/](https://semver.org/)
+- **HTTP Status Codes**: [https://httpstatuses.com/](https://httpstatuses.com/)
 
 ### SAP Resources
 
-- **SAP API Business Hub**: https://api.sap.com/
-- **SAP Help Portal**: https://help.sap.com/
+- **SAP API Business Hub**: [https://api.sap.com/](https://api.sap.com/)
+- **SAP Help Portal**: [https://help.sap.com/](https://help.sap.com/)
 
 ### Related Documentation
 
@@ -661,4 +661,4 @@ Total Timeline:
 
 **Document Version**: 1.0.0
 **Last Updated**: 2025-11-21
-**Maintainer**: SAP Skills Team | https://github.com/secondsky/sap-skills
+**Maintainer**: SAP Skills Team | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

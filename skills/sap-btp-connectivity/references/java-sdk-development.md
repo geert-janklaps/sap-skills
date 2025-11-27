@@ -1,6 +1,6 @@
 # Java APIs and SDK Development - Complete Reference
 
-**Source**: https://github.com/SAP-docs/btp-connectivity/tree/main/docs/1-connectivity-documentation
+**Source**: [https://github.com/SAP-docs/btp-connectivity/tree/main/docs/1-connectivity-documentation](https://github.com/SAP-docs/btp-connectivity/tree/main/docs/1-connectivity-documentation)
 
 ---
 
@@ -304,7 +304,7 @@ applications:
       destinations: >
         [{
           "name": "backend",
-          "url": "https://backend-app.cfapps.eu10.hana.ondemand.com",
+          "url": "[https://backend-app.cfapps.eu10.hana.ondemand.com",](https://backend-app.cfapps.eu10.hana.ondemand.com",)
           "forwardAuthToken": true
         }]
     services:
@@ -406,10 +406,10 @@ Alternative to Cloud Connector with significant drawbacks:
 
 ## Documentation Links
 
-- Destination Java APIs: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/destination-java-apis
-- ConnectivityConfiguration: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivityconfiguration-api
-- AuthenticationHeaderProvider: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/authenticationheaderprovider-api
-- SAP Cloud SDK: https://sap.github.io/cloud-sdk/
+- Destination Java APIs: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/destination-java-apis](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/destination-java-apis)
+- ConnectivityConfiguration: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivityconfiguration-api](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivityconfiguration-api)
+- AuthenticationHeaderProvider: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/authenticationheaderprovider-api](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/authenticationheaderprovider-api)
+- SAP Cloud SDK: [https://sap.github.io/cloud-sdk/](https://sap.github.io/cloud-sdk/)
 
 ---
 

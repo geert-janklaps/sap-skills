@@ -245,16 +245,16 @@ Starter templates are available in `templates/`:
 ## Documentation Links
 
 **Primary Sources:**
-- GitHub Docs: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs
-- SAP Help Portal: https://help.sap.com/docs/SAP_DATA_INTELLIGENCE
-- SAP Developer Center: https://developers.sap.com/topics/data-intelligence.html
+- GitHub Docs: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs)
+- SAP Help Portal: [https://help.sap.com/docs/SAP_DATA_INTELLIGENCE](https://help.sap.com/docs/SAP_DATA_INTELLIGENCE)
+- SAP Developer Center: [https://developers.sap.com/topics/data-intelligence.html](https://developers.sap.com/topics/data-intelligence.html)
 
 **Section-Specific:**
-- Modeling Guide: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide
-- ABAP Integration: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration
-- Machine Learning: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning
-- Function Reference: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference
-- Repository Objects: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects
+- Modeling Guide: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide)
+- ABAP Integration: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration)
+- Machine Learning: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning)
+- Function Reference: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference)
+- Repository Objects: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects)
 
 ## Version Information
 

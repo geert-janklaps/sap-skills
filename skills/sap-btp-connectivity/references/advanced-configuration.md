@@ -1,6 +1,6 @@
 # Advanced Configuration - Complete Reference
 
-**Source**: https://github.com/SAP-docs/btp-connectivity/tree/main/docs/1-connectivity-documentation
+**Source**: [https://github.com/SAP-docs/btp-connectivity/tree/main/docs/1-connectivity-documentation](https://github.com/SAP-docs/btp-connectivity/tree/main/docs/1-connectivity-documentation)
 
 ---
 
@@ -35,7 +35,7 @@ resources:
             destinations:
               - Name: my-destination
                 Type: HTTP
-                URL: https://api.example.com
+                URL: [https://api.example.com](https://api.example.com)
                 Authentication: NoAuthentication
 ```
 
@@ -59,7 +59,7 @@ resources:
         {
           "Name": "my-destination",
           "Type": "HTTP",
-          "URL": "https://api.example.com",
+          "URL": "[https://api.example.com",](https://api.example.com",)
           "Authentication": "OAuth2ClientCredentials",
           "clientId": "...",
           "clientSecret": "...",
@@ -99,9 +99,9 @@ resources:
 {
   "Name": "ias-saml-provider",
   "Type": "HTTP",
-  "URL": "https://ias-tenant.accounts.ondemand.com",
+  "URL": "[https://ias-tenant.accounts.ondemand.com",](https://ias-tenant.accounts.ondemand.com",)
   "Authentication": "OAuth2TokenExchange",
-  "tokenServiceURL": "https://ias-tenant.accounts.ondemand.com/oauth2/token"
+  "tokenServiceURL": "[https://ias-tenant.accounts.ondemand.com/oauth2/token"](https://ias-tenant.accounts.ondemand.com/oauth2/token")
 }
 ```
 
@@ -110,7 +110,7 @@ resources:
 {
   "Name": "target-api",
   "Type": "HTTP",
-  "URL": "https://api.example.com",
+  "URL": "[https://api.example.com",](https://api.example.com",)
   "Authentication": "OAuth2SAMLBearerAssertion",
   "x_chain_name": "com.sap.iasGeneratedOAuth2SamlBearerAssertion",
   "x_chain_var_saml_provider": "ias-saml-provider"
@@ -331,11 +331,11 @@ Subscribe to alerts via SAP Alert Notification Service:
 
 ## Documentation Links
 
-- MTA Destinations: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-destinations-using-mta-descriptor
-- Config.JSON: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/use-config-json
-- Destination Chaining: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/destination-chaining
-- System Mappings API: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/system-mappings
-- ZTIS Integration: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/integration-with-zero-trust-identity-service
+- MTA Destinations: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-destinations-using-mta-descriptor](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-destinations-using-mta-descriptor)
+- Config.JSON: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/use-config-json](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/use-config-json)
+- Destination Chaining: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/destination-chaining](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/destination-chaining)
+- System Mappings API: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/system-mappings](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/system-mappings)
+- ZTIS Integration: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/integration-with-zero-trust-identity-service](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/integration-with-zero-trust-identity-service)
 
 ---
 

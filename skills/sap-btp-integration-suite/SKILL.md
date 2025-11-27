@@ -28,8 +28,8 @@ license: GPL-3.0
 metadata:
   version: 1.1.0
   last_verified: 2025-11-27
-  documentation_source: https://github.com/SAP-docs/sap-btp-integration-suite
-  sap_help_portal: https://help.sap.com/docs/integration-suite
+  documentation_source: [https://github.com/SAP-docs/sap-btp-integration-suite](https://github.com/SAP-docs/sap-btp-integration-suite)
+  sap_help_portal: [https://help.sap.com/docs/integration-suite](https://help.sap.com/docs/integration-suite)
   status: production
   token_savings: ~65-80%
 
@@ -315,16 +315,16 @@ Ready-to-use templates in `templates/` directory:
 ## Documentation Links
 
 ### Official Sources
-- **GitHub Repository**: https://github.com/SAP-docs/sap-btp-integration-suite
-- **SAP Help Portal**: https://help.sap.com/docs/integration-suite
-- **SAP Community**: https://community.sap.com/topics/cloud-platform-integration-suite
-- **SAP Business Accelerator Hub**: https://api.sap.com/
+- **GitHub Repository**: [https://github.com/SAP-docs/sap-btp-integration-suite](https://github.com/SAP-docs/sap-btp-integration-suite)
+- **SAP Help Portal**: [https://help.sap.com/docs/integration-suite](https://help.sap.com/docs/integration-suite)
+- **SAP Community**: [https://community.sap.com/topics/cloud-platform-integration-suite](https://community.sap.com/topics/cloud-platform-integration-suite)
+- **SAP Business Accelerator Hub**: [https://api.sap.com/](https://api.sap.com/)
 
 ### Capability-Specific
-- **Cloud Integration**: https://help.sap.com/docs/cloud-integration
-- **API Management**: https://help.sap.com/docs/sap-api-management
-- **Event Mesh**: https://help.sap.com/docs/event-mesh
-- **Integration Advisor**: https://help.sap.com/docs/integration-advisor
+- **Cloud Integration**: [https://help.sap.com/docs/cloud-integration](https://help.sap.com/docs/cloud-integration)
+- **API Management**: [https://help.sap.com/docs/sap-api-management](https://help.sap.com/docs/sap-api-management)
+- **Event Mesh**: [https://help.sap.com/docs/event-mesh](https://help.sap.com/docs/event-mesh)
+- **Integration Advisor**: [https://help.sap.com/docs/integration-advisor](https://help.sap.com/docs/integration-advisor)
 
 ### Release Notes
 - **What's New**: Check `what-s-new-for-sap-integration-suite-79cd682.md` in documentation

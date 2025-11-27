@@ -94,7 +94,6 @@ This skill activates when working with:
 sap-hana-ml/
 ├── SKILL.md                    # Main skill file
 ├── README.md                   # This file
-├── PROGRESS_TRACKING.md        # Documentation coverage tracking
 └── references/
     ├── DATAFRAME_REFERENCE.md  # Complete DataFrame API
     ├── PAL_ALGORITHMS.md       # All PAL algorithms (100+)

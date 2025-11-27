@@ -5,7 +5,7 @@ license: GPL-3.0
 metadata:
   version: 4.0.0
   lastUpdated: 2025-11-21
-  officialDocs: https://ui5.github.io/cli/stable/
+  officialDocs: [https://ui5.github.io/cli/stable/](https://ui5.github.io/cli/stable/)
 ---
 
 # SAPUI5/OpenUI5 CLI Management Skill
@@ -494,12 +494,12 @@ UI5_DATA_DIR=/custom/.ui5 ui5 serve
 
 ## Additional Resources
 
-- **Official Documentation**: https://ui5.github.io/cli/stable/
-- **API Reference**: https://ui5.github.io/cli/v4/api/
-- **JSON Schema**: https://ui5.github.io/cli/schema/ui5.yaml.json
-- **GitHub Repository**: https://github.com/SAP/ui5-tooling
-- **SAP Community**: https://community.sap.com/
-- **npm Registry**: https://www.npmjs.com/package/@ui5/cli
+- **Official Documentation**: [https://ui5.github.io/cli/stable/](https://ui5.github.io/cli/stable/)
+- **API Reference**: [https://ui5.github.io/cli/v4/api/](https://ui5.github.io/cli/v4/api/)
+- **JSON Schema**: [https://ui5.github.io/cli/schema/ui5.yaml.json](https://ui5.github.io/cli/schema/ui5.yaml.json)
+- **GitHub Repository**: [https://github.com/SAP/ui5-tooling](https://github.com/SAP/ui5-tooling)
+- **SAP Community**: [https://community.sap.com/](https://community.sap.com/)
+- **npm Registry**: [https://www.npmjs.com/package/@ui5/cli](https://www.npmjs.com/package/@ui5/cli)
 
 ## Version Information
 

@@ -1,6 +1,6 @@
 # UI5 CLI Benchmarking Guide
 
-**Official Documentation**: https://ui5.github.io/cli/stable/pages/Benchmarking/
+**Official Documentation**: [https://ui5.github.io/cli/stable/pages/Benchmarking/](https://ui5.github.io/cli/stable/pages/Benchmarking/)
 
 This reference provides comprehensive guidance for performance testing and benchmarking UI5 CLI operations using hyperfine.
 
@@ -46,7 +46,7 @@ Benchmarking UI5 CLI operations helps measure performance impacts of code change
 - Supports comparative benchmarks
 - Exports results (JSON, Markdown, CSV)
 
-**Official Site**: https://github.com/sharkdp/hyperfine
+**Official Site**: [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
 
 ---
 
@@ -59,8 +59,8 @@ brew install hyperfine
 
 **Ubuntu/Debian**:
 ```bash
-# Check https://github.com/sharkdp/hyperfine/releases for latest version
-wget https://github.com/sharkdp/hyperfine/releases/download/v1.18.0/hyperfine_1.18.0_amd64.deb
+# Check [https://github.com/sharkdp/hyperfine/releases](https://github.com/sharkdp/hyperfine/releases) for latest version
+wget [https://github.com/sharkdp/hyperfine/releases/download/v1.18.0/hyperfine_1.18.0_amd64.deb](https://github.com/sharkdp/hyperfine/releases/download/v1.18.0/hyperfine_1.18.0_amd64.deb)
 sudo dpkg -i hyperfine_1.18.0_amd64.deb
 ```
 
@@ -101,7 +101,7 @@ hyperfine --version
 
 **Clone Sample App**:
 ```bash
-git clone https://github.com/SAP/openui5-sample-app.git
+git clone [https://github.com/SAP/openui5-sample-app.git](https://github.com/SAP/openui5-sample-app.git)
 cd openui5-sample-app
 npm install
 ```
@@ -120,8 +120,8 @@ For testing UI5 CLI changes:
 **Clone and Link UI5 CLI**:
 ```bash
 # Clone repositories
-git clone https://github.com/SAP/ui5-cli.git
-git clone https://github.com/SAP/ui5-builder.git
+git clone [https://github.com/SAP/ui5-cli.git](https://github.com/SAP/ui5-cli.git)
+git clone [https://github.com/SAP/ui5-builder.git](https://github.com/SAP/ui5-builder.git)
 
 # Install and link
 cd ui5-cli
@@ -754,11 +754,11 @@ hyperfine --show-output 'ui5 build --all'
 
 ## Additional Resources
 
-- **hyperfine GitHub**: https://github.com/sharkdp/hyperfine
-- **UI5 CLI Performance**: https://ui5.github.io/cli/stable/pages/Benchmarking/
-- **UI5 Build Options**: https://ui5.github.io/cli/stable/pages/CLI/#ui5-build
+- **hyperfine GitHub**: [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
+- **UI5 CLI Performance**: [https://ui5.github.io/cli/stable/pages/Benchmarking/](https://ui5.github.io/cli/stable/pages/Benchmarking/)
+- **UI5 Build Options**: [https://ui5.github.io/cli/stable/pages/CLI/#ui5-build](https://ui5.github.io/cli/stable/pages/CLI/#ui5-build)
 
 ---
 
 **Last Updated**: 2025-11-21
-**Official Docs**: https://ui5.github.io/cli/stable/pages/Benchmarking/
+**Official Docs**: [https://ui5.github.io/cli/stable/pages/Benchmarking/](https://ui5.github.io/cli/stable/pages/Benchmarking/)

@@ -2,7 +2,7 @@
 
 This reference covers advanced modeling topics including graph snippets, SAP cloud application integration, configuration types, local data types, and example graph templates.
 
-**Documentation Source**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide
+**Documentation Source**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide)
 
 ## Table of Contents
 
@@ -376,11 +376,11 @@ Pre-built graph templates organized by category.
 
 ## Documentation Links
 
-- **Graph Snippets**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-graph-snippets
-- **Cloud Integration**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/integrating-sap-cloud-applications-with-sap-data-intelligence-d6a8144.md
-- **Configuration Types**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/creating-configuration-types-2e63e4c.md
-- **Local Data Types**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/creating-local-data-types-c996f5e.md
-- **Repository Graphs**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects/data-intelligence-graphs
+- **Graph Snippets**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-graph-snippets](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-graph-snippets)
+- **Cloud Integration**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/integrating-sap-cloud-applications-with-sap-data-intelligence-d6a8144.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/integrating-sap-cloud-applications-with-sap-data-intelligence-d6a8144.md)
+- **Configuration Types**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/creating-configuration-types-2e63e4c.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/creating-configuration-types-2e63e4c.md)
+- **Local Data Types**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/creating-local-data-types-c996f5e.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/creating-local-data-types-c996f5e.md)
+- **Repository Graphs**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects/data-intelligence-graphs](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/repositoryobjects/data-intelligence-graphs)
 
 ---
 

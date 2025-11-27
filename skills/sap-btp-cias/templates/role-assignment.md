@@ -155,7 +155,7 @@ SAML Attribute: NameID (any supported format)
 ```
 Trust Configuration:
   Identity Provider: IAS Tenant
-  Tenant URL: https://<tenant>.accounts.ondemand.com
+  Tenant URL: [https://<tenant>.accounts.ondemand.com](https://<tenant>.accounts.ondemand.com)
 
 User Format: <email> or <user_id>
 ```
@@ -273,7 +273,7 @@ When multiple users are assigned to a task:
 
 ## Documentation Links
 
-- Roles and Authorizations: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/roles-and-authorizations-917f842.md
-- Role Assignment: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/role-assignment-cd6b96b.md
-- Assigning Roles to Users: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/assigning-roles-to-the-users-9ad530a.md
-- Identity Provider: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/identity-provider-and-identity-management-1508b49.md
+- Roles and Authorizations: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/roles-and-authorizations-917f842.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/roles-and-authorizations-917f842.md)
+- Role Assignment: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/role-assignment-cd6b96b.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/role-assignment-cd6b96b.md)
+- Assigning Roles to Users: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/assigning-roles-to-the-users-9ad530a.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/assigning-roles-to-the-users-9ad530a.md)
+- Identity Provider: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/identity-provider-and-identity-management-1508b49.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/identity-provider-and-identity-management-1508b49.md)

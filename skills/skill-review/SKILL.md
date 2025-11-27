@@ -11,7 +11,7 @@ metadata:
   last_verified: 2025-11-21
   token_savings: ~80%
   errors_prevented: 31+
-  official_docs: https://github.com/secondsky/sap-skills
+  official_docs: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
   triggers:
     - "review this skill"
     - "review the X skill"
@@ -221,13 +221,13 @@ For **Phase 3: Official Documentation Verification**:
 
 2. Or use WebFetch:
    ```
-   Fetch: https://<official-docs-url>
+   Fetch: [https://<official-docs-url>](https://<official-docs-url>)
    Verify: [specific patterns]
    ```
 
 3. Check GitHub:
    ```
-   Visit: https://github.com/<org>/<repo>/commits/main
+   Visit: [https://github.com/<org>/<repo>/commits/main](https://github.com/<org>/<repo>/commits/main)
    Check: Last commit, recent changes
    Search issues: [keywords from skill]
    ```
@@ -343,7 +343,7 @@ If breaking changes:
 *Problem*: Imports `d1Adapter` from `'better-auth/adapters/d1'` which doesn't exist
 
 *Evidence*:
-- Official docs: https://better-auth.com/docs/integrations/drizzle
+- Official docs: [https://better-auth.com/docs/integrations/drizzle](https://better-auth.com/docs/integrations/drizzle)
 - GitHub: No `d1Adapter` export in codebase
 - Production: 4 repos use Drizzle/Kysely
 
@@ -504,7 +504,7 @@ This skill references:
 ## Additional Resources
 
 - **Full Process Guide**: `planning/SKILL_REVIEW_PROCESS.md`
-- **Repository**: https://github.com/secondsky/sap-skills
+- **Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
 - **Example Audit**: See process guide Appendix B (better-auth v2.0.0)
 
 ---

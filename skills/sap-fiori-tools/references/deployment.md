@@ -96,7 +96,7 @@ builder:
       - /localService/**
 deploy:
   target:
-    url: https://system.url
+    url: [https://system.url](https://system.url)
     client: "100"
     scp: false
     params:
@@ -417,7 +417,7 @@ See `expose-application-to-central-application-router-85ad10d.md` for details.
 
 ## Documentation Source
 
-**GitHub**: https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Deploying-an-Application
+**GitHub**: [https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Deploying-an-Application](https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs/Deploying-an-Application)
 
 Key files:
 - `deploying-an-application-1b7a3be.md`

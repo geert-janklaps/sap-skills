@@ -6,7 +6,7 @@ Comprehensive best practices for SAP Business Technology Platform (BTP) implemen
 
 This skill provides production-ready guidance for SAP BTP implementations based on the official SAP BTP Administrator's Guide and Best Practices documentation.
 
-**Source Documentation**: https://github.com/SAP-docs/btp-best-practices-guide
+**Source Documentation**: [https://github.com/SAP-docs/btp-best-practices-guide](https://github.com/SAP-docs/btp-best-practices-guide)
 
 **Version**: 1.1.0
 **Last Verified**: 2025-11-21
@@ -258,7 +258,6 @@ Located in `references/` directory:
 - `ai-development-best-practices.md` - **AI patterns**: Generative AI, RAG, content filtering, 20+ use cases catalog
 
 ### Tracking
-- `PROGRESS_TRACKING.md` - Documents coverage of source material
 
 ---
 
@@ -267,15 +266,15 @@ Located in `references/` directory:
 This skill is based on content from:
 
 **Primary Source**:
-- https://github.com/SAP-docs/btp-best-practices-guide
+- [https://github.com/SAP-docs/btp-best-practices-guide](https://github.com/SAP-docs/btp-best-practices-guide)
 
 **SAP Help Portal**:
-- https://help.sap.com/docs/btp/btp-administrators-guide
+- [https://help.sap.com/docs/btp/btp-administrators-guide](https://help.sap.com/docs/btp/btp-administrators-guide)
 
 **Related Resources**:
-- SAP Discovery Center: https://discovery-center.cloud.sap/
-- SAP Developer Center: https://developers.sap.com/
-- SAP Community: https://community.sap.com/
+- SAP Discovery Center: [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/)
+- SAP Developer Center: [https://developers.sap.com/](https://developers.sap.com/)
+- SAP Community: [https://community.sap.com/](https://community.sap.com/)
 
 ---
 
@@ -288,7 +287,6 @@ This skill is based on content from:
 
 ### How to Update
 1. Check source repository for changes
-2. Update `PROGRESS_TRACKING.md` with new content
 3. Update relevant files in skill
 4. Update version in `SKILL.md` frontmatter
 
@@ -311,4 +309,4 @@ GPL-3.0 License - See repository LICENSE file.
 ---
 
 *Maintained by: SAP Skills Maintainers*
-*Repository: https://github.com/secondsky/sap-skills*
+*Repository: [https://github.com/secondsky/sap-skills*](https://github.com/secondsky/sap-skills*)

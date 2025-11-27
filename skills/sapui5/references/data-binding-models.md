@@ -1,7 +1,7 @@
 # SAPUI5 Data Binding & Models
 
 **Source**: Official SAP SAPUI5 Documentation
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials)
 **Last Updated**: 2025-11-21
 
 ---
@@ -23,7 +23,7 @@ Data binding connects UI controls to data sources, automatically synchronizing c
 3. **Element Binding**: Object context
 4. **Expression Binding**: Inline calculations
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: binding, data-binding)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: binding, data-binding)
 
 ---
 
@@ -66,7 +66,7 @@ Data binding connects UI controls to data sources, automatically synchronizing c
 <Text text="{path: '/title', mode: 'OneTime'}"/>
 ```
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: binding-mode)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: binding-mode)
 
 ---
 
@@ -112,7 +112,7 @@ this.getView().setModel(oModel);
 - `getProperty(sPath)`: Get property value
 - `loadData(sURL)`: Load from URL
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: json-model)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: json-model)
 
 ---
 
@@ -238,7 +238,7 @@ oModel.submitChanges({
 - `refreshAfterChange`: Auto-refresh after updates
 - `defaultBindingMode`: One-way or two-way
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: odata-v2-model)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: odata-v2-model)
 
 ---
 
@@ -330,7 +330,7 @@ oContext.delete("$auto").then(function() {
 });
 ```
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: odata-v4-model)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: odata-v4-model)
 
 ---
 
@@ -400,7 +400,7 @@ MessageBox.success(sMessage);
 - `i18n_en.properties`: English
 - `i18n_fr.properties`: French
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: resource-model, i18n)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: resource-model, i18n)
 
 ---
 
@@ -429,7 +429,7 @@ this.getView().setModel(oModel, "xml");
 - Configuration files
 - Small datasets
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: xml-model)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: xml-model)
 
 ---
 
@@ -868,11 +868,11 @@ var oSorter = new Sorter("price", false, function(oContext) {
 
 ## Links to Official Documentation
 
-- **Data Binding**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: data-binding)
-- **Models**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: model)
-- **OData**: https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials (search: odata)
-- **Get Started Tutorials**: https://github.com/SAP-docs/sapui5/tree/main/docs/03_Get-Started
-- **API Reference**: https://sapui5.hana.ondemand.com/#/api
+- **Data Binding**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: data-binding)
+- **Models**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: model)
+- **OData**: [https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials](https://github.com/SAP-docs/sapui5/tree/main/docs/04_Essentials) (search: odata)
+- **Get Started Tutorials**: [https://github.com/SAP-docs/sapui5/tree/main/docs/03_Get-Started](https://github.com/SAP-docs/sapui5/tree/main/docs/03_Get-Started)
+- **API Reference**: [https://sapui5.hana.ondemand.com/#/api](https://sapui5.hana.ondemand.com/#/api)
 
 ---
 

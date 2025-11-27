@@ -2,7 +2,7 @@
 
 Using Maintenance Planner with Cloud Integration Automation Service.
 
-**Source**: https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs
+**Source**: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs](https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs)
 
 ---
 
@@ -24,7 +24,7 @@ Using Maintenance Planner with Cloud Integration Automation Service.
 
 Maintenance Planner provides an alternative method for invoking Cloud Integration Automation Service workflows. It allows planning of cloud integration scenarios with system selection based on S-User customer associations.
 
-**Maintenance Planner URL**: https://maintenanceplanner.cfapps.eu10.hana.ondemand.com
+**Maintenance Planner URL**: [https://maintenanceplanner.cfapps.eu10.hana.ondemand.com](https://maintenanceplanner.cfapps.eu10.hana.ondemand.com)
 
 ---
 
@@ -49,7 +49,7 @@ Maintenance Planner provides an alternative method for invoking Cloud Integratio
 
 Access the maintenance planner at:
 ```
-https://maintenanceplanner.cfapps.eu10.hana.ondemand.com
+[https://maintenanceplanner.cfapps.eu10.hana.ondemand.com](https://maintenanceplanner.cfapps.eu10.hana.ondemand.com)
 ```
 
 ### Step 2: Select Planning Tile
@@ -202,6 +202,6 @@ Maximum 15 running transactions per consumer subaccount applies to maintenance p
 
 ## Documentation Links
 
-- Using Maintenance Planner: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/using-maintenance-planner-2ad4326.md
-- Confirm System Components: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/confirm-system-components-1f39555.md
-- Maintenance Planner User Guide: https://support.sap.com/en/alm/solution-manager/processes/maintenance-planner.html
+- Using Maintenance Planner: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/using-maintenance-planner-2ad4326.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/using-maintenance-planner-2ad4326.md)
+- Confirm System Components: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/confirm-system-components-1f39555.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/confirm-system-components-1f39555.md)
+- Maintenance Planner User Guide: [https://support.sap.com/en/alm/solution-manager/processes/maintenance-planner.html](https://support.sap.com/en/alm/solution-manager/processes/maintenance-planner.html)

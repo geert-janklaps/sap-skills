@@ -1,6 +1,6 @@
 # SAP Cloud Transport Management - Destination Configuration Reference
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/20-configure-landscape
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/20-configure-landscape](https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/20-configure-landscape)
 
 ---
 
@@ -70,7 +70,7 @@ Required when applications export content directly to TMS.
 
 **Option A - Using Organization and Space Names**:
 ```
-https://deploy-service.cf.<domain>/slprot/<myorg>/<myspace>/slp
+[https://deploy-service.cf.<domain>/slprot/<myorg>/<myspace>/slp](https://deploy-service.cf.<domain>/slprot/<myorg>/<myspace>/slp)
 ```
 - `<domain>`: From Cloud Foundry API endpoint (subaccount Overview)
 - URL-encode special characters:
@@ -81,12 +81,12 @@ https://deploy-service.cf.<domain>/slprot/<myorg>/<myspace>/slp
 
 Example:
 ```
-https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/TestOrg/TestSpace/slp
+[https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/TestOrg/TestSpace/slp](https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/TestOrg/TestSpace/slp)
 ```
 
 **Option B - Using Space GUID** (Recommended):
 ```
-https://deploy-service.cf.<domain>/slprot/<my-space-guid>/slp
+[https://deploy-service.cf.<domain>/slprot/<my-space-guid>/slp](https://deploy-service.cf.<domain>/slprot/<my-space-guid>/slp)
 ```
 - Retrieve GUID: `cf space <my-space-name> --guid`
 - Benefits:
@@ -96,7 +96,7 @@ https://deploy-service.cf.<domain>/slprot/<my-space-guid>/slp
 
 Example:
 ```
-https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/977a24d6-2eaf-432d-a3e1-5294451551a3/slp
+[https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/977a24d6-2eaf-432d-a3e1-5294451551a3/slp](https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/977a24d6-2eaf-432d-a3e1-5294451551a3/slp)
 ```
 
 **User Requirements**:
@@ -126,7 +126,7 @@ https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/977a24d6-2eaf-432d-a
 | Password | User's password | |
 | Client ID | `cf` | Fixed value |
 | Client Secret | (empty) | Not required |
-| Token Service URL | `https://login.cf.<domain>` | Replace `api` with `login` from API endpoint |
+| Token Service URL | `[https://login.cf.<domain>`](https://login.cf.<domain>`) | Replace `api` with `login` from API endpoint |
 
 **Custom Identity Provider**:
 - Add `origin` property in Additional Properties
@@ -175,7 +175,7 @@ https://deploy-service.cf.eu10-004.hana.ondemand.com/slprot/977a24d6-2eaf-432d-a
 
 **URL Pattern**:
 ```
-https://<service-instance>.abap.<region>.hana.ondemand.com/sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/
+[https://<service-instance>.abap.<region>.hana.ondemand.com/sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/](https://<service-instance>.abap.<region>.hana.ondemand.com/sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/)
 ```
 
 **Trust Settings**:
@@ -201,12 +201,12 @@ https://<service-instance>.abap.<region>.hana.ondemand.com/sap/opu/odata4/sap/a4
 
 **URL Pattern**:
 ```
-https://<host>/sap/hana/xs/lm/slp/slp.xsjs
+[https://<host>/sap/hana/xs/lm/slp/slp.xsjs](https://<host>/sap/hana/xs/lm/slp/slp.xsjs)
 ```
 
 **Example**:
 ```
-https://demoabcd12345.hana.ondemand.com/sap/hana/xs/lm/slp/slp.xsjs
+[https://demoabcd12345.hana.ondemand.com/sap/hana/xs/lm/slp/slp.xsjs](https://demoabcd12345.hana.ondemand.com/sap/hana/xs/lm/slp/slp.xsjs)
 ```
 
 **Host Discovery**: Find host in SAP HANA Cockpit or Web-based Development Workbench
@@ -225,7 +225,7 @@ https://demoabcd12345.hana.ondemand.com/sap/hana/xs/lm/slp/slp.xsjs
 | Authentication | OAuth2ClientCredentials | Typical; varies by application |
 | Client ID | From target service instance | |
 | Client Secret | From target service instance | |
-| Token Service URL | Example: `https://ts.authentication.sap.hana.ondemand.com` | |
+| Token Service URL | Example: `[https://ts.authentication.sap.hana.ondemand.com`](https://ts.authentication.sap.hana.ondemand.com`) | |
 
 **Note**: URL and authentication vary by application. Consult specific application documentation.
 
@@ -248,12 +248,12 @@ https://demoabcd12345.hana.ondemand.com/sap/hana/xs/lm/slp/slp.xsjs
 
 **URL Pattern**:
 ```
-https://slservice.<landscape-host>/slservice/slp/basic/<Neo-subaccount-technical-name>/slp
+[https://slservice.<landscape-host>/slservice/slp/basic/<Neo-subaccount-technical-name>/slp](https://slservice.<landscape-host>/slservice/slp/basic/<Neo-subaccount-technical-name>/slp)
 ```
 
 **Example**:
 ```
-https://slservice.eu1.hana.ondemand.com/slservice/slp/basic/a123c4567b/slp
+[https://slservice.eu1.hana.ondemand.com/slservice/slp/basic/a123c4567b/slp](https://slservice.eu1.hana.ondemand.com/slservice/slp/basic/a123c4567b/slp)
 ```
 
 **User Requirement**: Must be valid Neo environment user with roles per "Operating Solutions" documentation.
@@ -281,9 +281,9 @@ Use **Check Connection** to validate URL accessibility.
 
 ## Documentation Links
 
-- Create Transport Destinations: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/create-transport-destinations-c9905c1.md
-- TMS Service Destination: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md
-- Basic Auth: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-using-sap-cloud-deployment-service-with-basic-authentication-6b7c9d8.md
-- OAuth2Password: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authenticati-a26a721.md
-- Content Agent Service: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-using-sap-content-agent-service-3f895ed.md
-- ABAP Environment: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment-3014453.md
+- Create Transport Destinations: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/create-transport-destinations-c9905c1.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/create-transport-destinations-c9905c1.md)
+- TMS Service Destination: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/create-destinations-to-sap-cloud-transport-management-service-795f733.md)
+- Basic Auth: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-using-sap-cloud-deployment-service-with-basic-authentication-6b7c9d8.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-using-sap-cloud-deployment-service-with-basic-authentication-6b7c9d8.md)
+- OAuth2Password: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authenticati-a26a721.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-using-sap-cloud-deployment-service-with-oauth2password-authenticati-a26a721.md)
+- Content Agent Service: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-using-sap-content-agent-service-3f895ed.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-using-sap-content-agent-service-3f895ed.md)
+- ABAP Environment: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment-3014453.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/20-configure-landscape/creating-destinations-for-deployment-of-references-of-sap-btp-abap-environment-3014453.md)

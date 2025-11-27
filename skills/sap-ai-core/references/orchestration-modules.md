@@ -2,7 +2,7 @@
 
 Complete reference for all SAP AI Core orchestration modules.
 
-**Documentation Source:** https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core
+**Documentation Source:** [https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core](https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core)
 
 ---
 
@@ -573,7 +573,7 @@ All modules combined:
 
 ## Documentation Links
 
-- Orchestration Overview: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/orchestration-8d02235.md
-- Content Filtering: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/content-filtering-f804175.md
-- Data Masking: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/data-masking-8b87002.md
-- Grounding: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/grounding-035c455.md
+- Orchestration Overview: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/orchestration-8d02235.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/orchestration-8d02235.md)
+- Content Filtering: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/content-filtering-f804175.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/content-filtering-f804175.md)
+- Data Masking: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/data-masking-8b87002.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/data-masking-8b87002.md)
+- Grounding: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/grounding-035c455.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/grounding-035c455.md)

@@ -1,6 +1,6 @@
 # SAP BTP Job Scheduling Service - REST API Reference
 
-**Source**: https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/40---Using-JOB-SCHDULR-TITLE
+**Source**: [https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/40---Using-JOB-SCHDULR-TITLE](https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs/40---Using-JOB-SCHDULR-TITLE)
 **Last Updated**: 2025-11-22
 
 ---
@@ -23,7 +23,7 @@
 ### Base URL
 
 ```
-https://jobscheduler-rest.<landscape-domain>
+[https://jobscheduler-rest.<landscape-domain>](https://jobscheduler-rest.<landscape-domain>)
 ```
 
 Example landscapes:
@@ -55,7 +55,7 @@ Content-Type: application/json
 ### Lite Plan (HTTP Basic)
 
 ```bash
-curl -X GET "https://jobscheduler-rest.<domain>/scheduler/jobs" \
+curl -X GET "[https://jobscheduler-rest.<domain>/scheduler/jobs"](https://jobscheduler-rest.<domain>/scheduler/jobs") \
   -u "<user>:<password>" \
   -H "Content-Type: application/json"
 ```
@@ -97,7 +97,7 @@ curl -X POST "<certurl>/oauth/token" \
 **Using Token:**
 
 ```bash
-curl -X GET "https://jobscheduler-rest.<domain>/scheduler/jobs" \
+curl -X GET "[https://jobscheduler-rest.<domain>/scheduler/jobs"](https://jobscheduler-rest.<domain>/scheduler/jobs") \
   -H "Authorization: Bearer <access_token>" \
   -H "Content-Type: application/json"
 ```
@@ -182,7 +182,7 @@ POST /scheduler/jobs
 {
   "name": "salesReportJob",
   "description": "Generate daily sales report",
-  "action": "https://myapp.cfapps.eu10.hana.ondemand.com/api/reports/sales",
+  "action": "[https://myapp.cfapps.eu10.hana.ondemand.com/api/reports/sales",](https://myapp.cfapps.eu10.hana.ondemand.com/api/reports/sales",)
   "active": true,
   "httpMethod": "POST",
   "schedules": [{
@@ -210,7 +210,7 @@ POST /scheduler/jobs
 {
   "name": "salesReportJob",
   "description": "Generate daily sales report",
-  "action": "https://myapp.cfapps.eu10.hana.ondemand.com/api/reports/sales",
+  "action": "[https://myapp.cfapps.eu10.hana.ondemand.com/api/reports/sales",](https://myapp.cfapps.eu10.hana.ondemand.com/api/reports/sales",)
   "active": true,
   "httpMethod": "POST",
   "_id": 42,
@@ -311,7 +311,7 @@ GET /scheduler/jobs/42?displaySchedules=true
   "_id": 42,
   "name": "salesReportJob",
   "description": "Generate daily sales report",
-  "action": "https://myapp.../api/reports/sales",
+  "action": "[https://myapp.../api/reports/sales",](https://myapp.../api/reports/sales",)
   "active": true,
   "httpMethod": "POST",
   "startTime": null,
@@ -385,7 +385,7 @@ PUT /scheduler/jobs/dailyReport
 {
   "name": "dailyReport",
   "description": "Generate daily sales report",
-  "action": "https://myapp.../api/reports",
+  "action": "[https://myapp.../api/reports",](https://myapp.../api/reports",)
   "active": true,
   "httpMethod": "POST"
 }
@@ -714,7 +714,7 @@ scheduler.createJob({
 }, {
   name: 'myJob',
   description: 'My scheduled job',
-  action: 'https://myapp.../api/process',
+  action: '[https://myapp.../api/process',](https://myapp.../api/process',)
   active: true,
   httpMethod: 'POST',
   schedules: [{
@@ -922,10 +922,10 @@ Available through SAP's internal package registry for XS Advanced development.
 ## External References
 
 ### SAP Documentation
-- **REST API Reference**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/sap-job-scheduling-service-rest-apis
-- **Node.js Client**: https://www.npmjs.com/package/@sap/jobs-client
+- **REST API Reference**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/sap-job-scheduling-service-rest-apis](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/sap-job-scheduling-service-rest-apis)
+- **Node.js Client**: [https://www.npmjs.com/package/@sap/jobs-client](https://www.npmjs.com/package/@sap/jobs-client)
 - **Java Client (XS Advanced)**: Available via SAP HANA XS Advanced documentation
-- **Authentication**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/authentication
+- **Authentication**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/authentication](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/authentication)
 
 ### Source Files
 - `sap-job-scheduling-service-rest-apis-c513d2d.md`

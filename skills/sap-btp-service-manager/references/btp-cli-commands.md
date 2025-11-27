@@ -2,7 +2,7 @@
 
 The SAP BTP CLI (`btp`) provides service management commands as an alternative to SMCTL.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager
+**Documentation**: [https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager](https://github.com/SAP-docs/sap-btp-service-manager/tree/main/docs/Service-Consumption/SAP-Service-Manager)
 
 ---
 
@@ -35,7 +35,7 @@ The SAP BTP CLI (`btp`) provides service management commands as an alternative t
 
 ## Prerequisites
 
-1. Install BTP CLI: https://tools.hana.ondemand.com/#cloud
+1. Install BTP CLI: [https://tools.hana.ondemand.com/#cloud](https://tools.hana.ondemand.com/#cloud)
 2. Login: `btp login`
 3. Set target: `btp target --subaccount <subaccount-id>`
 
@@ -585,7 +585,7 @@ btp create services/instance \
 
 ## Documentation Links
 
-- **Create Instance**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/create-services-instance-5a44ad8.md
-- **Create Binding**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/create-services-binding-7cf9dc5.md
-- **Get Instance**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/get-services-instance-adb4c54.md
-- **Platform Commands**: https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/platforms-7610c08.md
+- **Create Instance**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/create-services-instance-5a44ad8.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/create-services-instance-5a44ad8.md)
+- **Create Binding**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/create-services-binding-7cf9dc5.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/create-services-binding-7cf9dc5.md)
+- **Get Instance**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/get-services-instance-adb4c54.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/get-services-instance-adb4c54.md)
+- **Platform Commands**: [https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/platforms-7610c08.md](https://github.com/SAP-docs/sap-btp-service-manager/blob/main/docs/Service-Consumption/SAP-Service-Manager/platforms-7610c08.md)

@@ -2,39 +2,48 @@
 
 Comprehensive security documentation for Cloud Integration Automation Service.
 
-**Source**: https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs
+**Source**: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs](https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs)
 
 ---
 
 ## Table of Contents
 
 1. [Security Architecture Overview](#security-architecture-overview)
-   - Core Components
-   - Security Layers
-2. [Role Collections and Permissions](#role-collections-and-permissions)
-   - CIASIntegrationAdministrator
-   - CIASIntegrationExpert
-   - CIASIntegrationMonitor
-3. [Identity Provider Configuration](#identity-provider-configuration)
-   - Default SAP ID Service
-   - Custom Identity Provider Setup
-   - SAML Assertion Requirements
-4. [Authentication and Authorization](#authentication-and-authorization)
-   - OAuth2 Flow
-   - XSRF Protection
-   - Credential Management
+   - Core Architecture Components
+   - Security Features
+2. [Identity Provider and Identity Management](#identity-provider-and-identity-management)
+   - Authentication Flow
+   - Target System Requirements
+   - SAML Support
+   - IdP Change Considerations
+3. [Roles and Authorizations](#roles-and-authorizations)
+   - Role-Based Access Control
+   - Integration Administrator (CIASIntegrationAdministrator)
+   - Integration Expert (CIASIntegrationExpert)
+   - Integration Monitor (CIASIntegrationMonitor)
+   - Role Assignment
+4. [Security Restrictions](#security-restrictions)
+   - Subaccount Prerequisites
+   - User ID Requirements
+   - Transaction Limits
+   - Data Deletion Behavior
 5. [Data Protection and Privacy](#data-protection-and-privacy)
-   - Personal Data Handling
-   - Data Retention Policies
-   - GDPR Compliance
-6. [Security Restrictions](#security-restrictions)
-   - Browser Requirements
-   - Network Security
-   - Access Limitations
+   - Database Storage
+   - Log Management
+   - Data Deletion
+6. [Sensitive Data Handling](#sensitive-data-handling)
+   - Credential Storage
+   - Security Features
 7. [Audit Logging](#audit-logging)
-   - Log Types
-   - Retention Period
-   - Access Controls
+   - Overview
+   - Features
+   - Data Retention
+8. [Destination Security](#destination-security)
+   - Configuration Data
+   - Security Requirements
+   - Authorization
+9. [Glossary of Security Terms](#glossary-of-security-terms)
+10. [Browser Support](#browser-support)
 
 ---
 
@@ -196,7 +205,7 @@ CIAS requires sensitive information input to automate certain integration tasks.
 - Secure encryption at rest
 - Access limited to automation processes
 
-**Reference**: https://help.sap.com/viewer/601525c6e5604e4192451d5e7328fa3c/Cloud/en-US/02e8f7d1016740b8adf68690f36df142.html
+**Reference**: [https://help.sap.com/viewer/601525c6e5604e4192451d5e7328fa3c/Cloud/en-US/02e8f7d1016740b8adf68690f36df142.html](https://help.sap.com/viewer/601525c6e5604e4192451d5e7328fa3c/Cloud/en-US/02e8f7d1016740b8adf68690f36df142.html)
 
 ---
 
@@ -260,10 +269,10 @@ Supported browsers on Windows:
 
 ## Documentation Links
 
-- Security Overview: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/security-9e8f7c2.md
-- Security Architecture: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/security-architecture-df15122.md
-- Security Restrictions: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/security-restrictions-3538ec5.md
-- Identity Provider: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/identity-provider-and-identity-management-1508b49.md
-- Data Protection: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/data-protection-and-privacy-22abc39.md
-- Audit Logging: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/audit-logging-639f869.md
-- SAP BTP Security Guide: https://help.sap.com/docs/btp/sap-business-technology-platform/security
+- Security Overview: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/security-9e8f7c2.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/security-9e8f7c2.md)
+- Security Architecture: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/security-architecture-df15122.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/security-architecture-df15122.md)
+- Security Restrictions: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/security-restrictions-3538ec5.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/security-restrictions-3538ec5.md)
+- Identity Provider: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/identity-provider-and-identity-management-1508b49.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/identity-provider-and-identity-management-1508b49.md)
+- Data Protection: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/data-protection-and-privacy-22abc39.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/data-protection-and-privacy-22abc39.md)
+- Audit Logging: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/audit-logging-639f869.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/audit-logging-639f869.md)
+- SAP BTP Security Guide: [https://help.sap.com/docs/btp/sap-business-technology-platform/security](https://help.sap.com/docs/btp/sap-business-technology-platform/security)

@@ -572,10 +572,10 @@ v1.0 ─── v1.1 ─── v1.2
 
 ## Documentation Links
 
-- **Machine Learning**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning
-- **ML Scenario Manager**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning/ml-scenario-manager
-- **JupyterLab**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning/jupyterlab-environment
-- **Python SDK**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning (see python-sdk documentation)
+- **Machine Learning**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning)
+- **ML Scenario Manager**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning/ml-scenario-manager](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning/ml-scenario-manager)
+- **JupyterLab**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning/jupyterlab-environment](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning/jupyterlab-environment)
+- **Python SDK**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning) (see python-sdk documentation)
 
 ---
 

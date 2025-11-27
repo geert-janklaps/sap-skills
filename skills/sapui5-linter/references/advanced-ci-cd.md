@@ -1,6 +1,6 @@
 # UI5 Linter - Advanced CI/CD Integration
 
-**Source**: https://github.com/UI5/linter/blob/main/.github/workflows/ci.yml
+**Source**: [https://github.com/UI5/linter/blob/main/.github/workflows/ci.yml](https://github.com/UI5/linter/blob/main/.github/workflows/ci.yml)
 **Last Updated**: 2025-11-21
 **UI5 Linter Version**: 1.20.5
 
@@ -817,13 +817,13 @@ export default {
 
 ## Resources
 
-**UI5 Linter CI Workflow**: https://github.com/UI5/linter/blob/main/.github/workflows/ci.yml
+**UI5 Linter CI Workflow**: [https://github.com/UI5/linter/blob/main/.github/workflows/ci.yml](https://github.com/UI5/linter/blob/main/.github/workflows/ci.yml)
 
-**GitHub Actions Docs**: https://docs.github.com/en/actions
+**GitHub Actions Docs**: [https://docs.github.com/en/actions](https://docs.github.com/en/actions)
 
-**GitLab CI Docs**: https://docs.gitlab.com/ee/ci/
+**GitLab CI Docs**: [https://docs.gitlab.com/ee/ci/](https://docs.gitlab.com/ee/ci/)
 
-**Jenkins Docs**: https://www.jenkins.io/doc/
+**Jenkins Docs**: [https://www.jenkins.io/doc/](https://www.jenkins.io/doc/)
 
 ---
 

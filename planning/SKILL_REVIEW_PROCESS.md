@@ -299,9 +299,9 @@ skills/<skill-name>/
 - Context7 MCP path (if available)
 
 **Example (better-auth)**:
-- Official: https://better-auth.com
-- GitHub: https://github.com/better-auth/better-auth
-- npm: https://www.npmjs.com/package/better-auth
+- Official: [https://better-auth.com](https://better-auth.com)
+- GitHub: [https://github.com/better-auth/better-auth](https://github.com/better-auth/better-auth)
+- npm: [https://www.npmjs.com/package/better-auth](https://www.npmjs.com/package/better-auth)
 - Context7: (not available)
 
 **Record** these for evidence citations.
@@ -316,7 +316,7 @@ Search for: "database adapter"
 
 **Or use WebFetch**:
 ```
-Fetch: https://better-auth.com/docs/integrations/d1
+Fetch: [https://better-auth.com/docs/integrations/d1](https://better-auth.com/docs/integrations/d1)
 Look for: Correct adapter usage
 ```
 
@@ -336,7 +336,7 @@ Look for: Correct adapter usage
 ```
 ❌ SKILL.md line 50: import { d1Adapter } from 'better-auth/adapters/d1'
 ✅ Official docs: import { drizzleAdapter } from 'better-auth/adapters/drizzle'
-📎 Source: https://better-auth.com/docs/integrations/drizzle
+📎 Source: [https://better-auth.com/docs/integrations/drizzle](https://better-auth.com/docs/integrations/drizzle)
 ```
 
 ### Step 3.3: Check GitHub for Recent Changes
@@ -492,7 +492,7 @@ const session = await auth.getSession(c.req.raw)
 ❌ cloudflare-worker-example.ts:134
    Old: auth.getSession(c.req.raw)
    New: auth.api.getSession({ headers: c.req.raw.headers })
-📎 Source: https://better-auth.com/docs/api#getSession
+📎 Source: [https://better-auth.com/docs/api#getSession](https://better-auth.com/docs/api#getSession)
 ```
 
 ### Step 4.3: Schema Consistency
@@ -838,7 +838,7 @@ For each issue found, document:
 Code imports `d1Adapter` from `'better-auth/adapters/d1'` but this export doesn't exist in better-auth v1.3.34. better-auth requires Drizzle ORM or Kysely for D1 integration.
 
 **Evidence**:
-- Official docs: https://better-auth.com/docs/integrations/drizzle
+- Official docs: [https://better-auth.com/docs/integrations/drizzle](https://better-auth.com/docs/integrations/drizzle)
 - GitHub search: No `d1Adapter` export found in codebase
 - Production examples: All use `drizzleAdapter` or Kysely
 
@@ -1122,7 +1122,7 @@ git push
 *Problem*: Imports `d1Adapter` from `'better-auth/adapters/d1'` which doesn't exist. better-auth v1.3.34 requires Drizzle ORM or Kysely for D1.
 
 *Evidence*:
-- Official docs: https://better-auth.com/docs/integrations/drizzle
+- Official docs: [https://better-auth.com/docs/integrations/drizzle](https://better-auth.com/docs/integrations/drizzle)
 - GitHub: No `d1Adapter` export in better-auth codebase
 - Production: 4 repos verified, all use Drizzle/Kysely
 
@@ -1296,4 +1296,4 @@ Migration: See SKILL.md for new Drizzle setup workflow
 
 This process ensures systematic, evidence-based reviews that catch issues before they impact users. Follow all 9 phases for comprehensive audits, or use quick reviews for minor updates. Always document findings with evidence and maintain audit trails.
 
-**Questions?** See claude-skills repository: https://github.com/secondsky/claude-skills
+**Questions?** See claude-skills repository: [https://github.com/secondsky/claude-skills](https://github.com/secondsky/claude-skills)

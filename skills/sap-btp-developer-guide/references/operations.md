@@ -320,6 +320,6 @@ kubectl top pods
 
 ## Source Documentation
 
-- Administrate and Operate: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/administrate-and-operate-f8fe432.md
-- Run and Scale: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/run-and-scale-fcb51b5.md
-- Maintain and Upgrade: https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/maintain-and-upgrade-d24bc66.md
+- Administrate and Operate: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/administrate-and-operate-f8fe432.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/administrate-and-operate-f8fe432.md)
+- Run and Scale: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/run-and-scale-fcb51b5.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/run-and-scale-fcb51b5.md)
+- Maintain and Upgrade: [https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/maintain-and-upgrade-d24bc66.md](https://github.com/SAP-docs/btp-developer-guide/blob/main/docs/maintain-and-upgrade-d24bc66.md)

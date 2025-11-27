@@ -1,7 +1,7 @@
 # Security - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ci)
 **Last Updated**: 2025-11-22
 
 ---
@@ -108,7 +108,7 @@ Adapter → Authentication: Client Certificate
 #### OAuth 2.0 Client Credentials
 ```
 Adapter → Authentication: OAuth2 Client Credentials
-       → Token Service URL: https://oauth.example.com/token
+       → Token Service URL: [https://oauth.example.com/token](https://oauth.example.com/token)
        → Client ID: [from credential]
        → Client Secret: [from credential]
 ```
@@ -121,7 +121,7 @@ Forward user identity to backend systems.
 - Cloud Foundry to on-premise
 - Subaccount to subaccount
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/basic-authentication-outbound-f26152c.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/basic-authentication-outbound-f26152c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/basic-authentication-outbound-f26152c.md)
 
 ---
 
@@ -170,7 +170,7 @@ Tenant Keystore
 3. Test connectivity
 4. Delete old certificate after validation
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-keystore-entries-2dc8942.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-keystore-entries-2dc8942.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-keystore-entries-2dc8942.md)
 
 ---
 
@@ -224,7 +224,7 @@ def secureStore = ITApiFactory.getService(SecureStoreService.class, null)
 def value = secureStore.getSecureParameter("ParameterName")
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-security-material-b8ccb53.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-security-material-b8ccb53.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-security-material-b8ccb53.md)
 
 ---
 
@@ -283,7 +283,7 @@ Calculate hash of message content.
 - SHA-1 (legacy)
 - MD5 (not recommended)
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/apply-message-level-security-9036c0c.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/apply-message-level-security-9036c0c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/apply-message-level-security-9036c0c.md)
 
 ---
 
@@ -339,7 +339,7 @@ Calculate hash of message content.
    - Remove old certificate after validation
    - Update documentation
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/security-artifact-renewal-083fc8d.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/security-artifact-renewal-083fc8d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/security-artifact-renewal-083fc8d.md)
 
 ---
 
@@ -420,8 +420,8 @@ Calculate hash of message content.
 
 ## Related Documentation
 
-- **Security Guidelines**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/apply-the-highest-security-standards-201fd43.md
-- **Keystore Management**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-keystore-entries-2dc8942.md
-- **Certificate Renewal**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/security-artifact-renewal-083fc8d.md
-- **PGP Keys**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-pgp-keys-cd478a7.md
-- **OAuth Configuration**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/deploying-an-oauth2-client-credentials-artifact-801b106.md
+- **Security Guidelines**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/apply-the-highest-security-standards-201fd43.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Development/apply-the-highest-security-standards-201fd43.md)
+- **Keystore Management**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-keystore-entries-2dc8942.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-keystore-entries-2dc8942.md)
+- **Certificate Renewal**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/security-artifact-renewal-083fc8d.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/security-artifact-renewal-083fc8d.md)
+- **PGP Keys**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-pgp-keys-cd478a7.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/managing-pgp-keys-cd478a7.md)
+- **OAuth Configuration**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/deploying-an-oauth2-client-credentials-artifact-801b106.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ci/Operations/deploying-an-oauth2-client-credentials-artifact-801b106.md)

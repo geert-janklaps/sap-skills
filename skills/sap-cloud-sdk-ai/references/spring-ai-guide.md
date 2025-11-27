@@ -558,12 +558,12 @@ spring:
         enabled: true
         servers:
           - name: "my-tools"
-            url: "http://localhost:3000/mcp"
+            url: "[http://localhost:3000/mcp"](http://localhost:3000/mcp")
 ```
 
 ---
 
 ## Documentation Links
 
-- Spring AI OpenAI: https://github.com/SAP/ai-sdk/blob/main/docs-java/spring-ai/openai.mdx
-- Spring AI Orchestration: https://github.com/SAP/ai-sdk/blob/main/docs-java/spring-ai/orchestration.mdx
+- Spring AI OpenAI: [https://github.com/SAP/ai-sdk/blob/main/docs-java/spring-ai/openai.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-java/spring-ai/openai.mdx)
+- Spring AI Orchestration: [https://github.com/SAP/ai-sdk/blob/main/docs-java/spring-ai/orchestration.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-java/spring-ai/orchestration.mdx)

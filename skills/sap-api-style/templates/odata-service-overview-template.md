@@ -69,7 +69,7 @@ available via `/odata/v3` endpoint prefix."
 
 ### Root URI
 
-**Root URI**: `[Absolute service path, e.g., https://api.example.com/odata/v4]`
+**Root URI**: `[Absolute service path, e.g., [https://api.example.com/odata/v4]`](https://api.example.com/odata/v4]`)
 
 [Explanation of how to construct full URIs from root and include example paths to available resources.]
 
@@ -229,7 +229,7 @@ Department (1) <--- (N) Department (SubDepartments)
 
 **Example**:
 ```
-Service Metadata URI: https://api.example.com/odata/v4/$metadata
+Service Metadata URI: [https://api.example.com/odata/v4/$metadata](https://api.example.com/odata/v4/$metadata)
 
 This endpoint returns the complete service definition in CSDL (Common Schema Definition Language) format.
 Contains entity type definitions, property types, navigation properties, and available operations.
@@ -242,7 +242,7 @@ Useful for:
 
 **How to Access Metadata**:
 ```http
-GET https://api.example.com/odata/v4/$metadata HTTP/1.1
+GET [https://api.example.com/odata/v4/$metadata](https://api.example.com/odata/v4/$metadata) HTTP/1.1
 Authorization: Bearer {token}
 Accept: application/xml
 ```

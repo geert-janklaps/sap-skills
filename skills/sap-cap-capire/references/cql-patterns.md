@@ -1,6 +1,6 @@
 # CDS Query Language (CQL) - Complete Pattern Reference
 
-**Source**: https://cap.cloud.sap/docs/cds/cql
+**Source**: [https://cap.cloud.sap/docs/cds/cql](https://cap.cloud.sap/docs/cds/cql)
 
 ## Table of Contents
 - [Basic Queries](#basic-queries)
@@ -604,4 +604,4 @@ const safeQuery = await SELECT.from(Books)
 
 **Last Updated**: 2025-11-27
 **CAP Version**: 9.4.x
-**Documentation**: https://cap.cloud.sap/docs/cds/cql
+**Documentation**: [https://cap.cloud.sap/docs/cds/cql](https://cap.cloud.sap/docs/cds/cql)

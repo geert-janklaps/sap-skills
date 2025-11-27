@@ -1,6 +1,6 @@
 # ABAP Dictionary - Complete Reference
 
-**Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/26_ABAP_Dictionary.md
+**Source**: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/26_ABAP_Dictionary.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/26_ABAP_Dictionary.md)
 
 ---
 

@@ -148,11 +148,10 @@ This skill triggers when discussing:
 | `references/whats-new.md` | Changelog and latest updates |
 
 ### Tracking
-- `PROGRESS_TRACKING.md` - Documentation coverage and update links
 
 ## Source Documentation
 
-Based on: https://github.com/SAP-docs/btp-developer-guide
+Based on: [https://github.com/SAP-docs/btp-developer-guide](https://github.com/SAP-docs/btp-developer-guide)
 
 ## Installation
 
@@ -181,7 +180,7 @@ The skill automatically activates when you discuss SAP BTP development topics. E
 - **Skill Version**: 1.1.0
 - **Last Updated**: 2025-11-27
 - **Last Verified**: 2025-11-27
-- **SAP BTP Developer Guide Source**: https://github.com/SAP-docs/btp-developer-guide
+- **SAP BTP Developer Guide Source**: [https://github.com/SAP-docs/btp-developer-guide](https://github.com/SAP-docs/btp-developer-guide)
 
 ## License
 

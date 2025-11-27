@@ -40,7 +40,7 @@ This skill incorporates content from the **SAP API Style Guide**:
 
 ### Full License Text
 
-- CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode
+- CC BY 4.0: [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode)
 - MIT: See LICENSE file in repository root
 
 ---
@@ -284,7 +284,6 @@ sap-api-style/
 │   ├── deprecation-policy.md         # API lifecycle management
 │   ├── developer-guides.md           # Developer guide standards
 │   ├── glossary-resources.md         # Glossary & external resources
-│   └── PROGRESS_TRACKING.md          # Content extraction tracking
 │
 └── templates/                         # Ready-to-use templates
     ├── rest-api-overview-template.md
@@ -349,20 +348,20 @@ x-sap-stateInfo:
 ## External Resources
 
 ### Standards
-- OpenAPI Specification: https://spec.openapis.org/oas/latest.html
-- OData v4.01: https://www.odata.org/documentation/
-- Javadoc Tool: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
-- JSDoc 3: https://jsdoc.app/
-- Doxygen: https://www.doxygen.nl/
+- OpenAPI Specification: [https://spec.openapis.org/oas/latest.html](https://spec.openapis.org/oas/latest.html)
+- OData v4.01: [https://www.odata.org/documentation/](https://www.odata.org/documentation/)
+- Javadoc Tool: [https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
+- JSDoc 3: [https://jsdoc.app/](https://jsdoc.app/)
+- Doxygen: [https://www.doxygen.nl/](https://www.doxygen.nl/)
 
 ### SAP Resources
-- SAP API Business Hub: https://api.sap.com/
-- SAP Developer Center: https://developers.sap.com/
-- SAP Help Portal: https://help.sap.com/
-- SAP Community: https://community.sap.com/
+- SAP API Business Hub: [https://api.sap.com/](https://api.sap.com/)
+- SAP Developer Center: [https://developers.sap.com/](https://developers.sap.com/)
+- SAP Help Portal: [https://help.sap.com/](https://help.sap.com/)
+- SAP Community: [https://community.sap.com/](https://community.sap.com/)
 
 ### Source
-- SAP API Style Guide: https://github.com/SAP-docs/api-style-guide
+- SAP API Style Guide: [https://github.com/SAP-docs/api-style-guide](https://github.com/SAP-docs/api-style-guide)
 
 ---
 
@@ -418,8 +417,8 @@ This skill saves massive token overhead by:
 ## Contributing
 
 This skill is maintained as part of the SAP Skills repository:
-- Repository: https://github.com/secondsky/sap-skills
-- Issues: https://github.com/secondsky/sap-skills/issues
+- Repository: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
+- Issues: [https://github.com/secondsky/sap-skills/issues](https://github.com/secondsky/sap-skills/issues)
 - License: MIT
 
 ---
@@ -430,6 +429,6 @@ GPL-3.0 License - See LICENSE file for details
 
 ---
 
-**Maintainer**: SAP Skills Team | https://github.com/secondsky/sap-skills
+**Maintainer**: SAP Skills Team | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
 **Skill Version**: 1.1.0
 **Last Verified Against SAP Standards**: 2025-11-27

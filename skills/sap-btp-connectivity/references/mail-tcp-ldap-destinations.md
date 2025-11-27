@@ -1,6 +1,6 @@
 # Mail, TCP, and LDAP Destinations - Complete Reference
 
-**Source**: https://github.com/SAP-docs/btp-connectivity/tree/main/docs/1-connectivity-documentation
+**Source**: [https://github.com/SAP-docs/btp-connectivity/tree/main/docs/1-connectivity-documentation](https://github.com/SAP-docs/btp-connectivity/tree/main/docs/1-connectivity-documentation)
 
 ---
 
@@ -333,10 +333,10 @@ LDAP destinations enable access to directory services for user authentication an
 
 ## Documentation Links
 
-- Mail Destinations: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/mail-destinations
-- TCP Protocol: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/using-tcp-protocol-for-cloud-applications
-- LDAP Destinations: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/ldap-destinations
-- LDAP Best Practices: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/ldap-configuration-best-practices
+- Mail Destinations: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/mail-destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/mail-destinations)
+- TCP Protocol: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/using-tcp-protocol-for-cloud-applications](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/using-tcp-protocol-for-cloud-applications)
+- LDAP Destinations: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/ldap-destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/ldap-destinations)
+- LDAP Best Practices: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/ldap-configuration-best-practices](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/ldap-configuration-best-practices)
 
 ---
 

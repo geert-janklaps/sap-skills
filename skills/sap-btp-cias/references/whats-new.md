@@ -2,7 +2,7 @@
 
 Complete release notes for Cloud Integration Automation Service from 2021-2025.
 
-**Source**: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-s-new-in-cloud-integration-automation-service-ee05dea.md
+**Source**: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-s-new-in-cloud-integration-automation-service-ee05dea.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-s-new-in-cloud-integration-automation-service-ee05dea.md)
 
 ---
 
@@ -10,23 +10,27 @@ Complete release notes for Cloud Integration Automation Service from 2021-2025.
 
 1. [2025](#2025)
    - China (CN20) Data Center
-   - Other Updates
 2. [2024](#2024)
    - Montreal (CA10) Data Center
-   - Real-Time Integration Support
-   - Theme Update
-   - Mobile Responsiveness
 3. [2023](#2023)
+   - New Integration Scenario - RTI for SAP IBP
+   - Theme Change - Morning Horizon
+   - UI Enhancement - Help Features
    - Tokyo (JP10) Data Center
-   - Progress Tracking
-   - New Integration Scenarios
+   - Automation Tasks Enhancement - Async Execution
 4. [2022](#2022)
-   - Frankfurt (EU11) & Shanghai (CN40)
-   - API Enhancements
+   - UI Enhancement - Execution Monitoring
+   - New Data Centers - Frankfurt & Shanghai
+   - UI Enhancement - Task Logs
+   - Scenario Tasks - Execution Modes
+   - UI Enhancement - Tile Ordering
+   - Scenario Tasks - Progress Bar & UI Text
 5. [2021](#2021)
-   - Cloud Foundry Support
-   - Initial Launch
-   - Neo Environment Deprecation
+   - Scenario Tasks List View
+   - Subscription Plans Available & Neo Deprecation
+   - Cloud Foundry Platform Availability
+   - Scenario Planning in Application
+   - Destination Creation Feature
 
 ---
 
@@ -346,4 +350,4 @@ All new features since 2021-08 are Cloud Foundry only.
 
 ## Documentation Link
 
-- What's New: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-s-new-in-cloud-integration-automation-service-ee05dea.md
+- What's New: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-s-new-in-cloud-integration-automation-service-ee05dea.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/what-s-new-in-cloud-integration-automation-service-ee05dea.md)

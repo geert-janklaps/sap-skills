@@ -1,6 +1,6 @@
 # SAP HANA CLI - Output Formats Reference
 
-**Source**: https://github.com/SAP-samples/hana-developer-cli-tool-example
+**Source**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
 
 The hana-cli supports 17+ output formats for database metadata conversion and export.
 
@@ -388,4 +388,4 @@ hana-cli querySimple -q "SELECT * FROM T" -o json -f ./output -n data
 
 ---
 
-*Reference: https://github.com/SAP-samples/hana-developer-cli-tool-example*
+*Reference: [https://github.com/SAP-samples/hana-developer-cli-tool-example*](https://github.com/SAP-samples/hana-developer-cli-tool-example*)

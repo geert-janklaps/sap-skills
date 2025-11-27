@@ -72,9 +72,9 @@ Guide Center, search, Problems view, application preview, ports, incognito mode,
 
 | Resource | URL |
 |----------|-----|
-| SAP Help Portal | https://help.sap.com/docs/bas |
-| GitHub Docs | https://github.com/SAP-docs/sap-btp-business-application-studio |
-| Discovery Center | https://discovery-center.cloud.sap/serviceCatalog/business-application-studio |
+| SAP Help Portal | [https://help.sap.com/docs/bas](https://help.sap.com/docs/bas) |
+| GitHub Docs | [https://github.com/SAP-docs/sap-btp-business-application-studio](https://github.com/SAP-docs/sap-btp-business-application-studio) |
+| Discovery Center | [https://discovery-center.cloud.sap/serviceCatalog/business-application-studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio) |
 
 ## License
 

@@ -1,6 +1,6 @@
 # CAP Database Configuration Reference
 
-**Source**: https://cap.cloud.sap/docs/guides/databases
+**Source**: [https://cap.cloud.sap/docs/guides/databases](https://cap.cloud.sap/docs/guides/databases)
 
 ## Supported Databases
 

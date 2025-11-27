@@ -37,7 +37,7 @@ SAP BTP Intelligent Situation Automation service has been deprecated and will re
 
 SAP Intelligent Situation Automation was a BTP service that enabled automatic handling of business situations from SAP S/4HANA and SAP S/4HANA Cloud systems. It leveraged SAP Event Mesh for real-time event communication and allowed organizations to define automated actions for resolving situations.
 
-**Documentation Source**: https://github.com/SAP-docs/btp-intelligent-situation-automation
+**Documentation Source**: [https://github.com/SAP-docs/btp-intelligent-situation-automation](https://github.com/SAP-docs/btp-intelligent-situation-automation)
 
 **Last Verified**: 2025-11-27
 
@@ -229,7 +229,7 @@ Use the *Manage Situation Actions* application to create custom actions beyond s
 
 Export all stored data using the endpoint:
 ```
-https://<subdomain>.<region>.intelligent-situation-automation.cloud.sap/exportdata
+[https://<subdomain>.<region>.intelligent-situation-automation.cloud.sap/exportdata](https://<subdomain>.<region>.intelligent-situation-automation.cloud.sap/exportdata)
 ```
 
 ## Audit Logging
@@ -304,12 +304,12 @@ For any questions or concerns about the deprecation:
 ## External Resources
 
 ### SAP Documentation
-- **SAP Help Portal**: https://help.sap.com/docs/intelligent-situation-automation
-- **SAP Event Mesh**: https://help.sap.com/docs/SAP_EM
-- **SAP BTP**: https://help.sap.com/docs/BTP
+- **SAP Help Portal**: [https://help.sap.com/docs/intelligent-situation-automation](https://help.sap.com/docs/intelligent-situation-automation)
+- **SAP Event Mesh**: [https://help.sap.com/docs/SAP_EM](https://help.sap.com/docs/SAP_EM)
+- **SAP BTP**: [https://help.sap.com/docs/BTP](https://help.sap.com/docs/BTP)
 
 ### Source Repository
-- **GitHub Docs**: https://github.com/SAP-docs/sap-btp-intelligent-situation-automation
+- **GitHub Docs**: [https://github.com/SAP-docs/sap-btp-intelligent-situation-automation](https://github.com/SAP-docs/sap-btp-intelligent-situation-automation)
 
 ### Support
 - **Component**: CA-SIT-ATM
@@ -320,8 +320,8 @@ For any questions or concerns about the deprecation:
 **⚠️ SERVICE DEPRECATED**: No further updates expected as the service is deprecated.
 
 **Documentation Source**: 
-- Original: https://github.com/SAP-docs/btp-intelligent-situation-automation
-- Deprecation Announcement: https://community.sap.com/t5/technology-blog-posts-by-sap/deprecation-of-intelligent-situation-automation-service/ba-p/14214342
+- Original: [https://github.com/SAP-docs/btp-intelligent-situation-automation](https://github.com/SAP-docs/btp-intelligent-situation-automation)
+- Deprecation Announcement: [https://community.sap.com/t5/technology-blog-posts-by-sap/deprecation-of-intelligent-situation-automation-service/ba-p/14214342](https://community.sap.com/t5/technology-blog-posts-by-sap/deprecation-of-intelligent-situation-automation-service/ba-p/14214342)
 
 **Final Verification**: 2025-11-27
 
@@ -333,7 +333,7 @@ For any questions or concerns about the deprecation:
 **Status**: DEPRECATED
 **Last Updated**: 2025-11-27
 **License**: GPL-3.0
-**Maintainer**: SAP Skills Team | https://github.com/secondsky/sap-skills
+**Maintainer**: SAP Skills Team | [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
 
 ---
 

@@ -1,12 +1,12 @@
 # SAP HANA ML Supporting Modules Reference
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/)
 
 ---
 
 ## Model Storage (hana_ml.model_storage)
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.model_storage.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.model_storage.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.model_storage.html)
 
 ### ModelStorage Class
 
@@ -57,7 +57,7 @@ model.load_model(model_table='MY_MODELS')
 
 ## Artifacts (hana_ml.artifacts)
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.artifacts.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.artifacts.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.artifacts.html)
 
 ### Artifact Recording
 
@@ -82,7 +82,7 @@ Artifacts include:
 
 ## Spatial (hana_ml.spatial)
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.spatial.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.spatial.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.spatial.html)
 
 ### DataFrame Spatial Properties
 
@@ -134,7 +134,7 @@ labels = geo_dbscan.labels_
 
 ## Graph (hana_ml.graph)
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.graph.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.graph.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.graph.html)
 
 ### Graph Visualization (from hana_ml.visualizers.digraph)
 
@@ -214,7 +214,7 @@ multi_graph.generate_html()
 
 ## Graph Algorithms (hana_ml.graph.algorithms)
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.graph.algorithms.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.graph.algorithms.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.graph.algorithms.html)
 
 ### Social Network Analysis (from PAL)
 
@@ -251,7 +251,7 @@ predictions = lp.predict(test_pairs_df)
 
 ## Text Mining (hana_ml.text.tm)
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.text.tm.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.text.tm.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.text.tm.html)
 
 ### Latent Dirichlet Allocation (Topic Modeling)
 
@@ -346,7 +346,7 @@ array = wc.to_array()
 
 ## Scheduler (hana_ml.hana_scheduler)
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.hana_scheduler.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.hana_scheduler.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.hana_scheduler.html)
 
 ### Asynchronous Model Training
 
@@ -373,7 +373,7 @@ predict_log = model.get_predict_operation_log()
 
 ## Exceptions (hana_ml.ml_exceptions)
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.ml_exceptions.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.ml_exceptions.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.ml_exceptions.html)
 
 ### Error Handling
 
@@ -401,7 +401,7 @@ except Error as e:
 
 ## DocStore (hana_ml.docstore)
 
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.docstore.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.docstore.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.docstore.html)
 
 ### Document Store Operations
 

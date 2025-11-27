@@ -1,6 +1,6 @@
 # OO Design Patterns - Complete Reference
 
-**Source**: https://github.com/SAP-samples/abap-cheat-sheets/blob/main/34_OO_Design_Patterns.md
+**Source**: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/34_OO_Design_Patterns.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/34_OO_Design_Patterns.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # SAP HANA CLI - Troubleshooting Guide
 
-**Source**: https://github.com/SAP-samples/hana-developer-cli-tool-example
+**Source**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
 
 Common issues, diagnostic commands, and solutions.
 
@@ -289,4 +289,4 @@ hana-cli openChangeLog  # Opens in browser
 
 ---
 
-*Reference: https://github.com/SAP-samples/hana-developer-cli-tool-example*
+*Reference: [https://github.com/SAP-samples/hana-developer-cli-tool-example*](https://github.com/SAP-samples/hana-developer-cli-tool-example*)

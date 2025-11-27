@@ -1,6 +1,6 @@
 # Troubleshooting Guide - SAP BTP Intelligent Situation Automation
 
-**Source**: https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs](https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs)
 **Last Verified**: 2025-11-22
 
 ---
@@ -315,9 +315,9 @@ Use for monitoring:
 
 ## External Links
 
-- **SAP for Me**: https://me.sap.com/ (incident creation)
-- **SAP Community**: https://community.sap.com/
-- **SAP Help**: https://help.sap.com/docs/intelligent-situation-automation
+- **SAP for Me**: [https://me.sap.com/](https://me.sap.com/) (incident creation)
+- **SAP Community**: [https://community.sap.com/](https://community.sap.com/)
+- **SAP Help**: [https://help.sap.com/docs/intelligent-situation-automation](https://help.sap.com/docs/intelligent-situation-automation)
 
 ---
 

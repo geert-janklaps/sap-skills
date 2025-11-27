@@ -138,7 +138,6 @@ This skill activates when discussing:
 sap-btp-intelligent-situation-automation/
 ├── SKILL.md                    # Main skill file
 ├── README.md                   # This file
-├── PROGRESS_TRACKING.md        # Extraction tracking
 └── references/
     ├── setup-guide.md          # Prerequisites, subscription, Event Mesh
     ├── onboarding.md           # APIs, destinations, system onboarding
@@ -150,10 +149,10 @@ sap-btp-intelligent-situation-automation/
 
 ## Documentation Sources
 
-- **GitHub**: https://github.com/SAP-docs/btp-intelligent-situation-automation
-- **Deprecation Announcement**: https://community.sap.com/t5/technology-blog-posts-by-sap/deprecation-of-intelligent-situation-automation-service/ba-p/14214342
-- **SAP Help**: https://help.sap.com/docs/intelligent-situation-automation (archived)
-- **Event Mesh**: https://help.sap.com/docs/SAP_EM
+- **GitHub**: [https://github.com/SAP-docs/btp-intelligent-situation-automation](https://github.com/SAP-docs/btp-intelligent-situation-automation)
+- **Deprecation Announcement**: [https://community.sap.com/t5/technology-blog-posts-by-sap/deprecation-of-intelligent-situation-automation-service/ba-p/14214342](https://community.sap.com/t5/technology-blog-posts-by-sap/deprecation-of-intelligent-situation-automation-service/ba-p/14214342)
+- **SAP Help**: [https://help.sap.com/docs/intelligent-situation-automation](https://help.sap.com/docs/intelligent-situation-automation) (archived)
+- **Event Mesh**: [https://help.sap.com/docs/SAP_EM](https://help.sap.com/docs/SAP_EM)
 
 ## Version
 
@@ -169,4 +168,4 @@ GPL-3.0 License - See repository LICENSE file.
 
 ## Contributing
 
-See the main repository CONTRIBUTING guidelines at https://github.com/secondsky/sap-skills.
+See the main repository CONTRIBUTING guidelines at [https://github.com/secondsky/sap-skills.](https://github.com/secondsky/sap-skills.)

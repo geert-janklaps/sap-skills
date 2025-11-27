@@ -191,7 +191,6 @@ Use this skill when:
 sap-abap-cds/
 ├── SKILL.md                          # Main skill file
 ├── README.md                         # This file
-├── PROGRESS_TRACKING.md              # Source documentation tracking
 ├── references/
 │   ├── annotations-reference.md      # Complete annotation catalog
 │   ├── functions-reference.md        # All built-in functions
@@ -249,11 +248,11 @@ define role Z_EXAMPLE_DCL {
 
 ## Documentation Sources
 
-- **SAP Help Portal (ABAP Cloud)**: https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html
-- **SAP NetWeaver 7.52 CDS User Guide**: https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/7c078765ec6d4e6b88b71bdaf8a2bd9f.html
-- **SAP ABAP Cheat Sheets**: https://github.com/SAP-samples/abap-cheat-sheets
-- **SAP Community**: https://community.sap.com/t5/tag/CDS%20Views/tg-p
-- **Codezentrale**: https://codezentrale.de/category/sap/sap-abap/sap-abap-cdsviews/
+- **SAP Help Portal (ABAP Cloud)**: [https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html)
+- **SAP NetWeaver 7.52 CDS User Guide**: [https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/7c078765ec6d4e6b88b71bdaf8a2bd9f.html](https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_752/f2e545608079437ab165c105649b89db/7c078765ec6d4e6b88b71bdaf8a2bd9f.html)
+- **SAP ABAP Cheat Sheets**: [https://github.com/SAP-samples/abap-cheat-sheets](https://github.com/SAP-samples/abap-cheat-sheets)
+- **SAP Community**: [https://community.sap.com/t5/tag/CDS%20Views/tg-p](https://community.sap.com/t5/tag/CDS%20Views/tg-p)
+- **Codezentrale**: [https://codezentrale.de/category/sap/sap-abap/sap-abap-cdsviews/](https://codezentrale.de/category/sap/sap-abap/sap-abap-cdsviews/)
 
 ## Requirements
 

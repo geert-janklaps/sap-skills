@@ -68,7 +68,6 @@ This skill activates when working with:
 sap-cloud-sdk-ai/
 ├── SKILL.md                      # Main skill instructions
 ├── README.md                     # This file
-├── EXTRACTION_PROGRESS.md        # Documentation coverage tracking
 └── references/
     ├── orchestration-guide.md    # Full orchestration API details (900+ lines)
     ├── foundation-models-guide.md # Direct OpenAI model access

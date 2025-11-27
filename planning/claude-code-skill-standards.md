@@ -1,7 +1,7 @@
 # Claude Code Skill Standards
 
 **Last Updated**: 2025-10-20
-**Source**: https://docs.claude.com/en/docs/claude-code/skills
+**Source**: [https://docs.claude.com/en/docs/claude-code/skills](https://docs.claude.com/en/docs/claude-code/skills)
 **Reference Skill**: ~/.claude/skills/tailwind-v4-shadcn/
 
 ---
@@ -291,7 +291,7 @@ description: "Cloudflare Workers skill"
 
 ## Official Documentation
 
-**Primary Source**: https://docs.claude.com/en/docs/claude-code/skills
+**Primary Source**: [https://docs.claude.com/en/docs/claude-code/skills](https://docs.claude.com/en/docs/claude-code/skills)
 
 **Key Points from Official Docs**:
 - Skills are model-invoked (Claude decides when to use them)

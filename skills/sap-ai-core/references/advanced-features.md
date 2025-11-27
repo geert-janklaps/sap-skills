@@ -2,7 +2,7 @@
 
 Complete reference for additional SAP AI Core features not covered in other reference files.
 
-**Documentation Source:** https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core
+**Documentation Source:** [https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core](https://github.com/SAP-docs/sap-artificial-intelligence/tree/main/docs/sap-ai-core)
 
 ---
 
@@ -112,7 +112,7 @@ curl -X POST "$AI_API_URL/v2/admin/applications" \
   -H "Content-Type: application/json" \
   -d '{
     "applicationName": "my-workflows",
-    "repositoryUrl": "https://github.com/org/ai-workflows",
+    "repositoryUrl": "[https://github.com/org/ai-workflows",](https://github.com/org/ai-workflows",)
     "revision": "HEAD",
     "path": "workflows/"
   }'
@@ -624,8 +624,8 @@ Additional Python packages extending SAP AI Core.
 
 | Package | Purpose | PyPI Link |
 |---------|---------|-----------|
-| `sap-ai-core-datarobot` | DataRobot integration | https://pypi.org/project/sap-ai-core-datarobot/ |
-| `sap-computer-vision-package` | Image classification and feature extraction | https://pypi.org/project/sap-computer-vision-package/ |
+| `sap-ai-core-datarobot` | DataRobot integration | [https://pypi.org/project/sap-ai-core-datarobot/](https://pypi.org/project/sap-ai-core-datarobot/) |
+| `sap-computer-vision-package` | Image classification and feature extraction | [https://pypi.org/project/sap-computer-vision-package/](https://pypi.org/project/sap-computer-vision-package/) |
 
 ### Installation
 
@@ -644,10 +644,10 @@ pip install sap-computer-vision-package
 
 ## Documentation Links
 
-- Chat: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/chat-39321a9.md
-- Applications: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/application-7f1e35b.md
-- Prompt Templates: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-prompt-template-declarative-815def5.md
-- AI Content Security: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/ai-content-security-d1cd77f.md
-- Data Protection: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/data-protection-and-privacy-d25e4c9.md
-- Auditing: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/auditing-and-logging-information-e19844a.md
-- API Schema: https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md
+- Chat: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/chat-39321a9.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/chat-39321a9.md)
+- Applications: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/application-7f1e35b.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/application-7f1e35b.md)
+- Prompt Templates: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-prompt-template-declarative-815def5.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/create-a-prompt-template-declarative-815def5.md)
+- AI Content Security: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/ai-content-security-d1cd77f.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/ai-content-security-d1cd77f.md)
+- Data Protection: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/data-protection-and-privacy-d25e4c9.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/data-protection-and-privacy-d25e4c9.md)
+- Auditing: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/auditing-and-logging-information-e19844a.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/auditing-and-logging-information-e19844a.md)
+- API Schema: [https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md](https://github.com/SAP-docs/sap-artificial-intelligence/blob/main/docs/sap-ai-core/api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md)

@@ -2,7 +2,7 @@
 
 Complete reference for SAP BTP regions across all environments.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/10-concepts)
 
 ---
 
@@ -173,23 +173,23 @@ For contracts requiring data processing within EEA/Switzerland only:
 
 ### Global Cockpit
 
-- **Production**: https://cockpit.btp.cloud.sap
-- **China**: https://cockpit.cn40.platform.sapcloud.cn
+- **Production**: [https://cockpit.btp.cloud.sap](https://cockpit.btp.cloud.sap)
+- **China**: [https://cockpit.cn40.platform.sapcloud.cn](https://cockpit.cn40.platform.sapcloud.cn)
 
 ### Region-Specific Cockpits
 
 | Pattern | Example |
 |---------|---------|
-| Cloud Foundry | https://cockpit.cf.<region>.hana.ondemand.com |
-| Authentication | https://<subaccount>.authentication.<region>.hana.ondemand.com |
+| Cloud Foundry | [https://cockpit.cf.<region>.hana.ondemand.com](https://cockpit.cf.<region>.hana.ondemand.com) |
+| Authentication | [https://<subaccount>.authentication.<region>.hana.ondemand.com](https://<subaccount>.authentication.<region>.hana.ondemand.com) |
 
 ### CLI Endpoints
 
 | Tool | Endpoint Pattern |
 |------|------------------|
-| btp CLI | https://cpcli.cf.<region>.hana.ondemand.com |
-| CF CLI | https://api.cf.<region>.hana.ondemand.com |
-| UAA | https://uaa.cf.<region>.hana.ondemand.com |
+| btp CLI | [https://cpcli.cf.<region>.hana.ondemand.com](https://cpcli.cf.<region>.hana.ondemand.com) |
+| CF CLI | [https://api.cf.<region>.hana.ondemand.com](https://api.cf.<region>.hana.ondemand.com) |
+| UAA | [https://uaa.cf.<region>.hana.ondemand.com](https://uaa.cf.<region>.hana.ondemand.com) |
 
 ---
 
@@ -226,7 +226,7 @@ For on-premise connectivity:
 
 ## Related Documentation
 
-- CF Regions: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md
-- Kyma Regions: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-for-the-kyma-environment-557ec3a.md
-- ABAP Regions: https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-for-the-abap-environment-879f373.md
-- SAP Discovery Center: https://discovery-center.cloud.sap/
+- CF Regions: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md)
+- Kyma Regions: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-for-the-kyma-environment-557ec3a.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-for-the-kyma-environment-557ec3a.md)
+- ABAP Regions: [https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-for-the-abap-environment-879f373.md](https://github.com/SAP-docs/sap-btp-cloud-platform/blob/main/docs/10-concepts/regions-and-api-endpoints-for-the-abap-environment-879f373.md)
+- SAP Discovery Center: [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/)

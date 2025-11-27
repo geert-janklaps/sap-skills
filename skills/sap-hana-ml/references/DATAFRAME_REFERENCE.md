@@ -1,30 +1,39 @@
 # SAP HANA DataFrame Reference
 
 **Module**: `hana_ml.dataframe`
-**Documentation**: https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.dataframe.html
+**Documentation**: [https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.dataframe.html](https://help.sap.com/doc/1d0ebfe5e8dd44d09606814d83308d4b/2.0.07/en-US/hana_ml.dataframe.html)
 
 ## Table of Contents
 
 - [ConnectionContext](#connectioncontext)
   - [Constructor](#constructor)
-  - [Connection Management](#connection-management)
+  - [Connection Management Methods](#connection-management-methods)
   - [ABAP SQL Operations](#abap-sql-operations)
   - [Schema Operations](#schema-operations)
   - [Table Operations](#table-operations)
+  - [View Operations](#view-operations)
+  - [Procedure Operations](#procedure-operations)
+  - [Temporary Table Management](#temporary-table-management)
+  - [System Information](#system-information)
+  - [Data Operations](#data-operations)
+  - [Streaming Operations](#streaming-operations)
   - [SQL Execution](#sql-execution)
 - [DataFrame](#dataframe)
   - [Creating DataFrames](#creating-dataframes)
-  - [DataFrame Properties](#dataframe-properties)
-  - [Data Selection & Filtering](#data-selection--filtering)
-  - [Data Manipulation](#data-manipulation)
+  - [Properties](#properties)
+  - [Data Selection](#data-selection)
+  - [Filtering](#filtering)
+  - [Data Transformation](#data-transformation)
+  - [Sorting](#sorting)
   - [Aggregations](#aggregations)
-  - [Joins](#joins)
+  - [Join Operations](#join-operations)
   - [Set Operations](#set-operations)
-  - [Sorting & Ordering](#sorting--ordering)
-  - [Data Export](#data-export)
-  - [SQL Generation](#sql-generation)
-- [Temporary Tables](#temporary-tables)
-- [Performance Optimization](#performance-optimization)
+  - [Data Output](#data-output)
+  - [Feature Engineering](#feature-engineering)
+  - [Data Quality](#data-quality)
+  - [Utility Methods](#utility-methods)
+- [Utility Functions](#utility-functions)
+- [Lazy Evaluation](#lazy-evaluation)
 
 ---
 

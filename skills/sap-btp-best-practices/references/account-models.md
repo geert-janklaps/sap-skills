@@ -1,6 +1,6 @@
 # SAP BTP Account Models - Detailed Reference
 
-**Source**: https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/set-up-and-plan
+**Source**: [https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/set-up-and-plan](https://github.com/SAP-docs/btp-best-practices-guide/tree/main/docs/set-up-and-plan)
 
 ---
 
@@ -360,7 +360,7 @@ A SaaS application can only be used once within a subaccount. This necessitates:
 ---
 
 **Source Documentation**:
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-your-account-model-2db81f4.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/account-model-with-directories-and-subaccounts-b5a6b58.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/account-model-with-subaccounts-049d331.md
-- https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/naming-conventions-for-sap-btp-accounts-5302ea4.md
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-your-account-model-2db81f4.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/setting-up-your-account-model-2db81f4.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/account-model-with-directories-and-subaccounts-b5a6b58.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/account-model-with-directories-and-subaccounts-b5a6b58.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/account-model-with-subaccounts-049d331.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/account-model-with-subaccounts-049d331.md)
+- [https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/naming-conventions-for-sap-btp-accounts-5302ea4.md](https://github.com/SAP-docs/btp-best-practices-guide/blob/main/docs/set-up-and-plan/naming-conventions-for-sap-btp-accounts-5302ea4.md)

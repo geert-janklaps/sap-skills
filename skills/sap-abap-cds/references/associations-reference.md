@@ -2,7 +2,7 @@
 
 Complete reference for defining and using associations in ABAP CDS views.
 
-**Source**: https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-us/abencds_f1_association.htm
+**Source**: [https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-us/abencds_f1_association.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-us/abencds_f1_association.htm)
 
 ---
 
@@ -418,8 +418,8 @@ association [0..*] to Z_CATEGORY as _Children
 
 ## Documentation Links
 
-- **SAP Help - Associations**: https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-us/abencds_f1_association.htm
-- **SAP Community - Cardinality**: https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/cardinality-of-association-in-cds-view/ba-p/13351899
-- **New Cardinality Syntax**: https://community.sap.com/t5/application-development-and-automation-blog-posts/new-cardinality-syntax-for-performance-optimization-in-abap-cds-and-abap/ba-p/13554546
+- **SAP Help - Associations**: [https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-us/abencds_f1_association.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-us/abencds_f1_association.htm)
+- **SAP Community - Cardinality**: [https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/cardinality-of-association-in-cds-view/ba-p/13351899](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/cardinality-of-association-in-cds-view/ba-p/13351899)
+- **New Cardinality Syntax**: [https://community.sap.com/t5/application-development-and-automation-blog-posts/new-cardinality-syntax-for-performance-optimization-in-abap-cds-and-abap/ba-p/13554546](https://community.sap.com/t5/application-development-and-automation-blog-posts/new-cardinality-syntax-for-performance-optimization-in-abap-cds-and-abap/ba-p/13554546)
 
 **Last Updated**: 2025-11-23

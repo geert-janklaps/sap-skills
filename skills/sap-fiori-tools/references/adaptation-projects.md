@@ -464,7 +464,7 @@ Validates that adaptations align with released application state.
 
 ## Documentation Source
 
-**GitHub**: https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs
+**GitHub**: [https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs](https://github.com/SAP-docs/btp-fiori-tools/tree/main/docs)
 
 Key files:
 - `extending-an-existing-application-6e25aca.md`

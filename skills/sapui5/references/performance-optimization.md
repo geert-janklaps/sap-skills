@@ -1,7 +1,7 @@
 # SAPUI5 Performance Optimization
 
 **Source**: Official SAP SAPUI5 Documentation
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps)
 **Last Updated**: 2025-11-21
 
 ---
@@ -117,7 +117,7 @@ Load SAPUI5 from CDN for better performance:
 
 ```html
 <script
-    src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+    src="[https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"](https://sapui5.hana.ondemand.com/resources/sap-ui-core.js")
     data-sap-ui-async="true">
 </script>
 ```
@@ -586,12 +586,12 @@ Never use debug mode in production:
 
 **Development**:
 ```
-http://localhost:8080/index.html?sap-ui-debug=true
+[http://localhost:8080/index.html?sap-ui-debug=true](http://localhost:8080/index.html?sap-ui-debug=true)
 ```
 
 **Production** (don't do this):
 ```
-http://myapp.com/index.html?sap-ui-debug=true
+[http://myapp.com/index.html?sap-ui-debug=true](http://myapp.com/index.html?sap-ui-debug=true)
 ```
 
 **Why**: Debug mode loads individual source files instead of preloads.
@@ -775,19 +775,19 @@ sap.ui.define([
 **Measure Performance**:
 ```bash
 # Lighthouse audit
-lighthouse https://myapp.com --view
+lighthouse [https://myapp.com](https://myapp.com) --view
 
 # WebPageTest
-# Visit https://www.webpagetest.org/
+# Visit [https://www.webpagetest.org/](https://www.webpagetest.org/)
 ```
 
 ---
 
 ## Official Documentation
 
-- **Performance**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: performance)
-- **Best Practices**: https://sapui5.hana.ondemand.com/#/topic/408b40efed3c416681e1bd8cdd8910d4
-- **Performance Measurement**: https://sapui5.hana.ondemand.com/#/api/sap.ui.performance.Measurement
+- **Performance**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: performance)
+- **Best Practices**: [https://sapui5.hana.ondemand.com/#/topic/408b40efed3c416681e1bd8cdd8910d4](https://sapui5.hana.ondemand.com/#/topic/408b40efed3c416681e1bd8cdd8910d4)
+- **Performance Measurement**: [https://sapui5.hana.ondemand.com/#/api/sap.ui.performance.Measurement](https://sapui5.hana.ondemand.com/#/api/sap.ui.performance.Measurement)
 
 ---
 

@@ -600,4 +600,4 @@ Button_Submit.onClick = function() {
 - [Planning API](api-planning.md)
 - [Application API](api-application.md)
 
-**Official Reference**: https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html
+**Official Reference**: [https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html](https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/release/en-US/index.html)

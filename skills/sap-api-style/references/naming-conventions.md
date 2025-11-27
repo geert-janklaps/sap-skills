@@ -1,6 +1,6 @@
 # API Naming Conventions Reference
 
-**Source**: SAP API Style Guide v2021.01 | https://github.com/SAP-docs/api-style-guide
+**Source**: SAP API Style Guide v2021.01 | [https://github.com/SAP-docs/api-style-guide](https://github.com/SAP-docs/api-style-guide)
 
 **Last Updated**: 2025-11-21
 
@@ -2036,20 +2036,20 @@ module.exports = OrderService;
 ## Resources and References
 
 ### Official Standards
-- **SAP API Style Guide**: https://github.com/SAP-docs/api-style-guide
-- **OpenAPI Specification**: https://spec.openapis.org/oas/latest.html
-- **OData v4.01**: https://www.odata.org/documentation/
-- **Oracle Javadoc Guide**: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
-- **JSDoc 3**: https://jsdoc.app/
-- **Microsoft .NET Guidelines**: https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
-- **Google Java Style Guide**: https://google.github.io/styleguide/javaguide.html
-- **Airbnb JavaScript Style Guide**: https://github.com/airbnb/javascript
-- **C++ Guidelines**: https://isocpp.github.io/CppCoreGuidelines/
+- **SAP API Style Guide**: [https://github.com/SAP-docs/api-style-guide](https://github.com/SAP-docs/api-style-guide)
+- **OpenAPI Specification**: [https://spec.openapis.org/oas/latest.html](https://spec.openapis.org/oas/latest.html)
+- **OData v4.01**: [https://www.odata.org/documentation/](https://www.odata.org/documentation/)
+- **Oracle Javadoc Guide**: [https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
+- **JSDoc 3**: [https://jsdoc.app/](https://jsdoc.app/)
+- **Microsoft .NET Guidelines**: [https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
+- **Google Java Style Guide**: [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
+- **Airbnb JavaScript Style Guide**: [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
+- **C++ Guidelines**: [https://isocpp.github.io/CppCoreGuidelines/](https://isocpp.github.io/CppCoreGuidelines/)
 
 ### Related Documentation
-- **REST API Best Practices**: https://restfulapi.net/
-- **OData Best Practices**: https://www.odata.org/blog/
-- **Naming Conventions Survey**: https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html
+- **REST API Best Practices**: [https://restfulapi.net/](https://restfulapi.net/)
+- **OData Best Practices**: [https://www.odata.org/blog/](https://www.odata.org/blog/)
+- **Naming Conventions Survey**: [https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html)
 
 ---
 

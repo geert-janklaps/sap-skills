@@ -1,6 +1,6 @@
 # CDS Service Definitions - Complete Reference
 
-**Source**: https://cap.cloud.sap/docs/services
+**Source**: [https://cap.cloud.sap/docs/services](https://cap.cloud.sap/docs/services)
 
 ## Table of Contents
 - [Service Basics](#service-basics)
@@ -245,7 +245,7 @@ service ExternalAPI {
       "ExternalAPI": {
         "kind": "odata-v2",
         "credentials": {
-          "url": "https://api.example.com"
+          "url": "[https://api.example.com"](https://api.example.com")
         }
       }
     }
@@ -441,4 +441,4 @@ service PublicAPI @(protocol: 'rest', path: '/api/v1') {
 
 **Last Updated**: 2025-11-27
 **CAP Version**: 9.4.x
-**Documentation**: https://cap.cloud.sap/docs/services
+**Documentation**: [https://cap.cloud.sap/docs/services](https://cap.cloud.sap/docs/services)

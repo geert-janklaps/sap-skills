@@ -1,6 +1,6 @@
 # Data Privacy & Security Reference
 
-> Source: https://cap.cloud.sap/docs/guides/security/, https://cap.cloud.sap/docs/guides/data-privacy/
+> Source: [https://cap.cloud.sap/docs/guides/security/,](https://cap.cloud.sap/docs/guides/security/,) [https://cap.cloud.sap/docs/guides/data-privacy/](https://cap.cloud.sap/docs/guides/data-privacy/)
 
 ## Security Overview
 
@@ -372,7 +372,7 @@ const books = await SELECT.from(Books).where`author_ID = ${authorId}`
   "cds": {
     "server": {
       "cors": {
-        "origin": ["https://myapp.example.com"],
+        "origin": ["[https://myapp.example.com"],](https://myapp.example.com"],)
         "methods": ["GET", "POST", "PUT", "DELETE"],
         "credentials": true
       }

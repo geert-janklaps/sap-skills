@@ -2,7 +2,7 @@
 
 Complete guide for subscribing to and configuring Cloud Integration Automation Service.
 
-**Source**: https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs
+**Source**: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs](https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs)
 
 ---
 
@@ -320,8 +320,8 @@ Only platform Administrators can delete subscriptions.
 
 ## Documentation Links
 
-- Subscription Overview: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/subscription-to-cloud-integration-automation-service-b3a72d9.md
-- Standard Plan: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/subscription-to-standard-plan-c8ed936.md
-- OAuth2 Instance: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/create-instance-in-oauth2-service-plan-6187a7e.md
-- Role Assignment: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/assigning-roles-to-the-users-9ad530a.md
-- Destinations: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/destinations-496a763.md
+- Subscription Overview: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/subscription-to-cloud-integration-automation-service-b3a72d9.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/subscription-to-cloud-integration-automation-service-b3a72d9.md)
+- Standard Plan: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/subscription-to-standard-plan-c8ed936.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/subscription-to-standard-plan-c8ed936.md)
+- OAuth2 Instance: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/create-instance-in-oauth2-service-plan-6187a7e.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/create-instance-in-oauth2-service-plan-6187a7e.md)
+- Role Assignment: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/assigning-roles-to-the-users-9ad530a.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/assigning-roles-to-the-users-9ad530a.md)
+- Destinations: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/destinations-496a763.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/destinations-496a763.md)

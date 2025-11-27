@@ -2,7 +2,7 @@
 
 Development patterns and best practices for SAP BTP applications.
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/30-development
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/30-development](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/30-development)
 
 ---
 
@@ -197,7 +197,7 @@ cf deploy my-app.mtar --strategy blue-green
   "destinations": [
     {
       "name": "srv-api",
-      "url": "https://my-srv.cfapps.eu10.hana.ondemand.com",
+      "url": "[https://my-srv.cfapps.eu10.hana.ondemand.com",](https://my-srv.cfapps.eu10.hana.ondemand.com",)
       "forwardAuthToken": true
     }
   ]
@@ -487,6 +487,6 @@ cf push my-app-canary -f manifest-canary.yml
 
 ## Related Documentation
 
-- Development Guide: https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/30-development
-- CAP Documentation: https://cap.cloud.sap/docs/
-- MTA Guide: https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-applications
+- Development Guide: [https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/30-development](https://github.com/SAP-docs/sap-btp-cloud-platform/tree/main/docs/30-development)
+- CAP Documentation: [https://cap.cloud.sap/docs/](https://cap.cloud.sap/docs/)
+- MTA Guide: [https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-applications](https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-applications)

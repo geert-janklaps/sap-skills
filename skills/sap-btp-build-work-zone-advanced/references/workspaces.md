@@ -2,23 +2,22 @@
 
 Complete guide for creating and managing workspaces and workpages in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
 
 ## Table of Contents
 
 - [Workspaces Overview](#workspaces-overview)
 - [Workspace Features](#workspace-features)
-- [Workspace Types](#workspace-types)
-- [Workspace Creation](#workspace-creation)
-- [Workspace Configuration](#workspace-configuration)
+- [Workspace Roles](#workspace-roles)
+- [Navigation and Organization](#navigation-and-organization)
+- [Administrative Areas](#administrative-areas)
+- [Sub-Workspaces](#sub-workspaces)
+- [Creating Workspaces](#creating-workspaces)
 - [Workpages](#workpages)
-  - [Workpage Types](#workpage-types)
-  - [Workpage Layout](#workpage-layout)
-- [Widgets and Cards](#widgets-and-cards)
-- [Member Management](#member-management)
-- [Content Management](#content-management)
-- [Business Records](#business-records)
-- [Analytics and Reporting](#analytics-and-reporting)
+  - [Layout Structure](#layout-structure)
+  - [Workpage Editor](#workpage-editor)
+- [Workspace Settings](#workspace-settings)
+- [Business Records Integration](#business-records-integration)
 - [Best Practices](#best-practices)
 
 ---
@@ -291,5 +290,5 @@ External users may:
 ---
 
 **Documentation Links**:
-- Workspaces: https://help.sap.com/docs/build-work-zone-advanced-edition
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+- Workspaces: [https://help.sap.com/docs/build-work-zone-advanced-edition](https://help.sap.com/docs/build-work-zone-advanced-edition)
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)

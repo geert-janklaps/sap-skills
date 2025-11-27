@@ -326,7 +326,7 @@ git commit -m "Initial commit"
 ### Cloning Remote Repository
 
 ```bash
-git clone https://github.com/your-org/your-repo.git
+git clone [https://github.com/your-org/your-repo.git](https://github.com/your-org/your-repo.git)
 cd your-repo
 ```
 
@@ -382,12 +382,12 @@ Reusable graph fragments for common patterns.
 
 ## Documentation Links
 
-- **Monitoring**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/dataintelligence-monitoring
-- **Service-Specific**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/service-specific-information
-- **Scenario Templates**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-scenario-templates
-- **Data Types**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/creating-data-types
-- **Git Terminal**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-git-terminal
-- **Graph Snippets**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-graph-snippets
+- **Monitoring**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/dataintelligence-monitoring](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/dataintelligence-monitoring)
+- **Service-Specific**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/service-specific-information](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/service-specific-information)
+- **Scenario Templates**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-scenario-templates](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-scenario-templates)
+- **Data Types**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/creating-data-types](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/creating-data-types)
+- **Git Terminal**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-git-terminal](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-git-terminal)
+- **Graph Snippets**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-graph-snippets](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide/using-graph-snippets)
 
 ---
 

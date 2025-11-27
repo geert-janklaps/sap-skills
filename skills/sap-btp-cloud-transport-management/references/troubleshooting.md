@@ -1,6 +1,6 @@
 # SAP Cloud Transport Management - Troubleshooting Reference
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md)
 
 ---
 
@@ -82,7 +82,7 @@ cf space <my-space-name> --guid
 
 **URL Pattern**:
 ```
-https://deploy-service.cf.<domain>/slprot/<space-guid>/slp
+[https://deploy-service.cf.<domain>/slprot/<space-guid>/slp](https://deploy-service.cf.<domain>/slprot/<space-guid>/slp)
 ```
 
 **Exception**: Avoid GUID-based URLs in automated pipelines that frequently recreate spaces for testing.
@@ -306,6 +306,6 @@ Before contacting support:
 
 ### Documentation Links
 
-- Monitoring: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/monitoring-and-troubleshooting-c39411d.md
-- MTA Troubleshooting: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md
-- Transport Action Logs: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/transport-action-logs-86319ed.md
+- Monitoring: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/monitoring-and-troubleshooting-c39411d.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/monitoring-and-troubleshooting-c39411d.md)
+- MTA Troubleshooting: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/troubleshooting-issues-when-transporting-multitarget-applications-mtas-3f7a9bc.md)
+- Transport Action Logs: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/transport-action-logs-86319ed.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/transport-action-logs-86319ed.md)

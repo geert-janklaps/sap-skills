@@ -1,6 +1,6 @@
 # SAP Cloud Transport Management - Administration Reference
 
-**Source**: https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/50-administration
+**Source**: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/50-administration](https://github.com/SAP-docs/sap-btp-cloud-transport-management/tree/main/docs/50-administration)
 
 ---
 
@@ -45,7 +45,7 @@ Configure SAP Alert Notification Service for:
 
 ### API-Based Monitoring
 
-**API Endpoint**: https://api.sap.com/api/TMS_v2/overview
+**API Endpoint**: [https://api.sap.com/api/TMS_v2/overview](https://api.sap.com/api/TMS_v2/overview)
 
 Use for:
 - Custom monitoring scripts
@@ -349,8 +349,8 @@ Schedules auto-deactivated; requires manual reactivation.
 
 ## Documentation Links
 
-- Administration: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/administration-1fe3030.md
-- Storage Capacity: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/background-information-storage-capacity-e8d5187.md
-- Backup: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/configuring-backup-8d15541.md
-- Service Plan Update: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/updating-the-service-plan-1717e87.md
-- Data Export: https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/60-security/customer-data-export-11365bf.md
+- Administration: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/administration-1fe3030.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/administration-1fe3030.md)
+- Storage Capacity: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/background-information-storage-capacity-e8d5187.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/background-information-storage-capacity-e8d5187.md)
+- Backup: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/configuring-backup-8d15541.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/configuring-backup-8d15541.md)
+- Service Plan Update: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/updating-the-service-plan-1717e87.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/50-administration/updating-the-service-plan-1717e87.md)
+- Data Export: [https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/60-security/customer-data-export-11365bf.md](https://github.com/SAP-docs/sap-btp-cloud-transport-management/blob/main/docs/60-security/customer-data-export-11365bf.md)

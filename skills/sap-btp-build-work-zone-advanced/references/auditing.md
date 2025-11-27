@@ -2,7 +2,7 @@
 
 Complete guide for auditing and logging in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
 
 ---
 
@@ -172,5 +172,5 @@ Location: Administration Console → Compliance & Security → Audit Reports
 ---
 
 **Documentation Links**:
-- Auditing: https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/auditing-and-logging
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+- Auditing: [https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/auditing-and-logging](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/auditing-and-logging)
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)

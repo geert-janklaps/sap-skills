@@ -1,6 +1,6 @@
 # Operations Guide - SAP BTP Intelligent Situation Automation
 
-**Source**: https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs](https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs)
 **Last Verified**: 2025-11-22
 
 ---
@@ -168,7 +168,7 @@ Export all data stored by Intelligent Situation Automation.
 ### Export Endpoint
 
 ```
-https://<subdomain>.<region>.intelligent-situation-automation.cloud.sap/exportdata
+[https://<subdomain>.<region>.intelligent-situation-automation.cloud.sap/exportdata](https://<subdomain>.<region>.intelligent-situation-automation.cloud.sap/exportdata)
 ```
 
 ### URL Components
@@ -181,7 +181,7 @@ https://<subdomain>.<region>.intelligent-situation-automation.cloud.sap/exportda
 ### Example
 
 ```
-https://mycompany-dev.eu10.intelligent-situation-automation.cloud.sap/exportdata
+[https://mycompany-dev.eu10.intelligent-situation-automation.cloud.sap/exportdata](https://mycompany-dev.eu10.intelligent-situation-automation.cloud.sap/exportdata)
 ```
 
 ### Export Content
@@ -298,9 +298,9 @@ Discover relationships between situations.
 
 ## External Links
 
-- **Audit Log Viewer**: https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/
-- **Data Protection**: https://help.sap.com/docs/btp/sap-business-technology-platform/data-protection-and-privacy
-- **Business Rules**: https://help.sap.com/docs/business-rules
+- **Audit Log Viewer**: [https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/)
+- **Data Protection**: [https://help.sap.com/docs/btp/sap-business-technology-platform/data-protection-and-privacy](https://help.sap.com/docs/btp/sap-business-technology-platform/data-protection-and-privacy)
+- **Business Rules**: [https://help.sap.com/docs/business-rules](https://help.sap.com/docs/business-rules)
 
 ---
 

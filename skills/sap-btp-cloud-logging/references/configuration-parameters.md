@@ -1,6 +1,6 @@
 # SAP Cloud Logging - Configuration Parameters Reference
 
-**Source:** https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/configuration-parameters-1830bca.md
+**Source:** [https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/configuration-parameters-1830bca.md](https://github.com/SAP-docs/btp-cloud-logging/blob/main/docs/configuration-parameters-1830bca.md)
 **Last Updated:** 2025-11-22
 
 ---
@@ -197,8 +197,8 @@ Configures SAML 2.0 authentication for OpenSearch Dashboards.
     "admin_group": "CLS-Admins",
     "roles_key": "groups",
     "idp": {
-      "metadata_url": "https://mytenant.accounts.ondemand.com/saml2/metadata",
-      "entity_id": "https://mytenant.accounts.ondemand.com"
+      "metadata_url": "[https://mytenant.accounts.ondemand.com/saml2/metadata",](https://mytenant.accounts.ondemand.com/saml2/metadata",)
+      "entity_id": "[https://mytenant.accounts.ondemand.com"](https://mytenant.accounts.ondemand.com")
     },
     "sp": {
       "entity_id": "cloud-logging-abc123",
@@ -239,8 +239,8 @@ Configures SAML 2.0 authentication for OpenSearch Dashboards.
     "admin_group": "CLS-Administrators",
     "roles_key": "groups",
     "idp": {
-      "metadata_url": "https://<tenant>.accounts.ondemand.com/saml2/metadata",
-      "entity_id": "https://<tenant>.accounts.ondemand.com"
+      "metadata_url": "[https://<tenant>.accounts.ondemand.com/saml2/metadata",](https://<tenant>.accounts.ondemand.com/saml2/metadata",)
+      "entity_id": "[https://<tenant>.accounts.ondemand.com"](https://<tenant>.accounts.ondemand.com")
     },
     "sp": {
       "entity_id": "cloud-logging-<unique-id>",
@@ -265,6 +265,6 @@ Configures SAML 2.0 authentication for OpenSearch Dashboards.
 
 ## Documentation Links
 
-- **Source:** https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/configuration-parameters-1830bca.md
-- **SAP Help Portal:** https://help.sap.com/docs/cloud-logging
-- **Discovery Center (Pricing):** https://discovery-center.cloud.sap/serviceCatalog/cloud-logging
+- **Source:** [https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/configuration-parameters-1830bca.md](https://raw.githubusercontent.com/SAP-docs/btp-cloud-logging/main/docs/configuration-parameters-1830bca.md)
+- **SAP Help Portal:** [https://help.sap.com/docs/cloud-logging](https://help.sap.com/docs/cloud-logging)
+- **Discovery Center (Pricing):** [https://discovery-center.cloud.sap/serviceCatalog/cloud-logging](https://discovery-center.cloud.sap/serviceCatalog/cloud-logging)

@@ -1,7 +1,7 @@
 # Migration & Integration Assessment - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite)
 **Last Updated**: 2025-11-22
 
 ---
@@ -61,7 +61,7 @@ Migration Assessment evaluates the complexity and effort required to migrate int
 6. Plan Migration
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-assessment-164b835.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-assessment-164b835.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-assessment-164b835.md)
 
 ---
 
@@ -91,7 +91,7 @@ Migration Tooling is a pattern-based feature that converts PO/PI integration obj
 | Pipeline | Step-by-step migration | Complex scenarios |
 | Modular | Component-based migration | Large interfaces |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-tooling-1a3bfbc.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-tooling-1a3bfbc.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-tooling-1a3bfbc.md)
 
 ---
 
@@ -128,7 +128,7 @@ Migration Tooling is a pattern-based feature that converts PO/PI integration obj
 - Certain PI-specific features not available
 - BPM processes require redesign
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/supported-components-46b27d1.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/supported-components-46b27d1.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/supported-components-46b27d1.md)
 
 ---
 
@@ -185,7 +185,7 @@ Break down large interfaces:
 4. **Test each module**
 5. **Integrate modules**
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/migration-patterns-40c080f.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/migration-patterns-40c080f.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/migration-patterns-40c080f.md)
 
 ---
 
@@ -214,7 +214,7 @@ Integration Assessment helps assess your integration strategy and determine suit
 5. Receive Recommendations
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-integration-assessment-eeee253.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-integration-assessment-eeee253.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-integration-assessment-eeee253.md)
 
 ---
 
@@ -263,7 +263,7 @@ Organize by business area:
 | Cloud2Cloud | Cloud to Cloud |
 | Cloud2OnPrem | Cloud to On-Premise |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/sap-integration-solution-advisory-methodology-a2e17f3.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/sap-integration-solution-advisory-methodology-a2e17f3.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/sap-integration-solution-advisory-methodology-a2e17f3.md)
 
 ---
 
@@ -295,7 +295,7 @@ Questionnaires guide technology selection decisions.
 - Are there regulatory compliance requirements?
 - Does this involve B2B partners?
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/questionnaires-da3f7d8.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/questionnaires-da3f7d8.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/questionnaires-da3f7d8.md)
 
 ---
 
@@ -337,7 +337,7 @@ Rationale:
 - Monitoring included ✓
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/technology-mapping-a50d8d6.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/technology-mapping-a50d8d6.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/technology-mapping-a50d8d6.md)
 
 ---
 
@@ -382,15 +382,15 @@ Rationale:
 | **MIG** | Message Implementation Guideline |
 | **MAG** | Mapping Guideline |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-integration-assessment-5c29e9b.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-integration-assessment-5c29e9b.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/glossary-for-integration-assessment-5c29e9b.md)
 
 ---
 
 ## Related Documentation
 
-- **Migration Assessment**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-assessment-164b835.md
-- **Migration Tooling**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-tooling-1a3bfbc.md
-- **Integration Assessment**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-integration-assessment-eeee253.md
-- **ISA-M**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/sap-integration-solution-advisory-methodology-a2e17f3.md
-- **Supported Components**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/supported-components-46b27d1.md
-- **Migration Patterns**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/migration-patterns-40c080f.md
+- **Migration Assessment**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-assessment-164b835.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-assessment-164b835.md)
+- **Migration Tooling**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-tooling-1a3bfbc.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-migration-tooling-1a3bfbc.md)
+- **Integration Assessment**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-integration-assessment-eeee253.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-integration-assessment-eeee253.md)
+- **ISA-M**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/sap-integration-solution-advisory-methodology-a2e17f3.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/sap-integration-solution-advisory-methodology-a2e17f3.md)
+- **Supported Components**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/supported-components-46b27d1.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/supported-components-46b27d1.md)
+- **Migration Patterns**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/migration-patterns-40c080f.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/migration-patterns-40c080f.md)

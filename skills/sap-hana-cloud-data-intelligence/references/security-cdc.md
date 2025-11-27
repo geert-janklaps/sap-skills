@@ -278,9 +278,9 @@ CDC performance depends on:
 
 ## Documentation Links
 
-- **Security and Data Protection**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/security-and-data-protection-39d8ba5.md
-- **Change Data Capture**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/changing-data-capture-cdc-023c75a.md
-- **Operator Metrics**: https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/operator-metrics-994bc11.md
+- **Security and Data Protection**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/security-and-data-protection-39d8ba5.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/security-and-data-protection-39d8ba5.md)
+- **Change Data Capture**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/changing-data-capture-cdc-023c75a.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/changing-data-capture-cdc-023c75a.md)
+- **Operator Metrics**: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/operator-metrics-994bc11.md](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/blob/main/docs/modelingguide/operator-metrics-994bc11.md)
 
 ---
 

@@ -2,22 +2,31 @@
 
 Complete guide for using and configuring widgets in SAP Build Work Zone, advanced edition.
 
-**Source**: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+**Source**: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Widget Management](#widget-management)
   - [Adding Widgets](#adding-widgets)
-  - [Widget Configuration](#widget-configuration)
-  - [Widget Layout](#widget-layout)
-- [Widget Types](#widget-types)
-  - [Content Widgets](#content-widgets)
+  - [Widget Operations](#widget-operations)
+- [Standard Widget Types](#standard-widget-types)
+  - [Content Display Widgets](#content-display-widgets)
   - [Interactive Widgets](#interactive-widgets)
-  - [Integration Widgets](#integration-widgets)
+- [Additional Widgets](#additional-widgets)
+- [Widget Styling](#widget-styling)
+  - [Style Options](#style-options)
+  - [Image Widget Sizes](#image-widget-sizes)
+- [Widget Limitations](#widget-limitations)
+- [Widget Configuration](#widget-configuration)
+  - [Common Settings](#common-settings)
+  - [Widget-Specific Settings](#widget-specific-settings)
 - [Custom Widgets](#custom-widgets)
+  - [Widget Builder](#widget-builder)
+  - [Custom Widget Use Cases](#custom-widget-use-cases)
 - [Best Practices](#best-practices)
-- [Troubleshooting](#troubleshooting)
+  - [Widget Selection](#widget-selection)
+  - [Widget Organization](#widget-organization)
 
 ---
 
@@ -209,5 +218,5 @@ Administrators can create custom HTML widgets:
 ---
 
 **Documentation Links**:
-- Widgets: https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/about-widgets
-- GitHub: https://github.com/SAP-docs/sap-btp-build-work-zone-advanced
+- Widgets: [https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/about-widgets](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/about-widgets)
+- GitHub: [https://github.com/SAP-docs/sap-btp-build-work-zone-advanced](https://github.com/SAP-docs/sap-btp-build-work-zone-advanced)

@@ -1,6 +1,6 @@
 # Onboarding Guide - SAP BTP Intelligent Situation Automation
 
-**Source**: https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs](https://github.com/SAP-docs/sap-btp-intelligent-situation-automation/tree/main/docs)
 **Last Verified**: 2025-11-22
 
 ---
@@ -86,8 +86,8 @@ Expose and activate these APIs:
 
 | ✅ Correct | ❌ Incorrect |
 |-----------|-------------|
-| `https://my-s4hana.company.com` | `https://my-s4hana.company.com/sap/opu/odata/` |
-| `https://my-s4hana.s4hana.ondemand.com` | `https://my-s4hana.company.com/api/v1` |
+| `[https://my-s4hana.company.com`](https://my-s4hana.company.com`) | `[https://my-s4hana.company.com/sap/opu/odata/`](https://my-s4hana.company.com/sap/opu/odata/`) |
+| `[https://my-s4hana.s4hana.ondemand.com`](https://my-s4hana.s4hana.ondemand.com`) | `[https://my-s4hana.company.com/api/v1`](https://my-s4hana.company.com/api/v1`) |
 
 ### Subaccount Constraints
 
@@ -267,8 +267,8 @@ S/4HANA                    Event Mesh                BTP (ISA)
 For a complete list of SAP documentation links and document IDs, see `references/external-links.md`.
 
 Key resources:
-- **Cloud Connector**: https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf
-- **Event Mesh**: https://help.sap.com/docs/SAP_EM
+- **Cloud Connector**: [https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf)
+- **Event Mesh**: [https://help.sap.com/docs/SAP_EM](https://help.sap.com/docs/SAP_EM)
 
 ---
 

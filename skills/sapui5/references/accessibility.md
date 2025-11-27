@@ -1,7 +1,7 @@
 # SAPUI5 Accessibility Guide
 
 **Source**: Official SAP SAPUI5 Documentation
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps)
 **Last Updated**: 2025-11-21
 
 ---
@@ -18,7 +18,7 @@ Accessibility in SAPUI5 ensures applications are usable by everyone, including p
 3. **Understandable**: Information and operation must be understandable
 4. **Robust**: Content must be robust enough to work with assistive technologies
 
-**Documentation**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: accessibility)
+**Documentation**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: accessibility)
 
 ---
 
@@ -496,7 +496,7 @@ sap.ui.getCore().applyTheme("sap_horizon_hcb");
 
 **In URL**:
 ```
-http://myapp.com/index.html?sap-ui-theme=sap_horizon_hcb
+[http://myapp.com/index.html?sap-ui-theme=sap_horizon_hcb](http://myapp.com/index.html?sap-ui-theme=sap_horizon_hcb)
 ```
 
 ### CSS Considerations
@@ -712,11 +712,11 @@ oInvisibleMessage.announce("Loading complete", "Polite");
 
 ## Official Documentation
 
-- **Accessibility**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: accessibility)
-- **Screen Reader Support**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: screen-reader)
-- **Keyboard Handling**: https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps (search: keyboard)
-- **ARIA**: https://www.w3.org/WAI/ARIA/
-- **WCAG 2.1**: https://www.w3.org/WAI/WCAG21/quickref/
+- **Accessibility**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: accessibility)
+- **Screen Reader Support**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: screen-reader)
+- **Keyboard Handling**: [https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps](https://github.com/SAP-docs/sapui5/tree/main/docs/05_Developing_Apps) (search: keyboard)
+- **ARIA**: [https://www.w3.org/WAI/ARIA/](https://www.w3.org/WAI/ARIA/)
+- **WCAG 2.1**: [https://www.w3.org/WAI/WCAG21/quickref/](https://www.w3.org/WAI/WCAG21/quickref/)
 
 ---
 

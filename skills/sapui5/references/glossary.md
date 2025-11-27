@@ -1,6 +1,6 @@
 # SAPUI5 Glossary
 
-**Source**: https://github.com/SAP-docs/sapui5/blob/main/docs/glossary-9ef211e.md
+**Source**: [https://github.com/SAP-docs/sapui5/blob/main/docs/glossary-9ef211e.md](https://github.com/SAP-docs/sapui5/blob/main/docs/glossary-9ef211e.md)
 **Last Updated**: 2025-11-21
 
 ---
@@ -125,7 +125,7 @@
 
 **Diagnostics**: Available window in SAPUI5 applications accessed via [Ctrl]+[Shift]+[Alt]/[Option][S]. Shows technical information, debug options, and support tools.
 
-**Demo Kit**: "SAPUI5 software development kit providing documentation, API reference, samples, and demo apps." Available at https://sapui5.hana.ondemand.com/
+**Demo Kit**: "SAPUI5 software development kit providing documentation, API reference, samples, and demo apps." Available at [https://sapui5.hana.ondemand.com/](https://sapui5.hana.ondemand.com/)
 
 ---
 

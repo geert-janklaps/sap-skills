@@ -1,6 +1,6 @@
 # SAP BTP Job Scheduling Service - Integration Guide
 
-**Source**: https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs
+**Source**: [https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs](https://github.com/SAP-docs/sap-btp-job-scheduling-service/tree/main/docs)
 **Last Updated**: 2025-11-22
 
 ---
@@ -68,7 +68,7 @@ POST /scheduler/jobs
 {
   "name": "monitoredJob",
   "description": "Job with Cloud ALM monitoring",
-  "action": "https://myapp.../api/process",
+  "action": "[https://myapp.../api/process",](https://myapp.../api/process",)
   "active": true,
   "httpMethod": "POST",
   "calmConfig": {
@@ -199,7 +199,7 @@ POST /scheduler/jobs
 {
   "name": "alertedJob",
   "description": "Job with alert notifications",
-  "action": "https://myapp.../api/process",
+  "action": "[https://myapp.../api/process",](https://myapp.../api/process",)
   "active": true,
   "httpMethod": "POST",
   "ansConfig": {
@@ -299,10 +299,10 @@ PUT /scheduler/jobs/{jobId}
 ## External References
 
 ### SAP Documentation
-- **Integration Scenarios**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/integration-scenarios
-- **SAP Cloud ALM Integration**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/integration-with-sap-cloud-alm
-- **Alert Notification Integration**: https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/integration-with-sap-alert-notification-service-for-sap-btp
-- **SAP Cloud ALM Job Monitoring**: https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring/job-automation-monitoring-details.html
+- **Integration Scenarios**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/integration-scenarios](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/integration-scenarios)
+- **SAP Cloud ALM Integration**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/integration-with-sap-cloud-alm](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/integration-with-sap-cloud-alm)
+- **Alert Notification Integration**: [https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/integration-with-sap-alert-notification-service-for-sap-btp](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/integration-with-sap-alert-notification-service-for-sap-btp)
+- **SAP Cloud ALM Job Monitoring**: [https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring/job-automation-monitoring-details.html](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/job-monitoring/job-automation-monitoring-details.html)
 
 ### Source Files
 - `integration-scenarios-faeec3a.md`

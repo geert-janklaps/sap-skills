@@ -1,6 +1,6 @@
 # SAP HANA CLI - Connection & Security Guide
 
-**Source**: https://github.com/SAP-samples/hana-developer-cli-tool-example
+**Source**: [https://github.com/SAP-samples/hana-developer-cli-tool-example](https://github.com/SAP-samples/hana-developer-cli-tool-example)
 
 ---
 
@@ -40,7 +40,7 @@ Most secure option for cloud credentials. Uses CAP binding.
       "kind": "hana",
       "binding": {
         "type": "cf",
-        "apiEndpoint": "https://api.cf.eu10.hana.ondemand.com",
+        "apiEndpoint": "[https://api.cf.eu10.hana.ondemand.com",](https://api.cf.eu10.hana.ondemand.com",)
         "org": "my-org",
         "space": "dev",
         "instance": "my-hana-hdi"
@@ -309,4 +309,4 @@ hana-cli tables --profile prod
 
 ---
 
-*Reference: https://github.com/SAP-samples/hana-developer-cli-tool-example*
+*Reference: [https://github.com/SAP-samples/hana-developer-cli-tool-example*](https://github.com/SAP-samples/hana-developer-cli-tool-example*)

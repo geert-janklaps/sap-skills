@@ -1,6 +1,6 @@
 # UI5 CLI Commands Complete Reference
 
-**Official Documentation**: https://ui5.github.io/cli/stable/pages/CLI/
+**Official Documentation**: [https://ui5.github.io/cli/stable/pages/CLI/](https://ui5.github.io/cli/stable/pages/CLI/)
 
 This reference provides comprehensive details for all UI5 CLI commands, options, and usage patterns.
 
@@ -259,8 +259,8 @@ ui5 serve --verbose
 ```
 
 **Server URLs**:
-- HTTP: `http://localhost:8080` (or custom port)
-- HTTPS: `https://localhost:8443` (when using --h2)
+- HTTP: `[http://localhost:8080`](http://localhost:8080`) (or custom port)
+- HTTPS: `[https://localhost:8443`](https://localhost:8443`) (when using --h2)
 
 **SSL Certificates**:
 When using `--h2`, UI5 CLI automatically generates self-signed SSL certificates stored in `~/.ui5/server/`. You may need to trust these certificates in your browser.
@@ -560,4 +560,4 @@ UI5_CLI_NO_LOCAL=X ui5 <command>
 ---
 
 **Last Updated**: 2025-11-21 (UI5 CLI v4.0.0)
-**Official Docs**: https://ui5.github.io/cli/stable/pages/CLI/
+**Official Docs**: [https://ui5.github.io/cli/stable/pages/CLI/](https://ui5.github.io/cli/stable/pages/CLI/)

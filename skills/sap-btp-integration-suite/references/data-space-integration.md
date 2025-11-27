@@ -1,7 +1,7 @@
 # Data Space Integration - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/ISuite)
 **Last Updated**: 2025-11-22
 
 ---
@@ -40,7 +40,7 @@ Data Space Integration enables secure, sovereign data exchange between data spac
 | Compliance | Policy-enforced access |
 | Auditability | Full transaction logging |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-data-space-integration-4edeee5.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-data-space-integration-4edeee5.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-data-space-integration-4edeee5.md)
 
 ---
 
@@ -84,7 +84,7 @@ Data spaces typically organize around:
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/concepts-in-data-space-integration-fcf96b2.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/concepts-in-data-space-integration-fcf96b2.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/concepts-in-data-space-integration-fcf96b2.md)
 
 ---
 
@@ -211,12 +211,12 @@ Data Space Integration is built on Eclipse Dataspace Connector (EDC), an open-so
   },
   "dataAddress": {
     "type": "HttpData",
-    "baseUrl": "https://api.example.com/products"
+    "baseUrl": "[https://api.example.com/products"](https://api.example.com/products")
   }
 }
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-data-space-assets-5c0cdb8.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-data-space-assets-5c0cdb8.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-data-space-assets-5c0cdb8.md)
 
 ---
 
@@ -262,8 +262,8 @@ Endpoint Data Reference (EDR) provides secure access to assets:
 - Automatic refresh
 
 **Documentation**:
-- HTTP Assets: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-http-assets-735300c.md
-- S3/Azure Assets: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-s3-and-azure-assets-4afdf5c.md
+- HTTP Assets: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-http-assets-735300c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-http-assets-735300c.md)
+- S3/Azure Assets: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-s3-and-azure-assets-4afdf5c.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-s3-and-azure-assets-4afdf5c.md)
 
 ---
 
@@ -332,7 +332,7 @@ POST /api/v1/negotiations
 GET /api/v1/edr/{agreementId}
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/using-apis-to-work-with-data-space-integration-411fd1e.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/using-apis-to-work-with-data-space-integration-411fd1e.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/using-apis-to-work-with-data-space-integration-411fd1e.md)
 
 ---
 
@@ -400,14 +400,14 @@ Track data space activities:
 | Access denied | Review contract terms |
 | Invalid EDR | Request new EDR token |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-data-space-integration-166fa88.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-data-space-integration-166fa88.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-data-space-integration-166fa88.md)
 
 ---
 
 ## Related Documentation
 
-- **Overview**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-data-space-integration-4edeee5.md
-- **Concepts**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/concepts-in-data-space-integration-fcf96b2.md
-- **Consuming Assets**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-data-space-assets-5c0cdb8.md
-- **APIs**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/using-apis-to-work-with-data-space-integration-411fd1e.md
-- **Troubleshooting**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-data-space-integration-166fa88.md
+- **Overview**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-data-space-integration-4edeee5.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/what-is-data-space-integration-4edeee5.md)
+- **Concepts**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/concepts-in-data-space-integration-fcf96b2.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/concepts-in-data-space-integration-fcf96b2.md)
+- **Consuming Assets**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-data-space-assets-5c0cdb8.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/consuming-data-space-assets-5c0cdb8.md)
+- **APIs**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/using-apis-to-work-with-data-space-integration-411fd1e.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/using-apis-to-work-with-data-space-integration-411fd1e.md)
+- **Troubleshooting**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-data-space-integration-166fa88.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/troubleshooting-for-data-space-integration-166fa88.md)

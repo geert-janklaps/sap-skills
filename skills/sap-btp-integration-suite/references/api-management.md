@@ -1,7 +1,7 @@
 # API Management - Comprehensive Reference
 
 **Source**: SAP BTP Integration Suite Documentation
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/apim/API-Management
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/apim/API-Management](https://github.com/SAP-docs/sap-btp-integration-suite/tree/main/docs/apim/API-Management)
 **Last Updated**: 2025-11-22
 
 ---
@@ -36,7 +36,7 @@ API Management provides complete API lifecycle management including:
 | Developer Hub | Developer portal |
 | Analytics | Usage insights |
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/what-is-api-management-0aef763.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/what-is-api-management-0aef763.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/what-is-api-management-0aef763.md)
 
 ---
 
@@ -89,7 +89,7 @@ Connects to backend services.
 - Health monitoring
 - Connection settings
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-proxy-structure-4dfd54a.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-proxy-structure-4dfd54a.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-proxy-structure-4dfd54a.md)
 
 ---
 
@@ -117,7 +117,7 @@ Connects to backend services.
    - Expose iFlow endpoints as APIs
    - Apply API policies to integration flows
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/different-methods-of-creating-an-api-proxy-4ac0431.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/different-methods-of-creating-an-api-proxy-4ac0431.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/different-methods-of-creating-an-api-proxy-4ac0431.md)
 
 ### API Versioning
 
@@ -126,7 +126,7 @@ Connects to backend services.
 - Header versioning: `X-API-Version: 1`
 - Query parameter: `?version=1`
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-versioning-b3cda3b.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-versioning-b3cda3b.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-versioning-b3cda3b.md)
 
 ### API Revisions
 
@@ -135,7 +135,7 @@ Create non-destructive updates:
 - Deploy specific revisions
 - Rollback to previous versions
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-revisions-58097ac.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-revisions-58097ac.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-revisions-58097ac.md)
 
 ---
 
@@ -193,7 +193,7 @@ Validate SAML tokens for SSO scenarios.
 #### Access Control
 IP-based access restrictions.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/verify-api-key-4d15a04.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/verify-api-key-4d15a04.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/verify-api-key-4d15a04.md)
 
 ### Traffic Management Policies
 
@@ -238,7 +238,7 @@ Cache backend responses.
 </ResponseCache>
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/quota-1f742c1.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/quota-1f742c1.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/quota-1f742c1.md)
 
 ### Mediation Policies
 
@@ -273,7 +273,7 @@ Format conversion.
 #### XSL Transform
 Apply XSLT transformations.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/assign-message-523efe6.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/assign-message-523efe6.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/assign-message-523efe6.md)
 
 ### Extension Policies
 
@@ -293,7 +293,7 @@ Call external services.
 ```xml
 <ServiceCallout name="CallService">
   <HTTPTargetConnection>
-    <URL>https://service.example.com</URL>
+    <URL>[https://service.example.com</URL>](https://service.example.com</URL>)
   </HTTPTargetConnection>
 </ServiceCallout>
 ```
@@ -316,7 +316,7 @@ Prevent XML bombs and malformed XML.
 #### Regular Expression Protection
 Block injection attacks.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/json-threat-protection-952cbd7.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/json-threat-protection-952cbd7.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/json-threat-protection-952cbd7.md)
 
 ### Fault Handling
 
@@ -344,7 +344,7 @@ Log to external systems.
 #### Statistics Collector
 Collect custom metrics.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/policy-types-c918e28.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/policy-types-c918e28.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/policy-types-c918e28.md)
 
 ---
 
@@ -379,7 +379,7 @@ Developer registrations for API access.
 4. Receives API key/credentials
 5. Accesses APIs
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/developer-hub-41f7c45.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/developer-hub-41f7c45.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/developer-hub-41f7c45.md)
 
 ---
 
@@ -401,7 +401,7 @@ Create custom analytics with:
 ### Statistics Collector Policy
 Capture custom metrics in API flows.
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-analytics-6766dc3.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-analytics-6766dc3.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-analytics-6766dc3.md)
 
 ---
 
@@ -462,13 +462,13 @@ error.message
 error.status.code
 ```
 
-**Documentation**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/variable-references-4f8993f.md
+**Documentation**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/variable-references-4f8993f.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/variable-references-4f8993f.md)
 
 ---
 
 ## Related Documentation
 
-- **Policies Guide**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/policies-7e4f3e5.md
-- **Policy Types**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/policy-types-c918e28.md
-- **API Proxy**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-proxy-8962643.md
-- **Developer Hub**: https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/developer-hub-41f7c45.md
+- **Policies Guide**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/policies-7e4f3e5.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/policies-7e4f3e5.md)
+- **Policy Types**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/policy-types-c918e28.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/policy-types-c918e28.md)
+- **API Proxy**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-proxy-8962643.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/apim/API-Management/api-proxy-8962643.md)
+- **Developer Hub**: [https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/developer-hub-41f7c45.md](https://github.com/SAP-docs/sap-btp-integration-suite/blob/main/docs/ISuite/developer-hub-41f7c45.md)

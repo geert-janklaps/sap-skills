@@ -2,10 +2,10 @@
 
 **Date**: 2025-10-20
 **Verified Against**:
-- https://docs.claude.com/en/docs/claude-code/skills
-- https://docs.claude.com/en/docs/claude-code/sub-agents
-- https://docs.claude.com/en/docs/claude-code/plugins
-- https://docs.claude.com/en/docs/claude-code/hooks-guide
+- [https://docs.claude.com/en/docs/claude-code/skills](https://docs.claude.com/en/docs/claude-code/skills)
+- [https://docs.claude.com/en/docs/claude-code/sub-agents](https://docs.claude.com/en/docs/claude-code/sub-agents)
+- [https://docs.claude.com/en/docs/claude-code/plugins](https://docs.claude.com/en/docs/claude-code/plugins)
+- [https://docs.claude.com/en/docs/claude-code/hooks-guide](https://docs.claude.com/en/docs/claude-code/hooks-guide)
 
 ---
 

@@ -1,6 +1,6 @@
 # SAP Fiori Integration Complete Reference
 
-**Source**: https://cap.cloud.sap/docs/advanced/fiori
+**Source**: [https://cap.cloud.sap/docs/advanced/fiori](https://cap.cloud.sap/docs/advanced/fiori)
 
 ## Project Structure
 
@@ -453,7 +453,7 @@ annotate AdminService.OrderItems with @Common.SideEffects: {
 ```
 
 ### Access Preview
-Navigate to: `http://localhost:4004/$fiori-preview/CatalogService/Books#preview-app`
+Navigate to: `[http://localhost:4004/$fiori-preview/CatalogService/Books#preview-app`](http://localhost:4004/$fiori-preview/CatalogService/Books#preview-app`)
 
 ## Separation of Concerns
 

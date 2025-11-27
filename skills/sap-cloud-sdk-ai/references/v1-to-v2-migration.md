@@ -430,5 +430,5 @@ import {
 
 ## Documentation Links
 
-- Upgrade Guide: https://github.com/SAP/ai-sdk/blob/main/docs-js/upgrade-guide.mdx
-- Release Notes: https://github.com/SAP/ai-sdk/blob/main/docs-js/release-notes.mdx
+- Upgrade Guide: [https://github.com/SAP/ai-sdk/blob/main/docs-js/upgrade-guide.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-js/upgrade-guide.mdx)
+- Release Notes: [https://github.com/SAP/ai-sdk/blob/main/docs-js/release-notes.mdx](https://github.com/SAP/ai-sdk/blob/main/docs-js/release-notes.mdx)

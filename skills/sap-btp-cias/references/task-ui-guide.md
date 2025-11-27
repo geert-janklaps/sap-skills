@@ -2,7 +2,7 @@
 
 Complete reference for working with tasks in Cloud Integration Automation Service My Inbox and Monitoring applications.
 
-**Source**: https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs
+**Source**: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs](https://github.com/SAP-docs/btp-cloud-integration-automation-service/tree/main/docs)
 
 ---
 
@@ -16,24 +16,13 @@ Complete reference for working with tasks in Cloud Integration Automation Servic
    - Task List
    - Task Details
    - Task Actions
-3. [Task Execution Workflow](#task-execution-workflow)
-   - Claim Tasks
-   - Execute Task Steps
-   - Complete Tasks
-4. [Automation Task Controls](#automation-task-controls)
-   - Parameter Configuration
-   - Execution Controls
-   - Log Viewing
-5. [Scenario Execution Monitoring](#scenario-execution-monitoring)
+3. [Task Workflow Process](#task-workflow-process)
+   - Standard Workflow
+   - Automation Workflow
+4. [Scenario Execution Monitoring](#scenario-execution-monitoring)
    - Workflow Status
    - Task Progress
    - Termination Options
-6. [Task Tabs Overview](#task-tabs-overview)
-   - Task Instructions
-   - Parameters
-   - Logs
-   - Support Information
-7. [Common Task Patterns](#common-task-patterns)
 
 ---
 
@@ -416,11 +405,11 @@ Only users with Admin role can view and complete.
 
 ## Documentation Links
 
-- Working with Tasks: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/working-with-tasks-3da3577.md
-- Task Details: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/task-9ec0684.md
-- My Inbox: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/my-inbox-7f7860d.md
-- Monitoring: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/monitoring-scenario-implementation-f8daffa.md
-- Disclaimer: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/disclaimer-7823b84.md
-- Confirm System Components: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/confirm-system-components-1f39555.md
-- Execution Scope: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/selecting-execution-scope-444db93.md
-- Summary: https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/summary-71f9a64.md
+- Working with Tasks: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/working-with-tasks-3da3577.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/working-with-tasks-3da3577.md)
+- Task Details: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/task-9ec0684.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/task-9ec0684.md)
+- My Inbox: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/my-inbox-7f7860d.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/my-inbox-7f7860d.md)
+- Monitoring: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/monitoring-scenario-implementation-f8daffa.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/monitoring-scenario-implementation-f8daffa.md)
+- Disclaimer: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/disclaimer-7823b84.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/disclaimer-7823b84.md)
+- Confirm System Components: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/confirm-system-components-1f39555.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/confirm-system-components-1f39555.md)
+- Execution Scope: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/selecting-execution-scope-444db93.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/selecting-execution-scope-444db93.md)
+- Summary: [https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/summary-71f9a64.md](https://github.com/SAP-docs/btp-cloud-integration-automation-service/blob/main/docs/summary-71f9a64.md)
