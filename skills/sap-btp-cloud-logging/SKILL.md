@@ -34,6 +34,7 @@ metadata:
   - [4. JSON API](#4-json-api)
 - [Certificate Management](#certificate-management)
   - [Certificate Validity](#certificate-validity)
+- [Bundled Resources](#bundled-resources)
   - [Root CA Rotation (3-Step Process)](#root-ca-rotation-3-step-process)
 - [OpenSearch Dashboards](#opensearch-dashboards)
   - [Access](#access)
@@ -408,6 +409,16 @@ For detailed information, see bundled reference files:
 - **SAP Help Portal:** [https://help.sap.com/docs/cloud-logging](https://help.sap.com/docs/cloud-logging)
 - **Discovery Center:** [https://discovery-center.cloud.sap/serviceCatalog/cloud-logging](https://discovery-center.cloud.sap/serviceCatalog/cloud-logging)
 - **Capacity Estimator:** Referenced in Discovery Center
+
+## Bundled Resources
+
+### Reference Documentation
+- `references/cf-ingestion.md` - Cloud Foundry runtime ingestion guide
+- `references/kyma-ingestion.md` - Kyma/Cloud Foundry Kyma runtime ingestion
+- `references/opentelemetry-ingestion.md` - OpenTelemetry data ingestion
+- `references/json-api-ingestion.md` - JSON API ingestion methods
+- `references/saml-authentication.md` - SAML authentication configuration
+- `references/service-plans.md` - Service plans comparison and selection
 
 ### Related Documentation
 - **OpenSearch:** [https://opensearch.org/docs/latest/](https://opensearch.org/docs/latest/)

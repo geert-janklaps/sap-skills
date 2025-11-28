@@ -26,7 +26,21 @@ metadata:
 
 **Quick Reference**: [https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html) | SAP Cheat Sheets: [https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md](https://github.com/SAP-samples/abap-cheat-sheets/blob/main/15_CDS_View_Entities.md)
 
-**Table of Contents**: [1. Fundamentals](#1-cds-view-fundamentals) | [2. Annotations](#2-essential-annotations) | [3. Expressions](#3-expressions-and-operations) | [4. Functions](#4-built-in-functions) | [5. Joins](#5-joins) | [6. Associations](#6-associations) | [7. Parameters](#7-input-parameters) | [8. Aggregates](#8-aggregate-expressions) | [9. Access Control](#9-access-control-dcl) | [10. ABAP Access](#10-data-retrieval-from-abap) | [11. Errors](#11-common-errors-and-solutions) | [12. Resources](#12-useful-transactions-and-tables)
+## Table of Contents
+- [1. CDS View Fundamentals](#1-cds-view-fundamentals)
+- [2. Essential Annotations](#2-essential-annotations)
+- [3. Expressions and Operations](#3-expressions-and-operations)
+- [4. Built-in Functions](#4-built-in-functions)
+- [5. Joins](#5-joins)
+- [6. Associations](#6-associations)
+- [7. Input Parameters](#7-input-parameters)
+- [8. Aggregate Expressions](#8-aggregate-expressions)
+- [9. Access Control (DCL)](#9-access-control-dcl)
+- [10. Data Retrieval from ABAP](#10-data-retrieval-from-abap)
+- [11. Common Errors and Solutions](#11-common-errors-and-solutions)
+- [12. Useful Transactions and Tables](#12-useful-transactions-and-tables)
+- [Bundled Resources](#bundled-resources)
+- [Source Documentation](#source-documentation)
 
 ---
 
@@ -477,8 +491,9 @@ For complete troubleshooting guide, see `references/troubleshooting.md`.
 
 ---
 
-## References
+## Bundled Resources
 
+### Reference Documentation
 For detailed guidance, see the reference files in `references/`:
 
 - `annotations-reference.md` - Complete annotation catalog
@@ -488,6 +503,7 @@ For detailed guidance, see the reference files in `references/`:
 - `expressions-reference.md` - Expressions and operators
 - `troubleshooting.md` - Common errors and solutions
 
+### Templates
 For templates, see `templates/`:
 - `basic-view.md` - Standard CDS view template
 - `parameterized-view.md` - View with input parameters

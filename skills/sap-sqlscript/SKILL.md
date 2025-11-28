@@ -553,6 +553,15 @@ Load reference files for detailed information:
 - `references/built-in-functions.md` - All function categories
 - `references/exception-handling.md` - Error handling patterns
 - `references/amdp-integration.md` - AMDP implementation guide
+---
+
+## Bundled Resources
+
+### Reference Documentation
+- `references/syntax-reference.md` - Complete SQLScript syntax reference
+- `references/built-in-functions.md` - Built-in functions catalog
+- `references/amdp-integration.md` - AMDP integration patterns
 - `references/performance-guide.md` - Optimization techniques
 - `references/advanced-features.md` - Lateral joins, JSON, query hints, currency conversion
 - `references/troubleshooting.md` - Common errors and solutions
+- `references/exception-handling.md` - Exception handling patterns

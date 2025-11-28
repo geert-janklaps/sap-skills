@@ -26,6 +26,14 @@ allowed-tools:
 
 # SAP Analytics Cloud Custom Widget Development
 
+## Table of Contents
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [Community Sample Widgets](#community-sample-widgets)
+- [Key Concepts](#key-concepts)
+- [Common Errors & Solutions](#common-errors--solutions)
+- [Bundled Resources](#bundled-resources)
+
 ## Overview
 
 This skill enables development of custom widgets for SAP Analytics Cloud (SAC). Custom widgets are Web Components that extend SAC stories and applications with custom visualizations, interactive elements, and specialized functionality.

@@ -17,6 +17,13 @@ metadata:
 
 # SAPUI5 Linter Skill
 
+## Table of Contents
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [Configuration](#configuration)
+- [CLI Usage](#cli-usage)
+- [Bundled Resources](#bundled-resources)
+
 ## Overview
 
 The **UI5 Linter** (@ui5/linter) is a static code analysis tool designed specifically for SAPUI5 and OpenUI5 projects. It helps developers identify compatibility issues, deprecated APIs, security concerns, and best practice violations before upgrading to UI5 2.x.
@@ -310,6 +317,20 @@ ui5lint --perf
 - **Roadmap**: Documented in GitHub Issues and Discussions
 - **Email**: security@sap.com
 - **Community**: Discord #sapui5 channel
+
+## Bundled Resources
+
+### Reference Documentation
+- `references/rules-complete.md` - Complete reference for all 19 linting rules
+- `references/autofix-complete.md` - Detailed autofix capabilities and limitations
+- `references/performance.md` - Performance optimization guide
+- `references/support-and-community.md` - Support channels and community resources
+- `references/contributing.md` - Contributing guidelines
+
+### Templates
+- `templates/ui5lint.config.mjs` - Configuration template
+- `templates/package.json.template` - Package.json template
+- `templates/husky-pre-commit.template` - Pre-commit hook template
 
 ---
 

@@ -25,6 +25,15 @@ metadata:
 
 Comprehensive guidance for developing SAP Fiori applications using SAP Fiori tools extensions.
 
+## Table of Contents
+- [Overview](#overview)
+- [Sample Projects](#sample-projects)
+- [Quick Start Commands](#quick-start-commands)
+- [Application Generation](#application-generation)
+- [Page Editor Configuration](#page-editor-configuration)
+- [Annotations Development](#annotations-development)
+- [Bundled Resources](#bundled-resources)
+
 ## Overview
 
 SAP Fiori tools is a collection of extensions that simplifies SAP Fiori elements and SAPUI5 application development. It includes six main components:
@@ -390,6 +399,11 @@ Fiori: Open Guided Development
 
 For detailed information on specific topics:
 
+---
+
+## Bundled Resources
+
+### Reference Documentation
 - `references/getting-started.md` - Installation, migration, ADT integration, commands
 - `references/configuration.md` - MTA, middlewares, SAPUI5 versions, project functions
 - `references/page-editor.md` - Page Editor configuration details

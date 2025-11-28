@@ -33,6 +33,16 @@ allowed-tools:
 
 # Skill Review Skill
 
+## Table of Contents
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [What This Skill Does](#what-this-skill-does)
+- [Process Workflow](#process-workflow)
+- [Common Issues Prevented](#common-issues-prevented)
+- [Best Practices](#best-practices)
+- [Version History](#version-history)
+- [Additional Resources](#additional-resources)
+
 ## Overview
 
 The skill-review skill provides a comprehensive, systematic process for auditing skills in the sap-skills repository. It combines automated technical validation with AI-powered verification to ensure skills remain accurate, current, and high-quality.

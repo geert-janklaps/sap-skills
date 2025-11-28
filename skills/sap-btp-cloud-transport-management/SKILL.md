@@ -43,9 +43,10 @@ metadata:
    - [SAP Support](#sap-support)
 8. [Security](#security)
    - [Service Plans for API Access](#service-plans-for-api-access)
+9. [Bundled Resources](#bundled-resources)
    - [Node-Specific Restrictions](#node-specific-restrictions)
    - [Malware Scanning](#malware-scanning)
-9. [Integrations](#integrations)
+10. [Integrations](#integrations)
    - [CI/CD Integration](#cicd-integration)
    - [Alert Notifications](#alert-notifications)
    - [API Operations](#api-operations)
@@ -365,6 +366,11 @@ Configure `ALERT_NOTIFICATION_SERVICE` destination for:
 
 For detailed configuration procedures, see the reference files:
 
+---
+
+## Bundled Resources
+
+### Reference Documentation
 - `references/initial-setup.md` - Complete setup procedures
 - `references/landscape-configuration.md` - Nodes, routes, visualization, and wizard
 - `references/destinations.md` - All 8 destination types with configurations

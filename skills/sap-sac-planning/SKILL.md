@@ -31,6 +31,13 @@ Use these to keep instructions concise in this file while deep-dives remain one 
 
 ---
 
+## Table of Contents
+- [When to Use This Skill](#when-to-use-this-skill)
+- [Quick Start](#quick-start)
+- [Core Concepts](#core-concepts)
+- [Data Actions](#data-actions)
+- [Bundled Resources](#bundled-resources)
+
 ## When to Use This Skill
 
 Use this skill when working on tasks involving:
@@ -740,6 +747,23 @@ For troubleshooting:
 - Review data action logs
 - Test with simplified scenarios first
 - Check user permissions and data access
+
+## Bundled Resources
+
+### Reference Documentation
+- `references/data-actions.md` - Data actions configuration and execution
+- `references/multi-actions.md` - Multi-action orchestration
+- `references/allocations.md` - Allocation methods and spreading
+- `references/scheduling-calendar.md` - Workflow scheduling
+- `references/data-locking.md` - Data locking configuration
+- `references/version-management.md` - Version management best practices
+- `references/api-reference.md` - Planning API reference
+- `references/javascript-patterns.md` - JavaScript scripting patterns
+
+### Templates
+- `templates/data-action-checklist.md` - Data action implementation checklist
+- `templates/multi-action-checklist.md` - Multi-action setup guide
+- `templates/parameter-table.md` - Parameter table template
 
 ---
 

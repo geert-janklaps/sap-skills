@@ -23,6 +23,15 @@ Use this skill when:
 - Managing prompts via Prompt Registry
 - Deploying AI models on SAP AI Core
 
+## Table of Contents
+- [Quick Start](#quick-start)
+- [Prerequisites](#prerequisites)
+- [Connection Setup](#connection-setup)
+- [Available Packages](#available-packages)
+- [Supported Models](#supported-models)
+- [Core Features](#core-features)
+- [Bundled Resources](#bundled-resources)
+
 ## Quick Start
 
 > **Note**: This skill uses SAP Cloud SDK for AI v2.2.0+. If you're migrating from v1.x, see [V1 to V2 Migration Guide](references/v1-to-v2-migration.md) for breaking changes.
@@ -259,10 +268,20 @@ For detailed guidance:
 - **LangChain integration**: `references/langchain-guide.md`
 - **Spring AI integration**: `references/spring-ai-guide.md`
 - **AI Core management**: `references/ai-core-api-guide.md`
-- **Agentic workflows**: `references/agentic-workflows.md`
-- **Connection options**: `references/connecting-to-ai-core.md`
-- **Error handling**: `references/error-handling.md`
-- **V1 to V2 migration**: `references/v1-to-v2-migration.md`
+---
+
+## Bundled Resources
+
+### Reference Documentation
+- `references/foundation-models-guide.md` - Foundation models and pricing
+- `references/ai-core-api-guide.md` - AI Core service API reference
+- `references/orchestration-guide.md` - Orchestration service guide
+- `references/langchain-guide.md` - LangChain.js integration
+- `references/spring-ai-guide.md` - Spring AI integration
+- `references/agentic-workflows.md` - Agentic workflow patterns
+- `references/connecting-to-ai-core.md` - Connection setup guide
+- `references/error-handling.md` - Error handling patterns
+- `references/v1-to-v2-migration.md` - V1 to V2 migration guide
 
 ## Version Information
 

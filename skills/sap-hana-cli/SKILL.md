@@ -31,6 +31,14 @@ A developer-centric command-line interface for SAP HANA database development, pa
 
 ---
 
+## Table of Contents
+- [Quick Start](#quick-start)
+- [Core Command Categories](#core-command-categories)
+- [Output Formats](#output-formats)
+- [Connection Configuration](#connection-configuration)
+- [Common Workflows](#common-workflows)
+- [Bundled Resources](#bundled-resources)
+
 ## Quick Start
 
 ### Installation
@@ -257,6 +265,17 @@ hana-cli inspectUser
 - **@sap/cds-dk**: Requires ≥8.9 for cds bind
 
 ---
+
+## Bundled Resources
+
+### Reference Documentation
+- `references/command-reference.md` - Complete command reference with all options
+- `references/abap-programming.md` - ABAP-specific programming patterns
+- `references/quick-start.md` - Quick start guide and examples
+
+### Scripts
+- `scripts/hana-setup.sh` - HANA development environment setup script
+- `scripts/migration-helper.sh` - Migration helper script for existing projects
 
 ## Resources
 

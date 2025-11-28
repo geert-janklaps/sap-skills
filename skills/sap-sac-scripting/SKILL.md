@@ -22,6 +22,12 @@ Comprehensive skill for scripting in SAP Analytics Cloud (SAC) Analytics Designe
 
 Time series forecast API, Search to Insight, comments APIs, smart grouping, Explorer & Smart Insights, geo map enhancements, and composite scripting support. See `references/whats-new-2025.23.md` for complete details.
 
+## Table of Contents
+- [When to Use This Skill](#when-to-use-this-skill)
+- [Quick Start](#quick-start)
+- [Core APIs](#core-apis)
+- [Bundled Resources](#bundled-resources)
+
 ## When to Use This Skill
 
 Use this skill when working on tasks involving:

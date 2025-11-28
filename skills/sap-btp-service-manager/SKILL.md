@@ -29,6 +29,16 @@ Comprehensive skill for managing services across SAP BTP environments using SAP 
 
 ---
 
+## Table of Contents
+- [When to Use This Skill](#when-to-use-this-skill)
+- [Quick Start](#quick-start)
+- [Core Concepts](#core-concepts)
+- [Cloud Foundry Operations](#cloud-foundry-operations)
+- [Kubernetes Operations](#kubernetes-operations)
+- [SMCTL CLI Reference](#smctl-cli-reference)
+- [API Reference](#api-reference)
+- [Bundled Resources](#bundled-resources)
+
 ## When to Use This Skill
 
 Use this skill when working on tasks involving:

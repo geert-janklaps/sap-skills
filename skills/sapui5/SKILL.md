@@ -454,6 +454,28 @@ When using this skill:
 
 ---
 
+## Bundled Resources
+
+### Reference Documentation
+- `references/api-reference.md` - Complete SAPUI5 API reference
+- `references/mobile-development.md` - Mobile app development guide
+- `references/accessibility.md` - Accessibility best practices
+- `references/performance-optimization.md` - Performance optimization techniques
+- `references/theming.md` - Theming and styling guide
+- `references/testing.md` - Testing strategies and frameworks
+- `references/migration.md` - Migration from older versions
+
+### Templates
+- `templates/component-template.js` - Component development template
+- `templates/controller-template.js` - Controller template
+- `templates/fragment-template.xml` - Fragment template
+
+### Configuration
+- `config/grunt-config.js` - Grunt configuration example
+- `config/webapp/manifest.json` - Application manifest template
+
+---
+
 **License**: GPL-3.0
 **Version**: 1.4.0
 **Last Verified**: 2025-11-27

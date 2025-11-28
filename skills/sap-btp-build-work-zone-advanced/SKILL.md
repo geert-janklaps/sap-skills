@@ -30,6 +30,26 @@ Use this skill when:
 - Configuring role-based access and SSO
 - Working with the Administration Console
 
+## Table of Contents
+- [Platform Overview](#platform-overview)
+- [Core Concepts](#core-concepts)
+- [Development Environment Setup](#development-environment-setup)
+- [UI Integration Cards Development](#ui-integration-cards-development)
+- [Content Packages](#content-packages)
+- [Workspace Templates](#workspace-templates)
+- [Chatbot Integration](#chatbot-integration)
+- [API Reference](#api-reference)
+- [Administration Console](#administration-console)
+- [Feature Management](#feature-management)
+- [External Integrations](#external-integrations)
+- [Security](#security)
+- [Webhooks](#webhooks)
+- [Theming and Branding](#theming-and-branding)
+- [Reports and Analytics](#reports-and-analytics)
+- [Troubleshooting](#troubleshooting)
+- [Bundled Resources](#bundled-resources)
+- [Documentation Links](#documentation-links)
+
 ## Platform Overview
 
 SAP Build Work Zone, advanced edition is a digital workplace platform that:

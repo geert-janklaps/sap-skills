@@ -10,6 +10,13 @@ metadata:
 
 # SAPUI5/OpenUI5 CLI Management Skill
 
+## Table of Contents
+- [Overview](#overview)
+- [When to Use This Skill](#when-to-use-this-skill)
+- [Quick Start Workflow](#quick-start-workflow)
+- [Project Types](#project-types)
+- [Bundled Resources](#bundled-resources)
+
 ## Overview
 
 This skill provides comprehensive guidance for working with the UI5 CLI (UI5 Tooling), the official command-line interface for developing, building, and deploying SAPUI5 and OpenUI5 applications and libraries.
@@ -500,6 +507,24 @@ UI5_DATA_DIR=/custom/.ui5 ui5 serve
 - **GitHub Repository**: [https://github.com/SAP/ui5-tooling](https://github.com/SAP/ui5-tooling)
 - **SAP Community**: [https://community.sap.com/](https://community.sap.com/)
 - **npm Registry**: [https://www.npmjs.com/package/@ui5/cli](https://www.npmjs.com/package/@ui5/cli)
+
+## Bundled Resources
+
+### Reference Documentation
+- `references/cli-commands.md` - Complete CLI command reference
+- `references/configuration.md` - Configuration options and ui5.yaml
+- `references/project-structures.md` - Project structure patterns
+- `references/server-features.md` - Development server features
+- `references/build-process.md` - Build process and optimization
+- `references/es-support.md` - ES module support
+- `references/extensibility.md` - Extensibility options
+- `references/code-analysis.md` - Code analysis tools
+- `references/migration-guides.md` - Migration from older versions
+- `references/troubleshooting.md` - Common issues and solutions
+- `references/benchmarking.md` - Performance benchmarking
+
+### Templates
+- `templates/package.json.template` - Package.json template
 
 ## Version Information
 

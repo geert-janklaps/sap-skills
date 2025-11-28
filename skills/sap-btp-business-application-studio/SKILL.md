@@ -12,6 +12,23 @@ metadata:
 
 # SAP Business Application Studio
 
+## Table of Contents
+- [Overview](#overview)
+- [Quick Decision Tree](#quick-decision-tree)
+- [Setup Checklist](#setup-checklist)
+- [Dev Space Types](#dev-space-types)
+- [Service Plans](#service-plans)
+- [Connectivity](#connectivity)
+- [Build & Deploy](#build--deploy)
+- [Roles & Authorization](#roles--authorization)
+- [Common Issues](#common-issues)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Security Recommendations](#security-recommendations)
+- [Reference Files](#reference-files)
+- [Templates](#templates)
+- [Bundled Resources](#bundled-resources)
+- [Documentation Links](#documentation-links)
+
 ## Overview
 
 SAP Business Application Studio is a cloud-based IDE on SAP BTP built on Code-OSS (VS Code foundation). It provides tailored dev spaces for SAP Fiori, CAP, HANA, and mobile development with pre-installed tools and runtimes.
@@ -205,8 +222,20 @@ Configure SAP HANA Cloud to allow BAS IP addresses. See [Availability](https://h
 - `references/development-workflow.md` - Project creation, UI development, debugging, CI/CD
 - `references/service-center-and-tools.md` - Service providers, extensions, IDE features
 
-## Templates
+---
 
+## Bundled Resources
+
+### Reference Documentation
+- `references/connectivity-guide.md` - Complete connectivity setup guide
+- `references/dev-space-types.md` - All dev space types and use cases
+- `references/git-operations.md` - Git integration and operations
+- `references/service-center-and-tools.md` - Service Center and tool management
+- `references/service-plans.md` - Service plans comparison and selection
+- `references/setup-checklist.md` - Complete setup checklist
+- `references/development-workflow.md` - Development workflow and best practices
+
+### Templates
 - `templates/destination-config.md` - Destination configuration examples
 - `templates/dev-space-setup.md` - Dev space creation checklist
 

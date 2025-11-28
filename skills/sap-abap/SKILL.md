@@ -23,6 +23,14 @@ metadata:
 - **sap-fiori-tools**: Use when building Fiori applications with ABAP backends or consuming OData services from ABAP systems
 - **sap-api-style**: Use when documenting ABAP APIs or following SAP API documentation standards
 
+## Table of Contents
+- [Quick Reference](#quick-reference)
+- [Bundled Resources](#bundled-resources)
+- [Common Patterns](#common-patterns)
+- [Error Catalog](#error-catalog)
+- [Performance Tips](#performance-tips)
+- [Source Documentation](#source-documentation)
+
 ## Quick Reference
 
 ### Data Types and Declarations

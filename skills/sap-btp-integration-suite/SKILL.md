@@ -44,6 +44,18 @@ allowed-tools:
 
 # SAP BTP Integration Suite Development
 
+## Table of Contents
+- [Quick Reference](#quick-reference)
+- [Capability Overview](#capability-overview)
+- [Cloud Integration Development](#cloud-integration-development)
+- [API Management Development](#api-management-development)
+- [Event Mesh](#event-mesh)
+- [Edge Integration Cell](#edge-integration-cell)
+- [Integration Advisor](#integration-advisor)
+- [Trading Partner Management](#trading-partner-management)
+- [Migration Assessment](#migration-assessment)
+- [Bundled Resources](#bundled-resources)
+
 ## Quick Reference
 
 | Capability | Purpose | Key Artifact |

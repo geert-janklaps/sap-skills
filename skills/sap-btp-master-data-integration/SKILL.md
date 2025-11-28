@@ -10,7 +10,7 @@ metadata:
 
 # SAP BTP Master Data Integration
 
-**Table of Contents**
+## Table of Contents
 - [Quick Reference](#quick-reference)
 - [Core Concepts](#core-concepts)
 - [Decision Trees](#decision-trees)

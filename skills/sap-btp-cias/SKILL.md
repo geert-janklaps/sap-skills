@@ -15,6 +15,20 @@ metadata:
 
 Cloud Integration Automation Service provides guided workflows to integrate SAP cloud solutions with on-premise and other SAP cloud solutions. It offers both manual task instructions and automated configuration capabilities.
 
+## Table of Contents
+- [Quick Reference](#quick-reference)
+- [Core Workflows](#core-workflows)
+- [Service Limitations](#service-limitations)
+- [Security Architecture](#security-architecture)
+- [Common Error Patterns](#common-error-patterns)
+- [Support Channels](#support-channels)
+- [OAuth2 API Access](#oauth2-api-access)
+- [Data Protection](#data-protection)
+- [Glossary](#glossary)
+- [Task UI Controls Quick Reference](#task-ui-controls-quick-reference)
+- [Bundled Resources](#bundled-resources)
+- [Documentation Sources](#documentation-sources)
+
 ## Quick Reference
 
 ### Service Plans

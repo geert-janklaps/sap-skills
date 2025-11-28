@@ -33,6 +33,7 @@ metadata:
 11. [Embeddings](#embeddings)
 12. [ML Training](#ml-training)
 13. [Deployments](#deployments)
+14. [Bundled Resources](#bundled-resources)
 14. [SAP AI Launchpad](#sap-ai-launchpad)
 15. [API Reference](#api-reference)
 16. [Common Patterns](#common-patterns)
@@ -240,9 +241,9 @@ Templates available in `templates/orchestration-workflow.json`.
 
 Request quota increases via support ticket (Component: `CA-ML-AIC`).
 
-## References
+## Bundled Resources
 
-**Reference Documentation**:
+### Reference Documentation
 1. `references/orchestration-modules.md` - All orchestration modules in detail
 2. `references/generative-ai-hub.md` - Complete GenAI hub documentation
 3. `references/model-providers.md` - Model providers and configurations
@@ -252,12 +253,12 @@ Request quota increases via support ticket (Component: `CA-ML-AIC`).
 7. `references/advanced-features.md` - Chat, applications, security, auditing
 8. `references/ai-launchpad-guide.md` - Complete SAP AI Launchpad UI guide
 
-**Templates**:
+### Templates
 1. `templates/deployment-config.json` - Deployment configuration template
 2. `templates/orchestration-workflow.json` - Orchestration workflow template
 3. `templates/tool-definition.json` - Tool calling definition template
 
-**Official Sources**:
+### Official Sources
 - SAP AI Core Guide: [https://help.sap.com/docs/sap-ai-core](https://help.sap.com/docs/sap-ai-core)
 - SAP AI Launchpad Guide: [https://help.sap.com/docs/sap-ai-launchpad](https://help.sap.com/docs/sap-ai-launchpad)
 - SAP Note 3437766: Model token rates and limits

@@ -41,6 +41,17 @@ SAP Intelligent Situation Automation was a BTP service that enabled automatic ha
 
 **Last Verified**: 2025-11-27
 
+## Table of Contents
+- [Overview (For Reference)](#overview-for-reference)
+- [When to Use This Skill](#when-to-use-this-skill)
+- [Migration Information](#migration-information)
+- [Quick Decision Tree](#quick-decision-tree)
+- [Supported Systems](#supported-systems)
+- [Region & Infrastructure](#region--infrastructure)
+- [Core Components](#core-components)
+- [Role Templates](#role-templates)
+- [Bundled Resources](#bundled-resources)
+
 ## When to Use This Skill
 
 ## When to Use This Skill
@@ -326,6 +337,16 @@ For any questions or concerns about the deprecation:
 **Final Verification**: 2025-11-27
 
 **Maintenance Status**: ARCHIVE ONLY - Skill maintained for historical reference and unsubscription guidance.
+
+## Bundled Resources
+
+### Reference Documentation
+- `references/setup-guide.md` - Complete setup and configuration guide
+- `references/onboarding.md` - System onboarding and configuration
+- `references/security-roles.md` - Role templates and permissions
+- `references/operations.md` - Operations and monitoring guide
+- `references/external-links.md` - External documentation and SAP notes
+- `references/troubleshooting.md` - Common issues and resolution
 
 ---
 

@@ -12,6 +12,13 @@ metadata:
 
 This skill provides comprehensive guidance for developing with SAP Data Intelligence Cloud, including pipeline creation, operator development, data integration, and machine learning scenarios.
 
+## Table of Contents
+- [When to Use This Skill](#when-to-use-this-skill)
+- [Core Concepts](#core-concepts)
+- [Quick Start Patterns](#quick-start-patterns)
+- [Common Tasks](#common-tasks)
+- [Bundled Resources](#bundled-resources)
+
 ## When to Use This Skill
 
 Use this skill when:
@@ -251,6 +258,18 @@ Starter templates are available in `templates/`:
 
 **Section-Specific:**
 - Modeling Guide: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/modelingguide)
+## Bundled Resources
+
+### Reference Documentation
+- `references/abap-integration.md` - ABAP system integration guide
+- `references/ml-scenario-manager.md` - Machine Learning scenario manager
+- `references/replication-flows.md` - Data replication flow configuration
+- `references/operators-reference.md` - Complete operators reference
+- `references/dtl-functions.md` - Data Transformation Language functions
+- `references/modeling-advanced.md` - Advanced modeling techniques
+- `references/structured-data-operators.md` - Structured data operators guide
+
+### Documentation Links
 - ABAP Integration: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/abapintegration)
 - Machine Learning: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/machinelearning)
 - Function Reference: [https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference](https://github.com/SAP-docs/sap-hana-cloud-data-intelligence/tree/main/docs/functionreference)

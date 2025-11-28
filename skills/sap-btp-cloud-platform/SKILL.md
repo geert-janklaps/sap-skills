@@ -29,6 +29,26 @@ Comprehensive reference for SAP Business Technology Platform covering all runtim
 **SAP Help Portal**: [https://help.sap.com/docs/btp](https://help.sap.com/docs/btp)
 **SAP Discovery Center**: [https://discovery-center.cloud.sap/](https://discovery-center.cloud.sap/)
 
+## Table of Contents
+- [1. Platform Overview](#1-platform-overview)
+- [2. Account Model](#2-account-model)
+- [3. Environments](#3-environments)
+- [4. Commercial Models](#4-commercial-models)
+- [5. Entitlements and Quotas](#5-entitlements-and-quotas)
+- [6. Regions and Infrastructure](#6-regions-and-infrastructure)
+- [7. User Management](#7-user-management)
+- [8. Tools](#8-tools)
+- [9. Security Essentials](#9-security-essentials)
+- [10. Connectivity](#10-connectivity)
+- [11. Development Patterns](#11-development-patterns)
+- [12. CI/CD](#12-cicd)
+- [13. Extensions](#13-extensions)
+- [14. High Availability and Resilience](#14-high-availability-and-resilience)
+- [15. Operations and Monitoring](#15-operations-and-monitoring)
+- [16. Support](#16-support)
+- [Bundled Resources](#bundled-resources)
+- [Source Documentation](#source-documentation)
+
 ## 1. Platform Overview
 
 SAP BTP integrates five technology portfolios: Application Development, Process Automation, Integration, Data & Analytics, and AI. Provides suite qualities: SAP Fiori UX, Cloud Identity Services, Master Data Integration, embedded analytics, SAP Task Center, and SAP Cloud ALM.
@@ -324,22 +344,23 @@ Build loosely coupled extensions: SAP Solution → APIs & Events → SAP BTP Ext
 - **SAP manages**: Platform software updates, infrastructure monitoring, BTP service monitoring, global account provisioning
 - **You manage**: Account strategy, application development and security, role assignments and integrations, application monitoring
 
-## References
+## Bundled Resources
 
+### Reference Documentation
 For detailed guidance, see the 13 reference files:
-- `glossary.md` - Complete terminology (40+ terms)
-- `cloud-foundry.md` - CF development and administration
-- `kyma.md` - Kyma runtime and Kubernetes patterns
-- `abap.md` - ABAP environment, RAP, CDS
-- `security.md` - Authentication, authorization, identity
-- `connectivity.md` - Destinations, Cloud Connector
-- `development.md` - Development patterns, MTA, Application Router
-- `administration.md` - Account management, btp CLI
-- `operations.md` - Monitoring, alerting, logging
-- `extensions.md` - SAP solution extensions, formations
-- `tools.md` - CLI references, development tools
-- `troubleshooting.md` - Common issues and solutions
-- `regions-endpoints.md` - Region-specific API endpoints
+- `references/glossary.md` - Complete terminology (40+ terms)
+- `references/cloud-foundry.md` - CF development and administration
+- `references/kyma.md` - Kyma runtime and Kubernetes patterns
+- `references/abap.md` - ABAP environment, RAP, CDS
+- `references/security.md` - Authentication, authorization, identity
+- `references/connectivity.md` - Destinations, Cloud Connector
+- `references/development.md` - Development patterns, MTA, Application Router
+- `references/administration.md` - Account management, btp CLI
+- `references/operations.md` - Monitoring, alerting, logging
+- `references/extensions.md` - SAP solution extensions, formations
+- `references/tools.md` - CLI references, development tools
+- `references/troubleshooting.md` - Common issues and solutions
+- `references/regions-endpoints.md` - Region-specific API endpoints
 
 ## Source Documentation
 - [https://github.com/SAP-docs/sap-btp-cloud-platform](https://github.com/SAP-docs/sap-btp-cloud-platform)
