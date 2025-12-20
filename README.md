@@ -6,7 +6,7 @@
 
 [![Skills](https://img.shields.io/badge/Skills-33-blue?style=flat-square)](MARKETPLACE.md)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)](LICENSE)
-[![Last Updated](https://img.shields.io/badge/Updated-2025--12--19-orange?style=flat-square)](#)
+[![Last Updated](https://img.shields.io/badge/Updated-2025--12--20-orange?style=flat-square)](#)
 
 A curated collection of battle-tested skills for building SAP applications with BTP, CAP, Fiori, ABAP, HANA, and more.
 
