@@ -10,7 +10,6 @@ REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 SKILLS_DIR="$REPO_ROOT/skills"
 
 # Default values
-GLOBAL_VERSION="2.1.0"
 DRY_RUN=false
 
 # Color output
@@ -18,6 +17,16 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
+
+# Read version from marketplace.json or use default
+get_global_version() {
+  local marketplace_json="$REPO_ROOT/.claude-plugin/marketplace.json"
+  if [ -f "$marketplace_json" ]; then
+    jq -r '.metadata.version // .version // "2.1.0"' "$marketplace_json" 2>/dev/null || echo "2.1.0"
+  else
+    echo "2.1.0"
+  fi
+}
 
 # Usage
 usage() {
@@ -28,7 +37,6 @@ Generate plugin.json for skills from SKILL.md YAML frontmatter.
 
 OPTIONS:
   --dry-run         Preview changes without modifying files
-  --version VERSION Set global version (default: 2.1.0)
   --help            Show this help message
 
 ARGUMENTS:
@@ -43,9 +51,6 @@ EXAMPLES:
 
   # Preview without changes
   $(basename "$0") --dry-run
-
-  # Use different version
-  $(basename "$0") --version 3.0.0
 EOF
   exit 0
 }
@@ -57,10 +62,6 @@ while [[ $# -gt 0 ]]; do
     --dry-run)
       DRY_RUN=true
       shift
-      ;;
-    --version)
-      GLOBAL_VERSION="$2"
-      shift 2
       ;;
     --help)
       usage
@@ -411,6 +412,8 @@ generate_plugin_json() {
 
 # Main execution
 main() {
+  GLOBAL_VERSION=$(get_global_version)
+
   echo "=== SAP Skills Plugin Manifest Generator ==="
   echo "Global version: $GLOBAL_VERSION"
   if [ "$DRY_RUN" = true ]; then

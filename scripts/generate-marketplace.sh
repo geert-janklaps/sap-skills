@@ -173,20 +173,24 @@ $category"
   fi
 
   # Sort plugins by name
-  plugins=$(echo "$plugins" | jq 'sort_by(.name)' 2>&1) || {
+  local plugins_sorted
+  if ! plugins_sorted=$(echo "$plugins" | jq 'sort_by(.name)'); then
     echo "ERROR: Failed to sort plugins" >&2
     echo "Plugins JSON: $plugins" >&2
     return 1
-  }
+  fi
+  plugins="$plugins_sorted"
 
   # Get unique categories (handle empty case)
   local unique_categories="[]"
   if [ -n "$categories_str" ]; then
-    unique_categories=$(echo "$categories_str" | sort -u | jq -R . | jq -s . 2>&1) || {
+    local categories_result
+    if ! categories_result=$(echo "$categories_str" | sort -u | jq -R . | jq -s .); then
       echo "ERROR: Failed to process categories" >&2
       echo "Categories string: '$categories_str'" >&2
       return 1
-    }
+    fi
+    unique_categories="$categories_result"
   fi
 
   echo "Unique categories: $unique_categories" >&2
@@ -194,17 +198,17 @@ $category"
 
   # Return as JSON object
   local result
-  result=$(jq -n \
+  if ! result=$(jq -n \
     --argjson plugins "$plugins" \
     --argjson categories "$unique_categories" \
     --arg count_str "$count" \
-    '{plugins: $plugins, categories: $categories, count: ($count_str | tonumber)}' 2>&1) || {
+    '{plugins: $plugins, categories: $categories, count: ($count_str | tonumber)}'); then
     echo "ERROR: Failed to create final JSON" >&2
     echo "Plugins length: $(echo "$plugins" | jq 'length')" >&2
     echo "Categories: $unique_categories" >&2
     echo "Count: $count" >&2
     return 1
-  }
+  fi
 
   echo "$result"
 }

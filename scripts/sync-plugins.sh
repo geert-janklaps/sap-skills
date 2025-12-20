@@ -142,12 +142,12 @@ main() {
   # Phase 2: Generate/update plugin.json files
   echo -e "${BLUE}[Phase 2]${NC} Generating/updating plugin.json files..."
   if [ "$DRY_RUN" = true ]; then
-    if ! "$GENERATE_MANIFESTS" --dry-run --version "$global_version"; then
+    if ! "$GENERATE_MANIFESTS" --dry-run; then
       echo -e "${RED}Error: Plugin manifest generation failed${NC}" >&2
       exit 1
     fi
   else
-    if ! "$GENERATE_MANIFESTS" --version "$global_version"; then
+    if ! "$GENERATE_MANIFESTS"; then
       echo -e "${RED}Error: Plugin manifest generation failed${NC}" >&2
       exit 1
     fi
