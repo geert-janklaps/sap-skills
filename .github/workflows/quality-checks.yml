@@ -10,7 +10,6 @@ on:
 
 jobs:
   validate-skills:
-    name: Validate Skill Files
     runs-on: ubuntu-latest
     
     steps:

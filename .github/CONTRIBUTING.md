@@ -121,7 +121,7 @@ chore: update dependencies
    - ✅ Internal link verification
 
    **Note**: The main branch is protected by GitHub Rulesets. All PRs require:
-   - ✅ Passing quality checks (`validate-skills`)
+   - ✅ Passing quality checks (`Quality Checks / validate-skills`)
    - ✅ Code owner approval (@secondsky)
    - ✅ All review conversations resolved
 
