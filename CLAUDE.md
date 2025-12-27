@@ -34,7 +34,7 @@ This is a curated collection of **production-tested Claude Code skills** for SAP
 When asked to review skills:
 1. **DO NOT** manually check versions/dates
 2. **DO** use the installed `skill-review` skill which provides a 14-phase comprehensive audit
-3. The skill-review skill is located at `skills/skill-review/SKILL.md`
+3. The skill-review skill is located in the `plugins/skill-review/` directory
 4. It covers: version accuracy, date freshness, documentation quality, error catalog completeness, template validation, and more
 
 Example: "Review the sap-cap skill" → Use skill-review skill, not manual inspection
@@ -94,11 +94,15 @@ sap-skills/
 ├── MARKETPLACE.md                # Marketplace documentation
 ├── LICENSE                       # GPL-3.0 License
 │
-└── skills/                       # ← All production skills
-    └── skill-review/             # Quality assurance skill
-        ├── SKILL.md
-        ├── README.md
-        └── references/
+└── plugins/                      # ← All production plugins
+    └── skill-review/             # Quality assurance plugin
+        ├── .claude-plugin/
+        │   └── plugin.json
+        └── skills/
+            └── skill-review/
+                ├── SKILL.md
+                ├── README.md
+                └── references/
 ```
 
 ---
@@ -191,7 +195,7 @@ Future skills to be developed:
    • Document findings
 
 2. CREATE SKILL
-   • Create directory: mkdir -p skills/new-skill/
+   • Create directory: mkdir -p plugins/new-skill/skills/new-skill/
    • Create SKILL.md with YAML frontmatter
    • Create README.md with keywords
    • Add resources (scripts/, references/, assets/)
@@ -211,7 +215,7 @@ Future skills to be developed:
    • Run validation: jq '.plugins | length' .claude-plugin/marketplace.json
 
 6. COMMIT
-   • git add skills/new-skill skills/new-skill/.claude-plugin/plugin.json .claude-plugin/marketplace.json
+   • git add plugins/new-skill .claude-plugin/marketplace.json
    • git commit -m "Add new-skill for [use case]"
    • git push
 ```
@@ -355,7 +359,7 @@ Use [ONE_PAGE_CHECKLIST.md](ONE_PAGE_CHECKLIST.md) to verify:
 
 **Documentation Issues?**
 - Check [START_HERE.md](START_HERE.md) for navigation
-- Review working examples in `skills/` directory
+- Review working examples in `plugins/` directory
 
 **Technical Issues?**
 - Open issue: [https://github.com/secondsky/sap-skills/issues](https://github.com/secondsky/sap-skills/issues)
