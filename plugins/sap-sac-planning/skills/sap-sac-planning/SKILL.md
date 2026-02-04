@@ -7,8 +7,8 @@ metadata:
   version: 1.4.0
   last_verified: 2025-12-27
   sac_version: "2025.25"
-  documentation_source: [https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7)
-  api_reference: [https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.25/en-US/index.html](https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.25/en-US/index.html)
+  documentation_source: "https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7"
+  api_reference: "https://help.sap.com/doc/958d4c11261f42e992e8d01a4c0dde25/2025.25/en-US/index.html"
   reference_files: 24
   status: production
 ---

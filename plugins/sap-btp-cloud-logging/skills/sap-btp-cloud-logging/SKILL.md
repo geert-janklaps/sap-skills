@@ -12,8 +12,8 @@ license: GPL-3.0
 metadata:
   version: "1.1.0"
   last_verified: "2025-11-27"
-  source_documentation: "[https://github.com/SAP-docs/btp-cloud-logging"](https://github.com/SAP-docs/btp-cloud-logging")
-  sap_help_portal: "[https://help.sap.com/docs/cloud-logging"](https://help.sap.com/docs/cloud-logging")
+  source_documentation: "https://github.com/SAP-docs/btp-cloud-logging"
+  sap_help_portal: "https://help.sap.com/docs/cloud-logging"
 ---
 
 # SAP BTP Cloud Logging Skill

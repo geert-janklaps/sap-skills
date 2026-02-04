@@ -8,7 +8,7 @@ metadata:
   version: "1.0.1"
   last_verified: "2025-11-27"
   sap_product: "Cloud Integration Automation Service"
-  source_docs: "[https://github.com/SAP-docs/btp-cloud-integration-automation-service"](https://github.com/SAP-docs/btp-cloud-integration-automation-service")
+  source_docs: "https://github.com/SAP-docs/btp-cloud-integration-automation-service"
 ---
 
 # SAP BTP Cloud Integration Automation Service (CIAS)

@@ -10,8 +10,8 @@ metadata:
   version: "1.0.0"
   last_updated: "2025-11-26"
   ui5_linter_version: "1.20.5
-  source: [https://github.com/UI5/linter](https://github.com/UI5/linter)
-  documentation: [https://github.com/UI5/linter/blob/main/README.md](https://github.com/UI5/linter/blob/main/README.md)
+  source: "https://github.com/UI5/linter"
+  documentation: "https://github.com/UI5/linter/blob/main/README.md"
   status: "CONTENT_RESTRUCTURED"
 ---
 

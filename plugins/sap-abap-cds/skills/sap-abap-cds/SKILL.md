@@ -10,8 +10,8 @@ metadata:
   last_verified: "2025-11-23"
   abap_release: "7.4 SP8+ / ABAP Cloud"
   sources:
-    - "[https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html"](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html")
-    - "[https://github.com/SAP-samples/abap-cheat-sheets"](https://github.com/SAP-samples/abap-cheat-sheets")
+    - "https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds.html"
+    - "https://github.com/SAP-samples/abap-cheat-sheets"
 ---
 
 # SAP ABAP CDS (Core Data Services)

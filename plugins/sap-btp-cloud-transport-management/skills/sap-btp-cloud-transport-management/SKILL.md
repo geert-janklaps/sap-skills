@@ -6,7 +6,7 @@ license: GPL-3.0
 metadata:
   version: "1.0.0"
   last_verified: "2025-11-27"
-  sap_documentation_source: "[https://help.sap.com/docs/cloud-transport-management"](https://help.sap.com/docs/cloud-transport-management")
+  sap_documentation_source: "https://help.sap.com/docs/cloud-transport-management"
 ---
 
 # SAP Cloud Transport Management Skill
