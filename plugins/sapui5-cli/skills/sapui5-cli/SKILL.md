@@ -5,7 +5,7 @@ license: GPL-3.0
 metadata:
   version: 4.0.0
   lastUpdated: 2025-11-21
-  officialDocs: [https://ui5.github.io/cli/stable/](https://ui5.github.io/cli/stable/)
+  officialDocs: "https://ui5.github.io/cli/stable/"
 ---
 
 # SAPUI5/OpenUI5 CLI Management Skill

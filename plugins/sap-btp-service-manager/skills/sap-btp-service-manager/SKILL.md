@@ -8,7 +8,7 @@ license: GPL-3.0
 metadata:
   version: 1.1.1
   last_verified: 2025-11-27
-  documentation_source: [https://github.com/SAP-docs/sap-btp-service-manager](https://github.com/SAP-docs/sap-btp-service-manager)
+  documentation_source: "https://github.com/SAP-docs/sap-btp-service-manager"
   documentation_files_analyzed: 80+
   reference_files: 6
   template_files: 5
