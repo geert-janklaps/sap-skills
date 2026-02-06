@@ -80,13 +80,12 @@ All plugins include context-aware skills. Advanced features shown in table colum
 
 ---
 
-### 🔧 Tooling & Development (3)
+### 🔧 Tooling & Development (2)
 
 | Plugin | Commands | Agents | MCP | Description |
 |--------|----------|--------|-----|-------------|
 | **sap-api-style** | — | — | — | API documentation standards following SAP guidelines |
 | **sap-hana-cli** | — | — | ✓ | SAP HANA Developer CLI for database operations |
-| **sapui5-linter** | — | — | — | UI5 Linter for static code analysis |
 
 ### ☁️ SAP BTP Platform (14)
 
