@@ -2,7 +2,7 @@
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/Skills-32-brightgreen.svg)](.claude-plugin/marketplace.json)
-[![Version](https://img.shields.io/badge/Version-2.1.0-orange.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-2.1.1-orange.svg)](CHANGELOG.md)
 
 Production-ready Claude Code skills for SAP development. Build faster with context-aware AI assistance for SAP BTP, CAP, Fiori, ABAP, Analytics, and more.
 
@@ -279,4 +279,4 @@ This project is licensed under the **GNU General Public License v3.0** - see the
 
 **Maintained by**: E.J.
 **Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
-**Last Updated**: 2025-12-27 (v2.1.0)
+**Last Updated**: 2026-02-06 (v2.1.1)

@@ -2,7 +2,7 @@
 
 Comprehensive guide for developing, maintaining, and publishing SAP skills for Claude Code.
 
-**Version**: 2.1.0 | **Last Updated**: 2025-12-28
+**Version**: 2.1.1 | **Last Updated**: 2026-02-06
 
 ---
 
@@ -205,7 +205,7 @@ npm outdated  # Check for SAP package updates
 ### Overview
 
 The SAP skills repository manages **33+ production skills** using a marketplace system with:
-- Coordinated versioning (all at v2.1.0)
+- Coordinated versioning (all at v2.1.1)
 - Cross-references between related skills
 - Central registry (.claude-plugin/marketplace.json)
 - Dual-level manifest architecture
@@ -243,7 +243,7 @@ This enables Claude to discover complementary skills automatically.
 
 **Single Source of Truth**: `marketplace.json` metadata.version field
 
-All skills share the same version (currently 2.1.0) and are updated together:
+All skills share the same version (currently 2.1.1) and are updated together:
 ```bash
 # Update version in marketplace.json
 vim .claude-plugin/marketplace.json
@@ -328,7 +328,7 @@ Every SAP skill must document SDK versions:
 ---
 name: sap-cap-capire
 metadata:
-  version: "2.1.0"
+  version: "2.1.1"
   cap_version: "@sap/cds 9.4.x"
   last_verified: "2025-12-28"
   sap_btp_compatible: true
@@ -705,7 +705,7 @@ jq '.metadata.total_skills' .claude-plugin/marketplace.json  # Should be 33
 3. **Update skill metadata**:
    ```yaml
    metadata:
-     version: "2.1.0"
+     version: "2.1.1"
      cap_version: "@sap/cds 9.5.x"  # Updated
      last_verified: "2026-03-28"     # Updated
    ```
@@ -850,7 +850,7 @@ https://github.com/secondsky/sap-skills/issues
 
 ---
 
-**Last Updated**: 2025-12-28
+**Last Updated**: 2026-02-06
 **Next Review**: 2026-03-28 (Quarterly)
-**Version**: 2.1.0
+**Version**: 2.1.1
 **Maintainer**: SAP Skills Repository Team | [github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

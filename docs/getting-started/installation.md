@@ -255,6 +255,6 @@ This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - s
 ---
 
 **Last Updated**: 2025-12-19
-**Marketplace Version**: 2.1.0
+**Marketplace Version**: 2.1.1
 **Skills**: 33
 **Maintainer**: SAP Skills Maintainers

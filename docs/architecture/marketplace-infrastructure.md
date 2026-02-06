@@ -9,7 +9,7 @@ Technical documentation for the SAP Skills marketplace system.
 ## Overview
 
 The SAP skills repository uses a **marketplace system** to manage 33+ production skills with:
-- Coordinated versioning (all at v2.1.0)
+- Coordinated versioning (all at v2.1.1)
 - Cross-references between related skills
 - Central registry (.claude-plugin/marketplace.json)
 - Dual-level manifest architecture
@@ -69,8 +69,8 @@ This enables Claude to:
 3. Script propagates version to all plugin.json files
 4. Commit all changes together
 
-**Current Version**: 2.1.0
-**Last Updated**: 2025-12-28
+**Current Version**: 2.1.1
+**Last Updated**: 2026-02-06
 
 ---
 
@@ -119,10 +119,10 @@ plugins/sap-cap-capire/
 ```json
 {
   "name": "sap-skills",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "metadata": {
-    "version": "2.1.0",
-    "last_updated": "2025-12-28",
+    "version": "2.1.1",
+    "last_updated": "2026-02-06",
     "total_skills": 33,
     "categories": [
       "abap", "ai", "btp", "cap",
@@ -134,7 +134,7 @@ plugins/sap-cap-capire/
     {
       "name": "sap-cap-capire",
       "description": "...",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "source": "plugins/sap-cap-capire",
       "license": "GPL-3.0",
       "keywords": [...],
@@ -186,5 +186,5 @@ This enables portfolio-wide skill discovery.
 
 ---
 
-**Last Updated**: 2025-12-28
+**Last Updated**: 2026-02-06
 **Maintainer**: SAP Skills Repository Team

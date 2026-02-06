@@ -3,7 +3,7 @@
 
 **Repository**: https://github.com/secondsky/sap-skills
 **Purpose**: Production-ready skills for SAP development with Claude Code CLI
-**Version**: 2.1.0 | **Skills**: 32 | **Last Updated**: 2025-12-28
+**Version**: 2.1.1 | **Skills**: 32 | **Last Updated**: 2026-02-06
 
 ---
 
@@ -125,7 +125,7 @@ errors that break functionality.
 **Version Tracking**: SAP SDK versions documented in metadata
 ```yaml
 metadata:
-  version: "2.1.0"
+  version: "2.1.1"
   cap_version: "@sap/cds 9.4.x"
   last_verified: "2025-12-28"
 ```
@@ -176,7 +176,7 @@ metadata:
 
 ---
 
-**Last Updated**: 2025-12-28
-**Next Review**: 2026-03-28 (Quarterly)
+**Last Updated**: 2026-02-06
+**Next Review**: 2026-05-06 (Quarterly)
 **Maintainer**: E.J.
 </coding_guidelines>
