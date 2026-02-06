@@ -5,6 +5,42 @@ All notable changes to SAP Skills will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.2] - 2026-02-06
+
+### Changed
+
+#### Documentation Clarity
+- **README.md**: Updated terminology to clarify distinction between plugins (installable units) and skills (AI capabilities)
+  - Changed badge from "Skills" to "Plugins" to reflect what users install
+  - Added subtitle: "32 Claude Code plugins for SAP development"
+  - Updated installation instructions to use "plugins" terminology
+  - Clarified that "plugins provide skills that auto-activate"
+
+- **Plugin Tables**: Enhanced all 5 category tables with component visibility
+  - Added Component Legend explaining Commands, Agents, and MCP features
+  - Added 3 new columns (Commands | Agents | MCP) to show what each plugin offers
+  - Component counts: 7 plugins with commands (28 total), 7 with agents (24 total), 4 with MCP integration
+  - Clear indicators: Numbers for commands/agents, checkmark (✓) for MCP, em-dash (—) for none
+
+- **Content Updates Throughout**:
+  - "Building New Skills" → "Building New Plugins" section title
+  - Repository Structure: Updated to accurate component counts
+  - Contributing section: Clarified plugin vs. skill terminology
+  - Success Metrics: Updated "skill creation/testing" to "plugin" terminology
+  - 15+ terminology updates across all sections for consistency
+
+### Why This Update
+
+This release clarifies the conceptual model for users:
+- **Plugins** are what you install via `/plugin install`
+- **Skills** are the AI capabilities that activate automatically when you work
+- Both terms are correct in their respective contexts
+
+Component visibility helps users:
+- Quickly identify which plugins offer advanced features (commands, agents, MCP)
+- Understand the scope of each plugin's capabilities before installation
+- Make informed decisions based on needs (basic skills vs. advanced automation)
+
 ## [2.1.1] - 2026-02-06
 
 ### Changed
@@ -233,4 +269,4 @@ If you have local modifications or custom skills:
 
 ---
 
-**Maintained by**: SAP Skills Contributors
+**Maintained by**: E.J.

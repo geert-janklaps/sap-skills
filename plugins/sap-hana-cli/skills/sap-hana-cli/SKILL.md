@@ -66,6 +66,98 @@ hana-cli connectViaServiceKey
 
 ---
 
+## MCP Integration (AI-Driven Database Operations)
+
+### Overview
+The hana-mcp-server integration enables natural language database operations through Claude's Model Context Protocol. Use conversational queries alongside traditional CLI commands for a complete development workflow.
+
+### Setup
+
+#### 1. Environment Variables
+Required configuration (add to ~/.zshrc, ~/.bashrc, or project .env):
+```bash
+export HANA_HOST="your-hana-host.hanacloud.ondemand.com"
+export HANA_PORT="443"
+export HANA_USER="DBADMIN"
+export HANA_PASSWORD="your-password"
+export HANA_ENCRYPT="true"  # Optional, defaults to true
+export HANA_DATABASE=""     # Optional, for MDC tenant
+export HANA_CONNECTION_TYPE="single-container"  # Optional
+```
+
+#### 2. Connection Types
+- **single-container** (default): Standard HANA databases
+- **mdc-system**: Multi-tenant system database
+- **mdc-tenant**: Specific tenant in multi-tenant environment
+
+### When to Use: CLI vs MCP
+
+| Scenario | Recommended Tool | Why |
+|----------|------------------|-----|
+| Exploratory queries, ad-hoc analysis | **MCP** | Natural language, no syntax needed |
+| Automation scripts, CI/CD pipelines | **CLI** | Scriptable, consistent output |
+| Learning database structure | **MCP** | Conversational discovery |
+| Generating CDS/EDMX/OpenAPI output | **CLI** | Supports 17+ formats |
+| Complex multi-step workflows | **CLI** | Fine-grained control |
+| Quick data sampling and inspection | **MCP** | Faster for one-off queries |
+
+### Example Natural Language Queries
+
+#### Schema & Table Discovery
+- "Show me all schemas in this HANA database"
+- "List all tables in the SYSTEM schema"
+- "What tables exist in the MY_APP schema?"
+- "Show me all views in the PUBLIC schema"
+
+#### Table Structure & Metadata
+- "Describe the structure of the USERS table"
+- "What columns does the ORDERS table have?"
+- "Show me the data types for MY_TABLE"
+- "What is the primary key of the CUSTOMERS table?"
+
+#### Data Sampling & Inspection
+- "Sample 5 rows from the PRODUCTS table"
+- "Show me the first 10 records from SALES_DATA"
+- "Get sample data from ORDER_ITEMS table"
+- "Display a few rows from MY_TABLE"
+
+#### Query Execution
+- "How many rows are in the CUSTOMERS table?"
+- "Show me distinct values in the STATUS column of ORDERS"
+- "What is the maximum value in the PRICE column of PRODUCTS?"
+- "Find all records in USERS where country is 'USA'"
+
+#### System Performance & Monitoring
+- "Check the HANA database status"
+- "Show me system performance metrics"
+- "What is the current database version?"
+
+### MCP Tools Available
+The hana-mcp-server provides these MCP tools:
+- `list_schemas`: Enumerate all schemas
+- `list_tables`: Show tables in a schema
+- `describe_table`: Get table structure and metadata
+- `query`: Execute SQL queries from natural language
+- `sample_data`: Retrieve sample rows
+- `system_info`: Database status and performance
+
+### Example: MCP + CLI Workflow
+```bash
+# 1. Use MCP to explore (natural language)
+"Show me all tables in the PRODUCTS schema"
+
+# 2. Use MCP to understand structure
+"Describe the PRODUCTS.INVENTORY table"
+
+# 3. Use CLI for format conversion (precise output)
+hana-cli inspectTable -t INVENTORY -s PRODUCTS -o cds
+
+# 4. Use CLI for HDI operations
+hana-cli createContainer -c MY_CONTAINER
+```
+
+---
+
 ## Core Command Categories
 
 ### Database Object Inspection
