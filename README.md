@@ -6,7 +6,7 @@
 
 Production-ready Claude Code skills for SAP development. Build faster with context-aware AI assistance for SAP BTP, CAP, Fiori, ABAP, Analytics, and more.
 
-> **Note**: These skills follow Claude Code plugin patterns and are optimized for the Claude Code CLI. While the underlying skill content can be adapted for other AI harnesses, they are not automatically usable outside Claude Code without extraction and modification.
+> **Note**: These skills follow Claude Code plugin patterns and are optimized for the Claude Code CLI and Claude Desktop. While the underlying skill content can be adapted for other AI harnesses, they are not automatically usable outside Claude Code without extraction and modification.
 
 ---
 
