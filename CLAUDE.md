@@ -3,7 +3,7 @@
 
 **Repository**: https://github.com/secondsky/sap-skills
 **Purpose**: Production-ready skills for SAP development with Claude Code CLI
-**Version**: 2.1.1 | **Skills**: 32 | **Last Updated**: 2026-02-06
+**Version**: 2.1.2 | **Plugins**: 32 | **Last Updated**: 2026-02-06
 
 ---
 

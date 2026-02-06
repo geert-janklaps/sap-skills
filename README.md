@@ -1,10 +1,12 @@
 # SAP Skills for Claude Code
 
-[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-32-brightgreen.svg)](.claude-plugin/marketplace.json)
-[![Version](https://img.shields.io/badge/Version-2.1.1-orange.svg)](CHANGELOG.md)
+32 Claude Code plugins for SAP development
 
-Production-ready Claude Code skills for SAP development. Build faster with context-aware AI assistance for SAP BTP, CAP, Fiori, ABAP, Analytics, and more.
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](LICENSE)
+[![Plugins](https://img.shields.io/badge/Plugins-32-brightgreen.svg)](.claude-plugin/marketplace.json)
+[![Version](https://img.shields.io/badge/Version-2.1.2-orange.svg)](CHANGELOG.md)
+
+Production-ready Claude Code plugins for SAP development. Each plugin provides context-aware skills that activate automatically when you work with SAP BTP, CAP, Fiori, ABAP, Analytics, and more.
 
 > **Note**: These skills follow Claude Code plugin patterns and are optimized for the Claude Code CLI and Claude Desktop. While the underlying skill content can be adapted for other AI harnesses, they are not automatically usable outside Claude Code without extraction and modification.
 
@@ -18,10 +20,10 @@ Add the SAP Skills marketplace to Claude Code:
 # Add the marketplace
 /plugin marketplace add https://github.com/secondsky/sap-skills
 
-# Install individual skills
+# Install individual plugins
 /plugin install sap-cap-capire@sap-skills
 
-# Or install multiple skills at once
+# Or install multiple plugins at once
 /plugin install sap-cap-capire@sap-skills sap-fiori-tools@sap-skills
 ```
 
@@ -42,7 +44,7 @@ For contributors or local development:
 # Clone the repository
 git clone https://github.com/secondsky/sap-skills.git
 
-# Skills are automatically available from plugins in the plugins/ directory
+# Plugins are automatically available from the plugins/ directory
 ```
 
 Or browse and install from the marketplace:
@@ -55,7 +57,7 @@ claude-code marketplace browse
 
 ## How It Works
 
-Skills automatically activate based on your project context. No manual invocation needed—just start working:
+Once installed, plugins provide skills that automatically activate based on your project context. No manual invocation needed—just start working:
 
 - **"Create a new CAP service"** → `sap-cap-capire` activates
 - **"Set up Fiori Elements app"** → `sap-fiori-tools` activates
@@ -67,65 +69,73 @@ Claude Code intelligently loads relevant skills when you need them, providing ex
 
 ---
 
-## Available Skills (32)
+## Available Plugins (32)
 
-### 🔧 Tooling & Development (3)
+### Component Legend
 
-| Skill | Description |
-|-------|-------------|
-| **sap-api-style** | API documentation standards following SAP guidelines |
-| **sap-hana-cli** | SAP HANA Developer CLI for database operations |
-| **sapui5-linter** | UI5 Linter for static code analysis |
+All plugins include context-aware skills. Advanced features shown in table columns:
+- **Commands**: Slash commands for quick access
+- **Agents**: Specialized autonomous assistants
+- **MCP**: Model Context Protocol server integration
+
+---
+
+### 🔧 Tooling & Development (2)
+
+| Plugin | Commands | Agents | MCP | Description |
+|--------|----------|--------|-----|-------------|
+| **sap-api-style** | — | — | — | API documentation standards following SAP guidelines |
+| **sap-hana-cli** | — | — | ✓ | SAP HANA Developer CLI for database operations |
 
 ### ☁️ SAP BTP Platform (14)
 
-| Skill | Description |
-|-------|-------------|
-| **sap-btp-best-practices** | SAP BTP development best practices and patterns |
-| **sap-btp-build-work-zone-advanced** | SAP Build Work Zone (Advanced Edition) development |
-| **sap-btp-business-application-studio** | SAP Business Application Studio (BAS) development |
-| **sap-btp-cias** | Cloud Identity Access Service (CIAS) integration |
-| **sap-btp-cloud-logging** | SAP BTP Cloud Logging service |
-| **sap-btp-cloud-platform** | SAP Business Technology Platform core services |
-| **sap-btp-cloud-transport-management** | Cloud Transport Management (CTM) service |
-| **sap-btp-connectivity** | SAP BTP Connectivity service |
-| **sap-btp-developer-guide** | Comprehensive SAP BTP developer guide |
-| **sap-btp-integration-suite** | SAP Integration Suite development |
-| **sap-btp-intelligent-situation-automation** | Intelligent Situation Automation development |
-| **sap-btp-job-scheduling** | SAP BTP Job Scheduling service |
-| **sap-btp-master-data-integration** | Master Data Integration service |
-| **sap-btp-service-manager** | SAP BTP Service Manager operations |
+| Plugin | Commands | Agents | MCP | Description |
+|--------|----------|--------|-----|-------------|
+| **sap-btp-best-practices** | — | — | — | SAP BTP development best practices and patterns |
+| **sap-btp-build-work-zone-advanced** | — | — | — | SAP Build Work Zone (Advanced Edition) development |
+| **sap-btp-business-application-studio** | — | — | — | SAP Business Application Studio (BAS) development |
+| **sap-btp-cias** | — | — | — | Cloud Identity Access Service (CIAS) integration |
+| **sap-btp-cloud-logging** | — | — | — | SAP BTP Cloud Logging service |
+| **sap-btp-cloud-platform** | — | — | — | SAP Business Technology Platform core services |
+| **sap-btp-cloud-transport-management** | — | — | — | Cloud Transport Management (CTM) service |
+| **sap-btp-connectivity** | — | — | — | SAP BTP Connectivity service |
+| **sap-btp-developer-guide** | — | — | — | Comprehensive SAP BTP developer guide |
+| **sap-btp-integration-suite** | — | — | — | SAP Integration Suite development |
+| **sap-btp-intelligent-situation-automation** | — | — | — | Intelligent Situation Automation development |
+| **sap-btp-job-scheduling** | — | — | — | SAP BTP Job Scheduling service |
+| **sap-btp-master-data-integration** | — | — | — | Master Data Integration service |
+| **sap-btp-service-manager** | — | — | — | SAP BTP Service Manager operations |
 
 ### 🎨 UI Development (4)
 
-| Skill | Description |
-|-------|-------------|
-| **sap-fiori-tools** | SAP Fiori Tools development and deployment |
-| **sapui5** | SAPUI5 framework development |
-| **sapui5-cli** | SAPUI5 CLI tools and commands |
-| **sapui5-linter** | SAPUI5 code quality and linting |
+| Plugin | Commands | Agents | MCP | Description |
+|--------|----------|--------|-----|-------------|
+| **sap-fiori-tools** | — | — | — | SAP Fiori Tools development and deployment |
+| **sapui5** | 5 | 4 | ✓ | SAPUI5 framework development |
+| **sapui5-cli** | — | — | — | SAPUI5 CLI tools and commands |
+| **sapui5-linter** | — | — | — | SAPUI5 code quality and linting |
 
 ### 📊 Data & Analytics (5)
 
-| Skill | Description |
-|-------|-------------|
-| **sap-datasphere** | SAP Datasphere data modeling and management |
-| **sap-hana-cloud-data-intelligence** | SAP HANA Cloud Data Intelligence |
-| **sap-sac-custom-widget** | SAP Analytics Cloud custom widget development |
-| **sap-sac-planning** | SAP Analytics Cloud planning applications |
-| **sap-sac-scripting** | SAP Analytics Cloud scripting API |
+| Plugin | Commands | Agents | MCP | Description |
+|--------|----------|--------|-----|-------------|
+| **sap-datasphere** | 5 | 3 | ✓ | SAP Datasphere data modeling and management |
+| **sap-hana-cloud-data-intelligence** | — | — | — | SAP HANA Cloud Data Intelligence |
+| **sap-sac-custom-widget** | 3 | 3 | — | SAP Analytics Cloud custom widget development |
+| **sap-sac-planning** | 3 | 3 | — | SAP Analytics Cloud planning applications |
+| **sap-sac-scripting** | 4 | 4 | — | SAP Analytics Cloud scripting API |
 
-### ⚙️ Core Technologies (6)
+### ⚙️ Core Technologies (7)
 
-| Skill | Description |
-|-------|-------------|
-| **sap-abap** | ABAP development patterns and best practices |
-| **sap-abap-cds** | ABAP Core Data Services (CDS) views |
-| **sap-ai-core** | SAP AI Core machine learning development |
-| **sap-cap-capire** | SAP Cloud Application Programming Model (CAP) |
-| **sap-cloud-sdk-ai** | SAP Cloud SDK for AI development |
-| **sap-hana-ml** | SAP HANA Machine Learning (ML) library |
-| **sap-sqlscript** | SAP HANA SQLScript development |
+| Plugin | Commands | Agents | MCP | Description |
+|--------|----------|--------|-----|-------------|
+| **sap-abap** | — | — | — | ABAP development patterns and best practices |
+| **sap-abap-cds** | — | — | — | ABAP Core Data Services (CDS) views |
+| **sap-ai-core** | — | — | — | SAP AI Core machine learning development |
+| **sap-cap-capire** | 5 | 4 | ✓ | SAP Cloud Application Programming Model (CAP) |
+| **sap-cloud-sdk-ai** | — | — | — | SAP Cloud SDK for AI development |
+| **sap-hana-ml** | — | — | — | SAP HANA Machine Learning (ML) library |
+| **sap-sqlscript** | 3 | 3 | — | SAP HANA SQLScript development |
 
 ---
 
@@ -156,15 +166,15 @@ sap-skills/
 
 **Key Features**:
 - **Dual-level manifests**: Plugin-level and skill-level `plugin.json` files
-- **Modular organization**: Each skill is self-contained with its own resources
-- **Advanced features**: 5 plugins include agents, commands, and hooks
-- **Cross-references**: 13 plugins have marketplace cross-references to related skills
+- **Modular organization**: Each plugin is self-contained with its own resources
+- **Advanced features**: 7 plugins include commands (28 total), 7 with agents (24 total), 4 with MCP integration
+- **Cross-references**: 13 plugins have marketplace cross-references to related plugins
 
 ---
 
-## Building New Skills
+## Building New Plugins
 
-Want to contribute a new SAP skill? Follow the quick workflow:
+Want to contribute a new SAP plugin? Follow the quick workflow:
 
 1. **Use plugin-dev for basics** (FIRST):
    - Run: `/use plugin-dev:skill-development`
@@ -188,8 +198,8 @@ Want to contribute a new SAP skill? Follow the quick workflow:
 
 5. **Submit**:
    ```bash
-   git add plugins/your-skill .claude-plugin/marketplace.json
-   git commit -m "Add your-skill for [use case]"
+   git add plugins/your-plugin .claude-plugin/marketplace.json
+   git commit -m "Add your-plugin for [use case]"
    ```
 
 ---
@@ -213,6 +223,22 @@ Run: `/use plugin-dev:skill-development`, `plugin-dev:plugin-structure`, etc.
 
 ## Recent Changes
 
+### v2.1.2 - Documentation Clarity & Component Visibility (2026-02-06)
+
+**Documentation Improvements**:
+- ✅ Clarified plugin vs. skill terminology throughout README
+- ✅ Enhanced all plugin tables with component visibility (Commands, Agents, MCP)
+- ✅ Added Component Legend explaining advanced features
+- ✅ Updated badge from "Skills" to "Plugins" to reflect installable units
+- ✅ Comprehensive terminology updates across 15+ sections
+
+**Component Breakdown**:
+- 7 plugins with **Commands** (28 total slash commands)
+- 7 plugins with **Agents** (24 autonomous assistants)
+- 4 plugins with **MCP** integration (CAP, Datasphere, HANA CLI, UI5)
+
+See [CHANGELOG.md](CHANGELOG.md) for complete details.
+
 ### v2.1.0 - Plugin Structure Migration (2025-12-27)
 
 **BREAKING CHANGE**: Migrated from flat `skills/` directory to plugin-based architecture.
@@ -235,12 +261,12 @@ This repository is open source under the **GPL-3.0 License**. Contributions are 
 
 **Ways to contribute**:
 - Report issues or suggest features via [GitHub Issues](https://github.com/secondsky/sap-skills/issues)
-- Submit new skills (use plugin-dev + [Contributor Guide](docs/contributor-guide/))
-- Improve existing skills with updated docs or references
+- Submit new plugins (use plugin-dev + [Contributor Guide](docs/contributor-guide/))
+- Improve existing plugins with updated docs or references
 - Help maintain package versions and dependencies
 
 **Quality Standards**:
-- All skills must be production-tested
+- All plugins must be production-tested
 - Package versions must be current (verified quarterly)
 - Known issues must be documented with sources
 
@@ -250,13 +276,13 @@ This repository is open source under the **GPL-3.0 License**. Contributions are 
 
 **Quality**:
 - ✅ 100% compliance with [Anthropic Skills Spec](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md)
-- ✅ All skills production-tested
+- ✅ All plugins production-tested
 - ✅ Package versions current (checked quarterly)
 
 **Efficiency**:
 - ✅ 100% error prevention vs. manual setup
-- ✅ Sub-5-minute skill creation with templates
-- ✅ 95%+ first-try skill discovery rate
+- ✅ Sub-5-minute plugin creation with templates
+- ✅ 95%+ first-try auto-discovery rate
 
 ---
 
@@ -279,4 +305,4 @@ This project is licensed under the **GNU General Public License v3.0** - see the
 
 **Maintained by**: E.J.
 **Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
-**Last Updated**: 2026-02-06 (v2.1.1)
+**Last Updated**: 2026-02-06 (v2.1.2)
