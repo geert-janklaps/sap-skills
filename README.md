@@ -1,10 +1,12 @@
 # SAP Skills for Claude Code
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-33-brightgreen.svg)](.claude-plugin/marketplace.json)
+[![Skills](https://img.shields.io/badge/Skills-32-brightgreen.svg)](.claude-plugin/marketplace.json)
 [![Version](https://img.shields.io/badge/Version-2.1.0-orange.svg)](CHANGELOG.md)
 
 Production-ready Claude Code skills for SAP development. Build faster with context-aware AI assistance for SAP BTP, CAP, Fiori, ABAP, Analytics, and more.
+
+> **Note**: These skills follow Claude Code plugin patterns and are optimized for the Claude Code CLI. While the underlying skill content can be adapted for other AI harnesses, they are not automatically usable outside Claude Code without extraction and modification.
 
 ---
 
@@ -65,13 +67,12 @@ Claude Code intelligently loads relevant skills when you need them, providing ex
 
 ---
 
-## Available Skills (33)
+## Available Skills (32)
 
-### 🔧 Tooling & Development (4)
+### 🔧 Tooling & Development (3)
 
 | Skill | Description |
 |-------|-------------|
-| **skill-review** | Comprehensive 14-phase audit process for skill quality assurance |
 | **sap-api-style** | API documentation standards following SAP guidelines |
 | **sap-hana-cli** | SAP HANA Developer CLI for database operations |
 | **sapui5-linter** | UI5 Linter for static code analysis |
@@ -183,7 +184,6 @@ Want to contribute a new SAP skill? Follow the quick workflow:
    ```
 
 4. **Test and verify**:
-   - Use the `skill-review` skill for comprehensive quality audit
    - Check [Workflow Checklist](docs/contributor-guide/workflow-checklist.md)
 
 5. **Submit**:
@@ -277,6 +277,6 @@ This project is licensed under the **GNU General Public License v3.0** - see the
 
 ---
 
-**Maintained by**: SAP Skills Contributors
+**Maintained by**: E.J.
 **Repository**: [https://github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)
 **Last Updated**: 2025-12-27 (v2.1.0)

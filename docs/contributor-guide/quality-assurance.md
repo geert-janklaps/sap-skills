@@ -1,9 +1,11 @@
 # Skill Review Process
 
+> **⚠️ DEPRECATED**: The automated `skill-review` plugin has been removed as of v2.1.1 (2026-02-06). This document is retained for reference only. Quality assurance is now performed through manual review processes following the guidelines in this document.
+
 **Version**: 1.0.0
 **Last Updated**: 2025-11-08
 **Purpose**: Comprehensive deep-dive documentation review for claude-skills
-**Usage**: `/review-skill <skill-name>` or invoke `skill-review` skill
+**Previous Usage**: `/review-skill <skill-name>` or invoke `skill-review` skill (no longer available)
 
 ---
 

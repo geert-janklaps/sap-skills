@@ -3,13 +3,13 @@
 
 **Repository**: https://github.com/secondsky/sap-skills
 **Purpose**: Production-ready skills for SAP development with Claude Code CLI
-**Version**: 2.1.0 | **Skills**: 33 | **Last Updated**: 2025-12-28
+**Version**: 2.1.0 | **Skills**: 32 | **Last Updated**: 2025-12-28
 
 ---
 
 ## What This Repository Is
 
-33 production-tested Claude Code skills for SAP technologies: BTP, CAP, Fiori,
+32 production-tested Claude Code skills for SAP technologies: BTP, CAP, Fiori,
 ABAP, Analytics, and more. Enables context-aware AI assistance for SAP development.
 
 ---
@@ -22,9 +22,6 @@ ABAP, Analytics, and more. Enables context-aware AI assistance for SAP developme
 
 **🔧 SAP-Specific Patterns?** → Read [**Contributor Guide**](docs/contributor-guide/)
   - Marketplace infrastructure, quality assurance, SDK versioning
-
-**✅ Verify Skill Quality?** → Use **skill-review plugin**
-  - 14-phase comprehensive audit process
 
 ---
 
@@ -69,17 +66,7 @@ For all general plugin development tasks:
 - MCP server integration
 - Basic validation
 
-### 2. ALWAYS Use skill-review for Quality Assurance
-
-When reviewing skills in this repository:
-- ✅ DO: Use `/review-skill <skill-name>` command
-- ✅ DO: 14-phase comprehensive audit (Context7 verification, version checks)
-- ❌ DON'T: Manually check versions/dates
-- ❌ DON'T: Skip the automated review process
-
-Located: `plugins/skill-review/`
-
-### 3. ALWAYS Use Manual Review Process
+### 2. ALWAYS Use Manual Review Process
 
 **FORBIDDEN - Automated Refactoring**:
 - Creating Python/shell scripts to refactor skills
@@ -102,13 +89,13 @@ errors that break functionality.
 
 ### Marketplace System
 
-**Scale**: 33 plugins with coordinated versioning
+**Scale**: 32 plugins with coordinated versioning
 **Structure**: Dual-level manifests (plugin + skill plugin.json)
 **Registry**: Central marketplace.json (48KB, auto-generated)
 **Cross-References**: 13 plugins reference related skills
 
 **Categories**:
-- Tooling & Development (4 skills)
+- Tooling & Development (3 skills)
 - SAP BTP Platform (14 skills)
 - UI Development (4 skills)
 - Data & Analytics (5 skills)
@@ -145,14 +132,6 @@ metadata:
 
 **Known Issues**: Documented with SAP Note/GitHub issue citations
 
-**14-Phase Review**: Via skill-review plugin
-  - Standards compliance (YAML validation)
-  - Official docs verification (Context7/WebFetch)
-  - Code examples audit
-  - Dependency version checks
-  - Anti-pattern detection
-  - Severity classification (🔴/🟡/🟠/🟢)
-
 ---
 
 ## Maintenance Cycles
@@ -179,9 +158,6 @@ metadata:
 **SAP-Specific Patterns**:
 → Read [Contributor Guide](docs/contributor-guide/)
 
-**Quality Verification**:
-→ Use skill-review plugin: `/review-skill <name>`
-
 **Issues**:
 → https://github.com/secondsky/sap-skills/issues
 
@@ -202,5 +178,5 @@ metadata:
 
 **Last Updated**: 2025-12-28
 **Next Review**: 2026-03-28 (Quarterly)
-**Maintainer**: SAP Skills Maintainers
+**Maintainer**: E.J.
 </coding_guidelines>

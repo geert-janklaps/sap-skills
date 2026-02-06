@@ -99,20 +99,22 @@ This checklist covers **SAP-specific quality standards** only.
 
 ## Comprehensive Quality Review {#quality-review}
 
-**skill-review Plugin** (14-phase audit):
-- [ ] Run: `/review-skill <skill-name>`
-- [ ] All 🔴 Critical issues resolved
-- [ ] All 🟡 High issues resolved
-- [ ] 🟠 Medium and 🟢 Low issues reviewed
+**Manual Review Process**:
+- [ ] YAML frontmatter validation
+- [ ] Verify against official SAP documentation
+- [ ] Code examples tested in production environment
+- [ ] Dependency versions current (check npm/package registry)
+- [ ] Cross-references accurate
+- [ ] Anti-patterns avoided
 
 **Covers**:
 - Standards compliance (YAML validation)
-- Official docs verification (Context7/WebFetch)
+- Official docs verification
 - Code examples audit
 - Dependency version checks
 - Anti-pattern detection
 
-**See**: [quality-assurance.md](quality-assurance.md) for detailed phase descriptions
+**See**: [quality-assurance.md](quality-assurance.md) for detailed review guidelines
 
 ---
 
@@ -164,7 +166,7 @@ Production tested: [evidence]
 - [ ] Re-test skill in production environment
 - [ ] Update last_verified date if current
 - [ ] Update package versions if needed
-- [ ] Re-run skill-review plugin
+- [ ] Perform manual quality review
 
 ---
 
@@ -174,7 +176,7 @@ Production tested: [evidence]
 - [ ] All SAP-specific checklists complete
 - [ ] Used plugin-dev for general plugin development
 - [ ] Skill tested in production SAP environment
-- [ ] skill-review plugin passed (all critical issues resolved)
+- [ ] Manual quality review completed (all critical issues resolved)
 - [ ] Marketplace integration complete
 - [ ] Automation scripts run successfully
 

@@ -1,8 +1,10 @@
 # Skills Review Progress Tracker
 
+> **⚠️ DEPRECATED**: This document tracked progress for the automated `skill-review` plugin, which has been removed as of v2.1.1 (2026-02-06). This file is retained for historical reference only. Quality assurance is now performed through manual review processes.
+
 **Start Date:** 2025-11-20
 **Total Skills:** 114
-**Review Method:** skill-review skill (14-phase comprehensive audit)
+**Review Method:** skill-review skill (14-phase comprehensive audit) - NO LONGER AVAILABLE
 **Baseline Audit:** ✅ Complete (2025-11-21) - All 114 skills CLEAN
 
 ---

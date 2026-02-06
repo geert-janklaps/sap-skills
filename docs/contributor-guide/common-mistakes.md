@@ -39,8 +39,8 @@ def refactor_skill(skill_file):
 **Correct Process**:
 - Use Read, Edit, Write tools manually
 - Review each change before applying
-- Use existing scripts in `scripts/` directory only (e.g., `review-skill.sh`, `check-versions.sh`)
-- Follow skill-review skill Phase 13 process step-by-step
+- Use existing scripts in `scripts/` directory only (e.g., `check-versions.sh`)
+- Follow manual quality review guidelines in quality-assurance.md
 - Time: 30min-2hrs per skill (INTENTIONAL - quality over speed)
 
 **See CLAUDE.md** for complete manual refactoring process documentation.
