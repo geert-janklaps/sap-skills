@@ -27,7 +27,7 @@ See [Contributor Guide](../contributor-guide/README.md) for detailed patterns.
 ### SDK Version Tracking
 ```yaml
 metadata:
-  version: "2.1.0"
+  version: "2.1.1"
   cap_version: "@sap/cds 9.4.x"
   last_verified: "2025-12-28"
 ```
@@ -120,4 +120,4 @@ git commit -m "Add <skill-name> for [SAP technology]
 
 ---
 
-**Last Updated**: 2025-12-28
+**Last Updated**: 2026-02-06

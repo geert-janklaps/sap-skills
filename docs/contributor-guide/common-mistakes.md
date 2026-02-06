@@ -39,8 +39,8 @@ def refactor_skill(skill_file):
 **Correct Process**:
 - Use Read, Edit, Write tools manually
 - Review each change before applying
-- Use existing scripts in `scripts/` directory only (e.g., `review-skill.sh`, `check-versions.sh`)
-- Follow skill-review skill Phase 13 process step-by-step
+- Use existing scripts in `scripts/` directory only (e.g., `check-versions.sh`)
+- Follow manual quality review guidelines in quality-assurance.md
 - Time: 30min-2hrs per skill (INTENTIONAL - quality over speed)
 
 **See CLAUDE.md** for complete manual refactoring process documentation.
@@ -596,9 +596,9 @@ Before committing, verify you DIDN'T make these mistakes:
 
 ## Learn More
 
-- [START_HERE.md](../START_HERE.md) - Workflow overview
-- [ONE_PAGE_CHECKLIST.md](../ONE_PAGE_CHECKLIST.md) - Verification checklist
-- [planning/STANDARDS_COMPARISON.md](STANDARDS_COMPARISON.md) - Official standards
+- [Quick Reference](../getting-started/quick-reference.md) - Workflow overview
+- [Workflow Checklist](workflow-checklist.md) - Verification checklist
+- [Quality Assurance](quality-assurance.md) - Official standards
 - `CLOUDFLARE_SKILLS_AUDIT.md` - Example audit (reference)
 
 ---

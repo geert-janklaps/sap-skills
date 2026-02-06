@@ -2,7 +2,7 @@
 
 Comprehensive guide for developing, maintaining, and publishing SAP skills for Claude Code.
 
-**Version**: 2.1.0 | **Last Updated**: 2025-12-28
+**Version**: 2.1.1 | **Last Updated**: 2026-02-06
 
 ---
 
@@ -141,7 +141,7 @@ For rapid skill creation, follow this streamlined process:
 - Production testing requirements
 
 🔧 **SAP-specific quality assurance**
-- 14-phase review process (skill-review plugin)
+- Manual review process with comprehensive quality checks
 - Version/date accuracy validation
 - Known-issues documentation patterns
 
@@ -173,7 +173,7 @@ For rapid skill creation, follow this streamlined process:
 ./scripts/sync-plugins.sh
 
 # Step 4: Quality review
-/review-skill <skill-name>
+# Perform manual quality review following quality-assurance.md guidelines
 ```
 
 #### Quarterly Maintenance
@@ -194,8 +194,8 @@ npm outdated  # Check for SAP package updates
 # Step 5: Update metadata
 # Update cap_version, last_verified date
 
-# Step 6: Re-run skill-review
-/review-skill <skill-name>
+# Step 6: Perform manual quality review
+# Follow quality-assurance.md guidelines
 ```
 
 ---
@@ -205,7 +205,7 @@ npm outdated  # Check for SAP package updates
 ### Overview
 
 The SAP skills repository manages **33+ production skills** using a marketplace system with:
-- Coordinated versioning (all at v2.1.0)
+- Coordinated versioning (all at v2.1.1)
 - Cross-references between related skills
 - Central registry (.claude-plugin/marketplace.json)
 - Dual-level manifest architecture
@@ -243,7 +243,7 @@ This enables Claude to discover complementary skills automatically.
 
 **Single Source of Truth**: `marketplace.json` metadata.version field
 
-All skills share the same version (currently 2.1.0) and are updated together:
+All skills share the same version (currently 2.1.1) and are updated together:
 ```bash
 # Update version in marketplace.json
 vim .claude-plugin/marketplace.json
@@ -266,22 +266,22 @@ Topics covered:
 
 ## 5. Quality Assurance
 
-### The 14-Phase Review Process
+### Manual Quality Review Process
 
-**Tool**: skill-review plugin
-**Usage**: `/review-skill <skill-name>`
+**Process**: Manual comprehensive quality assurance
+**Reference**: See [quality-assurance.md](quality-assurance.md) for detailed guidelines
 
 #### Overview
 
-The skill-review plugin provides comprehensive quality assurance through 14 systematic phases:
+Manual quality review follows systematic quality assurance guidelines:
 
 1. **Pre-review setup** (5-10 min) - Installation verification
 2. **Standards compliance** (10-15 min) - YAML validation
-3. **Official docs verification** (15-30 min) - Context7/WebFetch checks
+3. **Official docs verification** (15-30 min) - Verify against SAP documentation
 4. **Code examples audit** (20-40 min) - Template validation
 5. **Cross-file consistency** (15-25 min) - Content alignment
 6. **Dependencies & versions** (10-15 min) - Package currency
-7-14. **Additional phases** - See [quality-assurance.md](quality-assurance.md)
+7-14. **Additional checks** - See [quality-assurance.md](quality-assurance.md)
 
 #### Severity Classifications
 
@@ -303,8 +303,12 @@ The skill-review plugin provides comprehensive quality assurance through 14 syst
 # Create or update skill
 vim plugins/sap-cap-capire/skills/sap-cap-capire/SKILL.md
 
-# Run review
-/review-skill sap-cap-capire
+# Perform manual quality review
+# Follow quality-assurance.md guidelines
+# - Validate YAML frontmatter
+# - Verify against official SAP documentation
+# - Test code examples in production
+# - Check dependency versions
 
 # Fix all 🔴 Critical and 🟡 High issues
 # Optional: Fix 🟠 Medium issues
@@ -324,7 +328,7 @@ Every SAP skill must document SDK versions:
 ---
 name: sap-cap-capire
 metadata:
-  version: "2.1.0"
+  version: "2.1.1"
   cap_version: "@sap/cds 9.4.x"
   last_verified: "2025-12-28"
   sap_btp_compatible: true
@@ -343,7 +347,7 @@ Every 3 months:
 2. Review SAP release notes
 3. Update skill metadata
 4. Test in production
-5. Run skill-review
+5. Perform manual quality review
 6. Commit changes
 
 ### Production Testing
@@ -701,7 +705,7 @@ jq '.metadata.total_skills' .claude-plugin/marketplace.json  # Should be 33
 3. **Update skill metadata**:
    ```yaml
    metadata:
-     version: "2.1.0"
+     version: "2.1.1"
      cap_version: "@sap/cds 9.5.x"  # Updated
      last_verified: "2026-03-28"     # Updated
    ```
@@ -712,10 +716,9 @@ jq '.metadata.total_skills' .claude-plugin/marketplace.json  # Should be 33
    - Verify error messages still accurate
    - Update error catalog if needed
 
-5. **Run skill-review**:
-   ```bash
-   /review-skill sap-cap-capire
-   ```
+5. **Perform manual quality review**:
+   - Follow quality-assurance.md guidelines
+   - Validate all updates against official documentation
 
 6. **Commit updates**:
    ```bash
@@ -806,12 +809,9 @@ jq '.metadata.total_skills' .claude-plugin/marketplace.json  # Should be 33
 
 ### For Quality Verification
 
-→ Use **skill-review plugin**:
-```bash
-/review-skill <skill-name>
-```
-
-Located: `plugins/skill-review/`
+→ Follow **manual quality review guidelines**:
+- See [quality-assurance.md](quality-assurance.md) for detailed process
+- YAML validation, documentation verification, code testing
 
 ### For Issues
 
@@ -845,12 +845,12 @@ https://github.com/secondsky/sap-skills/issues
 - 🔧 How to document SAP errors and known issues
 - 🔧 How to use marketplace infrastructure (central registry, cross-references)
 - 🔧 How to maintain technical domain skills (production testing, error catalogs)
-- 🔧 14-phase review process for SAP skills (skill-review plugin)
+- 🔧 Manual quality review process for SAP skills
 - 🔧 SAP-specific patterns (BTP, CAP, HANA, ABAP, Fiori)
 
 ---
 
-**Last Updated**: 2025-12-28
+**Last Updated**: 2026-02-06
 **Next Review**: 2026-03-28 (Quarterly)
-**Version**: 2.1.0
+**Version**: 2.1.1
 **Maintainer**: SAP Skills Repository Team | [github.com/secondsky/sap-skills](https://github.com/secondsky/sap-skills)

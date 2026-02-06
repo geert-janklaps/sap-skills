@@ -1,7 +1,7 @@
 # SAP Skills - Project Structure
 
 > Auto-generated with [codemap](https://github.com/JordanCoin/codemap)  
-> Last updated: 2025-12-28  
+> Last updated: 2026-02-06  
 > Run `codemap .` to regenerate
 
 ---

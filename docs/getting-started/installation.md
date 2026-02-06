@@ -239,7 +239,7 @@ See [README.md](README.md) for development workflow.
 
 ## Contributing
 
-We welcome contributions! See [QUICK_WORKFLOW.md](QUICK_WORKFLOW.md) for guidelines.
+We welcome contributions! See the [Contributor Guide](../contributor-guide/README.md) for guidelines.
 
 **Quick process**:
 1. Fork repository
@@ -250,11 +250,11 @@ We welcome contributions! See [QUICK_WORKFLOW.md](QUICK_WORKFLOW.md) for guideli
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see [LICENSE](LICENSE) for details.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see [LICENSE](../../LICENSE) for details.
 
 ---
 
 **Last Updated**: 2025-12-19
-**Marketplace Version**: 2.1.0
+**Marketplace Version**: 2.1.1
 **Skills**: 33
 **Maintainer**: SAP Skills Maintainers
