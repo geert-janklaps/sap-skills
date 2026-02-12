@@ -10,6 +10,15 @@ Production-ready Claude Code plugins for SAP development. Each plugin provides c
 
 > **Note**: These skills follow Claude Code plugin patterns and are optimized for the Claude Code CLI and Claude Desktop. While the underlying skill content can be adapted for other AI harnesses, they are not automatically usable outside Claude Code without extraction and modification.
 
+## 🔌 Platform Support
+
+This repository uses **Claude Plugin Patterns** — natively supported by:
+
+| Platform | Status | Notes |
+|----------|--------|-------|
+| Claude Code | ✅ Native | Full marketplace support |
+| Factory Droid | ✅ Native | Full marketplace support |
+
 ---
 
 ## Installation
